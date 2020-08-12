@@ -1,0 +1,1 @@
+correlation [('mom1', 'mom2'), ('mom1', 'log_ret'), ('mom2', 'mom3'), ('mom2', 'mom4'), ('mom2', 'mom5'), ('mom2', 'log_ret'), ('mom2', 'log_t1'), ('mom3', 'mom4'), ('mom3', 'mom5'), ('mom4', 'mom5'), ('fast_mavg', 'slow_mavg')]
