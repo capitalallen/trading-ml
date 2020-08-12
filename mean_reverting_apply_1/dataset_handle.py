@@ -24,7 +24,7 @@ input: pair_name, start_time, output_folder
 """
 
 
-def store_raw_data(pair, start_time, output_folder,out_bar_filename):
+def store_raw_data(pair, start_time, output_folder,out_bar_filename,min_kline_size='5m'):
     if not start_time:
         start_time = "01 Nov 2017"
     download = data_getter.data_getter()
@@ -36,12 +36,12 @@ def store_raw_data(pair, start_time, output_folder,out_bar_filename):
     min_df_file.to_csv(output_folder+"/"+"minute_timebar.csv")
 
     # get threshold
-    daily = bar_generate.bar_generate(read_df=True,df=daily_df_file, outfolder=out_bar_filename)
+    daily = bar_generate.bar_generate(read_df=True,df=daily_df_file, outfolder=output_folder)
     daily.cal_threshold("daily_av_50")
     threshold = daily.get_threshold()
 
     #convert bars 
-    generator = bar_generate.bar_generate(min_df_file,out_bar_filename,output_folder)
+    generator = bar_generate.bar_generate(min_df_file,outFile=out_bar_filename,outfolder=output_folder)
     generator.set_threshold(threshold)
     generator.convert_dol_bar()
 

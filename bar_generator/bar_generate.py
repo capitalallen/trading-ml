@@ -14,7 +14,7 @@ class bar_generate:
     - read csv file to df 
     - calculate threshold
     """
-
+    
     def __init__(self, inputFile=None,read_df=False,df=None, outFile=None,outfolder=None):
         self.inputFile = inputFile
         self.threshold = None
@@ -22,8 +22,8 @@ class bar_generate:
             self.df = df 
         else: 
             self.df = pd.read_csv(inputFile)
-            if outfolder:
-                self.outFile = outfoldr + "/" + outFile
+        if outfolder:
+            self.outFile = outfoldr + "/" + outFile    
 
         cols = ["timestamp", "close", "volume"]
         cols_threshold = ["timestamp", "close", "open", "volume"]
