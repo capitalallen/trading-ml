@@ -6,6 +6,7 @@ sys.path.append("../labeling")
 import data_getter 
 import filter_label
 import bar_generate
+import os 
 # from ...bar_generator import bar_generate
 """
 dataset_getter()
@@ -27,6 +28,8 @@ input: pair_name, start_time, output_folder
 def store_raw_data(pair, start_time, output_folder,out_bar_filename,min_kline_size='5m'):
     if not start_time:
         start_time = "01 Nov 2017"
+    if not os.path.isdir(output_folder):
+        os.mkdir(output_folder)
     download = data_getter.data_getter()
     daily_df_file = download.get_all_binance(pair,kline_size="1d",start_time=start_time,folder=output_folder,save=False)
     daily_df_file = daily_df_file.astype(float)
