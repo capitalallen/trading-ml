@@ -22,13 +22,13 @@ from multiprocessing import Process
 # m.store_prediction(outfolder=folder)
 # m.save_model(outfolder=folder)
 
-def training(outfolder,inputfile="x_y.csv"):
-    inputfile = outfolder+inputfile
+def training(folder,inputfile="x_y.csv"):
+    inputfile =folder+inputfile
     df = pd.read_csv(inputfile,index_col=0)
     df.index =pd.to_datetime(df.index)
     m = model.Model(df) 
     m.split_dataset()
-    with open(outfolder+'column_order.json','w') as f:
+    with open(folder+'column_order.json','w') as f:
         json.dump({'columns':m.get_columns()},f)
     m.train() 
     m.performance_matrics_accuracy_train(outfolder=folder)
