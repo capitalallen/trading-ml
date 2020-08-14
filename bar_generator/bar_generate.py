@@ -68,6 +68,9 @@ class bar_generate:
         elif t == "average":
             self.threshold = np.sum(
                 (self.raw_for_threshold['open']+self.raw_for_threshold['close'])/2*self.raw_for_threshold['volume'])/self.raw_for_threshold.shape[0]
+        elif t=='15min_avg':
+            self.threshold = np.sum(
+                (self.raw_for_threshold['open']+self.raw_for_threshold['close'])/2*self.raw_for_threshold['volume'])/self.raw_for_threshold.shape[0]/100
         self.store_threshold(fileName)
     
     def set_threshold(self,num):

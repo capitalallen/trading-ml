@@ -22,11 +22,19 @@ class Model:
     - input: dataset
         -> last column is y 
     """
-    def __init__(self,df):
+    def __init__(self,df,regu=False):
         self.df = df  
-        self.parameters = {'max_depth': [2, 3, 4, 5, 7,10,15,20,25,30,35],
-                           'n_estimators': [1, 10, 25, 50, 100, 256, 512,1024,120],
-                           'random_state': [42]}
+        if regu:
+            self.parameters = {'max_depth': [2, 3, 4, 5, 7,10,15,20,25,30,35],
+                               'n_estimators': [1, 10, 25, 50, 100, 256, 512,1024,1200],
+                               'random_state': [42],
+                               'max_features':[10],
+                               'max_depth':[10],
+                               'min_samples_leaf':[2,3]}
+        else:
+            self.parameters = {'max_depth': [2, 3, 4, 5, 7,10,15,20,25,30,35],
+                               'n_estimators': [1, 10, 25, 50, 100, 256, 512,1024,1200],
+                               'random_state': [42]}
     
     """
     split dataset 80:20 
@@ -53,7 +61,6 @@ class Model:
 
         clf = GridSearchCV(rf, self.parameters, cv=4,
                            scoring='roc_auc', n_jobs=3)
-
         clf.fit(self.x_train, self.y_train)
         # clf.cv_results_['mean_test_score'],
         return (clf.best_params_['n_estimators'], clf.best_params_['max_depth'])
@@ -66,10 +73,10 @@ class Model:
         self.rf.fit(self.x_train, self.y_train.values.ravel())        
 
 
-    def performance_matrics_accuracy_train(self,outfile='matrics_accuracy_train.png',outfolder=None,reportJson='reports_test.json'):
+    def performance_matrics_accuracy_train(self,outfile='matrics_accuracy_train.png',outfolder=None,reportJson='reports_train.json'):
         if outfolder:
             outfile = outfolder + "/" + outfile 
-            outfile = outfolder + '/' + reportJson
+            reportJson = outfolder + '/' + reportJson
         y_pred_rf = self.rf.predict_proba(self.x_train)[:, 1]
         self.y_pred_train = self.rf.predict(self.x_train)
         fpr_rf, tpr_rf, _ = roc_curve(self.y_pred_train, y_pred_rf)
@@ -91,7 +98,7 @@ class Model:
     def performance_matrics_accuracy(self,outfile='matrics_accuracy_validate.png',outfolder=None,reportJson='reports_test.json'):
         if outfolder:
             outfile = outfolder + "/" + outfile 
-            reportJson = outfolder +'/' + outfile
+            reportJson = outfolder +'/' + reportJson
         y_pred_rf = self.rf.predict_proba(self.x_validate)[:, 1]
         self.y_pred = self.rf.predict(self.x_validate)
         self.test_prediction = pd.Series(data=self.y_pred,index=self.y_validate.index)
@@ -109,9 +116,9 @@ class Model:
         matrix = confusion_matrix(self.y_validate, self.y_pred)
         accuracy = accuracy_score(self.y_validate, self.y_pred)
 
-        with open(reportJson, 'w') as outfile:
-            json.dump(classification, outfile)
-            json.dump({"confusion_matrix":[matrix.tolist()],"accuracy_score":accuracy},outfile)
+        with open(reportJson, 'w') as f:
+            json.dump(classification, f)
+            json.dump({"confusion_matrix":[matrix.tolist()],"accuracy_score":accuracy},f)
 
     def feature_importance(self, outfile="feature_importance.png",outfolder=None):
 

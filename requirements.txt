@@ -6,3 +6,4 @@ pytest-timeit==0.3.0
 mlfinlab==0.11.3
 finta==1.0
 python-binance==0.7.5
+finta==0.2.8
