@@ -1,6 +1,7 @@
 from evaulate import evaulate
 import pandas as pd 
 from multiprocessing import Process
+from multiprocessing import Pool
 def evaulate_ex(folder):
 
     pre_file = folder+"test_predictions.csv"
@@ -9,11 +10,13 @@ def evaulate_ex(folder):
     ev = evaulate(label_file,pre_file,folder)
     ev.long_stats()
     ev.short_stats()
+#"./BNBUSDT/" "./LTCUSDT/" ,"./ETCUSDT/"
+outfolder = ["./EOSUSDT/","./XRPUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/"]
 
-outfolder = ["./EOSUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/","./XRPUSDT/"]
-
-p1 = Process(target=evaulate_ex,args=(outfolder[0],))
-p1.start() 
+p = Pool(len(outfolder))
+p.map(evaulate_ex,outfolder)
+# p1 = Process(target=evaulate_ex,args=(outfolder[0],))
+# p1.start() 
 # p2 = Process(target=evaulate_ex,args=(outfolder[1],))
 # p2.start()
 # p3 = Process(target=evaulate_ex,args=(outfolder[2],))
