@@ -14,8 +14,8 @@ outfolder = ["./EOSUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/","./XRPUSDT/"]
 
 p1 = Process(target=evaulate_ex,args=(outfolder[0],))
 p1.start() 
-p2 = Process(target=evaulate_ex,args=(outfolder[1],))
-p2.start()
+# p2 = Process(target=evaulate_ex,args=(outfolder[1],))
+# p2.start()
 # p3 = Process(target=evaulate_ex,args=(outfolder[2],))
 # p3.start()
 # p4 = Process(target=evaulate_ex,args=(outfolder[3],))
