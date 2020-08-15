@@ -37,15 +37,16 @@ def training(folder,inputfile="x_y.csv"):
     m.store_prediction(outfolder=folder)
     m.save_model(outfolder=folder)
 
-outfolder = ["./EOSUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/","./XRPUSDT/"]
+#outfolder = ["./EOSUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/","./XRPUSDT/"]
 
-#p1 = Process(target=training,args=(outfolder[0],))
-#p1.start() 
+outfolder = ["./BNBUSDT/"]
+p1 = Process(target=training,args=(outfolder[0],))
+p1.start() 
 #p2 = Process(target=training,args=(outfolder[1],))
 #p2.start()
-p3 = Process(target=training,args=(outfolder[2],))
-p3.start()
-p4 = Process(target=training,args=(outfolder[3],))
-p4.start()
-p5 = Process(target=training,args=(outfolder[4],))
-p5.start()
+#p3 = Process(target=training,args=(outfolder[2],))
+#p3.start()
+#p4 = Process(target=training,args=(outfolder[3],))
+#p4.start()
+#p5 = Process(target=training,args=(outfolder[4],))
+#p5.start()
