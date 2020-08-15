@@ -43,7 +43,7 @@ class Features:
         return rsi_df
 
     def add_rsi(self, df, window=14):
-        df['rsi'] = self.rsi(df,n=window)
+        df['rsi'] = self.rsi(df,n=window).values
         return df
 
     def srsi(self, df):
@@ -57,7 +57,39 @@ class Features:
         return sch_rsi
 
     def add_srsi(self, df):
-        df['srsi'] = self.srsi(df)
+        st = TA.STOCHRSI(df)
+        st = st*100
+        df['srsi'] = self.srsi(df).values
+        return df
+
+    def CCI(self, df):
+        cci = TA.CCI(df)
+        cci = cci*100
+        cci_series = None
+        if 'date_time' in df.columns:
+            cci_series = pd.Series(data=cci.values, index=df.date_time)
+        else:
+            cci_series = pd.Series(data=cci.values, index=df.index)
+        return cci_series
+
+    def add_cci(self, df):
+        cci = TA.CCI(df)
+        df['cci'] = cci.values
+        return df
+
+    def williams(self, df):
+        will = TA.WILLIAMS(df)
+        will = will*100
+        will_series = None
+        if 'date_time' in df.columns:
+            will_series = pd.Series(data=will.values, index=df.date_time)
+        else:
+            will_series = pd.Series(data=will.values, index=df.index)
+        return will_series
+
+    def add_williams(self, df):
+        will = TA.WILLIAMS(df)
+        df['williams'] = will.values
         return df
 
     def bbands(self, close_prices, window=21, no_of_stdev=1.5):

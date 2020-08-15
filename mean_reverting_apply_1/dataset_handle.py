@@ -25,7 +25,7 @@ input: pair_name, start_time, output_folder
 """
 
 
-def store_raw_data(pair, start_time, output_folder,out_bar_filename,min_kline_size='5m'):
+def store_raw_data(pair, start_time, output_folder,out_bar_filename,min_kline_size='5m',threshold_avg=False):
     if not start_time:
         start_time = "01 Nov 2017"
     if not os.path.isdir(output_folder):
@@ -37,17 +37,25 @@ def store_raw_data(pair, start_time, output_folder,out_bar_filename,min_kline_si
     min_df_file = download.get_all_binance(pair,kline_size="5m",start_time=start_time,save=False)
     min_df_file = min_df_file.astype(float)
     min_df_file.to_csv(output_folder+"/"+"minute_timebar.csv")
+    
+    # # get threshold
+    # if threshold_avg:
+    #     #convert bars 
+    #     generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
+    #     generator.cal_threshold('average')
+    #     generator.convert_dol_bar()
+    # else:
+    #     daily = bar_generate.bar_generate(read_df=True,df=daily_df_file, outfolder=output_folder,outFile='daily_time.csv')
+    #     daily.cal_threshold("daily_av_50")
+    #     threshold = daily.get_threshold()
+    #     generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
+    #     generator.set_threshold(threshold)
+    #     generator.convert_dol_bar()
 
-    # get threshold
-    daily = bar_generate.bar_generate(read_df=True,df=daily_df_file, outfolder=output_folder,outFile='daily_time.csv')
-    daily.cal_threshold("daily_av_50")
-    threshold = daily.get_threshold()
-
-    #convert bars 
-    generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
-    generator.set_threshold(threshold)
-    generator.convert_dol_bar()
-
+def generate_avg_15(inputfile,out_bar_filename,output_folder):
+        generator = bar_generate.bar_generate(read_df=False,inputFile=inputfile,outFile=out_bar_filename,outfolder=output_folder)
+        generator.cal_threshold('average')
+        generator.convert_dol_bar()
 def test():
     print('successful')
 # store_raw_data("BTCUSDT","01 Nov 2017",'./test',"./test/dol_bar.csv")

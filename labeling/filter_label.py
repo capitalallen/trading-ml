@@ -110,3 +110,21 @@ class Filter_label:
             self.label = ml.labeling.get_bins(
                 self.triple_barrier_events, self.df['close'])
             return self.label
+    def triple_barrier_fix_no_side(self, pt_sl=[1, 2], min_ret=0.0005, num_days=1, target=None, mannual=False, side=False):
+        self.vertical_barriers = ml.labeling.add_vertical_barrier(
+            t_events=self.cusum_events, close=self.df['close'], num_days=num_days)
+        print('mannual: ', mannual, "side: ", side, "target: ", target)
+        if not mannual:
+            self.daily_vol = self.daily_vol.to_frame()
+            self.daily_vol['close']=target
+            self.daily_vol = pd.Series(self.daily_vol['close'].values,index=self.daily_vol.index)
+            self.triple_barrier_events = ml.labeling.get_events(close=self.df['close'],
+                                                                t_events=self.cusum_events,
+                                                                pt_sl=pt_sl,
+                                                                target=self.daily_vol,
+                                                                min_ret=min_ret,
+                                                                num_threads=5,
+                                                                vertical_barrier_times=self.vertical_barriers)
+            self.label = ml.labeling.get_bins(
+                self.triple_barrier_events, self.df['close'])
+            return self.label
