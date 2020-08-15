@@ -39,18 +39,18 @@ def store_raw_data(pair, start_time, output_folder,out_bar_filename,min_kline_si
     min_df_file.to_csv(output_folder+"/"+"minute_timebar.csv")
     
     # # get threshold
-    # if threshold_avg:
-    #     #convert bars 
-    #     generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
-    #     generator.cal_threshold('average')
-    #     generator.convert_dol_bar()
-    # else:
-    #     daily = bar_generate.bar_generate(read_df=True,df=daily_df_file, outfolder=output_folder,outFile='daily_time.csv')
-    #     daily.cal_threshold("daily_av_50")
-    #     threshold = daily.get_threshold()
-    #     generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
-    #     generator.set_threshold(threshold)
-    #     generator.convert_dol_bar()
+    if threshold_avg:
+        #convert bars 
+        generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
+        generator.cal_threshold('average')
+        generator.convert_dol_bar()
+    else:
+        daily = bar_generate.bar_generate(read_df=True,df=daily_df_file, outfolder=output_folder,outFile='daily_time.csv')
+        daily.cal_threshold("daily_av_50")
+        threshold = daily.get_threshold()
+        generator = bar_generate.bar_generate(read_df=True,df=min_df_file,outFile=out_bar_filename,outfolder=output_folder)
+        generator.set_threshold(threshold)
+        generator.convert_dol_bar()
 
 def generate_avg_15(inputfile,out_bar_filename,output_folder):
         generator = bar_generate.bar_generate(read_df=False,inputFile=inputfile,outFile=out_bar_filename,outfolder=output_folder)

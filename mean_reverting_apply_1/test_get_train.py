@@ -27,6 +27,7 @@ def preprocessing_15(outfolder):
 
     # generate training data set
     gtd.get_training_dataset(outfolder)
+    
 outfolder = ["EOSUSDT","ETHUSDT","IOTAUSDT","LTCUSDT","XRPUSDT"]
 
 p1 = Process(target=preprocessing_15,args=(outfolder[0],))

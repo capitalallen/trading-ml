@@ -56,6 +56,9 @@ class Model:
                                 # to match majority class
                                 n_samples=majority.shape[0],
                                 random_state=42)
+    def get_columns(self):
+        return list(self.x_train.columns)
+        
     def perform_grid_search(self):
         rf = RandomForestClassifier(criterion='entropy')
 
