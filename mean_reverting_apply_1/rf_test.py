@@ -52,4 +52,3 @@ p.map(training,outfolder)
 # p4.start()
 # p5 = Process(target=training,args=(outfolder[4],))
 # p5.start()
->>>>>>> 37f925dd2122a92bb5a477c68173478329e23086

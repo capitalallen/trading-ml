@@ -11,8 +11,9 @@ def evaulate_ex(folder):
     ev.long_stats()
     ev.short_stats()
 #"./BNBUSDT/" "./LTCUSDT/" ,"./ETCUSDT/"
-outfolder = ["./EOSUSDT/","./XRPUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/"]
+#outfolder = ["./EOSUSDT/","./XRPUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/"]
 
+outfolder = ["./LTCUSDT/","./ETCUSDT/"]
 p = Pool(len(outfolder))
 p.map(evaulate_ex,outfolder)
 # p1 = Process(target=evaulate_ex,args=(outfolder[0],))
