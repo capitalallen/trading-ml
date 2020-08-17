@@ -1,0 +1,922 @@
+{'BTC/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 1000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 2171.46
+            }
+        }, 'id': 'BTCUSDT', 'lowercaseId': 'btcusdt', 'symbol': 'BTC/USDT', 'base': 'BTC', 'quote': 'USDT', 'baseId': 'BTC', 'quoteId': 'USDT', 'info': {'symbol': 'BTCUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'BTC', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '1000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '2171.460', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ETH/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 30497.972
+            }
+        }, 'id': 'ETHUSDT', 'lowercaseId': 'ethusdt', 'symbol': 'ETH/USDT', 'base': 'ETH', 'quote': 'USDT', 'baseId': 'ETH', 'quoteId': 'USDT', 'info': {'symbol': 'ETHUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ETH', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '30497.972', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'BCH/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 16889.812
+            }
+        }, 'id': 'BCHUSDT', 'lowercaseId': 'bchusdt', 'symbol': 'BCH/USDT', 'base': 'BCH', 'quote': 'USDT', 'baseId': 'BCH', 'quoteId': 'USDT', 'info': {'symbol': 'BCHUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'BCH', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '16889.812', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'XRP/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 27609145.0
+            }
+        }, 'id': 'XRPUSDT', 'lowercaseId': 'xrpusdt', 'symbol': 'XRP/USDT', 'base': 'XRP', 'quote': 'USDT', 'baseId': 'XRP', 'quoteId': 'USDT', 'info': {'symbol': 'XRPUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'XRP', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '27609145', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'EOS/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 3
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 1778299.6
+            }
+        }, 'id': 'EOSUSDT', 'lowercaseId': 'eosusdt', 'symbol': 'EOS/USDT', 'base': 'EOS', 'quote': 'USDT', 'baseId': 'EOS', 'quoteId': 'USDT', 'info': {'symbol': 'EOSUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'EOS', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '1778299.6', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'LTC/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 111402.382
+            }
+        }, 'id': 'LTCUSDT', 'lowercaseId': 'ltcusdt', 'symbol': 'LTC/USDT', 'base': 'LTC', 'quote': 'USDT', 'baseId': 'LTC', 'quoteId': 'USDT', 'info': {'symbol': 'LTCUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'LTC', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '111402.382', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'TRX/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 5
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-05, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 117471193.0
+            }
+        }, 'id': 'TRXUSDT', 'lowercaseId': 'trxusdt', 'symbol': 'TRX/USDT', 'base': 'TRX', 'quote': 'USDT', 'baseId': 'TRX', 'quoteId': 'USDT', 'info': {'symbol': 'TRXUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'TRX', 'quoteAsset': 'USDT', 'pricePrecision': 5, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.00001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.00001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '117471193', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ETC/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 2, 'price': 3
+        }, 'limits': {'amount': {'min': 0.01, 'max': 100000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.01, 'max': 543853.72
+            }
+        }, 'id': 'ETCUSDT', 'lowercaseId': 'etcusdt', 'symbol': 'ETC/USDT', 'base': 'ETC', 'quote': 'USDT', 'baseId': 'ETC', 'quoteId': 'USDT', 'info': {'symbol': 'ETCUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ETC', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 2, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.01', 'filterType': 'LOT_SIZE', 'maxQty': '100000', 'minQty': '0.01'
+                },
+                {'stepSize': '0.01', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '543853.72', 'minQty': '0.01'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'LINK/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 2, 'price': 3
+        }, 'limits': {'amount': {'min': 0.01, 'max': 100000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.01, 'max': 521147.07
+            }
+        }, 'id': 'LINKUSDT', 'lowercaseId': 'linkusdt', 'symbol': 'LINK/USDT', 'base': 'LINK', 'quote': 'USDT', 'baseId': 'LINK', 'quoteId': 'USDT', 'info': {'symbol': 'LINKUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'LINK', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 2, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.01', 'filterType': 'LOT_SIZE', 'maxQty': '100000', 'minQty': '0.01'
+                },
+                {'stepSize': '0.01', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '521147.07', 'minQty': '0.01'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'XLM/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 5
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-05, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 29300336.0
+            }
+        }, 'id': 'XLMUSDT', 'lowercaseId': 'xlmusdt', 'symbol': 'XLM/USDT', 'base': 'XLM', 'quote': 'USDT', 'baseId': 'XLM', 'quoteId': 'USDT', 'info': {'symbol': 'XLMUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'XLM', 'quoteAsset': 'USDT', 'pricePrecision': 5, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.00001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.00001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '29300336', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ADA/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 5
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-05, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 35144421.0
+            }
+        }, 'id': 'ADAUSDT', 'lowercaseId': 'adausdt', 'symbol': 'ADA/USDT', 'base': 'ADA', 'quote': 'USDT', 'baseId': 'ADA', 'quoteId': 'USDT', 'info': {'symbol': 'ADAUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ADA', 'quoteAsset': 'USDT', 'pricePrecision': 5, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.00001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.00001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '35144421', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'XMR/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 21648.509
+            }
+        }, 'id': 'XMRUSDT', 'lowercaseId': 'xmrusdt', 'symbol': 'XMR/USDT', 'base': 'XMR', 'quote': 'USDT', 'baseId': 'XMR', 'quoteId': 'USDT', 'info': {'symbol': 'XMRUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'XMR', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '21648.509', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'DASH/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 13367.471
+            }
+        }, 'id': 'DASHUSDT', 'lowercaseId': 'dashusdt', 'symbol': 'DASH/USDT', 'base': 'DASH', 'quote': 'USDT', 'baseId': 'DASH', 'quoteId': 'USDT', 'info': {'symbol': 'DASHUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'DASH', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '13367.471', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ZEC/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 24179.248
+            }
+        }, 'id': 'ZECUSDT', 'lowercaseId': 'zecusdt', 'symbol': 'ZEC/USDT', 'base': 'ZEC', 'quote': 'USDT', 'baseId': 'ZEC', 'quoteId': 'USDT', 'info': {'symbol': 'ZECUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ZEC', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '24179.248', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'XTZ/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 3
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 2052635.3
+            }
+        }, 'id': 'XTZUSDT', 'lowercaseId': 'xtzusdt', 'symbol': 'XTZ/USDT', 'base': 'XTZ', 'quote': 'USDT', 'baseId': 'XTZ', 'quoteId': 'USDT', 'info': {'symbol': 'XTZUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'XTZ', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '2052635.3', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'BNB/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 2, 'price': 3
+        }, 'limits': {'amount': {'min': 0.01, 'max': 100000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.01, 'max': 149008.14
+            }
+        }, 'id': 'BNBUSDT', 'lowercaseId': 'bnbusdt', 'symbol': 'BNB/USDT', 'base': 'BNB', 'quote': 'USDT', 'baseId': 'BNB', 'quoteId': 'USDT', 'info': {'symbol': 'BNBUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'BNB', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 2, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.01', 'filterType': 'LOT_SIZE', 'maxQty': '100000', 'minQty': '0.01'
+                },
+                {'stepSize': '0.01', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '149008.14', 'minQty': '0.01'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ATOM/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 2, 'price': 3
+        }, 'limits': {'amount': {'min': 0.01, 'max': 100000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.01, 'max': 297457.54
+            }
+        }, 'id': 'ATOMUSDT', 'lowercaseId': 'atomusdt', 'symbol': 'ATOM/USDT', 'base': 'ATOM', 'quote': 'USDT', 'baseId': 'ATOM', 'quoteId': 'USDT', 'info': {'symbol': 'ATOMUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ATOM', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 2, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.01', 'filterType': 'LOT_SIZE', 'maxQty': '100000', 'minQty': '0.01'
+                },
+                {'stepSize': '0.01', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '297457.54', 'minQty': '0.01'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ONT/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 1626699.8
+            }
+        }, 'id': 'ONTUSDT', 'lowercaseId': 'ontusdt', 'symbol': 'ONT/USDT', 'base': 'ONT', 'quote': 'USDT', 'baseId': 'ONT', 'quoteId': 'USDT', 'info': {'symbol': 'ONTUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ONT', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '1626699.8', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'IOTA/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 3089451.3
+            }
+        }, 'id': 'IOTAUSDT', 'lowercaseId': 'iotausdt', 'symbol': 'IOTA/USDT', 'base': 'IOTA', 'quote': 'USDT', 'baseId': 'IOTA', 'quoteId': 'USDT', 'info': {'symbol': 'IOTAUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'IOTA', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '3089451.3', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'BAT/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 4437434.8
+            }
+        }, 'id': 'BATUSDT', 'lowercaseId': 'batusdt', 'symbol': 'BAT/USDT', 'base': 'BAT', 'quote': 'USDT', 'baseId': 'BAT', 'quoteId': 'USDT', 'info': {'symbol': 'BATUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'BAT', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '4437434.8', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'VET/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 6
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-06, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 79102315.0
+            }
+        }, 'id': 'VETUSDT', 'lowercaseId': 'vetusdt', 'symbol': 'VET/USDT', 'base': 'VET', 'quote': 'USDT', 'baseId': 'VET', 'quoteId': 'USDT', 'info': {'symbol': 'VETUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'VET', 'quoteAsset': 'USDT', 'pricePrecision': 6, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.000001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.000001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '79102315', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'NEO/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 2, 'price': 3
+        }, 'limits': {'amount': {'min': 0.01, 'max': 100000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.01, 'max': 94629.94
+            }
+        }, 'id': 'NEOUSDT', 'lowercaseId': 'neousdt', 'symbol': 'NEO/USDT', 'base': 'NEO', 'quote': 'USDT', 'baseId': 'NEO', 'quoteId': 'USDT', 'info': {'symbol': 'NEOUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'NEO', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 2, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.01', 'filterType': 'LOT_SIZE', 'maxQty': '100000', 'minQty': '0.01'
+                },
+                {'stepSize': '0.01', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '94629.94', 'minQty': '0.01'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'QTUM/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 3
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.001, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 405585.6
+            }
+        }, 'id': 'QTUMUSDT', 'lowercaseId': 'qtumusdt', 'symbol': 'QTUM/USDT', 'base': 'QTUM', 'quote': 'USDT', 'baseId': 'QTUM', 'quoteId': 'USDT', 'info': {'symbol': 'QTUMUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'QTUM', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '405585.6', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'IOST/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 6
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-06, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 155512898.0
+            }
+        }, 'id': 'IOSTUSDT', 'lowercaseId': 'iostusdt', 'symbol': 'IOST/USDT', 'base': 'IOST', 'quote': 'USDT', 'baseId': 'IOST', 'quoteId': 'USDT', 'info': {'symbol': 'IOSTUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'IOST', 'quoteAsset': 'USDT', 'pricePrecision': 6, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.000001', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.000001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '155512898', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'THETA/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 2555581.6
+            }
+        }, 'id': 'THETAUSDT', 'lowercaseId': 'thetausdt', 'symbol': 'THETA/USDT', 'base': 'THETA', 'quote': 'USDT', 'baseId': 'THETA', 'quoteId': 'USDT', 'info': {'symbol': 'THETAUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'THETA', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '2555581.6', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ALGO/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 3290606.2
+            }
+        }, 'id': 'ALGOUSDT', 'lowercaseId': 'algousdt', 'symbol': 'ALGO/USDT', 'base': 'ALGO', 'quote': 'USDT', 'baseId': 'ALGO', 'quoteId': 'USDT', 'info': {'symbol': 'ALGOUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ALGO', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '3290606.2', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ZIL/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 5
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-05, 'max': 100.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 40492398.0
+            }
+        }, 'id': 'ZILUSDT', 'lowercaseId': 'zilusdt', 'symbol': 'ZIL/USDT', 'base': 'ZIL', 'quote': 'USDT', 'baseId': 'ZIL', 'quoteId': 'USDT', 'info': {'symbol': 'ZILUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ZIL', 'quoteAsset': 'USDT', 'pricePrecision': 5, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.00001', 'maxPrice': '100', 'filterType': 'PRICE_FILTER', 'tickSize': '0.00001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '40492398', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'KNC/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 5
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-05, 'max': 100.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 593885.0
+            }
+        }, 'id': 'KNCUSDT', 'lowercaseId': 'kncusdt', 'symbol': 'KNC/USDT', 'base': 'KNC', 'quote': 'USDT', 'baseId': 'KNC', 'quoteId': 'USDT', 'info': {'symbol': 'KNCUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'KNC', 'quoteAsset': 'USDT', 'pricePrecision': 5, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.00001', 'maxPrice': '100', 'filterType': 'PRICE_FILTER', 'tickSize': '0.00001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '593885', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'ZRX/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 2019883.8
+            }
+        }, 'id': 'ZRXUSDT', 'lowercaseId': 'zrxusdt', 'symbol': 'ZRX/USDT', 'base': 'ZRX', 'quote': 'USDT', 'baseId': 'ZRX', 'quoteId': 'USDT', 'info': {'symbol': 'ZRXUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'ZRX', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '2019883.8', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'COMP/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 100000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 9200.14
+            }
+        }, 'id': 'COMPUSDT', 'lowercaseId': 'compusdt', 'symbol': 'COMP/USDT', 'base': 'COMP', 'quote': 'USDT', 'baseId': 'COMP', 'quoteId': 'USDT', 'info': {'symbol': 'COMPUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'COMP', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '100000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '9200.140', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'OMG/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 420019.7
+            }
+        }, 'id': 'OMGUSDT', 'lowercaseId': 'omgusdt', 'symbol': 'OMG/USDT', 'base': 'OMG', 'quote': 'USDT', 'baseId': 'OMG', 'quoteId': 'USDT', 'info': {'symbol': 'OMGUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'OMG', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '420019.7', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'DOGE/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 0, 'price': 6
+        }, 'limits': {'amount': {'min': 1.0, 'max': 10000000.0
+            }, 'price': {'min': 1e-06, 'max': 10.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 1.0, 'max': 205120934.0
+            }
+        }, 'id': 'DOGEUSDT', 'lowercaseId': 'dogeusdt', 'symbol': 'DOGE/USDT', 'base': 'DOGE', 'quote': 'USDT', 'baseId': 'DOGE', 'quoteId': 'USDT', 'info': {'symbol': 'DOGEUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'DOGE', 'quoteAsset': 'USDT', 'pricePrecision': 6, 'quantityPrecision': 0, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.000001', 'maxPrice': '10', 'filterType': 'PRICE_FILTER', 'tickSize': '0.000001'
+                },
+                {'stepSize': '1', 'filterType': 'LOT_SIZE', 'maxQty': '10000000', 'minQty': '1'
+                },
+                {'stepSize': '1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '205120934', 'minQty': '1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'SXP/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 644871.6
+            }
+        }, 'id': 'SXPUSDT', 'lowercaseId': 'sxpusdt', 'symbol': 'SXP/USDT', 'base': 'SXP', 'quote': 'USDT', 'baseId': 'SXP', 'quoteId': 'USDT', 'info': {'symbol': 'SXPUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'SXP', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '644871.6', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'LEND/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 2282470.6
+            }
+        }, 'id': 'LENDUSDT', 'lowercaseId': 'lendusdt', 'symbol': 'LEND/USDT', 'base': 'LEND', 'quote': 'USDT', 'baseId': 'LEND', 'quoteId': 'USDT', 'info': {'symbol': 'LENDUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'LEND', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '2282470.6', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'KAVA/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 200.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 213068.9
+            }
+        }, 'id': 'KAVAUSDT', 'lowercaseId': 'kavausdt', 'symbol': 'KAVA/USDT', 'base': 'KAVA', 'quote': 'USDT', 'baseId': 'KAVA', 'quoteId': 'USDT', 'info': {'symbol': 'KAVAUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'KAVA', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '200', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '213068.9', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'BAND/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 500.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 87077.2
+            }
+        }, 'id': 'BANDUSDT', 'lowercaseId': 'bandusdt', 'symbol': 'BAND/USDT', 'base': 'BAND', 'quote': 'USDT', 'baseId': 'BAND', 'quoteId': 'USDT', 'info': {'symbol': 'BANDUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'BAND', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '500', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '87077.2', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'RLC/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 200.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 467456.4
+            }
+        }, 'id': 'RLCUSDT', 'lowercaseId': 'rlcusdt', 'symbol': 'RLC/USDT', 'base': 'RLC', 'quote': 'USDT', 'baseId': 'RLC', 'quoteId': 'USDT', 'info': {'symbol': 'RLCUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'RLC', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '200', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '467456.4', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'WAVES/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 4
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.0001, 'max': 200.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 390062.0
+            }
+        }, 'id': 'WAVESUSDT', 'lowercaseId': 'wavesusdt', 'symbol': 'WAVES/USDT', 'base': 'WAVES', 'quote': 'USDT', 'baseId': 'WAVES', 'quoteId': 'USDT', 'info': {'symbol': 'WAVESUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'WAVES', 'quoteAsset': 'USDT', 'pricePrecision': 4, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.0001', 'maxPrice': '200', 'filterType': 'PRICE_FILTER', 'tickSize': '0.0001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '390062', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'MKR/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 3, 'price': 2
+        }, 'limits': {'amount': {'min': 0.001, 'max': 10000.0
+            }, 'price': {'min': 0.01, 'max': 50000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.001, 'max': 1480.714
+            }
+        }, 'id': 'MKRUSDT', 'lowercaseId': 'mkrusdt', 'symbol': 'MKR/USDT', 'base': 'MKR', 'quote': 'USDT', 'baseId': 'MKR', 'quoteId': 'USDT', 'info': {'symbol': 'MKRUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'MKR', 'quoteAsset': 'USDT', 'pricePrecision': 2, 'quantityPrecision': 3, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.01', 'maxPrice': '50000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.01'
+                },
+                {'stepSize': '0.001', 'filterType': 'LOT_SIZE', 'maxQty': '10000', 'minQty': '0.001'
+                },
+                {'stepSize': '0.001', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '1480.714', 'minQty': '0.001'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }, 'SNX/USDT': {'percentage': True, 'tierBased': False, 'taker': 0.001, 'maker': 0.001, 'precision': {'base': 8, 'quote': 8, 'amount': 1, 'price': 3
+        }, 'limits': {'amount': {'min': 0.1, 'max': 1000000.0
+            }, 'price': {'min': 0.001, 'max': 1000.0
+            }, 'cost': {'min': None, 'max': None
+            }, 'market': {'min': 0.1, 'max': 155849.5
+            }
+        }, 'id': 'SNXUSDT', 'lowercaseId': 'snxusdt', 'symbol': 'SNX/USDT', 'base': 'SNX', 'quote': 'USDT', 'baseId': 'SNX', 'quoteId': 'USDT', 'info': {'symbol': 'SNXUSDT', 'status': 'TRADING', 'maintMarginPercent': '2.5000', 'requiredMarginPercent': '5.0000', 'baseAsset': 'SNX', 'quoteAsset': 'USDT', 'pricePrecision': 3, 'quantityPrecision': 1, 'baseAssetPrecision': 8, 'quotePrecision': 8, 'filters': [
+                {'minPrice': '0.001', 'maxPrice': '1000', 'filterType': 'PRICE_FILTER', 'tickSize': '0.001'
+                },
+                {'stepSize': '0.1', 'filterType': 'LOT_SIZE', 'maxQty': '1000000', 'minQty': '0.1'
+                },
+                {'stepSize': '0.1', 'filterType': 'MARKET_LOT_SIZE', 'maxQty': '155849.5', 'minQty': '0.1'
+                },
+                {'limit': 200, 'filterType': 'MAX_NUM_ORDERS'
+                },
+                {'limit': 0, 'filterType': 'MAX_NUM_ALGO_ORDERS'
+                },
+                {'multiplierDown': '0.8500', 'multiplierUp': '1.1500', 'multiplierDecimal': '4', 'filterType': 'PERCENT_PRICE'
+                }
+            ], 'orderTypes': ['LIMIT', 'MARKET', 'STOP', 'STOP_MARKET', 'TAKE_PROFIT', 'TAKE_PROFIT_MARKET', 'TRAILING_STOP_MARKET'
+            ], 'timeInForce': ['GTC', 'IOC', 'FOK', 'GTX'
+            ]
+        }, 'type': 'future', 'spot': False, 'margin': True, 'future': True, 'active': True
+    }
+}

@@ -36,7 +36,7 @@ def is_limit(df,threshold):
 form_dol
 """
 def form_dol_bar(df, threshold):
-    print(df.head())
+    # print(df.head())
     d = ml.data_structures.standard_data_structures.get_dollar_bars(
         df.loc[:,['date_time','close','volume']], threshold=threshold, batch_size=100, verbose=False)
     return d

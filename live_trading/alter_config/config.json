@@ -1,0 +1,21 @@
+{
+    "long":true,
+    "short":true,
+    "time":null,
+    "lev_long":50,
+    "lev_short":50,
+    "long_trades_avl":4,
+    "short_trades_avl":4,
+    "long_trades_limit":4,
+    "short_trades_limit":4,
+    "long_strategy":{
+        "side":1,
+        "pred":1
+    },
+    "short_strategy":{
+        "side":1, 
+        "pred":1
+    },
+    "long_p":0.01,
+    "short_p":0.01
+}
