@@ -3,7 +3,7 @@ mean_reverting_apply_1/ETHUSDT/dol_bar.csv
 mean_reverting_apply_1/ETHUSDT/daily_timebar.csv
 mean_reverting_apply_1/ETHUSDT/minute_timebar.csv
 mean_reverting_apply_1/ETHUSDT/x_features_clean.csv
-mean_reverting_apply_1/ETHUSDT/x_y.csv
+#mean_reverting_apply_1/ETHUSDT/x_y.csv
 
 mean_reverting_apply_1/EOSUSDT/dol_bar.csv
 mean_reverting_apply_1/EOSUSDT/x_features.csv
