@@ -55,9 +55,21 @@ class Buy_sell:
 
     def get_future_account(self):
         return self.binance_client.futures_account()
-
-    def trailing_stop_mkt_future(self,pair,price,q,side,callbackRate=1):
-        his = self.binance_client.futures_create_order(symbol=pair,side=side,type="TRAILING_STOP_MARKET",quantity=q,activationPrice=price,callbackRate=callbackRate)
+    # positionSide LONG or SHORT 
+    # side BUY or SELL
+    def trailing_stop_mkt_future(self,pair,price=None,q=None,side=None,positionSide="BOTH",callbackRate=1,leverage=20):
+        try:
+            self.change_leverage_future(pair,leverage)
+        except:
+            print('No need to change leverage type.')
+        try:
+            self.change_margin_type_future(pair,"ISOLATED")
+        except:
+            print("not need to change margin type")
+        if price:
+            his = self.binance_client.futures_create_order(symbol=pair,side=side,type="TRAILING_STOP_MARKET",quantity=q,activationPrice=price,callbackRate=callbackRate,positionSide=positionSide)
+        else: 
+            his = self.binance_client.futures_create_order(symbol=pair,side=side,type="TRAILING_STOP_MARKET",quantity=q,callbackRate=callbackRate,positionSide=positionSide)
         return his 
     
     def change_leverage_future(self,pair,leverage):
