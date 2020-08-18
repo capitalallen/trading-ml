@@ -39,7 +39,8 @@ def training(folder,inputfile="x_y.csv"):
     m.save_model(outfolder=folder)
 
 #outfolder = ["./EOSUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/","./XRPUSDT/"]
-outfolder = ["./BTCUSDT/"]
+outfolder = ["./ETHUSDT/","./BNBUSDT/","./IOTAUSDT/"]
+# outfolder = ["./BTCUSDT/"]
 #p1 = Process(target=training,args=(outfolder[0],))
 #p1.start() 
 #p2 = Process(target=training,args=(outfolder[1],))
