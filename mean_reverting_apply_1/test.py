@@ -40,28 +40,7 @@ def store_features2(name):
     df = pre.clean_df() 
     df.to_csv("./BTCUSDT/features_min_clean.csv")
     print(name)
-# print(TA.STOCHD(df))
 
-# store_features2(1)
-# p1 = Process(target=store_features,args=(1,))
-# p1.start() 
-# p2 = Process(target=store_features2,args=(2,))
-# p2.start()
-
-# store label file 
-# def store_label():
-#     pre = preprocess.Preprocess('./BTCUSDT/dol_bar.csv')
-    
-#     # df = pre.label_vol(is_infile=True,inputfile="./BTCUSDT/features_close.csv")
-#     # df.to_csv('./BTCUSDT/labels_vol_close.csv')
-#     df = pre.label_fix(is_infile=True,inputfile='./BTCUSDT/features_close.csv')
-#     df.to_csv('./BTCUSDT/labels_fix_close.csv')
-
-#     # df = pre.label_vol(is_infile=True,inputfile="./BTCUSDT/features_min.csv")
-#     # df.to_csv('./BTCUSDT/labels_vol_min.csv')
-#     df = pre.label_fix(is_infile=True,inputfile='./BTCUSDT/features_min.csv')
-#     df.to_csv('./BTCUSDT/labels_fix_min.csv')
-# store_label()
 
 # combine features with labels 
 label_file = ['./BTCUSDT/labels_vol_close.csv','./BTCUSDT/labels_fix_close.csv','./BTCUSDT/labels_vol_min.csv','./BTCUSDT/labels_fix_min.csv']

@@ -8,4 +8,8 @@ finta==1.0
 python-binance==0.7.5
 finta==0.2.8
 pymongo==3.10.1
+<<<<<<< HEAD
 twilio==6.44.2
+=======
+twilio==6.44.2
+>>>>>>> 6319b0e4ec9ad352fe52754d9e034ffe656c9575
