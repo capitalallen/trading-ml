@@ -1,95 +1,80 @@
-from binance.client import Client
-import ast
-from datetime import datetime
-import time
-# from binance_d import RequestClient
-# from binance_d.constant.test import *
-# from binance_d.base.printobject import *
-# from binance_d.model.constant import *
+import pandas as pd 
+import sys
+import json 
+sys.path.append("../model_use")
+sys.path.append("../alter_config")
+sys.path.append("../data_getter")
+sys.path.append("../handle_sql")
+sys.path.append("../preprocessing")
+# sys.path.append("../mean_reverting")
+import get_predict
+import change_config
+import preprocess_sql as psql
+import get_data
+import proprecess 
 
-class Buy_sell:
-    def __init__(self):
-        # Enter your own API-key here
-        binance_api_key = 'C48jZb7iNQwKZFEbCke3vClNqDEGpI68Le4G0og6hZauu3Kx7rFrCH31XbcaH7aC'
-        # Enter your own API-secret here
-        binance_api_secret = '8FIEyg5s9uKpAvTHBr6mH2zMEmPZD4VWgfbLF7AW3e0xMBcadmhL2Faqr5n8koDD'
-        self.binance_client = Client(
-            api_key=binance_api_key, api_secret=binance_api_secret)
+"""
 
-    def order_limit_buy(self, symbol, q, p):
-        try:
-            # ast.literal_eval(
-            result = self.binance_client.order_limit_buy(
-                symbol=symbol, quantity=q, price=p)
-            return result
-        except:
-            print("order buy error")
-            return None
+if side is not none 
+    get only feature column from df columns 
+    pred = get prediction
+    if pred = config.long.pred and side = config.long.side:
+        trade_long(pair, leverage)
+        total trade # allowed - 1 
+    elif pred = config.short.pred and side = config.short.side:
+        trade_short(pair,leverage)
+        total trade # allowed - 1 
+"""
+class Trading: 
+    def __init__(self,pair,db_name,record_name,threshold,interval='1m',model_path=None,columns_path=None):
+        self.predict = get_predict.Get_predict()
+        self.predict.load_model(model_path)
+        self.columns = json.load(open(columns_path))['columns']
+        self.configs = change_config.Change_config() 
+        self.pair = pair 
+        self.interval = interval
+        self.db_name = db_name 
+        self.record_name = record_name 
+        self.threshold = threshold    
+        self.load_long_strategy()
+        self.load_short_strategy()
 
-    def order_mkt_buy(self, symbol, q):
-        try:
-            result = self.binance_client.order_market_buy(
-                symbol=symbol, quantity=q)
-            return result
-        except:
-            print("order buy error")
-            return None
-
-    def order_limit_sell(self, symbol, q, p):
-        try:
-            result = self.binance_client.order_limit_sell(
-                symbol=symbol, quantity=q, price=p)
-            return result
-        except:
-            print("order buy error")
-            return None
-
-    def order_mkt_sell(self, symbol, q):
-        try:
-            result = self.binance_client.order_market_sell(
-                symbol=symbol, quantity=q)
-            return result
-        except:
-            print("order buy error")
-            return None
-
-    def get_future_account(self):
-        return self.binance_client.futures_account()
-
-    def trailing_stop_mkt_future(self,pair,price,q,side,callbackRate=1):
-        his = self.binance_client.futures_create_order(symbol=pair,side=side,type="TRAILING_STOP_MARKET",quantity=q,activationPrice=price,callbackRate=callbackRate)
-        return his 
+        #connect to sql database 
+        self.pre_sql = psql.Preprocess_sql(self.db_name,self.record_name)
+    def load_long_strategy(self):
+        self.long_strategy = self.configs.query_config(self.pair,"long_strategy")
     
-    def change_leverage_future(self,pair,leverage):
-        self.change_margin_type_future(pair,"ISOLATED")
-        his = self.binance_client.futures_change_leverage(symbol=pair,leverage=leverage)
-        return his 
-    def change_margin_type_future(self,pair,marginType="ISOLATED"):
-        return self.binance_client.futures_change_margin_type(symbol=pair,marginType=marginType)
-# class Buy_sell_future:
-#     def __init__(self):
-#         self.binance_api_key = 'C48jZb7iNQwKZFEbCke3vClNqDEGpI68Le4G0og6hZauu3Kx7rFrCH31XbcaH7aC'
-#         # Enter your own API-secret here
-#         self.binance_api_secret = '8FIEyg5s9uKpAvTHBr6mH2zMEmPZD4VWgfbLF7AW3e0xMBcadmhL2Faqr5n8koDD'
-#     def get_info(self):
-#         request_client = RequestClient(api_key=self.binance_api_key, secret_key=self.binance_api_secret)
-#         # print(f'api_key: {g_api_key}\nsecret_key: {g_secret_key}')
-#         result = request_client.get_account_information()
-#         print("canDeposit: ", result.canDeposit)
-#         print("canWithdraw: ", result.canWithdraw)
-#         print("feeTier: ", result.feeTier)
-#         # print("maxWithdrawAmount: ", result.maxWithdrawAmount)
-#         # print("totalInitialMargin: ", result.totalInitialMargin)
-#         # print("totalMaintMargin: ", result.totalMaintMargin)
-#         # print("totalMarginBalance: ", result.totalMarginBalance)
-#         # print("totalOpenOrderInitialMargin: ", result.totalOpenOrderInitialMargin)
-#         # print("totalPositionInitialMargin: ", result.totalPositionInitialMargin)
-#         # print("totalUnrealizedProfit: ", result.totalUnrealizedProfit)
-#         # print("totalWalletBalance: ", result.totalWalletBalance)
-#         print("updateTime: ", result.updateTime)
-#         print("=== Assets ===")
-#         PrintMix.print_data(result.assets)
-#         print("==============")
-#         print("=== Positions ===")
-#         PrintMix.print_data(result.positions)
-#         print("==============")
+    def load_short_strategy(self):
+        self.short_strategy = self.configs.query_config(self.pair,"short_strategy")
+
+    def live_trading(self):
+        time = str(self.pre_sql.get_last_n(1).date_time[0])
+        # get klines from last time to current time 
+        klines = get_data.get_klines_df(time,symbol=self.pair,interval=self.interval)
+        if get_data.is_limit(klines,self.threshold):
+            #convert klines to dol_bar
+            dol_bar = get_data.form_dol_bar(klines,self.threshold)
+
+            # get last 25 rows 
+            # combine them to nwe dol bar 
+            #calculate features 
+            #get only df2 
+            #store to db 
+            last_twenty = self.pre_sql.get_last_n(25)
+            p = proprecess.Proprecessing()
+            p.combine_df(last_twenty,dol_bar)
+            p.add_features()
+            new_bars = p.get_df2() 
+            self.pre_sql.store_df(new_bars)
+            df = new_bars.iloc[-1]
+            
+            if new_bars['side']:
+                features = df[self.columns].tolist()
+                pred = int(self.predict.predict([features])[0])
+                num_allowed = self.configs.get_trading_num()
+                if num_allowed['long']>0 and pred == self.long_strategy["pred"] and side == self.long_strategy["side"]:
+                    print("trade long")
+                    self.configs.update_trading_num("long",-1)
+                elif num_allowed['short']>0 and pred == self.short_strategy["pred"] and side == self.short_strategy["side"]:
+                    print("trade short")
+                    self.configs.update_trading_num("short",-1)

@@ -1,13 +1,13 @@
+import pandas as pd 
 import trading 
-from binance.client import Client
-t = trading.Buy_sell() 
-# t.order_limit_buy("BTCUSDT",0.01,10000)
-# Enter your own API-key here
-# binance_api_key = 'C48jZb7iNQwKZFEbCke3vClNqDEGpI68Le4G0og6hZauu3Kx7rFrCH31XbcaH7aC'
-# # Enter your own API-secret here
-# binance_api_secret = '8FIEyg5s9uKpAvTHBr6mH2zMEmPZD4VWgfbLF7AW3e0xMBcadmhL2Faqr5n8koDD'
-# binance_client = Client(api_key=binance_api_key, api_secret=binance_api_secret)
-# print(binance_client.futures_create_order(symbol="BTCUSDT",side="BUY",type="TRAILING_STOP_MARKET",quantity=0.01,activationPrice=10000,callbackRate=1))
-# print(t.change_leverage("BTCUSDT",50))
-print(t.change_margin_type_future("BTCUSDT","ISOLATED"))
-#futures_change_margin_type
+t = trading.Trading(pair="BTCUSDT",db_name="../pair_db/features.sqlite",record_name="x_features",threshold=7097226,model_path="model.joblib",columns_path="column_order.json")
+
+df1 = pd.read_csv("x_features.csv",index_col=0)
+df1.index = pd.to_datetime(df1.date_time)
+df1.drop(columns=['date_time'],inplace=True)
+df2 = pd.read_csv("test_predictions.csv",index_col=0)
+df2.index = pd.to_datetime(df2.index)
+df3 = df1.loc[df2.index]
+# for i in range(1,500):
+#     if "nan" not in df3.iloc[i].tolist():
+t.live_trading()
