@@ -30,11 +30,11 @@ class Change_config:
                 "pred":1
             },
             "short_strategy":{
-                "side":1, 
-                "pred":1
+                "side":-1, 
+                "pred":0
             },
-            "long_p":0.01,
-            "short_p":0.01
+            "long_p":0,
+            "short_p":0
         }
         x = mycol.insert_one(mydict)
 
@@ -63,8 +63,8 @@ class Change_config:
         val = self.get_trading_num()[trade_type]
         myquery = {trade_type:val}
         newvalues = {"$set":{trade_type:val+n}}
-m = Change_config() 
+# m = Change_config() 
 # print(m.get_pair_config("BTCUSDT"))
 # m.update_config("BTCUSDT","long",False)
-tmp = m.query_config("BTCUSDT","long_strategy")
-print(type(tmp))
+# tmp = m.query_config("BTCUSDT","long_strategy")
+# print(type(tmp))

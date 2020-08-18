@@ -1,6 +1,6 @@
 import pandas as pd 
 import sqlite3 
-def convert_to_sql(csv_file,db='features.sqlite',record="x_features"):
+def convert_to_sql(db='../pair_db/features.sqlite',record="x_features"):
     try:
         conn = sqlite3.connect(db)
         #if the count is 1, then table exists
@@ -13,4 +13,4 @@ def convert_to_sql(csv_file,db='features.sqlite',record="x_features"):
         conn.close()
     except:
         print('record exists')
-convert_to_sql("x_features.csv")
+# convert_to_sql(record="XRPUSDT")

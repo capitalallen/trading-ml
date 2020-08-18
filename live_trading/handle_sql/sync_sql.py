@@ -10,9 +10,9 @@ get dol_bar
 add feature to dol_bar 
 store to sql 
 """
-df = pd.read_csv('dol_bar.csv',index_col=0)
-threshold = df.cum_dollar_value.sum()/df.shape[0]
-print(threshold)
+# df = pd.read_csv('dol_bar.csv',index_col=0)
+# threshold = df.cum_dollar_value.sum()/df.shape[0]
+# print(threshold)
 # df.date_time = pd.to_datetime(df.date_time)
 # df1 = df.iloc[-30:-20]
 # df2 = df.iloc[-20:]
@@ -22,7 +22,7 @@ print(threshold)
 # p.add_features()
 # df2 = p.get_df2()
 # print(df2.head())
-pre_sql = psql.Preprocess_sql('features.sqlite',"x_features") 
+# pre_sql = psql.Preprocess_sql('features.sqlite',"x_features") 
 # pre_sql.store_df(df2)
 
 """
@@ -51,4 +51,4 @@ def sync_dol_bar(pair,db_name,record_name,threhold,interval='1m'):
     new_bars = p.get_df2() 
     pre_sql.store_df(new_bars)
 
-sync_dol_bar("ETHUSDT",'features.sqlite',"x_features",8636198,interval="15m")
+# sync_dol_bar("ETHUSDT",'features.sqlite',"x_features",8636198,interval="15m")

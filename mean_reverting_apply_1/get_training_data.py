@@ -118,10 +118,12 @@ def get_training_dataset(outfolder,x_file="x_features_clean.csv",y_file="labels.
     x_data.drop(columns=['date_time'],inplace=True)
     y_data.index = pd.to_datetime(y_data.index)
     y_data.loc[(y_data.bin==-1),'bin']=0
-
     features = ['mom1', 'mom2', 'mom3', 'mom4', 'mom5',
        'autocorr_1', 'autocorr_2', 'autocorr_3', 'autocorr_4',
-       'autocorr_5', 'log_t1', 'log_t2', 'log_t3', 'log_t4', 'log_t5', 'log_ret','volatility','srsi','fast_mavg','slow_mavg']
+       'autocorr_5', 'log_t1', 'log_t2', 'log_t3', 'log_t4', 'log_t5', 'log_ret','volatility','srsi']
+    # features = ['mom1', 'mom2', 'mom3', 'mom4', 'mom5',
+    #    'autocorr_1', 'autocorr_2', 'autocorr_3', 'autocorr_4',
+    #    'autocorr_5', 'log_t1', 'log_t2', 'log_t3', 'log_t4', 'log_t5', 'log_ret','volatility','srsi','fast_mavg','slow_mavg']
     # drop all non-feature columns 
     x_y = x_data[features]
     # add y to x_data

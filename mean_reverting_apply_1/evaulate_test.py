@@ -13,7 +13,7 @@ def evaulate_ex(folder):
 #"./BNBUSDT/" "./LTCUSDT/" ,"./ETCUSDT/"
 #outfolder = ["./EOSUSDT/","./XRPUSDT/","./ETHUSDT/","./IOTAUSDT/","./NEOUSDT/"]
 
-outfolder = ["./LTCUSDT/","./ETCUSDT/"]
+outfolder = ["./BNBUSDT/"]
 p = Pool(len(outfolder))
 p.map(evaulate_ex,outfolder)
 # p1 = Process(target=evaulate_ex,args=(outfolder[0],))
