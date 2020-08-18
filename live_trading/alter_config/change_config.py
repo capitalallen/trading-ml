@@ -41,7 +41,7 @@ class Change_config:
     def get_pair_config(self,pair_name):
         # myclient = pymongo.MongoClient("mongodb://localhost:27017/")
         # mydb = myclient["configs"]
-        mycol = self.mydb["BTCUSDT"]
+        mycol = self.mydb[pair_name]
 
         return mycol.find_one()
 
@@ -53,8 +53,18 @@ class Change_config:
         myquery = {item:self.query_config(pair_name,item)}
         newvalues = {"$set":{item:value}}
         mycol.update_one(myquery,newvalues)
-
+    
+    def get_trading_num(self):
+        mycol = self.mydb["total_trade_num"]
+        return mycol.find_one() 
+    
+    def update_trading_num(self,trade_type,n):
+        mycol = self.mydb["total_trade_num"]
+        val = self.get_trading_num()[trade_type]
+        myquery = {trade_type:val}
+        newvalues = {"$set":{trade_type:val+n}}
 m = Change_config() 
-m.get_pair_config("BTCUSDT")
-m.update_config("BTCUSDT","long",False)
-print(m.query_config("BTCUSDT","long"))
+# print(m.get_pair_config("BTCUSDT"))
+# m.update_config("BTCUSDT","long",False)
+tmp = m.query_config("BTCUSDT","long_strategy")
+print(type(tmp))

@@ -54,4 +54,11 @@ mean_reverting_apply_1/BNBUSDT/minute_timebar.csv
 mean_reverting_apply_1/BNBUSDT/x_features_clean.csv
 mean_reverting_apply_1/BNBUSDT/x_y.csv
 
+mean_reverting_apply_1/BTCUSDT/dol_bar.csv
+mean_reverting_apply_1/BTCUSDT/x_features.csv
+mean_reverting_apply_1/BTCUSDT/daily_timebar.csv
+mean_reverting_apply_1/BTCUSDT/minute_timebar.csv
+mean_reverting_apply_1/BTCUSDT/x_features_clean.csv
+mean_reverting_apply_1/BTCUSDT/x_y.csv
+
 
