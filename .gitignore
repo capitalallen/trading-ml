@@ -6,49 +6,49 @@ mean_reverting_apply_1/ETHUSDT/x_features_clean.csv
 #mean_reverting_apply_1/ETHUSDT/x_y.csv
 
 mean_reverting_apply_1/EOSUSDT/dol_bar.csv
-mean_reverting_apply_1/EOSUSDT/x_features.csv
+#mean_reverting_apply_1/EOSUSDT/x_features.csv
 mean_reverting_apply_1/EOSUSDT/daily_timebar.csv
 mean_reverting_apply_1/EOSUSDT/minute_timebar.csv
 mean_reverting_apply_1/EOSUSDT/x_features_clean.csv
 mean_reverting_apply_1/EOSUSDT/x_y.csv
 
 mean_reverting_apply_1/ETCUSDT/dol_bar.csv
-mean_reverting_apply_1/ETCUSDT/x_features.csv
+#mean_reverting_apply_1/ETCUSDT/x_features.csv
 mean_reverting_apply_1/ETCUSDT/daily_timebar.csv
 mean_reverting_apply_1/ETCUSDT/minute_timebar.csv
 mean_reverting_apply_1/ETCUSDT/x_features_clean.csv
 mean_reverting_apply_1/ETCUSDT/x_y.csv
 
 mean_reverting_apply_1/IOTAUSDT/dol_bar.csv
-mean_reverting_apply_1/IOTAUSDT/x_features.csv
+#mean_reverting_apply_1/IOTAUSDT/x_features.csv
 mean_reverting_apply_1/IOTAUSDT/daily_timebar.csv
 mean_reverting_apply_1/IOTAUSDT/minute_timebar.csv
 mean_reverting_apply_1/IOTAUSDT/x_features_clean.csv
 mean_reverting_apply_1/IOTAUSDT/x_y.csv
 
 mean_reverting_apply_1/LTCUSDT/dol_bar.csv
-mean_reverting_apply_1/LTCUSDT/x_features.csv
+#mean_reverting_apply_1/LTCUSDT/x_features.csv
 mean_reverting_apply_1/LTCUSDT/daily_timebar.csv
 mean_reverting_apply_1/LTCUSDT/minute_timebar.csv
 mean_reverting_apply_1/LTCUSDT/x_features_clean.csv
 mean_reverting_apply_1/LTCUSDT/x_y.csv
 
 mean_reverting_apply_1/XRPUSDT/dol_bar.csv
-mean_reverting_apply_1/XRPUSDT/x_features.csv
+#mean_reverting_apply_1/XRPUSDT/x_features.csv
 mean_reverting_apply_1/XRPUSDT/daily_timebar.csv
 mean_reverting_apply_1/XRPUSDT/minute_timebar.csv
 mean_reverting_apply_1/XRPUSDT/x_features_clean.csv
 mean_reverting_apply_1/XRPUSDT/x_y.csv
 
 mean_reverting_apply_1/NEOUSDT/dol_bar.csv
-mean_reverting_apply_1/NEOUSDT/x_features.csv
+#mean_reverting_apply_1/NEOUSDT/x_features.csv
 mean_reverting_apply_1/NEOUSDT/daily_timebar.csv
 mean_reverting_apply_1/NEOUSDT/minute_timebar.csv
 mean_reverting_apply_1/NEOUSDT/x_features_clean.csv
 mean_reverting_apply_1/NEOUSDT/x_y.csv
 
 mean_reverting_apply_1/BNBUSDT/dol_bar.csv
-mean_reverting_apply_1/BNBUSDT/x_features.csv
+#mean_reverting_apply_1/BNBUSDT/x_features.csv
 mean_reverting_apply_1/BNBUSDT/daily_timebar.csv
 mean_reverting_apply_1/BNBUSDT/minute_timebar.csv
 mean_reverting_apply_1/BNBUSDT/x_features_clean.csv
