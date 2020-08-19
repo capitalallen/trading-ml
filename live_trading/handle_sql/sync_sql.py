@@ -33,9 +33,9 @@ def sync_dol_bar(pair,db_name,record_name,threhold,interval='1m'):
     # 'features.sqlite',"x_features"
     pre_sql = psql.Preprocess_sql(db_name,record_name) 
     time = str(pre_sql.get_last_n(1).date_time[0])
+    # get klines from last time to current time 
+    klines = get_data.get_klines_df(time,symbol=pair,interval=interval)
     if get_data.is_limit(klines,threhold):
-        # get klines from last time to current time 
-        klines = get_data.get_klines_df(time,symbol=pair,interval=interval)
         #convert klines to dol_bar
         dol_bar = get_data.form_dol_bar(klines,threhold)
 
