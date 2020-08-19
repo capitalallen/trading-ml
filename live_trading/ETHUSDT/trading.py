@@ -7,6 +7,7 @@ sys.path.append("../handle_sql")
 sys.path.append("../preprocessing")
 sys.path.append('../logs_use')
 sys.path.append("../message")
+sys.path.append('../alter_config')
 # sys.path.append("../mean_reverting")
 import get_predict
 import preprocess_sql as psql
@@ -15,6 +16,7 @@ import proprecess
 import logging_funcs
 import trade_long_short as tls 
 import send_sms
+import change_config
 """
 
 if side is not none 
