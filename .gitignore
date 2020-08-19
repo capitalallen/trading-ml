@@ -1,4 +1,5 @@
 live_trading/data/
+live_trading/data/WiredTiger.turtle
 mean_reverting_apply_1/ETHUSDT/dol_bar.csv
 #mean_reverting_apply_1/ETHUSDT/x_features.csv
 mean_reverting_apply_1/ETHUSDT/daily_timebar.csv
