@@ -42,6 +42,7 @@ def trade_ex():
                         Process(target=trailing_mkt.mkt_short_trailing, args=(pair,quantity,'short',trigger_per,deviation,stop_loss_per,)).start()
                     except:
                         message_func.send_a_message("short buy failed")
+                break
                 time.sleep(150)
         elif val=="3":
             break

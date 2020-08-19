@@ -27,7 +27,7 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['long']
+        configs["transaction"]=transactions['transaction_long']
         configs['leverage_rate'] = controls['lev_long']
         # if not configs['discount_rate']:
         #     configs['price'] = configs['price']*(1-configs['discount_rate'])
@@ -40,7 +40,7 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['short']
+        configs["transaction"]=transactions['transaction_short']
         configs['leverage_rate'] = controls['lev_short']
         # if not configs['discount_rate']:
         #     configs['price'] = configs['price']*(1+configs['discount_rate'])
@@ -50,13 +50,14 @@ def get_configs(pair,type):
 
 def compute_quantity(configs):
     q = configs['leverage_rate']*configs['transaction']/configs['price'] 
+    print(configs['transaction'],configs['price'] )
     return round(q*0.95,2)
 
 def get_quantity(pair,type):
     configs = get_configs(pair,type)
     return compute_quantity(configs)
     
-def trade_long_ex(pair="BTCUSDT"):
+def trade_long_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"long")
     quantity = compute_quantity(configs)
     trade_ex = transaction.Buy_sell()
@@ -67,7 +68,7 @@ def trade_long_ex(pair="BTCUSDT"):
     mess = send_sms.Send_message()
     mess.send_a_message(message)
     return his 
-def trade_short_ex(pair="BTCUSDT"):
+def trade_short_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"short")
     quantity = compute_quantity(configs)
     trade_ex = transaction.Buy_sell()
