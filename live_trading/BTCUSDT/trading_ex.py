@@ -7,8 +7,8 @@ def trade_ex():
     record_name="BTCUSDT"
     threshold = 7127690
     column_path = "column_order.json"
-    val = input("1 for sync; 2 for start trading; 3 for quite: ")
     while True:
+        val = input("1 for sync; 2 for start trading; 3 for quite: ")
         if val == "1":
             ss = sync_sql.sync_dol_bar("BTCUSDT",db_name,record_name,threshold)
         elif val == "2":
@@ -18,7 +18,5 @@ def trade_ex():
                 time.sleep(200)
         elif val=="3":
             break
-        else:
-            val = input("1 for sync; 2 for start trading; 3 for quite")
 
 trade_ex()
