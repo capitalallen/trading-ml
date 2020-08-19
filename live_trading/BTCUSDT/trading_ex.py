@@ -1,5 +1,6 @@
 import trading 
 import sys 
+import time
 sys.path.append("../handle_sql")
 import sync_sql
 def trade_ex():
