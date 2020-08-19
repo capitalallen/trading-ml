@@ -76,7 +76,7 @@ class Trading:
             p.combine_df(last_twenty,dol_bar)
             p.add_features()
             new_bars = p.get_df2() 
-            # self.pre_sql.store_df(new_bars)
+            self.pre_sql.store_df(new_bars)
             df = new_bars.iloc[-1]
             print("last one")
             print(df)
