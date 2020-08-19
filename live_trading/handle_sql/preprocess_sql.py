@@ -7,6 +7,7 @@ class Preprocess_sql:
         self.record_name = record_name 
     # retrive last n rows of data and convert to df 
     def get_last_n(self,n):
+        print(self.db_path)
         conn = sqlite3.connect(self.db_path)
         cur = conn.cursor() 
         statement = 'SELECT * FROM ' + self.record_name + ' ORDER BY date_time DESC LIMIT '+str(n)
