@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 import json 
+from multiprocessing import Pool
 def save_low_high(path):
     x_path = path + "x_features.csv"
     df = pd.read_csv(x_path,index_col=0)
@@ -55,8 +56,14 @@ def low_high_stats(path):
            "<0":df0/df.shape[0]}
     with open(path+"long_short_range.json",'w') as f:
         json.dump({"long":low,"short":high},f)
-path = "./BTCUSDT/"
-low_high_stats(path)
+def ex_funcs(path):
+    save_low_high(path)
+    low_high_stats(path)
+
+path = ["./ETHUSDT/","./BNBUSDT/","./IOTAUSDT/"]
+p = Pool(len(path))
+p.map(ex_funcs,path)
+
 # save_low_high(path)
 
 # x_path = path + "x_features.csv"

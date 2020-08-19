@@ -55,20 +55,23 @@ def compute_quantity(configs):
     else:
         return round(q,2) 
 
-def trade_long_ex(pair="BTCUSDT"):
+def trade_long_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"long")
     quantity = compute_quantity(configs)
     trade_ex = transaction.Buy_sell()
     his = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs['price'],q=quantity,side="BUY",leverage=configs['leverage_rate'])
+    #long with mkt price
+    configs['price']=None
     message = pair +" long at " + str(configs['price']) + ". Quantity: "+str(quantity)
     mess = send_sms.Send_message()
     mess.send_a_message(message)
     return his 
-def trade_short_ex(pair="BTCUSDT"):
+def trade_short_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"short")
     quantity = compute_quantity(configs)
     trade_ex = transaction.Buy_sell()
-    price = None
+    #short with mkt price
+    configs['price']=None
     his = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs['price'],q=quantity,side="SELL",positionSide="SHORT",leverage=configs['leverage_rate'])
     
     message = pair +" short at " + str(configs['price']) + ". Quantity: "+str(quantity)

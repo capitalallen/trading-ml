@@ -1,6 +1,7 @@
 import pandas as pd 
 import sys
 import json 
+import time
 sys.path.append("../model_use")
 sys.path.append("../alter_config")
 sys.path.append("../data_getter")
@@ -76,7 +77,7 @@ class Trading:
             p.combine_df(last_twenty,dol_bar)
             p.add_features()
             new_bars = p.get_df2() 
-            # self.pre_sql.store_df(new_bars)
+            self.pre_sql.store_df(new_bars)
             df = new_bars.iloc[-1]
             print("last one")
             print(df)
