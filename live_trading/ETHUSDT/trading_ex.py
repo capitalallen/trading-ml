@@ -22,6 +22,7 @@ def trade_ex():
     deviation=float(config_func.get("control",'deviation')), 
     stop_loss_per=int(config_func.get("control",'stop_loss_per'))
     message_func = send_sms.Send_message()
+    configs = change_config.Change_config() 
     while True:
         val = input("1 for sync; 2 for start trading; 3 for quite: ")
         if val == "1":

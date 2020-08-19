@@ -2,7 +2,6 @@ import pandas as pd
 import sys
 import json 
 sys.path.append("../model_use")
-sys.path.append("../alter_config")
 sys.path.append("../data_getter")
 sys.path.append("../handle_sql")
 sys.path.append("../preprocessing")
@@ -10,7 +9,6 @@ sys.path.append('../logs_use')
 sys.path.append("../message")
 # sys.path.append("../mean_reverting")
 import get_predict
-import change_config
 import preprocess_sql as psql
 import get_data
 import proprecess 
@@ -86,13 +84,15 @@ class Trading:
                 features = df[self.columns].tolist()
                 pred = int(self.predict.predict([features])[0])
                 num_allowed = self.configs.get_trading_num()
+                long_allowed = self.configs.query_config(self.pair,"long")
+                short_allowed = self.configs.query_config(self.pair,"short")
                 log['pred']=pred
                 log['num_allowed']=num_allowed
-                if num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
+                if long_allowed and num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
                     log['trade_long']="execuated"
                     self.log_func.insert_log(log)
                     return "long"
-                elif num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
+                elif short_allowed and num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
 
                     log['trade_short']="execuated"
                     self.log_func.insert_log(log)

@@ -63,6 +63,8 @@ class Change_config:
         val = self.get_trading_num()[trade_type]
         myquery = {trade_type:val}
         newvalues = {"$set":{trade_type:val+n}}
+        mycol.update_one(myquery,newvalues)
+
 # m = Change_config() 
 # print(m.get_pair_config("BTCUSDT"))
 # m.update_config("BTCUSDT","long",False)
