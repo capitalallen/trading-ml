@@ -1,0 +1,9 @@
+[control]
+pair = "ETHUSDT"
+threshold = 1913865.49
+db_name = "../pair_db/features.sqlite"
+record_name = "ETHUSDT"
+column_path = "column_order.json"
+trigger_per = 1 
+deviation = 0.5 
+stop_loss_per = 2
