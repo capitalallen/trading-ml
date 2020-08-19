@@ -1,23 +1,22 @@
 import pandas as pd 
 import sys
 import json 
-import time
 sys.path.append("../model_use")
-sys.path.append("../alter_config")
 sys.path.append("../data_getter")
 sys.path.append("../handle_sql")
 sys.path.append("../preprocessing")
 sys.path.append('../logs_use')
 sys.path.append("../message")
+sys.path.append('../alter_config')
 # sys.path.append("../mean_reverting")
 import get_predict
-import change_config
 import preprocess_sql as psql
 import get_data
 import proprecess 
 import logging_funcs
 import trade_long_short as tls 
 import send_sms
+import change_config
 """
 
 if side is not none 
@@ -79,28 +78,31 @@ class Trading:
             new_bars = p.get_df2() 
             self.pre_sql.store_df(new_bars)
             df = new_bars.iloc[-1]
+            print("last one")
+            print(df)
             df = df.where(pd.notnull(df), None)
-            return
             log['side']=df['side']
             if df['side']:
                 features = df[self.columns].tolist()
                 pred = int(self.predict.predict([features])[0])
                 num_allowed = self.configs.get_trading_num()
+                long_allowed = self.configs.query_config(self.pair,"long")
+                short_allowed = self.configs.query_config(self.pair,"short")
                 log['pred']=pred
                 log['num_allowed']=num_allowed
-                if num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
-                    try:
-                        tls.trade_long_ex()
-                        log['trade_long']="execuated"
-                        print("trade long")
-                        self.configs.update_trading_num("long",-1)
-                    except:
-                        self.message_func.send_a_message("short failed")
-                elif num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
-                    try:
-                        tls.trade_short_ex()
-                        log['trade_short']="execuated"
-                        self.configs.update_trading_num("short",-1)
-                    except:
-                        self.message_func.send_a_message("short failed")
-            self.log_func.insert_log(log)
+                if long_allowed and num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
+                    log['trade_long']="execuated"
+                    self.log_func.insert_log(log)
+                    return "long"
+                elif short_allowed and num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
+
+                    log['trade_short']="execuated"
+                    self.log_func.insert_log(log)
+                    return "short"
+                else:
+                    return "N" 
+                    self.log_func.insert_log(log)
+            else:
+                self.log_func.insert_log(log)
+                return "N" 
+

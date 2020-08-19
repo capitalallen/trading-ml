@@ -27,10 +27,10 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['transaction_long']
+        configs["transaction"]=transactions['long']
         configs['leverage_rate'] = controls['lev_long']
-        if not configs['discount_rate']:
-            configs['price'] = configs['price']*(1-configs['discount_rate'])
+        # if not configs['discount_rate']:
+        #     configs['price'] = configs['price']*(1-configs['discount_rate'])
     elif type=="short":
         transactions = config_func.get_trading_num()
 
@@ -40,26 +40,29 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['transaction_short']
+        configs["transaction"]=transactions['short']
         configs['leverage_rate'] = controls['lev_short']
-        if not configs['discount_rate']:
-            configs['price'] = configs['price']*(1+configs['discount_rate'])
+        # if not configs['discount_rate']:
+        #     configs['price'] = configs['price']*(1+configs['discount_rate'])
     else:
         print("type invalid")
     return configs
 
 def compute_quantity(configs):
     q = configs['leverage_rate']*configs['transaction']/configs['price'] 
-    if round(q,3)>q: 
-        return round(q,2)-0.01
-    else:
-        return round(q,2) 
+    return round(q*0.95,2)
 
+def get_quantity(pair,type):
+    configs = get_configs(pair,type)
+    return compute_quantity(configs)
+    
 def trade_long_ex(pair="BTCUSDT"):
     configs = get_configs(pair,"long")
     quantity = compute_quantity(configs)
     trade_ex = transaction.Buy_sell()
     his = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs['price'],q=quantity,side="BUY",leverage=configs['leverage_rate'])
+    #long with mkt price
+    configs['price']=None
     message = pair +" long at " + str(configs['price']) + ". Quantity: "+str(quantity)
     mess = send_sms.Send_message()
     mess.send_a_message(message)
@@ -68,6 +71,8 @@ def trade_short_ex(pair="BTCUSDT"):
     configs = get_configs(pair,"short")
     quantity = compute_quantity(configs)
     trade_ex = transaction.Buy_sell()
+    #short with mkt price
+    configs['price']=None
     his = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs['price'],q=quantity,side="SELL",positionSide="SHORT",leverage=configs['leverage_rate'])
     
     message = pair +" short at " + str(configs['price']) + ". Quantity: "+str(quantity)
