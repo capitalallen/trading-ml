@@ -2,6 +2,7 @@ import trading
 import sys 
 sys.path.append("../handle_sql")
 import sync_sql
+import time
 def trade_ex():
     db_name= "../pair_db/features.sqlite"
     record_name="ETHUSDT"
