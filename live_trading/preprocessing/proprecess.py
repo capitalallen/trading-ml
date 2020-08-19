@@ -27,7 +27,6 @@ class Proprecessing:
         f.add_rsi()
         f.add_srsi()
         f.add_trending_signal()
-    
     def get_df2(self):
         return self.df.iloc[self.df2_start_index:]
     

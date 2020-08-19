@@ -72,16 +72,15 @@ class Trading:
             #calculate features 
             #get only df2 
             #store to db 
-            last_twenty = self.pre_sql.get_last_n(25)
+            last_twenty = self.pre_sql.get_last_n(50)
             p = proprecess.Proprecessing()
             p.combine_df(last_twenty,dol_bar)
             p.add_features()
             new_bars = p.get_df2() 
             self.pre_sql.store_df(new_bars)
             df = new_bars.iloc[-1]
-            print("last one")
-            print(df)
             df = df.where(pd.notnull(df), None)
+            return
             log['side']=df['side']
             if df['side']:
                 features = df[self.columns].tolist()

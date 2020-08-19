@@ -71,7 +71,7 @@ class Trading:
             #calculate features 
             #get only df2 
             #store to db 
-            last_twenty = self.pre_sql.get_last_n(25)
+            last_twenty = self.pre_sql.get_last_n(50)
             p = proprecess.Proprecessing()
             p.combine_df(last_twenty,dol_bar)
             p.add_features()
