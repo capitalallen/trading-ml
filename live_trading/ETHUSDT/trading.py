@@ -76,7 +76,7 @@ class Trading:
             p.combine_df(last_twenty,dol_bar)
             p.add_features()
             new_bars = p.get_df2() 
-            # self.pre_sql.store_df(new_bars)
+            self.pre_sql.store_df(new_bars)
             df = new_bars.iloc[-1]
             print("last one")
             print(df)
@@ -93,6 +93,7 @@ class Trading:
                     self.log_func.insert_log(log)
                     return "long"
                 elif num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
+
                     log['trade_short']="execuated"
                     self.log_func.insert_log(log)
                     return "short"
@@ -102,3 +103,4 @@ class Trading:
             else:
                 self.log_func.insert_log(log)
                 return "N" 
+

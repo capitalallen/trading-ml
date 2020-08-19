@@ -8,10 +8,12 @@ import sync_sql
 import trailing_mkt
 import trade_long_short 
 import send_sms
+import time
+
 def trade_ex():
     db_name= "../pair_db/features.sqlite"
     record_name="ETHUSDT"
-    threshold = 7127690
+    threshold = 1913865.49
     column_path = "column_order.json"
     pair = "ETHUSDT"
     trigger_per=1, 
