@@ -79,3 +79,4 @@
 {"t":{"$date":"2020-08-18T22:27:49.306-04:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn17","msg":"connection ended","attr":{"remote":"127.0.0.1:57082","connectionCount":3}}
 {"t":{"$date":"2020-08-18T22:27:49.306-04:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn18","msg":"connection ended","attr":{"remote":"127.0.0.1:57083","connectionCount":1}}
 {"t":{"$date":"2020-08-18T22:27:49.306-04:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn16","msg":"connection ended","attr":{"remote":"127.0.0.1:57081","connectionCount":2}}
+{"t":{"$date":"2020-08-19T00:46:20.422-04:00"},"s":"I",  "c":"NETWORK",  "id":22944,   "ctx":"conn1","msg":"connection ended","attr":{"remote":"127.0.0.1:57021","connectionCount":0}}

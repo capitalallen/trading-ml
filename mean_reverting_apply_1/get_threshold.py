@@ -9,4 +9,4 @@ def threshold_getter_100(pair):
     df = pd.read_csv(path)
     return np.sum((df['open']+df['close'])/2*df['volume'])/df.shape[0]/100
 
-print(threshold_getter_50("BNBUSDT"))
+print(threshold_getter_50("ETHUSDT"))

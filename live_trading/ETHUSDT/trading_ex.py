@@ -1,13 +1,23 @@
 import trading 
 import sys 
+from multiprocessing import Process
 sys.path.append("../handle_sql")
+sys.path.append('../trade')
+sys.path.append('../message')
 import sync_sql
+import trailing_mkt
+import trade_long_short 
+import send_sms
 def trade_ex():
     db_name= "../pair_db/features.sqlite"
     record_name="ETHUSDT"
     threshold = 7127690
     column_path = "column_order.json"
     pair = "ETHUSDT"
+    trigger_per=1, 
+    deviation=0.5, 
+    stop_loss_per=2
+    message_func = send_sms.Send_message()
     while True:
         val = input("1 for sync; 2 for start trading; 3 for quite: ")
         if val == "1":
@@ -15,7 +25,21 @@ def trade_ex():
         elif val == "2":
             t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)
             while True:
-                t.live_trading()
+                result = t.live_trading()
+                if result == "long":
+                    try:
+                        quantity = trade_long_short.get_quantity(pair,"long")
+                        # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                        Process(target=trailing_mkt.mkt_long_trailing, args=(pair,quantity,'long',trigger_per,deviation,stop_loss_per)).start()
+                    except:
+                        message_func.send_a_message("long buy failed")
+                elif result == 'short':
+                    try:
+                        quantity = trade_long_short.get_quantity(pair,"short")
+                        # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                        Process(target=trailing_mkt.mkt_short_trailing, args=(pair,quantity,'short',trigger_per,deviation,stop_loss_per)).start()
+                    except:
+                        message_func.send_a_message("short buy failed")
                 time.sleep(200)
         elif val=="3":
             break

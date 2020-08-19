@@ -89,18 +89,16 @@ class Trading:
                 log['pred']=pred
                 log['num_allowed']=num_allowed
                 if num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
-                    try:
-                        tls.trade_long_ex()
-                        log['trade_long']="execuated"
-                        print("trade long")
-                        self.configs.update_trading_num("long",-1)
-                    except:
-                        self.message_func.send_a_message("short failed")
+                    log['trade_long']="execuated"
+                    self.log_func.insert_log(log)
+                    return "long"
                 elif num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
-                    try:
-                        tls.trade_short_ex()
-                        log['trade_short']="execuated"
-                        self.configs.update_trading_num("short",-1)
-                    except:
-                        self.message_func.send_a_message("short failed")
-            self.log_func.insert_log(log)
+                    log['trade_short']="execuated"
+                    self.log_func.insert_log(log)
+                    return "short"
+                else:
+                    return "N" 
+                    self.log_func.insert_log(log)
+            else:
+                self.log_func.insert_log(log)
+                return "N" 

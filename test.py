@@ -1,4 +1,6 @@
-from data_downloader import data_getter
+from multiprocessing import Process
 
-d = data_getter()
-print(d.get_all_binance("BNBUSDT", "1d"))
+def test(num):
+    print(num)
+for i in range(3):
+    Process(target=test, args=(i,)).start()
