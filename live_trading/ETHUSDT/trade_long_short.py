@@ -27,7 +27,7 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['transaction_long']
+        configs["transaction"]=transactions['long']
         configs['leverage_rate'] = controls['lev_long']
         # if not configs['discount_rate']:
         #     configs['price'] = configs['price']*(1-configs['discount_rate'])
@@ -40,7 +40,7 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['transaction_short']
+        configs["transaction"]=transactions['short']
         configs['leverage_rate'] = controls['lev_short']
         # if not configs['discount_rate']:
         #     configs['price'] = configs['price']*(1+configs['discount_rate'])
@@ -50,11 +50,11 @@ def get_configs(pair,type):
 
 def compute_quantity(configs):
     q = configs['leverage_rate']*configs['transaction']/configs['price'] 
-    return round(q*0.9,2)
+    return round(q*0.95,2)
 
 def get_quantity(pair,type):
     configs = get_configs(pair,type)
-    compute_quantity(configs)
+    return compute_quantity(configs)
     
 def trade_long_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"long")
