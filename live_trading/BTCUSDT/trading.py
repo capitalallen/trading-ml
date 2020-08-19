@@ -54,9 +54,11 @@ class Trading:
         self.short_strategy = self.configs.query_config(self.pair,"short_strategy")
 
     def live_trading(self):
+        print("start live trading")
         time = str(self.pre_sql.get_last_n(1).date_time[0])
         # get klines from last time to current time 
         klines = get_data.get_klines_df(time,symbol=self.pair,interval=self.interval)
+        print("get klines")
         if get_data.is_limit(klines,self.threshold):
             log = {}
             log["is_limit()"] ="klines dollar value > threshold"
