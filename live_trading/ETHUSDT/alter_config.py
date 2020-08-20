@@ -18,6 +18,6 @@ def get_strategy(pair="ETHUSDT"):
 pair = "ETHUSDT"
 #change_strategy(pred=1,side=-1,pair='ETHUSDT',strategy="long_strategy")
 #change_strategy(pred=0,side=-1,pair='ETHUSDT',strategy="short_strategy")
-#change_discount(pair="ETHUSDT",type="long_p",rate=0)
+change_discount(pair="ETHUSDT",type="long_p",rate=0.005)
 #change_discount(pair="ETHUSDT",type="short_p",rate=0)
 get_strategy(pair)

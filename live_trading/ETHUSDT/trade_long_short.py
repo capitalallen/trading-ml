@@ -29,8 +29,8 @@ def get_configs(pair,type):
         configs['price']=curr_price
         configs["transaction"]=transactions['transaction_long']
         configs['leverage_rate'] = controls['lev_long']
-        # if not configs['discount_rate']:
-        #     configs['price'] = configs['price']*(1-configs['discount_rate'])
+        if not configs['discount_rate']:
+            configs['price'] = configs['price']*(1-configs['discount_rate'])
     elif type=="short":
         transactions = config_func.get_trading_num()
 
@@ -42,8 +42,8 @@ def get_configs(pair,type):
         configs['price']=curr_price
         configs["transaction"]=transactions['transaction_short']
         configs['leverage_rate'] = controls['lev_short']
-        # if not configs['discount_rate']:
-        #     configs['price'] = configs['price']*(1+configs['discount_rate'])
+        if not configs['discount_rate']:
+            configs['price'] = configs['price']*(1+configs['discount_rate'])
     else:
         print("type invalid")
     return configs
@@ -51,11 +51,13 @@ def get_configs(pair,type):
 def compute_quantity(configs):
     q = configs['leverage_rate']*configs['transaction']/configs['price'] 
     print(configs['transaction'],configs['price'] )
-    return round(q*0.95,2)
+    return round(q*0.9,2)
 
 def get_quantity(pair,type):
     configs = get_configs(pair,type)
-    return compute_quantity(configs)
+    price = configs['price']
+    quantity = compute_quantity(configs)
+    return {'price':price,'quantity':quantity}
     
 def trade_long_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"long")
