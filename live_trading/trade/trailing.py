@@ -76,22 +76,24 @@ class Trailing:
     """
 
     def trailing_stop_long(self):
+        error = ""
         try:
             # send message start trailing
             self.messaging.send_a_message("trailing start!")
             self.get_price()
-
+            error="updating current price"
             # when current price less than trigger price and larger than stop loss
             while self.curr_price <= self.trigger_p and self.curr_price >= self.stop_loss:
                 time.sleep(1.5)
                 self.get_price()
                 print("trigger:",self.trigger_p,"stop loss:",self.stop_loss, "current_price: ",self.curr_price)
-            
+            error="prepare to sell"
             # when current price less or equal to stop loss price, sell 
             if self.curr_price <= self.stop_loss:
                 self.transaction_func.mkt_buy_sell_future(
                     self.pair, self.quantity,positionSide="LONG",side='SELL')
             else:
+                error = "trailing"
                 max_p = self.curr_price
                 while self.curr_price >= self.trailing_p:
                     self.get_price()
@@ -102,16 +104,10 @@ class Trailing:
                     time.sleep(1)
                 self.transaction_func.mkt_buy_sell_future(
                     self.pair, self.quantity,positionSide="LONG",side='SELL')
-
-            if sell_log:
-                print("sold",self.curr_price)
-                self.update_profoilo(sell_log)
                 self.messaging.send_a_message("sold!")
-            else:
-                print("error")
             return True
         except:
-             self.messaging.send_a_message("long trailing failed!")
+             self.messaging.send_a_message(error)
 
     def trailing_stop_short(self):
         try:
