@@ -21,10 +21,16 @@ def off_long_short(pair,t,switch):
             cc.update_config(pair,"long",switch)
         elif t == "short":
             cc.update_config(pair,"short",switch)
+
+def change_lev(pair,lev_type,rate):
+    cc = change_config.Change_config()
+    cc.update_config(pair,lev_type,rate)
+
 pair = 'XRPUSDT'
-change_strategy(pred=1,side=-1,pair=pair,strategy="long_strategy")
-change_strategy(pred=0,side=-1,pair=pair,strategy="short_strategy")
-change_discount(pair=pair,type="long_p",rate=0)
-change_discount(pair=pair,type="short_p",rate=0)
-off_long_short(pair,'short',False)
+# change_strategy(pred=1,side=-1,pair=pair,strategy="long_strategy")
+# change_strategy(pred=0,side=-1,pair=pair,strategy="short_strategy")
+# change_discount(pair=pair,type="long_p",rate=0)
+# change_discount(pair=pair,type="short_p",rate=0)
+# off_long_short(pair,'short',False)
+change_lev(pair,'lev_long',30)
 get_strategy(pair)
