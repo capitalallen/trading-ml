@@ -13,7 +13,7 @@ def trade_ex(val):
     db_name= "../pair_db/features.sqlite"
     record_name="XRPUSDT"
     threshold = 701268.8
-    column_path = "column_order.json"
+    column_path = "../XRPUSDT/column_order.json"
     pair ="XRPUSDT"
     trigger_per=1 
     deviation=0.5
@@ -23,7 +23,7 @@ def trade_ex(val):
     if val == 1:
         ss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)
     elif val == 2:
-        t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)
+        t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="../XRPUSDT/model.joblib",columns_path=column_path)
         while True:
             result = t.live_trading()
             if result == "long":

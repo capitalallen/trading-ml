@@ -12,7 +12,7 @@ import time
 def trade_ex():
     db_name= "../pair_db/features.sqlite"
     record_name="BTCUSDT"
-    threshold = 1913865.49
+    threshold = 7127690.2
     column_path = "column_order.json"
     pair ="BTCUSDT"
     trigger_per=1 
