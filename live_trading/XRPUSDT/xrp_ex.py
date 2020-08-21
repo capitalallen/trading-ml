@@ -26,7 +26,9 @@ def trade_ex(val):
         t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="../XRPUSDT/model.joblib",columns_path=column_path)
         while True:
             result = t.live_trading()
+            print("-----XRP---------")
             if result == "long":
+                print("-----XRP long------")
                 try:
                     quantity = trade_long_short.get_quantity(pair,"long")
                     # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
@@ -34,6 +36,7 @@ def trade_ex(val):
                 except:
                     message_func.send_a_message("long buy failed")
             elif result == 'short':
+                print("-----XRP short------")
                 try:
                     quantity = trade_long_short.get_quantity(pair,"short")
                     # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2

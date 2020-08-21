@@ -32,5 +32,5 @@ pair = 'XRPUSDT'
 # change_discount(pair=pair,type="long_p",rate=0)
 # change_discount(pair=pair,type="short_p",rate=0)
 # off_long_short(pair,'short',False)
-change_lev(pair,'lev_long',30)
+#change_lev(pair,'lev_long',30)
 get_strategy(pair)
