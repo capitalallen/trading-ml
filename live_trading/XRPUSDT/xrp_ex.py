@@ -30,7 +30,7 @@ def trade_ex(val):
             if result == "long":
                 print("-----XRP long------")
                 try:
-                    quantity = trade_long_short.get_quantity(pair,"long")
+                    quantity = round(trade_long_short.get_quantity(pair,"long"),1)
                     # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                     Process(target=trailing_mkt.mkt_long_trailing, args=(pair,quantity,'long',trigger_per,deviation,stop_loss_per,)).start()
                 except:
@@ -38,7 +38,7 @@ def trade_ex(val):
             elif result == 'short':
                 print("-----XRP short------")
                 try:
-                    quantity = trade_long_short.get_quantity(pair,"short")
+                    quantity = round(trade_long_short.get_quantity(pair,"short"),1)
                     # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                     Process(target=trailing_mkt.mkt_short_trailing, args=(pair,quantity,'short',trigger_per,deviation,stop_loss_per,)).start()
                 except:
