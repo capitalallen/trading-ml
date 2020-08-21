@@ -60,7 +60,7 @@ def ex_funcs(path):
     save_low_high(path)
     low_high_stats(path)
 
-path = ["./ETHUSDT/","./BNBUSDT/","./IOTAUSDT/"]
+path = ["./XRPUSDT/",]
 p = Pool(len(path))
 p.map(ex_funcs,path)
 
