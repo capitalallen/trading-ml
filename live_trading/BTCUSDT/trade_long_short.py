@@ -23,7 +23,7 @@ def get_configs(pair,type):
         
         lev_long = controls['lev_long']
         dicount_rate=controls['long_p']
-        curr_price = price.get_price(pair)
+        curr_price = round(price.get_price(pair),2)
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
@@ -36,7 +36,7 @@ def get_configs(pair,type):
 
         lev_long = controls['lev_short']
         dicount_rate=controls['short_p']
-        curr_price = price.get_price(pair)
+        curr_price = round(price.get_price(pair),2)
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price

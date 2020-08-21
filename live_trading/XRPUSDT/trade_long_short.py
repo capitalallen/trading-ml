@@ -23,27 +23,28 @@ def get_configs(pair,type):
         
         lev_long = controls['lev_long']
         dicount_rate=controls['long_p']
-        curr_price = price.get_price(pair)
+        # precision 
+        curr_price = round(price.get_price(pair),3)
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
         configs["transaction"]=transactions['transaction_long']
         configs['leverage_rate'] = controls['lev_long']
-        # if not configs['discount_rate']:
-        #     configs['price'] = configs['price']*(1-configs['discount_rate'])
+        if not configs['discount_rate']:
+            configs['price'] = configs['price']*(1-configs['discount_rate'])
     elif type=="short":
         transactions = config_func.get_trading_num()
 
         lev_long = controls['lev_short']
         dicount_rate=controls['short_p']
-        curr_price = price.get_price(pair)
+        curr_price = round(price.get_price(pair),3)
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
         configs["transaction"]=transactions['transaction_short']
         configs['leverage_rate'] = controls['lev_short']
-        # if not configs['discount_rate']:
-        #     configs['price'] = configs['price']*(1+configs['discount_rate'])
+        if not configs['discount_rate']:
+            configs['price'] = configs['price']*(1+configs['discount_rate'])
     else:
         print("type invalid")
     return configs

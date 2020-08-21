@@ -73,7 +73,7 @@ class Buy_sell:
         return his 
     # LONG OR SHORT 
     def mkt_buy_sell_future(self,pair,quantity,positionSide="LONG",side='BUY',leverage=0):
-        his = self.binance_client.futures_create_order(symbol=pair,side=side,type="MARKET",quantity=quantity,positionSide=positionSide)
+        his = self.binance_client.futures_create_order(symbol=pair,side=side,type="MARKET",quantity=str(quantity),positionSide=positionSide)
         return his    
 
     def limit_buy_sell_future(self,pair,price,quantity,positionSide="LONG",side='BUY'):
@@ -85,7 +85,7 @@ class Buy_sell:
             self.change_margin_type_future(pair,"ISOLATED")
         except:
             print("not need to change margin type")
-        his = self.binance_client.futures_create_order(symbol=pair,side=side,price=price,type="LIMIT",quantity=quantity,positionSide=positionSide)
+        his = self.binance_client.futures_create_order(symbol=pair,side=side,price=str(price),type="LIMIT",quantity=str(quantity),positionSide=positionSide)
         return his           
     
     def change_leverage_future(self,pair,leverage):
