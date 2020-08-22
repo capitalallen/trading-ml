@@ -25,6 +25,7 @@ def mkt_long_trailing(pair,quantity,trade_type='long',trigger_per=1, deviation=0
     configs.update_trading_num("long",1)
     print("successful")
 def mkt_short_trailing(pair,quantity,trade_type='short',trigger_per=1, deviation=0.5, stop_loss_per=2):
+    configs = change_config.Change_config()
     transaction_func = transaction.Buy_sell()
     trailing_func = trailing.Trailing(q=quantity,trade_type=trade_type,trigger_per=trigger_per, deviation=deviation, stop_loss_per=stop_loss_per, pair=pair)
     # buy 
@@ -69,6 +70,7 @@ def limit_long_trailing(pair,long_price,quantity,trade_type='long',trigger_per=1
     configs.update_trading_num("long",1)
     print("successful")
 def limit_short_trailing(pair,short_price,quantity,trade_type='short',trigger_per=1, deviation=0.5, stop_loss_per=2):
+    configs = change_config.Change_config()
     transaction_func = transaction.Buy_sell()
     trailing_func = trailing.Trailing(q=quantity,trade_type=trade_type,trigger_per=trigger_per, deviation=deviation, stop_loss_per=stop_loss_per, pair=pair)
     # buy
