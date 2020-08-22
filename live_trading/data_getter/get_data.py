@@ -30,7 +30,7 @@ is_limit(df,limit)
 check if (open+close)/2*volume >=limit
 """
 def is_limit(df,threshold):
-    return ((df['open']+df['close'])/2*df['volume']).sum() >= threshold
+    return ((df['open']+df['close'])/2*df['volume']).sum() > threshold
 
 """
 form_dol

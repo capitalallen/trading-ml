@@ -71,17 +71,22 @@ class Trading:
             #calculate features 
             #get only df2 
             #store to db 
-            last_twenty = self.pre_sql.get_last_n(50)
-            p = proprecess.Proprecessing()
-            p.combine_df(last_twenty,dol_bar)
-            p.add_features()
-            new_bars = p.get_df2() 
-            self.pre_sql.store_df(new_bars)
-            df = new_bars.iloc[-1]
-            print("last one")
-            print(df)
-            df = df.where(pd.notnull(df), None)
-            log['side']=df['side']
+            try:
+                last_twenty = self.pre_sql.get_last_n(50)
+                p = proprecess.Proprecessing()
+                p.combine_df(last_twenty,dol_bar)
+                p.add_features()
+                new_bars = p.get_df2() 
+                self.pre_sql.store_df(new_bars)
+                df = new_bars.iloc[-1]
+                print("last one")
+                print(df)
+                df = df.where(pd.notnull(df), None)
+                log['side']=df['side']
+            except:
+                self.message_func.send_a_message("Eth trading error - trading.py")
+                self.log_func.insert_log(str(klines)+" "+ self.threshold)
+                return 'N'
             if df['side']:
                 features = df[self.columns].tolist()
                 pred = int(self.predict.predict([features])[0])

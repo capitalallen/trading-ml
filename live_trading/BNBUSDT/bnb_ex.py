@@ -16,7 +16,7 @@ def trade_ex(val):
     column_path = "../BNBUSDT/column_order.json"
     pair ="BNBUSDT"
     trigger_per=1 
-    deviation=0.5
+    deviation=1
     stop_loss_per= 2
     message_func = send_sms.Send_message()
     #configs = change_config.Change_config() 
