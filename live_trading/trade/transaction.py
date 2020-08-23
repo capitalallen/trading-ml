@@ -76,7 +76,7 @@ class Buy_sell:
         his = self.binance_client.futures_create_order(symbol=pair,side=side,type="MARKET",quantity=str(quantity),positionSide=positionSide)
         return his    
 
-    def limit_buy_sell_future(self,pair,price,quantity,positionSide="LONG",side='BUY'):
+    def limit_buy_sell_future(self,pair,price,quantity,positionSide="LONG",side='BUY',leverage=0):
         try:
             self.change_leverage_future(pair,leverage)
         except:

@@ -30,7 +30,7 @@ def mkt_short_trailing(pair,quantity,trade_type='short',trigger_per=1, deviation
     trailing_func = trailing.Trailing(q=quantity,trade_type=trade_type,trigger_per=trigger_per, deviation=deviation, stop_loss_per=stop_loss_per, pair=pair)
     # buy 
     configs.update_trading_num("short",-1)
-    buy = transaction_func.mkt_buy_sell_future(pair=pair,quantity=quantity,positionSide="SHORT",side='BUY')
+    buy = transaction_func.mkt_buy_sell_future(pair=pair,quantity=quantity,positionSide="SHORT",side='SELL')
     # trailing 
     configs.update_trading_num("long",-1)
     trailing_func.trailing_stop_short()
@@ -87,14 +87,16 @@ def limit_short_trailing(pair,short_price,quantity,trade_type='short',trigger_pe
     """
     start_time = int(time.time())
     curr_price = price.get_price(pair)
+    print("current price:",curr_price)
     while curr_price < short_price:
+        print("current price: ",curr_price," short price: ",short_price)
         time.sleep(1.5)
         if int(time.time())>start_time+7200:
             print("time expired")
             return 
         curr_price = price.get_price(pair)  
     else:     
-        buy = transaction_func.mkt_buy_sell_future(pair=pair,quantity=quantity,positionSide="SHORT",side='BUY')
+        buy = transaction_func.mkt_buy_sell_future(pair=pair,quantity=quantity,positionSide="SHORT",side='SELL')
     configs.update_trading_num("short",-1)
     # trailing 
     configs.update_trading_num("long",-1)
