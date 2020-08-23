@@ -34,14 +34,14 @@ def trade_ex():
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                         Process(target=trailing_mkt.mkt_long_trailing, args=(pair,quantity,'long',trigger_per,deviation,stop_loss_per,)).start()
                     except:
-                        message_func.send_a_message("long buy failed")
+                        message_func.send_a_message("BTC long buy failed")
                 elif result == 'short':
                     try:
                         quantity = trade_long_short.get_quantity(pair,"short")
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                         Process(target=trailing_mkt.mkt_short_trailing, args=(pair,quantity,'short',trigger_per,deviation,stop_loss_per,)).start()
                     except:
-                        message_func.send_a_message("short buy failed")
+                        message_func.send_a_message("BTC short buy failed")
                 time.sleep(150)
         elif val=="3":
             break

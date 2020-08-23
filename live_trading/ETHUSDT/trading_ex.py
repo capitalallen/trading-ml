@@ -35,7 +35,7 @@ def trade_ex():
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                         Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],p_q['quantity'],'long',trigger_per,deviation,stop_loss_per,)).start()
                     except:
-                        message_func.send_a_message("long buy failed")
+                        message_func.send_a_message("ETH long buy failed")
                 elif result == 'short':
                     message_func.send_a_message("ETH short signal")
                     try:
@@ -44,7 +44,7 @@ def trade_ex():
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                         Process(target=trailing_mkt.limit_short_trailing, args=(pair,p_q['price'],p_q['quantity'],'short',trigger_per,deviation,stop_loss_per,)).start()
                     except:
-                        message_func.send_a_message("short buy failed")
+                        message_func.send_a_message("ETH short buy failed")
                 time.sleep(150)
         elif val=="3":
             break
