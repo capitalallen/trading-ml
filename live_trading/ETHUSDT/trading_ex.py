@@ -29,6 +29,7 @@ def trade_ex():
             while True:
                 result = t.live_trading()
                 if result == "long":
+                    message_func.send_a_message("ETH long signal")
                     try:
                         p_q = trade_long_short.get_quantity(pair,"long")
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
@@ -36,6 +37,7 @@ def trade_ex():
                     except:
                         message_func.send_a_message("long buy failed")
                 elif result == 'short':
+                    message_func.send_a_message("ETH short signal")
                     try:
                         #price nad quantity
                         p_q = trade_long_short.get_quantity(pair,"short")
