@@ -16,6 +16,6 @@ import trailing_mkt
 # t.live_trading()
 # tm.limit_short_trailing("ETHUSDT",389.5,str(1),trade_type='short',trigger_per=1, deviation=0.5, stop_loss_per=2)
 # t = transaction.Buy_sell()
-# t.mkt_buy_sell_future("ETHUSDT",1,positionSide="SHORT",side='SELL',leverage=0)
+# t.mkt_buy_sell_future("ETHUSDT",1,positionSide="SHORT",side='BUY',leverage=0)
 
 # trailing_mkt.limit_long_trailing("BNBUSDT",22.01,1,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2)

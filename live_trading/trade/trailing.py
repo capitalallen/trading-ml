@@ -16,7 +16,7 @@ class Trailing:
         get current p 
     """
 
-    def __init__(self, q, trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2, pair="BTCUSDT"):
+    def __init__(self, q, trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2, pair="BTCUSDT",p=None):
         # trigger percentage 
         self.trigger_per = trigger_per/100
         # trailing percentage 
@@ -27,8 +27,8 @@ class Trailing:
         self.headers = {"Content-Type": "application/json"}
         self.url = "https://api.binance.com/api/v3/ticker/price?symbol="+pair
         self.pair = pair
-
-        p =  float(ast.literal_eval(requests.get(self.url, headers=self.headers).content.decode("UTF-8"))['price'])
+        if not p:
+            p =  float(ast.literal_eval(requests.get(self.url, headers=self.headers).content.decode("UTF-8"))['price'])
         if trade_type == 'long':
             # trigger price 
             self.trigger_p = p*(1+self.trigger_per)
@@ -124,7 +124,7 @@ class Trailing:
             # when current price less or equal to stop loss price, sell 
             if self.curr_price <= self.stop_loss:
                 self.transaction_func.mkt_buy_sell_future(
-                    self.pair, self.quantity,positionSide="SHORT",side='SELL')
+                    self.pair, self.quantity,positionSide="SHORT",side='BUY')
             else:
                 min_p = self.curr_price
                 while self.curr_price <= self.trailing_p:
@@ -135,7 +135,7 @@ class Trailing:
                         self.trailing_p = (1+self.deviation)*min_p
                     time.sleep(1)
                 self.transaction_func.mkt_buy_sell_future(
-                    self.pair, self.quantity,positionSide="SHORT",side='SELL')
+                    self.pair, self.quantity,positionSide="SHORT",side='BUY')
                 self.messaging.send_a_message("sold start!")
         except:
              self.messaging.send_a_message("short trailing failed!")
