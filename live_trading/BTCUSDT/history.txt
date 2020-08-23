@@ -1,0 +1,573 @@
+Script started on 2020-08-23 15:45:40+00:00 [TERM="screen" TTY="/dev/pts/4" COLUMNS="172" LINES="50"]
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ python3 trading_ex.py 
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(trading_ex.py:23543): Gdk-[1;35mCRITICAL[0m **: [34m15:45:50.684[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+1 for sync; 2 for start trading; 3 for quite: 2
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 15:55:00
+tick_num                             23
+open                            11623.9
+high                            11656.2
+low                             11610.5
+close                           11646.8
+volume                          627.622
+cum_buy_volume                   334.07
+cum_ticks                            23
+cum_dollar_value            7.30325e+06
+avg                             11623.3
+upper                           11674.1
+lower                           11572.6
+side                                NaN
+mom1                         0.00396776
+mom2                         0.00421105
+mom3                         0.00442579
+mom4                         0.00508459
+mom5                         0.00464239
+log_ret                      0.00395991
+volatility                   0.00198353
+autocorr_1                     -0.13078
+autocorr_2                    0.0424788
+autocorr_3                   -0.0200498
+autocorr_4                    -0.126802
+autocorr_5                     0.224376
+log_t1                      0.000242301
+log_t2                      0.000213809
+log_t3                       0.00065569
+log_t4                     -0.000440067
+log_t5                      -0.00138953
+fast_mavg                       11604.5
+slow_mavg                         11637
+rsi                                  64
+srsi                            34.9783
+sma                                  -1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 16:07:00
+tick_num                             12
+open                            11647.8
+high                            11655.9
+low                             11636.5
+close                             11646
+volume                          669.638
+cum_buy_volume                  373.075
+cum_ticks                            12
+cum_dollar_value            7.79962e+06
+avg                             11625.1
+upper                             11677
+lower                           11573.2
+side                                NaN
+mom1                          0.0041335
+mom2                         0.00434822
+mom3                         0.00500698
+mom4                          0.0045648
+mom5                          0.0031699
+log_ret                      0.00412499
+volatility                   0.00201565
+autocorr_1                    -0.149267
+autocorr_2                    0.0838177
+autocorr_3                    -0.053092
+autocorr_4                     -0.10945
+autocorr_5                    0.0995561
+log_t1                      0.000213809
+log_t2                       0.00065569
+log_t3                     -0.000440067
+log_t4                      -0.00138953
+log_t5                      -0.00495784
+fast_mavg                       11613.8
+slow_mavg                       11639.6
+rsi                                  62
+srsi                            82.9774
+sma                                  -1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 16:28:00
+tick_num                             21
+open                            11647.1
+high                            11647.1
+low                             11624.2
+close                           11625.8
+volume                          627.525
+cum_buy_volume                  166.958
+cum_ticks                            21
+cum_dollar_value            7.30072e+06
+avg                             11625.6
+upper                           11677.6
+lower                           11573.6
+side                                NaN
+mom1                          0.0026139
+mom2                         0.00327152
+mom3                         0.00283011
+mom4                         0.00143761
+mom5                        -0.00351507
+log_ret                      0.00261049
+volatility                   0.00196282
+autocorr_1                     -0.15043
+autocorr_2                    0.0657565
+autocorr_3                   -0.0656464
+autocorr_4                     -0.14828
+autocorr_5                     0.224198
+log_t1                       0.00065569
+log_t2                     -0.000440067
+log_t3                      -0.00138953
+log_t4                      -0.00495784
+log_t5                     -0.000379693
+fast_mavg                       11621.4
+slow_mavg                       11641.1
+rsi                                  58
+srsi                            53.8225
+sma                                  -1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 16:54:00
+tick_num                             26
+open                            11624.4
+high                            11643.1
+low                             11620.4
+close                           11633.9
+volume                          652.104
+cum_buy_volume                  327.477
+cum_ticks                            26
+cum_dollar_value            7.58469e+06
+avg                             11629.1
+upper                           11681.7
+lower                           11576.5
+side                                NaN
+mom1                         0.00396619
+mom2                         0.00352448
+mom3                         0.00213101
+mom4                         -0.0028251
+mom5                        -0.00320364
+log_ret                      0.00395835
+volatility                   0.00202152
+autocorr_1                    -0.161493
+autocorr_2                    0.0242194
+autocorr_3                     -0.11335
+autocorr_4                    -0.112366
+autocorr_5                     0.241425
+log_t1                     -0.000440067
+log_t2                      -0.00138953
+log_t3                      -0.00495784
+log_t4                     -0.000379693
+log_t5                      0.000544269
+fast_mavg                       11632.4
+slow_mavg                       11643.7
+rsi                                  54
+srsi                            38.7719
+sma                                  -1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 17:14:00
+tick_num                             20
+open                            11632.9
+high                            11640.1
+low                             11623.6
+close                           11623.6
+volume                          620.802
+cum_buy_volume                  352.798
+cum_ticks                            20
+cum_dollar_value            7.22234e+06
+avg                             11631.9
+upper                           11683.4
+lower                           11580.3
+side                                  1
+mom1                          0.0026378
+mom2                         0.00124557
+mom3                        -0.00370616
+mom4                        -0.00408438
+mom5                        -0.00354218
+log_ret                      0.00263433
+volatility                   0.00197841
+autocorr_1                    -0.183392
+autocorr_2                   -0.0280193
+autocorr_3                   -0.0066678
+autocorr_4                    -0.103201
+autocorr_5                     0.261966
+log_t1                      -0.00138953
+log_t2                      -0.00495784
+log_t3                     -0.000379693
+log_t4                      0.000544269
+log_t5                       0.00107987
+fast_mavg                       11640.2
+slow_mavg                       11646.9
+rsi                                  51
+srsi                            78.1075
+sma                                  -1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 17:28:00
+tick_num                             14
+open                            11627.1
+high                            11646.9
+low                             11626.2
+close                           11642.5
+volume                           632.78
+cum_buy_volume                  424.171
+cum_ticks                            14
+cum_dollar_value            7.36351e+06
+avg                             11637.2
+upper                           11687.6
+lower                           11586.8
+side                                NaN
+mom1                         0.00287186
+mom2                        -0.00208791
+mom3                        -0.00246674
+mom4                        -0.00192367
+mom5                        -0.00084529
+log_ret                      0.00286774
+volatility                   0.00197892
+autocorr_1                    -0.280138
+autocorr_2                    0.0445221
+autocorr_3                    0.0124055
+autocorr_4                    -0.094649
+autocorr_5                     0.225181
+log_t1                      -0.00495784
+log_t2                     -0.000379693
+log_t3                      0.000544269
+log_t4                       0.00107987
+log_t5                       -0.0010679
+fast_mavg                       11653.1
+slow_mavg                       11650.1
+rsi                                  50
+srsi                            42.0597
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 17:40:00
+tick_num                             12
+open                              11649
+high                            11651.6
+low                             11646.4
+close                           11651.6
+volume                          626.231
+cum_buy_volume                   295.58
+cum_ticks                            12
+cum_dollar_value            7.29491e+06
+avg                             11640.6
+upper                           11691.9
+lower                           11589.2
+side                                NaN
+mom1                        -0.00130963
+mom2                        -0.00168876
+mom3                        -0.00114526
+mom4                       -6.60409e-05
+mom5                         -0.0011333
+log_ret                     -0.00131049
+volatility                   0.00182655
+autocorr_1                    -0.255664
+autocorr_2                    0.0745058
+autocorr_3                    0.0099587
+autocorr_4                    -0.148237
+autocorr_5                     0.275819
+log_t1                     -0.000379693
+log_t2                      0.000544269
+log_t3                       0.00107987
+log_t4                       -0.0010679
+log_t5                     -0.000388296
+fast_mavg                         11663
+slow_mavg                       11651.5
+rsi                                  34
+srsi                            92.2675
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-23 17:58:00
+tick_num                             18
+open                            11649.7
+high                            11651.2
+low                             11631.2
+close                           11635.2
+volume                           671.51
+cum_buy_volume                  257.158
+cum_ticks                            18
+cum_dollar_value            7.81846e+06
+avg                             11636.6
+upper                           11688.4
+lower                           11584.7
+side                                NaN
+mom1                        -0.00308968
+mom2                        -0.00254695
+mom3                        -0.00146924
+mom4                        -0.00253501
+mom5                        -0.00292224
+log_ret                     -0.00309447
+volatility                   0.00187231
+autocorr_1                     -0.25087
+autocorr_2                     0.055234
+autocorr_3                    0.0398274
+autocorr_4                    -0.154093
+autocorr_5                     0.256501
+log_t1                      0.000544269
+log_t2                       0.00107987
+log_t3                       -0.0010679
+log_t4                     -0.000388296
+log_t5                      0.000545198
+fast_mavg                       11660.1
+slow_mavg                       11646.8
+rsi                                  47
+srsi                            91.3861
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 80, in create_connection
+    raise err
+  File "/usr/lib/python3/dist-packages/urllib3/util/connection.py", line 70, in create_connection
+    sock.connect(sa)
+socket.timeout: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 841, in _validate_conn
+    conn.connect()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 301, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3/dist-packages/urllib3/connection.py", line 164, in _new_conn
+    (self.host, self.timeout))
+urllib3.exceptions.ConnectTimeoutError: (<urllib3.connection.VerifiedHTTPSConnection object at 0x7efd520b1748>, 'Connection to api.binance.com timed out. (connect timeout=10)')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.binance.com', port=443): Max retries exceeded with url: /api/v1/ping (Caused by ConnectTimeoutError(<urllib3.connection.VerifiedHTTPSConnection object at 0x7efd520b1748>, 'Connection to api.binance.com timed out. (connect timeout=10)'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "trading_ex.py", line 49, in <module>
+    trade_ex()
+  File "trading_ex.py", line 30, in trade_ex
+    result = t.live_trading()
+  File "/home/zzhan785/trading-ml/live_trading/BTCUSDT/trading.py", line 60, in live_trading
+    klines = get_data.get_klines_df(time,symbol=self.pair,interval=self.interval)
+  File "../data_getter/get_data.py", line 14, in get_klines_df
+    api_secret=binance_api_secret)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 105, in __init__
+    self.ping()
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 393, in ping
+    return self._get('ping')
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 237, in _get
+    return self._request_api('get', path, signed, version, **kwargs)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 202, in _request_api
+    return self._request(method, uri, signed, **kwargs)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 196, in _request
+    self.response = getattr(self.session, method)(uri, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 546, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 6
