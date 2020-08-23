@@ -30,16 +30,16 @@ def trade_ex():
                 result = t.live_trading()
                 if result == "long":
                     try:
-                        quantity = trade_long_short.get_quantity(pair,"long")
-                        # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
-                        Process(target=trailing_mkt.mkt_long_trailing, args=(pair,quantity,'long',trigger_per,deviation,stop_loss_per,)).start()
+                        p_q = trade_long_short.get_quantity(pair,"long")
+                        # pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                        Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],p_q['quantity'],'long',trigger_per,deviation,stop_loss_per,)).start()
                     except:
                         message_func.send_a_message("BTC long buy failed")
                 elif result == 'short':
                     try:
-                        quantity = trade_long_short.get_quantity(pair,"short")
+                        p_q = trade_long_short.get_quantity(pair,"long")
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
-                        Process(target=trailing_mkt.mkt_short_trailing, args=(pair,quantity,'short',trigger_per,deviation,stop_loss_per,)).start()
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q['price'],p_q['quantity'],'short',trigger_per,deviation,stop_loss_per,)).start()
                     except:
                         message_func.send_a_message("BTC short buy failed")
                 time.sleep(150)

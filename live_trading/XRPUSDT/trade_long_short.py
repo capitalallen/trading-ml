@@ -56,7 +56,9 @@ def compute_quantity(configs):
 
 def get_quantity(pair,type):
     configs = get_configs(pair,type)
-    return compute_quantity(configs)
+    price = configs['price']
+    quantity = compute_quantity(configs)
+    return {'price':price,'quantity':quantity}
     
 def trade_long_ex(pair="ETHUSDT"):
     configs = get_configs(pair,"long")

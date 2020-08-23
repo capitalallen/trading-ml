@@ -106,8 +106,9 @@ class Trailing:
                     self.pair, self.quantity,positionSide="LONG",side='SELL')
                 self.messaging.send_a_message("sold!")
             return True
-        except:
-             self.messaging.send_a_message(error)
+        except Exception as e:
+            print(e)
+            self.messaging.send_a_message(str(e))
 
     def trailing_stop_short(self):
         try:
@@ -137,5 +138,6 @@ class Trailing:
                 self.transaction_func.mkt_buy_sell_future(
                     self.pair, self.quantity,positionSide="SHORT",side='BUY')
                 self.messaging.send_a_message("sold start!")
-        except:
-             self.messaging.send_a_message("short trailing failed!")
+        except Exception as e:
+            print(e)
+            self.messaging.send_a_message(str(e))
