@@ -2,6 +2,7 @@ import pandas as pd
 import trading 
 import trailing_mkt as tm 
 import transaction 
+import trailing_mkt 
 # t = trading.Trading(pair="BTCUSDT",db_name="../pair_db/features.sqlite",record_name="x_features",threshold=7097226,model_path="model.joblib",columns_path="column_order.json")
 
 # df1 = pd.read_csv("x_features.csv",index_col=0)
@@ -16,3 +17,5 @@ import transaction
 # tm.limit_short_trailing("ETHUSDT",389.5,str(1),trade_type='short',trigger_per=1, deviation=0.5, stop_loss_per=2)
 # t = transaction.Buy_sell()
 # t.mkt_buy_sell_future("ETHUSDT",1,positionSide="SHORT",side='SELL',leverage=0)
+
+# trailing_mkt.limit_long_trailing("BNBUSDT",22.01,1,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2)
