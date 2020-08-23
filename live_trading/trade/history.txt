@@ -1,0 +1,796 @@
+Script started on 2020-08-23 15:39:20+00:00 [TERM="screen" TTY="/dev/pts/7" COLUMNS="172" LINES="50"]
+zzhan785@trading-ex:~/trading-ml/live_trading/trade$ ls
+[0m[01;34mBinance_Futures_python-master[0m  column_order.json  info.json     temp_trading.py  trading.py   trailing_mkt.py     transaction.py
+__init__.py                    history.txt        model.joblib  test.py          trailing.py  trailing_resp.json
+zzhan785@trading-ex:~/trading-ml/live_trading/trade$ python3 temp_trading.py 
+Traceback (most recent call last):
+  File "temp_trading.py", line 9, in <module>
+    Process(target=t3.trailing_stop_long).start()
+NameError: name 't3' is not defined
+trigger: 394.8292 current_price:  11618.07
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.48
+trigger: 394.8292 current_price:  11617.87
+^CError in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 28, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+zzhan785@trading-ex:~/trading-ml/live_trading/trade$ vim temp_trading.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"temp_trading.py" 9L, 381C[1;1H[35mimport[0m trailing
+[35mfrom[0m multiprocessing [35mimport[0m Process
+
+t1 = trailing.Trailing([31m18.53[0m, [31m'short'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"ETHUSDT"[0m,[31m390.92[0m)
+Process(target=t1.trailing_stop_short).start()
+t2 = trailing.Trailing([31m18.53[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)
+Process(target=t2.trailing_stop_long).start()
+t2 = trailing.Trailing([31m101[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BNBUSDT"[0m,[31m21.996[0m)
+Process(target=t3.trailing_stop_long).start()
+[1m[34m~                                                                                                                                                                           [11;1H~                                                                                                                                                                           [12;1H~                                                                                                                                                                           [13;1H~                                                                                                                                                                           [14;1H~                                                                                                                                                                           [15;1H~                                                                                                                                                                           [16;1H~                                                                                                                                                                           [17;1H~                                                                                                                                                                           [18;1H~                                                                                                                                                                           [19;1H~                                                                                                                                                                           [20;1H~                                                                                                                                                                           [21;1H~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                                                                                           [25;1H~                                                                                                                                                                           [26;1H~                                                                                                                                                                           [27;1H~                                                                                                                                                                           [28;1H~                                                                                                                                                                           [29;1H~                                                                                                                                                                           [30;1H~                                                                                                                                                                           [31;1H~                                                                                                                                                                           [32;1H~                                                                                                                                                                           [33;1H~                                                                                                                                                                           [34;1H~                                                                                                                                                                           [35;1H~                                                                                                                                                                           [36;1H~                                                                                                                                                                           [37;1H~                                                                                                                                                                           [38;1H~                                                                                                                                                                           [39;1H~                                                                                                                                                                           [40;1H~                                                                                                                                                                           [41;1H~                                                                                                                                                                           [42;1H~                                                                                                                                                                           [43;1H~                                                                                                                                                                           [44;1H~                                                                                                                                                                           [45;1H~                                                                                                                                                                           [46;1H~                                                                                                                                                                           [47;1H~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H1,1[11CAll[1;1H[34h[?25h[?25l[50;145H~@k[1;1H[50;145H   [2;1H[50;155H2[2;1H[34h[?25h[?25l[50;145H~@k[2;1H[50;145H   [3;1H[50;155H3,0-1[3;1H[34h[?25h[?25l[50;145H~@k[3;1H[50;145H   [4;1H[50;155H4,1  [4;1H[34h[?25h[?25l[50;145H~@k[4;1H[50;145H   [5;1H[50;155H5[5;1H[34h[?25h[?25l[50;145H~@k[5;1H[50;145H   [6;1H[50;155H6[6;1H[34h[?25h[?25l[50;145H~@k[6;1H[50;145H   [7;1H[50;155H7[7;1H[34h[?25h[?25l[50;145H~@k[7;1H[50;145H   [8;1H[50;155H8[8;1H[34h[?25h[?25l[50;145H~@k[8;1H[50;145H   [8;2H[50;157H2[8;2H[34h[?25h[?25l[50;145H~@k[8;2H[50;145H   [8;3H[50;157H3[8;3H[34h[?25h[?25l[50;145Ha[8;3H[50;145H [8;4H[50;1H[1m-- INSERT --[0m[50;13H[K[50;155H8,4[11CAll[8;4H[34h[?25h[?25l[50;157H3[8;3H[34h[?25h[?25l = trailing.Trailing([31m101[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BNBUSDT"[0m,[31m21.996[0m)[8;60H[K[50;157H2[8;2H[34h[?25h[?25l3 = trailing.Trailing([31m101[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BNBUSDT"[0m,[31m21.996[0m)[50;157H3[8;3H[34h[?25h[50;1H[K[?25l[50;155H8,2[11CAll[8;2H[34h[?25h[?25l[50;145H:[8;2H[50;145H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"temp_trading.py" 9L, 381C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/trade$ python3 temp_trading.py 
+trigger: 394.8292 current_price:  11619.06
+trigger: 394.8292 current_price:  11619.26
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.42
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7204
+trigger: 394.8292 current_price:  11619.26
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.42
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.72
+trigger: 394.8292 current_price:  11619.27
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.43
+trigger: 394.8292 current_price:  11619.27
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.72
+trigger: 394.8292 current_price:  11619.87
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.43
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7259
+trigger: 394.8292 current_price:  11619.29
+trigger: 394.8292 current_price:  11619.29
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.46
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7233
+trigger: 394.8292 current_price:  11619.28
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.49
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7233
+trigger: 394.8292 current_price:  11619.27
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.726
+trigger: 394.8292 current_price:  11619.96
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.58
+trigger: 394.8292 current_price:  11619.27
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7229
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.54
+trigger: 394.8292 current_price:  11619.03
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7259
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.52
+trigger: 394.8292 current_price:  11618.23
+trigger: 394.8292 current_price:  11618.42
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7259
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.49
+trigger: 394.8292 current_price:  11616.85
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7225
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.46
+trigger: 394.8292 current_price:  11616.84
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7211
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.45
+trigger: 394.8292 current_price:  11616.4
+trigger: 394.8292 current_price:  11616.01
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7238
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.44
+trigger: 394.8292 current_price:  11616.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7259
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.44
+trigger: 394.8292 current_price:  11616.0
+trigger: 394.8292 current_price:  11616.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7272
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.43
+trigger: 394.8292 current_price:  11616.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7269
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.44
+trigger: 394.8292 current_price:  11616.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7277
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.43
+trigger: 394.8292 current_price:  11616.01
+trigger: 394.8292 current_price:  11616.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7205
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.4
+trigger: 394.8292 current_price:  11616.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7274
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.4
+trigger: 394.8292 current_price:  11614.53
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.4
+trigger: 394.8292 current_price:  11614.52
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7276
+trigger: 394.8292 current_price:  11614.52
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.4
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7233
+trigger: 394.8292 current_price:  11614.51
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.39
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7233
+trigger: 394.8292 current_price:  11614.51
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.39
+trigger: 394.8292 current_price:  11614.51
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7265
+trigger: 394.8292 current_price:  11614.51
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.38
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.722
+trigger: 394.8292 current_price:  11613.09
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 28, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+^CProcess Process-2:
+Traceback (most recent call last):
+  File "/home/zzhan785/trading-ml/live_trading/trade/trailing.py", line 104, in trailing_stop_long
+    time.sleep(1)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../message/send_sms.py", line 17, in send_a_message
+    body=message)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 89, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/base/version.py", line 204, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC7ce530153bf13cc4b5e10f7a951ea8e4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Too Many Requests[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20429[0m
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zzhan785/trading-ml/live_trading/trade/trailing.py", line 110, in trailing_stop_long
+    self.messaging.send_a_message(error)
+  File "../message/send_sms.py", line 19, in send_a_message
+    self.error_message()
+  File "../message/send_sms.py", line 24, in error_message
+    body="cannot send the message")
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 89, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/base/version.py", line 204, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC7ce530153bf13cc4b5e10f7a951ea8e4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Too Many Requests[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20429[0m
+
+
+Process Process-3:
+Traceback (most recent call last):
+  File "/home/zzhan785/trading-ml/live_trading/trade/trailing.py", line 87, in trailing_stop_long
+    time.sleep(1.5)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../message/send_sms.py", line 17, in send_a_message
+    body=message)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 89, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/base/version.py", line 204, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC7ce530153bf13cc4b5e10f7a951ea8e4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Too Many Requests[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20429[0m
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zzhan785/trading-ml/live_trading/trade/trailing.py", line 110, in trailing_stop_long
+    self.messaging.send_a_message(error)
+  File "../message/send_sms.py", line 19, in send_a_message
+    self.error_message()
+  File "../message/send_sms.py", line 24, in error_message
+    body="cannot send the message")
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 89, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/base/version.py", line 204, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC7ce530153bf13cc4b5e10f7a951ea8e4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Too Many Requests[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20429[0m
+
+
+zzhan785@trading-ex:~/trading-ml/live_trading/trade$ ls
+[0m[01;34mBinance_Futures_python-master[0m  [01;34m__pycache__[0m        history.txt  model.joblib     test.py     trailing.py      trailing_resp.json
+__init__.py                    column_order.json  info.json    temp_trading.py  trading.py  trailing_mkt.py  transaction.py
+zzhan785@trading-ex:~/trading-ml/live_trading/trade$ vim tm[K[Ktemp_trading.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"temp_trading.py" 9L, 381C[1;1H[35mimport[0m trailing
+[35mfrom[0m multiprocessing [35mimport[0m Process
+
+t1 = trailing.Trailing([31m18.53[0m, [31m'short'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"ETHUSDT"[0m,[31m390.92[0m)
+Process(target=t1.trailing_stop_short).start()
+t2 = trailing.Trailing([31m18.53[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)
+Process(target=t2.trailing_stop_long).start()
+t3 = trailing.Trailing([31m101[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BNBUSDT"[0m,[31m21.996[0m)
+Process(target=t3.trailing_stop_long).start()
+[1m[34m~                                                                                                                                                                           [11;1H~                                                                                                                                                                           [12;1H~                                                                                                                                                                           [13;1H~                                                                                                                                                                           [14;1H~                                                                                                                                                                           [15;1H~                                                                                                                                                                           [16;1H~                                                                                                                                                                           [17;1H~                                                                                                                                                                           [18;1H~                                                                                                                                                                           [19;1H~                                                                                                                                                                           [20;1H~                                                                                                                                                                           [21;1H~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                                                                                           [25;1H~                                                                                                                                                                           [26;1H~                                                                                                                                                                           [27;1H~                                                                                                                                                                           [28;1H~                                                                                                                                                                           [29;1H~                                                                                                                                                                           [30;1H~                                                                                                                                                                           [31;1H~                                                                                                                                                                           [32;1H~                                                                                                                                                                           [33;1H~                                                                                                                                                                           [34;1H~                                                                                                                                                                           [35;1H~                                                                                                                                                                           [36;1H~                                                                                                                                                                           [37;1H~                                                                                                                                                                           [38;1H~                                                                                                                                                                           [39;1H~                                                                                                                                                                           [40;1H~                                                                                                                                                                           [41;1H~                                                                                                                                                                           [42;1H~                                                                                                                                                                           [43;1H~                                                                                                                                                                           [44;1H~                                                                                                                                                                           [45;1H~                                                                                                                                                                           [46;1H~                                                                                                                                                                           [47;1H~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H8,2[11CAll[8;2H[34h[?25h[?25l[50;145H~@k[8;2H[50;145H   [7;2H[50;155H7[7;2H[34h[?25h[?25l[50;145H~@k[7;2H[50;145H   [6;2H[50;155H6[6;2H[34h[?25h[?25l[50;145H~@k[6;2H[50;145H   [5;2H[50;155H5[5;2H[34h[?25h[?25l[50;145H~@k[5;2H[50;145H   [4;2H[50;155H4[4;2H[34h[?25h[?25l[50;145H~@k[4;2H[50;145H   [4;3H[50;157H3[4;3H[34h[?25h[?25l[50;145H~@k[4;3H[50;145H   [4;4H[50;157H4[4;4H[34h[?25h[?25l[50;145H~@k[4;4H[50;145H   [4;5H[50;157H5[4;5H[34h[?25h[?25l[50;145H~@k[4;5H[50;145H   [4;6H[50;157H6[4;6H[34h[?25h[?25l[50;145H~@k[4;6H[50;145H   [4;7H[50;157H7[4;7H[34h[?25h[?25l[50;145H~@k[4;7H[50;145H   [4;8H[50;157H8[4;8H[34h[?25h[?25l[50;145H~@k[4;8H[50;145H   [4;9H[50;157H9[4;9H[34h[?25h[?25l[50;145H~@k[4;9H[50;145H   [4;10H[50;157H10[4;10H[34h[?25h[?25l[50;145H~@k[4;10H[50;145H   [4;11H[50;158H1[4;11H[34h[?25h[?25l[50;145H~@k[4;11H[50;145H   [4;12H[50;158H2[4;12H[34h[?25h[?25l[50;145H~@k[4;12H[50;145H   [4;13H[50;158H3[4;13H[34h[?25h[?25l[50;145H~@k[4;13H[50;145H   [4;14H[50;158H4[4;14H[34h[?25h[?25l[50;145H~@k[4;14H[50;145H   [4;15H[50;158H5[4;15H[34h[?25h[?25l[50;145H~@k[4;15H[50;145H   [4;16H[50;158H6[4;16H[34h[?25h[?25l[50;145H~@k[4;16H[50;145H   [4;17H[50;158H7[4;17H[34h[?25h[?25l[50;145H~@k[4;17H[50;145H   [4;18H[50;158H8[4;18H[34h[?25h[?25l[50;145H~@k[4;18H[50;145H   [4;19H[50;158H9[4;19H[34h[?25h[?25l[50;145H~@k[4;19H[50;145H   [4;20H[50;157H20[4;20H[34h[?25h[?25l[50;145H~@k[4;20H[50;145H   [4;21H[50;158H1[4;21H[34h[?25h[?25l[50;145Ha[4;21H[50;145H [4;22H[50;1H[1m-- INSERT --[0m[50;13H[K[50;155H4,22[10CAll[4;22H[34h[?25h[?25lg[46m([39C)[0m[50;158H3[4;23H[34h[?25h[?25l[50;158H4[4;24H[34h[?25h[?25l([39C)[50;158H5[4;25H[34h[?25h[?25l[50;158H6[4;26H[34h[?25h[?25l[50;158H7[4;27H[34h[?25h[?25l[50;158H8[4;28H[34h[?25h[?25l[50;158H9[4;29H[34h[?25h[?25l[50;155H5[5;29H[34h[?25h[?25l[50;155H6[6;29H[34h[?25h[?25l[50;155H7[7;29H[34h[?25h[?25l[50;155H6[6;29H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;62H[K[50;158H8[6;28H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;61H[K[50;158H7[6;27H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;60H[K[50;158H6[6;26H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;59H[K[50;158H5[6;25H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;58H[K[6;23H[46m([33C)[0m[50;158H4[6;24H[34h[?25h[?25l`, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.9[0m[31m[46m2[0m)[6;23H([33C[31m2[0m[50;158H5[6;25H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;58H[K[6;23H[46m([33C)[0m[50;158H4[6;24H[34h[?25h[?25l[31m1[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.9[0m[31m[46m2[0m)[6;23H([33C[31m2[0m[50;158H5[6;25H[34h[?25h[?25l[31m1[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H6[6;26H[34h[?25h[?25l[31m6[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H7[6;27H[34h[?25h[?25l[31m3[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H8[6;28H[34h[?25h[?25l[31m0[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H9[6;29H[34h[?25h[?25l/, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;157H30[6;30H[34h[?25h[?25l., [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H1[6;31H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;64H[K[50;158H0[6;30H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;63H[K[50;157H29[6;29H[34h[?25h[?25l[31m.[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;157H30[6;30H[34h[?25h[?25l[31m5[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H1[6;31H[34h[?25h[?25l[31m6[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H2[6;32H[34h[?25h[50;1H[K[?25l[50;155H6,31[10CAll[6;31H[34h[?25h[?25l[50;145H:[6;31H[50;145H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"temp_trading.py" 9L, 384C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/trade$ vim temp_trading.py ls[Kpython3 temp_trading.py 
+trigger: 394.8292 current_price:  11610.01
+trigger: 394.8292 current_price:  11610.0
+trigger: 387.0108 stop loss: 398.7384 current_price:  389.92
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7192
+trigger: 394.8292 current_price:  11610.0
+trigger: 387.0108 stop loss: 398.7384 current_price:  389.92
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7075
+trigger: 394.8292 current_price:  11610.01
+trigger: 387.0108 stop loss: 398.7384 current_price:  389.92
+trigger: 394.8292 current_price:  11613.75
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7075
+trigger: 394.8292 current_price:  11614.77
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.21
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7221
+trigger: 394.8292 current_price:  11616.83
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.54
+trigger: 394.8292 current_price:  11618.42
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7327
+trigger: 394.8292 current_price:  11618.55
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.66
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7249
+trigger: 394.8292 current_price:  11618.55
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.6
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7271
+trigger: 394.8292 current_price:  11621.05
+^CError in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 28, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+Process Process-2:
+Traceback (most recent call last):
+  File "/home/zzhan785/trading-ml/live_trading/trade/trailing.py", line 104, in trailing_stop_long
+    time.sleep(1)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "../message/send_sms.py", line 17, in send_a_message
+    body=message)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 89, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/base/version.py", line 204, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC7ce530153bf13cc4b5e10f7a951ea8e4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Too Many Requests[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20429[0m
+
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/zzhan785/trading-ml/live_trading/trade/trailing.py", line 110, in trailing_stop_long
+    self.messaging.send_a_message(error)
+  File "../message/send_sms.py", line 19, in send_a_message
+    self.error_message()
+  File "../message/send_sms.py", line 24, in error_message
+    body="cannot send the message")
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/rest/api/v2010/account/message/__init__.py", line 89, in create
+    payload = self._version.create(method='POST', uri=self._uri, data=data, )
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/twilio/base/version.py", line 204, in create
+    raise self.exception(method, uri, response, 'Unable to create record')
+twilio.base.exceptions.TwilioRestException: 
+[31m[49mHTTP Error[0m [37m[49mYour request was:[0m
+
+[36m[49mPOST /Accounts/AC7ce530153bf13cc4b5e10f7a951ea8e4/Messages.json[0m
+
+[37m[49mTwilio returned the following information:[0m
+
+[34m[49mUnable to create record: Too Many Requests[0m
+
+[37m[49mMore information may be available here:[0m
+
+[34m[49mhttps://www.twilio.com/docs/errors/20429[0m
+
+
+zzhan785@trading-ex:~/trading-ml/live_trading/trade$ python3 temp_trading.py [4Pvim[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"temp_trading.py" 9L, 384C[1;1H[35mimport[0m trailing
+[35mfrom[0m multiprocessing [35mimport[0m Process
+
+t1 = trailing.Trailing([31m18.53[0m, [31m'short'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"ETHUSDT"[0m,[31m390.92[0m)
+Process(target=t1.trailing_stop_short).start()
+t2 = trailing.Trailing([31m11630.56[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)
+Process(target=t2.trailing_stop_long).start()
+t3 = trailing.Trailing([31m101[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BNBUSDT"[0m,[31m21.996[0m)
+Process(target=t3.trailing_stop_long).start()
+[1m[34m~                                                                                                                                                                           [11;1H~                                                                                                                                                                           [12;1H~                                                                                                                                                                           [13;1H~                                                                                                                                                                           [14;1H~                                                                                                                                                                           [15;1H~                                                                                                                                                                           [16;1H~                                                                                                                                                                           [17;1H~                                                                                                                                                                           [18;1H~                                                                                                                                                                           [19;1H~                                                                                                                                                                           [20;1H~                                                                                                                                                                           [21;1H~                                                                                                                                                                           [22;1H~                                                                                                                                                                           [23;1H~                                                                                                                                                                           [24;1H~                                                                                                                                                                           [25;1H~                                                                                                                                                                           [26;1H~                                                                                                                                                                           [27;1H~                                                                                                                                                                           [28;1H~                                                                                                                                                                           [29;1H~                                                                                                                                                                           [30;1H~                                                                                                                                                                           [31;1H~                                                                                                                                                                           [32;1H~                                                                                                                                                                           [33;1H~                                                                                                                                                                           [34;1H~                                                                                                                                                                           [35;1H~                                                                                                                                                                           [36;1H~                                                                                                                                                                           [37;1H~                                                                                                                                                                           [38;1H~                                                                                                                                                                           [39;1H~                                                                                                                                                                           [40;1H~                                                                                                                                                                           [41;1H~                                                                                                                                                                           [42;1H~                                                                                                                                                                           [43;1H~                                                                                                                                                                           [44;1H~                                                                                                                                                                           [45;1H~                                                                                                                                                                           [46;1H~                                                                                                                                                                           [47;1H~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H6,31[10CAll[6;31H[34h[?25h[?25l[50;145H~@k[6;31H[50;145H   [6;32H[50;158H2[6;32H[34h[?25h[?25l[50;145H~@k[6;32H[50;145H   [6;33H[50;158H3[6;33H[34h[?25h[?25l[50;145H~@k[6;33H[50;145H   [6;34H[50;158H4[6;34H[34h[?25h[?25l[50;145H~@k[6;34H[50;145H   [6;35H[50;158H5[6;35H[34h[?25h[?25l[50;145H~@k[6;35H[50;145H   [6;36H[50;158H6[6;36H[34h[?25h[?25l[50;145H~@k[6;36H[50;145H   [6;37H[50;158H7[6;37H[34h[?25h[?25l[50;145H~@k[6;37H[50;145H   [6;38H[50;158H8[6;38H[34h[?25h[?25l[50;145H~@k[6;38H[50;145H   [6;39H[50;158H9[6;39H[34h[?25h[?25l[50;145H~@k[6;39H[50;145H   [6;40H[50;157H40[6;40H[34h[?25h[?25l[50;145H~@k[6;40H[50;145H   [6;41H[50;158H1[6;41H[34h[?25h[?25l[50;145H~@k[6;41H[50;145H   [6;42H[50;158H2[6;42H[34h[?25h[?25l[50;145H~@k[6;42H[50;145H   [6;43H[50;158H3[6;43H[34h[?25h[?25l[50;145H~@k[6;43H[50;145H   [6;44H[50;158H4[6;44H[34h[?25h[?25l[50;145H~@k[6;44H[50;145H   [6;45H[50;158H5[6;45H[34h[?25h[?25l[50;145H~@k[6;45H[50;145H   [6;46H[50;158H6[6;46H[34h[?25h[?25l[50;145H~@k[6;46H[50;145H   [6;47H[50;158H7[6;47H[34h[?25h[?25l[50;145H~@k[6;47H[50;145H   [6;48H[50;158H8[6;48H[34h[?25h[?25l[50;145H~@k[6;48H[50;145H   [6;49H[50;158H9[6;49H[34h[?25h[?25l[50;145H~@k[6;49H[50;145H   [6;50H[50;157H50[6;50H[34h[?25h[?25l[50;145H~@k[6;50H[50;145H   [6;51H[50;158H1[6;51H[34h[?25h[?25l[50;145H~@k[6;51H[50;145H   [6;52H[50;158H2[6;52H[34h[?25h[?25l[50;145H~@k[6;52H[50;145H   [6;53H[50;158H3[6;53H[34h[?25h[?25l[50;145H~@k[6;53H[50;145H   [6;54H[50;158H4[6;54H[34h[?25h[?25l[50;145H~@k[6;54H[50;145H   [6;55H[50;158H5[6;55H[34h[?25h[?25l[50;145H~@k[6;55H[50;145H   [6;56H[50;158H6[6;56H[34h[?25h[?25l[50;145H~@k[6;56H[50;145H   [6;57H[50;158H7[6;57H[34h[?25h[?25l[50;145H~@k[6;57H[50;145H   [6;58H[50;158H8[6;58H[34h[?25h[?25l[50;145H~@k[6;58H[50;145H   [6;59H[50;158H9[6;59H[34h[?25h[?25l[50;145H~@k[6;59H[50;145H   [6;60H[50;157H60[6;60H[34h[?25h[?25l[50;145H~@k[6;60H[50;145H   [6;61H[50;158H1[6;61H[34h[?25h[?25l[50;145H~@k[6;61H[50;145H   [6;60H[50;158H0[6;60H[34h[?25h[?25l[50;145H~@k[6;60H[50;145H   [6;59H[50;157H59[6;59H[34h[?25h[?25l[50;145H~@k[6;59H[50;145H   [6;58H[50;158H8[6;58H[34h[?25h[?25l[50;145H~@k[6;58H[50;145H   [6;57H[50;158H7[6;57H[34h[?25h[?25l[50;145H~@k[6;57H[50;145H   [6;56H[50;158H6[6;56H[34h[?25h[?25l[50;145H~@k[6;56H[50;145H   [6;55H[50;158H5[6;55H[34h[?25h[?25l[50;145H~@k[6;55H[50;145H   [6;54H[50;158H4[6;54H[34h[?25h[?25l[50;145H~@k[6;54H[50;145H   [6;53H[50;158H3[6;53H[34h[?25h[?25l[50;145H~@k[6;53H[50;145H   [6;52H[50;158H2[6;52H[34h[?25h[?25l[50;145H~@k[6;52H[50;145H   [6;51H[50;158H1[6;51H[34h[?25h[?25l[50;145H~@k[6;51H[50;145H   [6;50H[50;158H0[6;50H[34h[?25h[?25l[50;145H~@k[6;50H[50;145H   [6;49H[50;157H49[6;49H[34h[?25h[?25l[50;145H~@k[6;49H[50;145H   [6;48H[50;158H8[6;48H[34h[?25h[?25l[50;145H~@k[6;48H[50;145H   [6;47H[50;158H7[6;47H[34h[?25h[?25l[50;145H~@k[6;47H[50;145H   [6;46H[50;158H6[6;46H[34h[?25h[?25l[50;145H~@k[6;46H[50;145H   [6;45H[50;158H5[6;45H[34h[?25h[?25l[50;145H~@k[6;45H[50;145H   [6;44H[50;158H4[6;44H[34h[?25h[?25l[50;145H~@k[6;44H[50;145H   [6;43H[50;158H3[6;43H[34h[?25h[?25l[50;145H~@k[6;43H[50;145H   [6;42H[50;158H2[6;42H[34h[?25h[?25l[50;145H~@k[6;42H[50;145H   [6;41H[50;158H1[6;41H[34h[?25h[?25l[50;145H~@k[6;41H[50;145H   [6;40H[50;158H0[6;40H[34h[?25h[?25l[50;145H~@k[6;40H[50;145H   [6;39H[50;157H39[6;39H[34h[?25h[?25l[50;145H~@k[6;39H[50;145H   [6;38H[50;158H8[6;38H[34h[?25h[?25l[50;145H~@k[6;38H[50;145H   [6;37H[50;158H7[6;37H[34h[?25h[?25l[50;145H~@k[6;37H[50;145H   [6;36H[50;158H6[6;36H[34h[?25h[?25l[50;145H~@k[6;36H[50;145H   [6;35H[50;158H5[6;35H[34h[?25h[?25l[50;145H~@k[6;35H[50;145H   [6;34H[50;158H4[6;34H[34h[?25h[?25l[50;145H~@k[6;34H[50;145H   [6;33H[50;158H3[6;33H[34h[?25h[?25l[50;145H~@k[6;33H[50;145H   [6;32H[50;158H2[6;32H[34h[?25h[?25l[50;145H~@k[6;32H[50;145H   [6;31H[50;158H1[6;31H[34h[?25h[?25l[50;145H~@k[6;31H[50;145H   [6;30H[50;158H0[6;30H[34h[?25h[?25l[50;145H~@k[6;30H[50;145H   [6;29H[50;157H29[6;29H[34h[?25h[?25l[50;145H~@k[6;29H[50;145H   [6;28H[50;158H8[6;28H[34h[?25h[?25l[50;145H~@k[6;28H[50;145H   [6;27H[50;158H7[6;27H[34h[?25h[?25l[50;145H~@k[6;27H[50;145H   [6;26H[50;158H6[6;26H[34h[?25h[?25l[50;145H~@k[6;26H[50;145H   [6;25H[50;158H5[6;25H[34h[?25h[?25l[50;145Ha[6;25H[50;145H [6;26H[50;1H[1m-- INSERT --[0m[50;13H[K[50;155H6,26[10CAll[6;26H[34h[?25h[?25l[50;158H7[6;27H[34h[?25h[?25l[31m30.56[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;65H[K[50;158H6[6;26H[34h[?25h[?25l[31m30.56[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;64H[K[50;158H5[6;25H[34h[?25h[?25l[50;158H6[6;26H[34h[?25h[?25l[50;158H7[6;27H[34h[?25h[?25l[50;158H8[6;28H[34h[?25h[?25l[50;158H9[6;29H[34h[?25h[?25l[50;157H30[6;30H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;63H[K[50;157H29[6;29H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;62H[K[50;158H8[6;28H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;61H[K[50;158H7[6;27H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;60H[K[50;158H6[6;26H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;59H[K[50;158H5[6;25H[34h[?25h[?25l, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[6;58H[K[6;23H[46m([33C)[0m[50;158H4[6;24H[34h[?25h[?25l[31m0[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.9[0m[31m[46m2[0m)[6;23H([33C[31m2[0m[50;158H5[6;25H[34h[?25h[?25l[31m.[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H6[6;26H[34h[?25h[?25l[31m4[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H7[6;27H[34h[?25h[?25l[31m9[0m, [31m'long'[0m,[31m1[0m,[31m1[0m, [31m2[0m, [31m"BTCUSDT"[0m,[31m390.92[0m)[50;158H8[6;28H[34h[?25h[?25l[50;158H9[6;29H[34h[?25h[?25l[50;157H30[6;30H[34h[?25h[?25l[50;158H1[6;31H[34h[?25h[?25l[50;158H2[6;32H[34h[?25h[?25l[50;158H3[6;33H[34h[?25h[?25l[50;158H4[6;34H[34h[?25h[?25l[50;158H5[6;35H[34h[?25h[?25l[50;158H6[6;36H[34h[?25h[?25l[50;158H7[6;37H[34h[?25h[?25l[50;158H8[6;38H[34h[?25h[?25l[50;158H9[6;39H[34h[?25h[?25l[50;157H40[6;40H[34h[?25h[?25l[50;158H1[6;41H[34h[?25h[?25l[50;158H2[6;42H[34h[?25h[?25l[50;158H3[6;43H[34h[?25h[?25l[50;158H4[6;44H[34h[?25h[?25l[50;158H5[6;45H[34h[?25h[?25l[50;158H6[6;46H[34h[?25h[?25l[50;158H7[6;47H[34h[?25h[?25l[50;158H8[6;48H[34h[?25h[?25l[50;158H9[6;49H[34h[?25h[?25l[50;157H50[6;50H[34h[?25h[?25l[50;158H1[6;51H[34h[?25h[?25l[50;158H2[6;52H[34h[?25h[?25l[50;158H3[6;53H[34h[?25h[?25l[50;158H4[6;54H[34h[?25h[?25l[50;158H5[6;55H[34h[?25h[?25l[50;158H6[6;56H[34h[?25h[?25l[50;158H7[6;57H[34h[?25h[?25l[50;158H8[6;58H[34h[?25h[?25l[50;158H9[6;59H[34h[?25h[?25l[50;157H60[6;60H[34h[?25h[?25l[6;23H[46m([37C)[0m[50;158H1[6;61H[34h[?25h[?25l)[6;61H[K[6;60H[46m)[0m[50;158H0[6;60H[34h[?25h[?25l)[6;60H[K[6;59H[46m)[0m[50;157H59[6;59H[34h[?25h[?25l)[6;59H[K[6;58H[46m)[0m[50;158H8[6;58H[34h[?25h[?25l)[6;58H[K[6;57H[46m)[0m[50;158H7[6;57H[34h[?25h[?25l)[6;57H[K[6;56H[46m)[0m[50;158H6[6;56H[34h[?25h[?25l)[6;56H[K[6;55H[46m)[0m[50;158H5[6;55H[34h[?25h[?25l[31m[46m1[0m)[31m1[0m[46m)[0m[50;158H6[6;56H[34h[?25h[?25l[31m[46m1[0m)[31m1[0m[46m)[0m[50;158H7[6;57H[34h[?25h[?25l[31m[46m6[0m)[31m6[0m[46m)[0m[50;158H8[6;58H[34h[?25h[?25l[31m[46m3[0m)[31m3[0m[46m)[0m[50;158H9[6;59H[34h[?25h[?25l[31m[46m0[0m)[31m0[0m[46m)[0m[50;157H60[6;60H[34h[?25h[?25l[31m[46m.[0m)[31m.[0m[46m)[0m[50;158H1[6;61H[34h[?25h[?25l[31m[46m5[0m)[31m5[0m[46m)[0m[50;158H2[6;62H[34h[?25h[?25l[31m[46m6[0m)[31m6[0m[46m)[0m[50;158H3[6;63H[34h[?25h[50;1H[K[6;62H[?25l[50;145H^[[6;62H[50;145H  [6;63H[6;23H([39C)[50;155H6,62[10CAll[6;62H[34h[?25h[?25l[50;145H:[6;62H[50;145H[K[50;1H:[34h[?25hq[?25l[34h[?25h...[?25lall...[50;3H[K[50;3H[49;1H[1m[7mqall  quit  quitall                                                                                                                                                         [0m[50;3H...[49;1H[30m[43mqall[0m
+:qall[34h[?25h[?25l[49;1H[1m[34m~                                                                                                                                                                           [0m[50;155H6,62[10CAll[50;155H[K[50;1H[1m[37m[41mE37: No write since last change[0m
+[1m[37m[41mE162: No write since last change for buffer "temp_trading.py"[?1000l[0m
+[32mPress ENTER or type command to continue[34h[?25h[?1000h[?25l[6;62H[0m[50;145H:[6;62H[50;1H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"temp_trading.py" 9L, 382C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/trade$ vim temp_trading.py [4@python3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.81
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7418
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.82
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7418
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.82
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.82
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.68
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.77
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.92
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.76
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.92
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.76
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11622.91
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.7
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7385
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.7
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.738
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.7
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.11
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.738
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.71
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.12
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7389
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.71
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.84
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7389
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.67
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11624.08
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7381
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.67
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.77
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7452
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.67
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11623.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7452
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.67
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11624.86
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7452
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.66
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11624.85
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7452
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.66
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11624.99
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7452
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.7
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11625.03
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.749
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.7
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11625.33
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.749
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.69
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11625.81
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7486
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.8
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.01
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7485
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.8
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11627.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.76
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.44
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.79
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.49
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.86
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.49
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.81
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.47
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.81
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.46
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.8
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.46
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.8
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.46
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7535
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.8
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.47
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7462
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.8
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11626.74
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7462
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.9
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11628.47
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7462
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.89
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11628.48
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7564
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.89
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11628.47
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7564
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.9
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11628.47
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7574
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.94
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11629.63
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7574
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.94
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11631.18
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7574
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.05
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11631.42
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7574
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.05
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11631.43
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7574
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.06
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11631.43
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7574
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11631.5
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7575
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.13
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7614
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.13
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.43
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7665
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.22
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.58
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7663
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.21
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7663
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.21
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7727
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.2
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7727
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.19
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7759
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.19
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7729
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.2
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.87
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7729
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.2
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.86
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7729
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.19
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.86
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7643
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.2
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.9
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7642
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.2
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.38
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7642
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.2
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.16
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.766
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.21
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.41
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7654
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.22
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.28
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7717
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.22
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.4
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.765
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.22
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.4
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7712
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.22
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.51
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7604
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.21
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.5
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7604
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.21
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7581
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.93
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.98
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7516
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.93
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.33
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.759
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.94
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.5
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7466
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.01
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.22
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.754
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.02
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.22
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7573
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.92
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7573
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.95
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7604
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.97
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7604
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.08
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7605
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.13
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7605
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.12
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7605
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.11
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.3
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7596
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.28
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7582
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.77
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7582
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.76
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7582
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.74
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7582
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.74
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7537
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.73
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.763
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.98
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.73
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.763
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.97
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.74
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.97
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.73
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  390.97
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11632.74
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.0
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.0
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.06
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.19
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.06
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.17
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.17
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.1
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.2
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7619
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.1
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.24
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7683
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.77
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.24
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.77
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.77
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.09
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.29
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.77
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.1
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.28
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7732
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.11
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.28
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7735
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.1
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.28
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7735
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.1
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.29
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7735
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.1
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11633.28
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7769
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.18
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.71
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7769
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.19
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.71
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7769
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.26
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.71
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.774
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.29
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.36
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7832
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.38
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.41
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7726
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.38
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.4
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7732
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.42
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.88
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7732
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.48
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.4
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7732
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.54
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.4
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7747
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.97
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7747
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.94
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.45
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7747
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.25
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7747
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.44
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.23
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7747
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.44
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.21
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7774
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.44
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.2
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7774
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.44
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.89
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7763
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.38
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11636.89
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7763
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.38
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.93
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7825
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.27
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.86
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.3
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7802
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.44
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7843
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.43
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7816
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.85
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.34
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7801
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.86
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7801
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.85
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.31
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7811
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11634.86
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.34
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7811
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.2
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.33
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7811
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11635.05
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.33
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7811
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.35
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7812
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.18
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.38
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7812
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.17
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.36
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7812
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.56
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.36
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7812
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.47
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7815
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.47
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7815
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.47
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7858
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.47
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7865
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.47
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7887
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.47
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7841
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.46
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7841
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.45
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.37
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.78
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.45
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.36
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7764
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.46
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.36
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.78
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.45
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.33
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7769
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.45
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.34
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:  21.7799
+trigger: 11746.8656 stop loss: 11397.9488 current_price:  11637.46
+trigger: 387.0108 stop loss: 398.7384 current_price:  391.34
+trigger: 22.21596 stop loss: 21.556079999999998 current_price:
