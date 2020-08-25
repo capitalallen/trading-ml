@@ -32,7 +32,7 @@ def trade_ex(val):
                 try:
                     p_q = trade_long_short.get_quantity(pair,"long")
                     # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
-                    Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],round(p_q['quantity'],2),'long',trigger_per,deviation,stop_loss_per,)).start()
+                    Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],round(p_q['quantity'],1),'long',trigger_per,deviation,stop_loss_per,)).start()
                 except:
                     message_func.send_a_message("long buy failed")
             elif result == 'short':
