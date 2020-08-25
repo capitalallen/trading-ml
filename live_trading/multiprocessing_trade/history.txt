@@ -21208,4 +21208,1186 @@ mom5                         -0.0253758
 log_ret                      -0.0342764
 volatility                   0.00632069
 autocorr_1                    -0.106533
-autocorr_2                    -0.1
+autocorr_2                    -0.125529
+autocorr_3                    -0.139035
+autocorr_4                     0.085518
+autocorr_5                    -0.217091
+log_t1                       0.00537758
+log_t2                      -0.00123849
+log_t3                       0.00446931
+log_t4                     -3.53172e-05
+log_t5                       0.00278126
+fast_mavg                       22.6443
+slow_mavg                        22.581
+rsi                                  21
+srsi                            37.6673
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 12:52:00
+tick_num                              5
+open                            0.28202
+high                            0.28222
+low                             0.28181
+close                           0.28199
+volume                      2.57701e+06
+cum_buy_volume              2.39348e+06
+cum_ticks                             5
+cum_dollar_value                 726683
+avg                            0.287138
+upper                          0.290162
+lower                          0.284115
+side                                NaN
+mom1                         -0.0191312
+mom2                         -0.0181407
+mom3                         -0.0189605
+mom4                         -0.0229037
+mom5                          -0.023648
+log_ret                      -0.0193165
+volatility                   0.00393704
+autocorr_1                   -0.0267652
+autocorr_2                    0.0822674
+autocorr_3                     0.113352
+autocorr_4                   0.00870729
+autocorr_5                    -0.083457
+log_t1                       0.00100926
+log_t2                     -0.000835299
+log_t3                      -0.00402749
+log_t4                     -0.000762013
+log_t5                       0.00187139
+fast_mavg                      0.287117
+slow_mavg                       0.28727
+rsi                                  16
+srsi                            31.7001
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:00:00
+tick_num                             11
+open                            22.1061
+high                            22.2065
+low                             22.0872
+close                           22.0872
+volume                          34668.2
+cum_buy_volume                  17232.6
+cum_ticks                            11
+cum_dollar_value                 767833
+avg                             22.5208
+upper                           22.8334
+lower                           22.2082
+side                                 -1
+mom1                          -0.029373
+mom2                         -0.0305744
+mom3                          -0.026232
+mom4                         -0.0262664
+mom5                         -0.0235544
+log_ret                       -0.029813
+volatility                   0.00579035
+autocorr_1                    0.0894527
+autocorr_2                    -0.317446
+autocorr_3                  -0.00759787
+autocorr_4                  -0.00285513
+autocorr_5                   -0.0641156
+log_t1                      -0.00123849
+log_t2                       0.00446931
+log_t3                     -3.53172e-05
+log_t4                       0.00278126
+log_t5                      -0.00230496
+fast_mavg                        22.612
+slow_mavg                       22.5477
+rsi                                  22
+srsi                            36.9186
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:06:00
+tick_num                             14
+open                            0.28199
+high                            0.28272
+low                             0.28159
+close                            0.2824
+volume                       2.5273e+06
+cum_buy_volume              1.38602e+06
+cum_ticks                            14
+cum_dollar_value                 713103
+avg                            0.287187
+upper                          0.290122
+lower                          0.284251
+side                                NaN
+mom1                         -0.0167131
+mom2                         -0.0175341
+mom3                          -0.021483
+mom4                         -0.0222283
+mom5                         -0.0203968
+log_ret                      -0.0168543
+volatility                   0.00369679
+autocorr_1                    0.0388864
+autocorr_2                      0.19771
+autocorr_3                  -0.00860386
+autocorr_4                   -0.0917799
+autocorr_5                   -0.0113092
+log_t1                     -0.000835299
+log_t2                      -0.00402749
+log_t3                     -0.000762013
+log_t4                       0.00187139
+log_t5                     -3.46316e-05
+fast_mavg                       0.28729
+slow_mavg                      0.287384
+rsi                                  14
+srsi                            31.4869
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:13:00
+tick_num                              7
+open                            0.28186
+high                            0.28186
+low                             0.28085
+close                           0.28128
+volume                      2.55585e+06
+cum_buy_volume              1.29336e+06
+cum_ticks                             7
+cum_dollar_value                 718794
+avg                            0.287123
+upper                          0.290531
+lower                          0.283716
+side                                NaN
+mom1                         -0.0214305
+mom2                         -0.0253638
+mom3                         -0.0261062
+mom4                         -0.0242819
+mom5                         -0.0243157
+log_ret                      -0.0216635
+volatility                    0.0041797
+autocorr_1                     0.157729
+autocorr_2                    0.0862595
+autocorr_3                   -0.0965999
+autocorr_4                   -0.0287273
+autocorr_5                    -0.112973
+log_t1                      -0.00402749
+log_t2                     -0.000762013
+log_t3                       0.00187139
+log_t4                     -3.46316e-05
+log_t5                       0.00197913
+fast_mavg                      0.287204
+slow_mavg                      0.287426
+rsi                                  14
+srsi                            57.4797
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:16:00
+tick_num                             16
+open                            22.1397
+high                            22.2041
+low                             22.1012
+close                           22.2041
+volume                            34094
+cum_buy_volume                  19131.5
+cum_ticks                            16
+cum_dollar_value                 755387
+avg                             22.5137
+upper                           22.7833
+lower                            22.244
+side                                 -1
+mom1                         -0.0254435
+mom2                         -0.0210782
+mom3                         -0.0211128
+mom4                         -0.0183864
+mom5                         -0.0206464
+log_ret                      -0.0257728
+volatility                   0.00537771
+autocorr_1                   -0.0503121
+autocorr_2                    -0.211646
+autocorr_3                   -0.0766005
+autocorr_4                     0.138518
+autocorr_5                    -0.273395
+log_t1                       0.00446931
+log_t2                     -3.53172e-05
+log_t3                       0.00278126
+log_t4                      -0.00230496
+log_t5                       0.00499649
+fast_mavg                       22.6006
+slow_mavg                       22.5364
+rsi                                  25
+srsi                            31.5157
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:27:00
+tick_num                             14
+open                             0.2811
+high                            0.28141
+low                             0.28088
+close                           0.28088
+volume                      2.70531e+06
+cum_buy_volume                   784825
+cum_ticks                            14
+cum_dollar_value                 760347
+avg                            0.287107
+upper                          0.290729
+lower                          0.283484
+side                                NaN
+mom1                         -0.0267498
+mom2                         -0.0274912
+mom3                         -0.0256695
+mom4                         -0.0257033
+mom5                         -0.0237731
+log_ret                      -0.0271141
+volatility                   0.00478462
+autocorr_1                    0.0255717
+autocorr_2                   -0.0141237
+autocorr_3                   -0.0141746
+autocorr_4                   -0.0977035
+autocorr_5                    -0.136092
+log_t1                     -0.000762013
+log_t2                       0.00187139
+log_t3                     -3.46316e-05
+log_t4                       0.00197913
+log_t5                       0.00337705
+fast_mavg                      0.287049
+slow_mavg                      0.287506
+rsi                                  16
+srsi                            35.8166
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+Process Process-2:9:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../trade/trailing_mkt.py", line 65, in limit_long_trailing
+    buy = transaction_func.mkt_buy_sell_future(pair=pair,quantity=quantity,positionSide="LONG",side='BUY')
+  File "../trade/transaction.py", line 76, in mkt_buy_sell_future
+    his = self.binance_client.futures_create_order(symbol=pair,side=side,type="MARKET",quantity=str(quantity),positionSide=positionSide)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 3584, in futures_create_order
+    return self._request_futures_api('post', 'order', True, data=params)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 222, in _request_futures_api
+    return self._request(method, uri, signed, True, **kwargs)
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 197, in _request
+    return self._handle_response()
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/binance/client.py", line 230, in _handle_response
+    raise BinanceAPIException(self.response)
+binance.exceptions.BinanceAPIException: APIError(code=-1111): Precision is over the maximum defined for this asset.
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:32:00
+tick_num                              5
+open                            0.28147
+high                            0.28147
+low                             0.28041
+close                           0.28041
+volume                      2.53122e+06
+cum_buy_volume                  68362.4
+cum_ticks                             5
+cum_dollar_value                 710960
+avg                            0.286979
+upper                          0.290781
+lower                          0.283177
+side                                NaN
+mom1                         -0.0291185
+mom2                         -0.0272999
+mom3                         -0.0273336
+mom4                         -0.0254067
+mom5                         -0.0221098
+log_ret                      -0.0295509
+volatility                   0.00507343
+autocorr_1                     -0.07819
+autocorr_2                    0.0623277
+autocorr_3                   -0.0966149
+autocorr_4                    -0.154701
+autocorr_5                   -0.0057105
+log_t1                       0.00187139
+log_t2                     -3.46316e-05
+log_t3                       0.00197913
+log_t4                       0.00337705
+log_t5                      0.000313922
+fast_mavg                      0.286704
+slow_mavg                      0.287555
+rsi                                  17
+srsi                            36.5088
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:36:00
+tick_num                             20
+open                            22.2094
+high                             22.217
+low                             22.1059
+close                            22.146
+volume                          33250.2
+cum_buy_volume                  12542.9
+cum_ticks                            20
+cum_dollar_value                 737552
+avg                             22.4862
+upper                           22.7489
+lower                           22.2235
+side                                 -1
+mom1                         -0.0236397
+mom2                         -0.0236741
+mom3                         -0.0209549
+mom4                          -0.023209
+mom5                         -0.0183163
+log_ret                      -0.0239236
+volatility                   0.00521668
+autocorr_1                    0.0622527
+autocorr_2                    -0.297586
+autocorr_3                    0.0347469
+autocorr_4                    -0.124534
+autocorr_5                    -0.246817
+log_t1                     -3.53172e-05
+log_t2                       0.00278126
+log_t3                      -0.00230496
+log_t4                       0.00499649
+log_t5                          0.00305
+fast_mavg                       22.5504
+slow_mavg                       22.5079
+rsi                                  27
+srsi                            70.5265
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:40:00
+tick_num                              8
+open                            0.28059
+high                            0.28068
+low                             0.27941
+close                           0.27941
+volume                      2.53182e+06
+cum_buy_volume                   227200
+cum_ticks                             8
+cum_dollar_value                 708670
+avg                            0.286774
+upper                           0.29093
+lower                          0.282617
+side                                NaN
+mom1                         -0.0307687
+mom2                         -0.0308023
+mom3                         -0.0288822
+mom4                         -0.0255972
+mom5                         -0.0252912
+log_ret                       -0.031252
+volatility                   0.00527564
+autocorr_1                   0.00915075
+autocorr_2                   -0.0248071
+autocorr_3                    -0.168469
+autocorr_4                   -0.0187273
+autocorr_5                    -0.131362
+log_t1                     -3.46316e-05
+log_t2                       0.00197913
+log_t3                       0.00337705
+log_t4                      0.000313922
+log_t5                       0.00300449
+fast_mavg                       0.28613
+slow_mavg                      0.287499
+rsi                                  13
+srsi                            39.3774
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:46:00
+tick_num                             10
+open                            22.1378
+high                            22.1378
+low                             21.9861
+close                           21.9954
+volume                          36356.7
+cum_buy_volume                   9262.4
+cum_ticks                            10
+cum_dollar_value                 800344
+avg                             22.4573
+upper                            22.758
+lower                           22.1566
+side                                 -1
+mom1                         -0.0303135
+mom2                         -0.0276128
+mom3                         -0.0298515
+mom4                         -0.0249921
+mom5                         -0.0220137
+log_ret                      -0.0307825
+volatility                   0.00591568
+autocorr_1                   -0.0288063
+autocorr_2                     -0.13558
+autocorr_3                    -0.152253
+autocorr_4                   -0.0746879
+autocorr_5                    -0.147559
+log_t1                       0.00278126
+log_t2                      -0.00230496
+log_t3                       0.00499649
+log_t4                          0.00305
+log_t5                      0.000947487
+fast_mavg                       22.4985
+slow_mavg                       22.4793
+rsi                                  23
+srsi                            35.9582
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 13:45:00
+tick_num                              5
+open                            0.27957
+high                            0.27988
+low                               0.279
+close                           0.27926
+volume                       2.8535e+06
+cum_buy_volume                   330725
+cum_ticks                             5
+cum_dollar_value                 797177
+avg                            0.286684
+upper                          0.290915
+lower                          0.282452
+side                                NaN
+mom1                         -0.0313226
+mom2                         -0.0294035
+mom3                         -0.0261202
+mom4                         -0.0258145
+mom5                         -0.0228831
+log_ret                      -0.0318236
+volatility                    0.0053697
+autocorr_1                   -0.0710756
+autocorr_2                    -0.080283
+autocorr_3                   -0.0148297
+autocorr_4                    -0.143049
+autocorr_5                       0.3429
+log_t1                       0.00197913
+log_t2                       0.00337705
+log_t3                      0.000313922
+log_t4                       0.00300449
+log_t5                      -0.00749459
+fast_mavg                      0.286061
+slow_mavg                      0.287574
+rsi                                  11
+srsi                            40.2156
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:02:00
+tick_num                             17
+open                            0.27949
+high                            0.27997
+low                             0.27904
+close                           0.27909
+volume                      2.63096e+06
+cum_buy_volume              1.58688e+06
+cum_ticks                            17
+cum_dollar_value                 735366
+avg                            0.286583
+upper                          0.290892
+lower                          0.282274
+side                                NaN
+mom1                         -0.0299945
+mom2                         -0.0267132
+mom3                         -0.0264076
+mom4                          -0.023478
+mom5                         -0.0307693
+log_ret                      -0.0304535
+volatility                   0.00519791
+autocorr_1                    -0.139054
+autocorr_2                     0.055834
+autocorr_3                    -0.140498
+autocorr_4                     0.342848
+autocorr_5                    0.0541494
+log_t1                       0.00337705
+log_t2                      0.000313922
+log_t3                       0.00300449
+log_t4                      -0.00749459
+log_t5                     -0.000833124
+fast_mavg                      0.286023
+slow_mavg                      0.287534
+rsi                                  12
+srsi                            42.4538
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:03:00
+tick_num                             17
+open                            21.9892
+high                            22.0143
+low                             21.9394
+close                           21.9394
+volume                          41010.2
+cum_buy_volume                  15125.5
+cum_ticks                            17
+cum_dollar_value                 901191
+avg                             22.4353
+upper                           22.7435
+lower                           22.1272
+side                                 -1
+mom1                         -0.0300885
+mom2                         -0.0323215
+mom3                         -0.0274744
+mom4                         -0.0245037
+mom5                          -0.023579
+log_ret                      -0.0305504
+volatility                   0.00595932
+autocorr_1                     0.128217
+autocorr_2                    -0.365977
+autocorr_3                   -0.0983863
+autocorr_4                   -0.0134328
+autocorr_5                    0.0647825
+log_t1                      -0.00230496
+log_t2                       0.00499649
+log_t3                          0.00305
+log_t4                      0.000947487
+log_t5                      -0.00513166
+fast_mavg                       22.4765
+slow_mavg                         22.46
+rsi                                  23
+srsi                            34.1554
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:07:00
+tick_num                              5
+open                            0.27862
+high                            0.27913
+low                             0.27797
+close                           0.27797
+volume                      2.55671e+06
+cum_buy_volume                   482593
+cum_ticks                             5
+cum_dollar_value                 712273
+avg                            0.286439
+upper                          0.291224
+lower                          0.281654
+side                                NaN
+mom1                          -0.030619
+mom2                         -0.0303147
+mom3                         -0.0273969
+mom4                         -0.0346589
+mom5                         -0.0354628
+log_ret                      -0.0310976
+volatility                   0.00525316
+autocorr_1                   -0.0059194
+autocorr_2                   -0.0744319
+autocorr_3                     0.363854
+autocorr_4                      0.06471
+autocorr_5                   -0.0433773
+log_t1                      0.000313922
+log_t2                       0.00300449
+log_t3                      -0.00749459
+log_t4                     -0.000833124
+log_t5                       0.00111106
+fast_mavg                      0.285884
+slow_mavg                      0.287458
+rsi                                  11
+srsi                            46.0541
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:10:00
+tick_num                              7
+open                            21.9374
+high                            21.9374
+low                             21.8501
+close                           21.8561
+volume                          34624.5
+cum_buy_volume                  9054.22
+cum_ticks                             7
+cum_dollar_value                 757897
+avg                             22.4149
+upper                           22.7475
+lower                           22.0824
+side                                 -1
+mom1                         -0.0359956
+mom2                         -0.0311669
+mom3                         -0.0282074
+mom4                         -0.0272862
+mom5                         -0.0322651
+log_ret                      -0.0366594
+volatility                   0.00662674
+autocorr_1                   -0.0596432
+autocorr_2                    -0.288293
+autocorr_3                   -0.0466427
+autocorr_4                     0.155151
+autocorr_5                   -0.0666072
+log_t1                       0.00499649
+log_t2                          0.00305
+log_t3                      0.000947487
+log_t4                      -0.00513166
+log_t5                      6.19902e-05
+fast_mavg                       22.4593
+slow_mavg                       22.4499
+rsi                                  23
+srsi                            34.4547
+sma                                   1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:12:00
+tick_num                              5
+open                            0.27798
+high                            0.27798
+low                              0.2768
+close                           0.27686
+volume                      2.72093e+06
+cum_buy_volume                   860462
+cum_ticks                             5
+cum_dollar_value                 755023
+avg                             0.28638
+upper                          0.291678
+lower                          0.281082
+side                                NaN
+mom1                         -0.0341868
+mom2                         -0.0312807
+mom3                         -0.0385137
+mom4                         -0.0393144
+mom5                         -0.0382464
+log_ret                      -0.0347848
+volatility                   0.00573423
+autocorr_1                    -0.121651
+autocorr_2                      0.39782
+autocorr_3                    0.0953559
+autocorr_4                   -0.0206531
+autocorr_5                     0.183738
+log_t1                       0.00300449
+log_t2                      -0.00749459
+log_t3                     -0.000833124
+log_t4                       0.00111106
+log_t5                      -0.00319078
+fast_mavg                      0.286017
+slow_mavg                      0.287479
+rsi                                   6
+srsi                            48.5137
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:16:00
+tick_num                              4
+open                            0.27686
+high                            0.27701
+low                             0.27588
+close                           0.27701
+volume                      2.98436e+06
+cum_buy_volume              1.51998e+06
+cum_ticks                             4
+cum_dollar_value                 825607
+avg                            0.286448
+upper                          0.291781
+lower                          0.281115
+side                                NaN
+mom1                         -0.0307558
+mom2                         -0.0379928
+mom3                         -0.0387939
+mom4                         -0.0377253
+mom5                         -0.0407909
+log_ret                      -0.0312387
+volatility                   0.00531528
+autocorr_1                     0.383666
+autocorr_2                     0.120856
+autocorr_3                   0.00326277
+autocorr_4                     0.221743
+autocorr_5                    0.0673621
+log_t1                      -0.00749459
+log_t2                     -0.000833124
+log_t3                       0.00111106
+log_t4                      -0.00319078
+log_t5                     -0.000553912
+fast_mavg                      0.286366
+slow_mavg                      0.287539
+rsi                                   6
+srsi                            51.7649
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:18:00
+tick_num                              8
+open                             21.771
+high                            21.8136
+low                             21.7061
+close                           21.8136
+volume                          33782.8
+cum_buy_volume                  17824.5
+cum_ticks                             8
+cum_dollar_value                 735423
+avg                             22.3922
+upper                           22.7247
+lower                           22.0596
+side                                 -1
+mom1                         -0.0330508
+mom2                         -0.0300971
+mom3                         -0.0291777
+mom4                         -0.0341469
+mom5                          -0.034087
+log_ret                      -0.0336093
+volatility                   0.00627136
+autocorr_1                  -0.00235512
+autocorr_2                    -0.220274
+autocorr_3                     0.154354
+autocorr_4                   -0.0078031
+autocorr_5                    -0.263552
+log_t1                          0.00305
+log_t2                      0.000947487
+log_t3                      -0.00513166
+log_t4                      6.19902e-05
+log_t5                       0.00599137
+fast_mavg                       22.4213
+slow_mavg                       22.4408
+rsi                                  20
+srsi                            36.5124
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:18:00
+tick_num                              2
+open                            0.27694
+high                            0.27694
+low                             0.27636
+close                           0.27636
+volume                      3.54714e+06
+cum_buy_volume                        0
+cum_ticks                             2
+cum_dollar_value                 980556
+avg                            0.286527
+upper                          0.292198
+lower                          0.280855
+side                                NaN
+mom1                         -0.0402501
+mom2                         -0.0410493
+mom3                         -0.0399833
+mom4                         -0.0430416
+mom5                         -0.0435715
+log_ret                      -0.0410825
+volatility                    0.0064528
+autocorr_1                    0.0868248
+autocorr_2                    0.0157186
+autocorr_3                     0.180983
+autocorr_4                    0.0845827
+autocorr_5                     0.042204
+log_t1                     -0.000833124
+log_t2                       0.00111106
+log_t3                      -0.00319078
+log_t4                     -0.000553912
+log_t5                     -0.000311435
+fast_mavg                      0.286736
+slow_mavg                      0.287547
+rsi                                   7
+srsi                            65.2567
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:20:00
+tick_num                              2
+open                            0.27636
+high                            0.27684
+low                             0.27636
+close                           0.27684
+volume                      2.60244e+06
+cum_buy_volume              1.54464e+06
+cum_ticks                             2
+cum_dollar_value                 719951
+avg                            0.286525
+upper                          0.292078
+lower                          0.280973
+side                                NaN
+mom1                         -0.0393838
+mom2                         -0.0383159
+mom3                         -0.0413795
+mom4                         -0.0419103
+mom5                         -0.0422087
+log_ret                      -0.0401803
+volatility                   0.00634364
+autocorr_1                   -0.0122582
+autocorr_2                     0.237082
+autocorr_3                    0.0528578
+autocorr_4                     0.072221
+autocorr_5                     0.161239
+log_t1                       0.00111106
+log_t2                      -0.00319078
+log_t3                     -0.000553912
+log_t4                     -0.000311435
+log_t5                      -0.00262591
+fast_mavg                      0.287069
+slow_mavg                      0.287477
+rsi                                   8
+srsi                            54.3032
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:30:00
+tick_num                             10
+open                            0.27686
+high                            0.27798
+low                             0.27667
+close                           0.27769
+volume                      2.53938e+06
+cum_buy_volume              1.47229e+06
+cum_ticks                            10
+cum_dollar_value                 704165
+avg                            0.286532
+upper                          0.291827
+lower                          0.281236
+side                                NaN
+mom1                         -0.0353632
+mom2                         -0.0384362
+mom3                         -0.0389687
+mom4                         -0.0392679
+mom5                         -0.0417874
+log_ret                      -0.0360036
+volatility                    0.0058122
+autocorr_1 
