@@ -29,7 +29,7 @@ def get_configs(pair,type):
         configs['price']=curr_price
         configs["transaction"]=transactions['transaction_long']
         configs['leverage_rate'] = controls['lev_long']
-        if not configs['discount_rate']:
+        if configs['discount_rate']:
             configs['price'] = round(configs['price']*(1-configs['discount_rate']),2)
     elif type=="short":
         transactions = config_func.get_trading_num()
@@ -42,7 +42,7 @@ def get_configs(pair,type):
         configs['price']=curr_price
         configs["transaction"]=transactions['transaction_short']
         configs['leverage_rate'] = controls['lev_short']
-        if not configs['discount_rate']:
+        if configs['discount_rate']:
             configs['price'] = round(configs['price']*(1+configs['discount_rate']),2)
     else:
         print("type invalid")

@@ -22,7 +22,7 @@ def change_lev(pair,lev_type,rate):
 pair = "ETHUSDT"
 #change_strategy(pred=1,side=-1,pair='ETHUSDT',strategy="long_strategy")
 #change_strategy(pred=0,side=-1,pair='ETHUSDT',strategy="short_strategy")
-change_discount(pair="ETHUSDT",type="long_p",rate=0.01)
-change_lev(pair,'lev_long',30)
+#change_discount(pair="ETHUSDT",type="short_p",rate=0.01)
+#change_lev(pair,'lev_short',30)
 #change_discount(pair="ETHUSDT",type="short_p",rate=0)
 get_strategy(pair)

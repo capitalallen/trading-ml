@@ -15,9 +15,9 @@ if t == 1:
     p2.daemon = False
     p2.start()
 elif t==2:
-    #p1 = Process(target=bnb_ex.trade_ex,args=[2])
-    #p1.daemon = False
-    #p1.start()
+    p1 = Process(target=bnb_ex.trade_ex,args=[2])
+    p1.daemon = False
+    p1.start()
 
     p2 = Process(target=xrp_ex.trade_ex,args=[2])
     p2.daemon = False
