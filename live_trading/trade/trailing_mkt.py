@@ -89,7 +89,7 @@ def limit_short_trailing(pair,short_price,quantity,trade_type='short',trigger_pe
     curr_price = price.get_price(pair)
     print("current price:",curr_price)
     while curr_price < short_price:
-        print("current price: ",curr_price," short price: ",short_price)
+        print("current price: " + str(curr_price) + "| long price:" + str(short_price))
         time.sleep(1.5)
         if int(time.time())>start_time+7200:
             print("time expired")
