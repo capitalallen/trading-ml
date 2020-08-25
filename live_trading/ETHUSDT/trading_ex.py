@@ -29,9 +29,9 @@ def trade_ex():
             while True:
                 result = t.live_trading()
                 if result == "long":
-                    message_func.send_a_message("ETH long signal")
                     try:
                         p_q = trade_long_short.get_quantity(pair,"long")
+                        message_func.send_a_message("ETH long signal " + "price" + str(p_q['price'] + " quantity:" + str(p_q['quantity'])))
                         # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                         Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],p_q['quantity'],'long',trigger_per,deviation,stop_loss_per,)).start()
                     except:
