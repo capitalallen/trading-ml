@@ -58317,4 +58317,1195 @@ slow_mavg                       11664.6
 rsi                                  16
 srsi                            56.1844
 sma                                  -1
-Name: 0, dt
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:24:00
+tick_num                              8
+open                            11376.9
+high                              11400
+low                             11376.9
+close                           11385.8
+volume                          640.909
+cum_buy_volume                  350.227
+cum_ticks                             8
+cum_dollar_value            7.30143e+06
+avg                             11630.1
+upper                             11777
+lower                           11483.2
+side                                 -1
+mom1                         -0.0287656
+mom2                         -0.0278069
+mom3                         -0.0257813
+mom4                         -0.0257655
+mom5                         -0.0249137
+log_ret                      -0.0291874
+volatility                   0.00463856
+autocorr_1                    0.0154577
+autocorr_2                   -0.0827991
+autocorr_3                   -0.0137099
+autocorr_4                   0.00180127
+autocorr_5                    0.0535999
+log_t1                      0.000986542
+log_t2                       0.00208137
+log_t3                      1.62105e-05
+log_t4                      0.000874003
+log_t5                     -0.000404954
+fast_mavg                       11650.4
+slow_mavg                       11654.9
+rsi                                  20
+srsi                             78.636
+sma                                  -1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:33:00
+tick_num                              9
+open                            11377.3
+high                            11427.7
+low                             11377.3
+close                           11427.7
+volume                          637.571
+cum_buy_volume                  405.954
+cum_ticks                             9
+cum_dollar_value            7.26996e+06
+avg                             11627.4
+upper                           11756.3
+lower                           11498.5
+side                                NaN
+mom1                         -0.0242284
+mom2                         -0.0221953
+mom3                         -0.0221795
+mom4                         -0.0213245
+mom5                         -0.0217207
+log_ret                      -0.0245267
+volatility                   0.00404842
+autocorr_1                   -0.0446153
+autocorr_2                    0.0504951
+autocorr_3                   -0.0892776
+autocorr_4                    0.0850144
+autocorr_5                  -0.00857428
+log_t1                       0.00208137
+log_t2                      1.62105e-05
+log_t3                      0.000874003
+log_t4                     -0.000404954
+log_t5                       0.00057374
+fast_mavg                       11649.5
+slow_mavg                       11649.3
+rsi                                  16
+srsi                            78.2373
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:46:00
+tick_num                             13
+open                            11415.3
+high                            11426.9
+low                             11407.4
+close                           11419.5
+volume                          635.471
+cum_buy_volume                  307.064
+cum_ticks                            13
+cum_dollar_value            7.25671e+06
+avg                             11620.7
+upper                           11749.4
+lower                           11491.9
+side                                NaN
+mom1                         -0.0228953
+mom2                         -0.0228794
+mom3                         -0.0220251
+mom4                          -0.022421
+mom5                           -0.02186
+log_ret                      -0.0231614
+volatility                   0.00390556
+autocorr_1                    0.0958937
+autocorr_2                    0.0170214
+autocorr_3                   -0.0296224
+autocorr_4                   -0.0175758
+autocorr_5                   -0.0173971
+log_t1                      1.62105e-05
+log_t2                      0.000874003
+log_t3                     -0.000404954
+log_t4                       0.00057374
+log_t5                      0.000371798
+fast_mavg                       11642.4
+slow_mavg                       11639.8
+rsi                                  19
+srsi                            79.0425
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:00:00
+tick_num                             14
+open                            11406.5
+high                            11421.4
+low                             11392.3
+close                           11392.7
+volume                          667.655
+cum_buy_volume                  263.971
+cum_ticks                            14
+cum_dollar_value            7.61248e+06
+avg                             11613.8
+upper                           11751.1
+lower                           11476.5
+side                                NaN
+mom1                         -0.0251786
+mom2                         -0.0243262
+mom3                         -0.0247212
+mom4                         -0.0241615
+mom5                         -0.0237986
+log_ret                       -0.025501
+volatility                   0.00419348
+autocorr_1                    0.0362078
+autocorr_2                    0.0923223
+autocorr_3                   -0.0845911
+autocorr_4                     -0.00294
+autocorr_5                     0.060554
+log_t1                      0.000874003
+log_t2                     -0.000404954
+log_t3                       0.00057374
+log_t4                      0.000371798
+log_t5                     -0.000812857
+fast_mavg                       11637.6
+slow_mavg                       11630.7
+rsi                                  14
+srsi                             59.635
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:12:00
+tick_num                             12
+open                            11401.1
+high                            11407.8
+low                             11387.2
+close                           11388.3
+volume                          637.843
+cum_buy_volume                  386.663
+cum_ticks                            12
+cum_dollar_value            7.27091e+06
+avg                             11608.5
+upper                           11746.3
+lower                           11470.8
+side                                NaN
+mom1                          -0.024703
+mom2                         -0.0250979
+mom3                         -0.0245384
+mom4                         -0.0241756
+mom5                         -0.0249685
+log_ret                      -0.0250132
+volatility                   0.00414515
+autocorr_1                     0.119713
+autocorr_2                    0.0152958
+autocorr_3                   -0.0752747
+autocorr_4                     0.063196
+autocorr_5                    0.0834153
+log_t1                     -0.000404954
+log_t2                       0.00057374
+log_t3                      0.000371798
+log_t4                     -0.000812857
+log_t5                     -0.000982358
+fast_mavg                       11637.6
+slow_mavg                       11624.1
+rsi                                  15
+srsi                            49.3055
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:23:00
+tick_num                             11
+open                            11398.8
+high                              11400
+low                             11373.7
+close                           11386.9
+volume                          646.539
+cum_buy_volume                  277.206
+cum_ticks                            11
+cum_dollar_value            7.35964e+06
+avg                               11604
+upper                           11741.8
+lower                           11466.3
+side                                NaN
+mom1                         -0.0252135
+mom2                          -0.024654
+mom3                         -0.0242913
+mom4                         -0.0250841
+mom5                         -0.0260414
+log_ret                      -0.0255368
+volatility                   0.00420977
+autocorr_1                    0.0587695
+autocorr_2                    0.0269087
+autocorr_3                   -0.0011375
+autocorr_4                    0.0733617
+autocorr_5                    -0.116648
+log_t1                       0.00057374
+log_t2                      0.000371798
+log_t3                     -0.000812857
+log_t4                     -0.000982358
+log_t5                       0.00228971
+fast_mavg                       11635.6
+slow_mavg                       11616.5
+rsi                                  15
+srsi                            47.9189
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:33:00
+tick_num                             10
+open                              11390
+high                              11390
+low                             11360.1
+close                           11368.8
+volume                          653.579
+cum_buy_volume                  259.622
+cum_ticks                            10
+cum_dollar_value            7.43066e+06
+avg                             11597.1
+upper                           11739.6
+lower                           11454.6
+side                                NaN
+mom1                         -0.0262035
+mom2                         -0.0258414
+mom3                         -0.0266329
+mom4                         -0.0275887
+mom5                         -0.0253596
+log_ret                       -0.026553
+volatility                   0.00433531
+autocorr_1                    0.0691083
+autocorr_2                    0.0986659
+autocorr_3                    0.0140768
+autocorr_4                    -0.127294
+autocorr_5                    0.0131902
+log_t1                      0.000371798
+log_t2                     -0.000812857
+log_t3                     -0.000982358
+log_t4                       0.00228971
+log_t5                      0.000227241
+fast_mavg                       11630.3
+slow_mavg                       11607.5
+rsi                                  16
+srsi                            46.7624
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:44:00
+tick_num                             11
+open                            11368.7
+high                            11410.6
+low                             11368.7
+close                           11400.4
+volume                          645.749
+cum_buy_volume                  397.196
+cum_ticks                            11
+cum_dollar_value            7.35493e+06
+avg                             11594.8
+upper                           11725.5
+lower                           11464.1
+side                                NaN
+mom1                         -0.0231354
+mom2                         -0.0239291
+mom3                         -0.0248875
+mom4                         -0.0226522
+mom5                         -0.0224301
+log_ret                      -0.0234072
+volatility                   0.00395401
+autocorr_1                     0.146276
+autocorr_2                     0.110355
+autocorr_3                    -0.188198
+autocorr_4                  0.000533163
+autocorr_5                    -0.231364
+log_t1                     -0.000812857
+log_t2                     -0.000982358
+log_t3                       0.00228971
+log_t4                      0.000227241
+log_t5                       0.00402286
+fast_mavg                       11626.3
+slow_mavg                       11601.6
+rsi                                  16
+srsi                            43.7983
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:59:00
+tick_num                             15
+open                            11404.7
+high                            11425.2
+low                             11404.7
+close                           11419.4
+volume                           646.12
+cum_buy_volume                  353.638
+cum_ticks                            15
+cum_dollar_value            7.37572e+06
+avg                             11591.2
+upper                           11714.7
+lower                           11467.7
+side                                NaN
+mom1                         -0.0223033
+mom2                         -0.0232632
+mom3                         -0.0210242
+mom4                         -0.0208017
+mom5                         -0.0168546
+log_ret                      -0.0225557
+volatility                   0.00387054
+autocorr_1                      0.13756
+autocorr_2                   -0.0782965
+autocorr_3                   -0.0693241
+autocorr_4                    -0.233497
+autocorr_5                   -0.0075996
+log_t1                     -0.000982358
+log_t2                       0.00228971
+log_t3                      0.000227241
+log_t4                       0.00402286
+log_t5                       0.00019802
+fast_mavg                       11620.8
+slow_mavg                       11595.5
+rsi                                  20
+srsi                            73.5175
+sma                                   1
+Name: 0, dtype: object
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:11:00
+tick_num                             12
+open                            11410.6
+high                            11424.8
+low                             11390.8
+close                           11424.8
+volume                          662.359
+cum_buy_volume                   363.42
+cum_ticks                            12
+cum_dollar_value            7.55709e+06
+avg                               11585
+upper                           11703.4
+lower                           11466.7
+side                                 -1
+mom1                         -0.0228065
+mom2                         -0.0205664
+mom3                         -0.0203439
+mom4                         -0.0163949
+mom5                         -0.0162001
+log_ret                      -0.0230706
+volatility                   0.00393679
+autocorr_1                   -0.0316777
+autocorr_2                    0.0318321
+autocorr_3                    -0.278713
+autocorr_4                   -0.0126352
+autocorr_5                   -0.0858279
+log_t1                       0.00228971
+log_t2                      0.000227241
+log_t3                       0.00402286
+log_t4                       0.00019802
+log_t5                       0.00134682
+fast_mavg                       11609.7
+slow_mavg                       11589.4
+rsi                                  21
+srsi                            72.6348
+sma                                   1
+Name: 0, dtype: object
+150 11310.5124
+start live trading
+../pair_db/features.sqlite
+get klines
+^CTraceback (most recent call last):
+  File "trading_ex.py", line 49, in <module>
+    break
+  File "trading_ex.py", line 45, in trade_ex
+    message_func.send_a_message("BTC short buy failed")
+KeyboardInterrupt
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ ls
+__init__.py  [0m[01;34m__pycache__[0m  alter_config.py  column_order.json  history.txt  model.joblib  test.py  test_trade.py  trade_long_short.py  trading.py  trading_ex.py
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ cd tra[K[K[K[K[K[Kvim trade_long_short.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trade_long_short.py" 89L, 3119C[1;1H[31m"""[0m
+[33mdef[0m [36mget_configs[0m(pair,[36mtype[0m):
+    config_func = change_config.Change_config()
+    controls = config_func.get_pair_config(pair)
+    configs = {}
+    [33mif[0m [36mtype[0m == [31m"long"[0m:[7;9Htransactions = config_func.get_trading_num()[9;9Hlev_long = controls[[31m'lev_long'[0m][10;9Hdicount_rate=controls[[31m'long_p'[0m][11;9Hcurr_price = [36mround[0m(price.get_price(pair),[31m2[0m)[13;9Hconfigs[[31m'discount_rate'[0m]=dicount_rate[14;9Hconfigs[[31m'price'[0m]=curr_price[15;9Hconfigs[[31m"transaction"[0m]=transactions[[31m'transaction_long'[0m][16;9Hconfigs[[31m'leverage_rate'[0m] = controls[[31m'lev_long'[0m][17;9H[33mif[0m configs[[31m'discount_rate'[0m]:[18;13Hconfigs[[31m'price'[0m] = configs[[31m'price'[0m]*([31m1[0m-configs[[31m'discount_rate'[0m])
+    [33melif[0m [36mtype[0m==[31m"short"[0m:[20;9Htransactions = config_func.get_trading_num()[22;9Hlev_long = controls[[31m'lev_short'[0m][23;9Hdicount_rate=controls[[31m'short_p'[0m][24;9Hcurr_price = [36mround[0m(price.get_price(pair),[31m2[0m)[26;9Hconfigs[[31m'discount_rate'[0m]=dicount_rate[27;9Hconfigs[[31m'price'[0m]=curr_price[28;9Hconfigs[[31m"transaction"[0m]=transactions[[31m'transaction_short'[0m][29;9Hconfigs[[31m'leverage_rate'[0m] = controls[[31m'lev_short'[0m][30;9H[33mif[0m configs[[31m'discount_rate'[0m]:[31;13Hconfigs[[31m'price'[0m] = configs[[31m'price'[0m]*([31m1[0m+configs[[31m'discount_rate'[0m])
+    [33melse[0m:[33;9H[36mprint[0m([31m"type invalid"[0m)
+    [33mreturn[0m configs
+
+[33mdef[0m [36mcompute_quantity[0m(configs):
+    q = configs[[31m'leverage_rate'[0m]*configs[[31m'transaction'[0m]/configs[[31m'price'[0m]
+    [36mprint[0m(configs[[31m'transaction'[0m],configs[[31m'price'[0m] )
+    [33mreturn[0m [36mround[0m(q*[31m0.95[0m,[31m2[0m)
+
+[33mdef[0m [36mget_quantity[0m(pair,[36mtype[0m):
+    configs = get_configs(pair,[36mtype[0m)
+    price = configs[[31m'price'[0m]
+    quantity = compute_quantity(configs)
+    [33mreturn[0m {[31m'price'[0m:price,[31m'quantity'[0m:quantity}
+
+[33mdef[0m [36mtrade_long_ex[0m(pair=[31m"ETHUSDT"[0m):
+    configs = get_configs(pair,[31m"long"[0m)
+    quantity = compute_quantity(configs)[50;155H59,11[9C37%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Htrade_ex = transaction.Buy_sell()[50;1H[K[50;155H60,11[9C40%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;4H[1;49r[49;1H
+[1;50r[49;5Hhis = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs[[31m'price'[0m],q=quantity,side=[31m"BUY"[0m,leverage=configs[[31m'leverage_rate'[0m])[50;155H[K[50;155H61,4[10C42%[44;4H[34h[?25h[?25l[50;145H~@k[44;4H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5H[34m#long with mkt price[0m[50;155H[K[50;155H62,11[9C45%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hconfigs[[31m'price'[0m]=[36mNone[0m[50;155H[K[50;155H63,11[9C47%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmessage = pair +[31m" long at "[0m + [36mstr[0m(configs[[31m'price'[0m]) + [31m". Quantity: "[0m+[36mstr[0m(quantity)[50;155H[K[50;155H64,11[9C50%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmess = send_sms.Send_message()[50;155H[K[50;155H65,11[9C52%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmess.send_a_message(message)[50;155H[K[50;155H66,11[9C55%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5H[33mreturn[0m his[50;155H[K[50;155H67,11[9C57%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [43;11H[50;156H6[43;11H[34h[?25h[?25l[50;145H~@k[43;11H[50;145H   [42;11H[50;156H5[42;11H[34h[?25h[?25l[50;145H~@k[42;11H[50;145H   [41;11H[50;156H4[41;11H[34h[?25h[?25l[50;145H~@k[41;11H[50;145H   [40;11H[50;156H3[40;11H[34h[?25h[?25l[50;145H~@k[40;11H[50;145H   [39;11H[50;156H2[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [38;4H[50;156H1,4 [38;4H[34h[?25h[?25l[50;145H~@k[38;4H[50;145H   [37;11H[50;156H0,11[37;11H[34h[?25h[?25l[50;145H~@k[37;11H[50;145H   [36;11H[50;155H59[36;11H[34h[?25h[?25l[50;145H~@k[36;11H[50;145H   [35;11H[50;156H8[35;11H[34h[?25h[?25l[50;145H~@k[35;11H[50;145H   [34;11H[50;156H7[34;11H[34h[?25h[?25l[50;145H~@k[34;11H[50;145H   [33;11H[50;156H6[33;11H[34h[?25h[?25l[50;145H~@k[33;11H[50;145H   [32;1H[50;156H5,0-1[32;1H[34h[?25h[?25l[50;145H~@k[32;1H[50;145H   [31;11H[50;156H4,11 [31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [30;11H[50;156H3[30;11H[34h[?25h[?25l[50;145H~@k[30;11H[50;145H   [29;11H[50;156H2[29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [30;11H[50;156H3[30;11H[34h[?25h[?25l[50;145H~@k[30;11H[50;145H   [31;11H[50;156H4[31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [32;1H[50;156H5,0-1[32;1H[34h[?25h[?25l[50;145H~@k[32;1H[50;145H   [33;11H[50;156H6,11 [33;11H[34h[?25h[?25l[50;145H~@k[33;11H[50;145H   [34;11H[50;156H7[34;11H[34h[?25h[?25l[50;145H~@k[34;11H[50;145H   [35;11H[50;156H8[35;11H[34h[?25h[?25l[50;145H~@k[35;11H[50;145H   [36;11H[50;156H9[36;11H[34h[?25h[?25l[50;145H~@k[36;11H[50;145H   [37;11H[50;155H60[37;11H[34h[?25h[?25l[50;145H~@k[37;11H[50;145H   [38;4H[50;156H1,4 [38;4H[34h[?25h[?25l[50;145H~@k[38;4H[50;145H   [39;11H[50;156H2,11[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [40;11H[50;156H3[40;11H[34h[?25h[?25l[50;145H~@k[40;11H[50;145H   [41;11H[50;156H4[41;11H[34h[?25h[?25l[50;145H~@k[41;11H[50;145H   [42;11H[50;156H5[42;11H[34h[?25h[?25l[50;145H~@k[42;11H[50;145H   [43;11H[50;156H6[43;11H[34h[?25h[?25l[50;145H~@k[43;11H[50;145H   [44;11H[50;156H7[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;1H[33mdef[0m [36mtrade_short_ex[0m(pair=[31m"ETHUSDT"[0m):[50;155H[K[50;155H68,11[9C60%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hconfigs = get_configs(pair,[31m"short"[0m)[50;155H[K[50;155H69,11[9C62%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hquantity = compute_quantity(configs)[50;155H[K[50;155H70,11[9C65%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Htrade_ex = transaction.Buy_sell()[50;155H[K[50;155H71,11[9C67%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5H[34m#short with mkt price[0m[50;155H[K[50;155H72,11[9C70%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hconfigs[[31m'price'[0m]=[36mNone[0m[50;155H[K[50;155H73,11[9C72%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hhis = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs[[31m'price'[0m],q=quantity,side=[31m"SELL"[0m,positionSide=[31m"SHORT"[0m,leverage=configs[[31m'leverage_rate'[0m])[50;155H[K[50;155H74,11[9C75%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[50;155H[K[50;155H75,11[9C77%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmessage = pair +[31m" short at "[0m + [36mstr[0m(configs[[31m'price'[0m]) + [31m". Quantity: "[0m+[36mstr[0m(quantity)[50;155H[K[50;155H76,11[9C80%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmess = send_sms.Send_message()[50;155H[K[50;155H77,11[9C82%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmess.send_a_message(message)[50;155H[K[50;155H78,11[9C85%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5H[33mreturn[0m his[50;155H[K[50;155H79,11[9C87%[44;11H[34h[?25h[?25l[50;145H:[44;11H[50;145H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trade_long_short.py" 89L, 3119C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 51L, 2162C[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[24;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[25;9H[33mif[0m val == [31m"1"[0m:[26;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[27;9H[33melif[0m val == [31m"2"[0m:[28;13H[34m# t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[29;13H[33mwhile[0m [36mTrue[0m:[30;17H[34m# result = t.live_trading()[0m[31;17Hresult = [31m"short"[0m[32;17H[33mif[0m result == [31m"long"[0m:[33;21H[33mtry[0m:[34;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[35;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[36;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[37;21H[33mexcept[0m:[38;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[39;17H[33melif[0m result == [31m'short'[0m:[40;21H[33mtry[0m:[41;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[42;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[43;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[44;21H[33mexcept[0m:[45;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[46;17H[33mbreak[0m[47;17Htime.sleep([31m150[0m)[48;9H[33melif[0m val==[31m"3"[0m:[49;13H[33mbreak[0m[50;155H36,15[9CTop[36;15H[34h[?25h[?25l[50;145H~@k[36;15H[50;145H   [37;15H[50;156H7[37;15H[34h[?25h[?25l[50;145H~@k[37;15H[50;145H   [36;15H[50;156H6[36;15H[34h[?25h[?25l[50;145H~@k[36;15H[50;145H   [37;15H[50;156H7[37;15H[34h[?25h[?25l[50;145H~@k[37;15H[50;145H   [37;16H[50;159H6[37;16H[34h[?25h[?25l[50;145H~@k[37;16H[50;145H   [37;17H[50;159H7[37;17H[34h[?25h[?25l[50;145H~@k[37;17H[50;145H   [37;18H[50;159H8[37;18H[34h[?25h[?25l[50;145H~@k[37;18H[50;145H   [37;19H[50;159H9[37;19H[34h[?25h[?25l[50;145H~@k[37;19H[50;145H   [37;20H[50;158H20[37;20H[34h[?25h[?25l[50;145H~@k[37;20H[50;145H   [37;21H[50;159H1[37;21H[34h[?25h[?25l[50;145H~@k[37;21H[50;145H   [37;22H[50;159H2[37;22H[34h[?25h[?25l[50;145H~@k[37;22H[50;145H   [37;23H[50;159H3[37;23H[34h[?25h[?25l[50;145H~@k[37;23H[50;145H   [37;24H[50;159H4[37;24H[34h[?25h[?25l[50;145H~@k[37;24H[50;145H   [37;25H[50;159H5[37;25H[34h[?25h[?25l[50;145H~@k[37;25H[50;145H   [37;26H[50;159H6[37;26H[34h[?25h[?25l[50;145H~@k[37;26H[50;145H   [37;27H[50;159H7[37;27H[34h[?25h[?25l[50;145H~@k[37;27H[50;145H   [37;27H[34h[?25h[?25l[50;145H~@k[37;27H[50;145H   [37;27H[34h[?25h[?25l[50;145H~@k[37;27H[50;145H   [37;27H[34h[?25h[?25l[50;145H~@k[37;27H[50;145H   [38;27H[50;156H8[38;27H[34h[?25h[?25l[50;145H~@k[38;27H[50;145H   [39;27H[50;156H9[39;27H[34h[?25h[?25l[50;145H~@k[39;27H[50;145H   [40;24H[50;155H40,24[40;24H[34h[?25h[?25l[50;145H~@k[40;24H[50;145H   [41;27H[50;156H1,27[41;27H[34h[?25h[?25l[50;145H~@k[41;27H[50;145H   [42;27H[50;156H2[42;27H[34h[?25h[?25l[50;145H~@k[42;27H[50;145H   [43;27H[50;156H3[43;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[48;1Htrade_ex()
+[1m[34m~                                                                                                                                                                           [0m[50;1H[K[50;155H43,27[9CBot[40;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[37;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[34;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[31;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[28;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[25;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[22;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[19;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[16;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[13;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[10;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H43,27[9CBot[7;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H45,27[9CBot[6;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H48,22[9CBot[6;22H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[6;9H[46m()[0m[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[6;10H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[3;10H[34h[?25h[?25l[1;49r[1;1H[2M[1;50r[48;1H[1m[34m~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[1;10H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33melif[0m val==[31m"3"[0m:[2;13H[33mbreak[0m[50;155H[K[50;155H51,10[9CBot[4;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[2;17H[33mbreak[0m[3;17Htime.sleep([31m150[0m)[50;155H[K[50;155H51,10[9CBot[7;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[2;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[3;21H[33mexcept[0m:[50;155H[K[50;155H51,10[9CBot[10;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;17H[33melif[0m result == [31m'short'[0m:[2;21H[33mtry[0m:[3;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[50;155H[K[50;155H51,10[9CBot[13;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[2;21H[33mexcept[0m:[3;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[50;155H[K[50;155H51,10[9CBot[16;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;21H[33mtry[0m:[2;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[3;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[50;155H[K[50;155H51,10[9CBot[19;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;17H[34m# result = t.live_trading()[0m[2;17Hresult = [31m"short"[0m[3;17H[33mif[0m result == [31m"long"[0m:[50;155H[K[50;155H51,10[9CBot[22;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33melif[0m val == [31m"2"[0m:[2;13H[34m# t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[3;13H[33mwhile[0m [36mTrue[0m:[50;155H[K[50;155H51,10[9CBot[25;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[2;9H[33mif[0m val == [31m"1"[0m:[3;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[50;155H[K[50;155H51,10[9CBot[28;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hmessage_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[50;155H[K[50;155H51,10[9CBot[31;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Htrigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m[50;155H[K[50;155H51,10[9CBot[34;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hthreshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m[50;155H[K[50;155H51,10[9CBot[37;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m[50;155H[K[50;155H51,10[9CBot[40;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time[50;155H[K[50;155H51,10[9CBot[43;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1Hsys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt[50;155H[K[50;155H51,10[9CBot[46;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)[50;155H[K[50;155H51,10[9CBot[49;10H[34h[?25h[?25l[1;49r[1;1H[2L[1;50r[1;1H[35mimport[0m trading
+[35mimport[0m sys[50;155H[K[50;155H44,27[9CTop[44;27H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[48;1Htrade_ex()
+[1m[34m~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[41;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[38;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[35;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[32;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[29;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[26;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[23;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[20;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[17;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[14;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[11;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[8;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H45,27[9CBot[6;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H48,22[9CBot[6;22H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[6;9H[46m()[0m[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[6;10H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[3;10H[34h[?25h[?25l[1;49r[1;1H[2M[1;50r[48;1H[1m[34m~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[1;10H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33melif[0m val==[31m"3"[0m:[2;13H[33mbreak[0m[50;155H[K[50;155H51,10[9CBot[4;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[2;17H[33mbreak[0m[3;17Htime.sleep([31m150[0m)[50;155H[K[50;155H51,10[9CBot[7;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[2;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[3;21H[33mexcept[0m:[50;155H[K[50;155H51,10[9CBot[10;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;17H[33melif[0m result == [31m'short'[0m:[2;21H[33mtry[0m:[3;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[50;155H[K[50;155H51,10[9CBot[13;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[2;21H[33mexcept[0m:[3;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[50;155H[K[50;155H51,10[9CBot[16;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;21H[33mtry[0m:[2;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[3;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[50;155H[K[50;155H51,10[9CBot[19;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;17H[34m# result = t.live_trading()[0m[2;17Hresult = [31m"short"[0m[3;17H[33mif[0m result == [31m"long"[0m:[50;155H[K[50;155H51,10[9CBot[22;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33melif[0m val == [31m"2"[0m:[2;13H[34m# t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[3;13H[33mwhile[0m [36mTrue[0m:[50;155H[K[50;155H51,10[9CBot[25;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[2;9H[33mif[0m val == [31m"1"[0m:[3;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[50;155H[K[50;155H51,10[9CBot[28;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hmessage_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[50;155H[K[50;155H51,10[9CBot[31;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Htrigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m[50;155H[K[50;155H51,10[9CBot[34;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hthreshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m[50;155H[K[50;155H51,10[9CBot[37;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m[50;155H[K[50;155H51,10[9CBot[40;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time[50;155H[K[50;155H51,10[9CBot[43;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1Hsys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt[50;155H[K[50;155H51,10[9CBot[46;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)[50;155H[K[50;155H51,10[9CBot[49;10H[34h[?25h[?25l[1;49r[1;1H[2L[1;50r[1;1H[35mimport[0m trading
+[35mimport[0m sys[50;155H[K[50;155H44,27[9CTop[44;27H[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[48;1Htrade_ex()
+[1m[34m~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[41;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[38;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[35;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[32;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[29;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[26;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[23;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[20;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[17;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[14;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[11;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[8;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H45,27[9CBot[6;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H48,22[9CBot[6;22H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[6;9H[46m()[0m[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[6;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[2;21H[33mexcept[0m:[3;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[50;155H[K[50;155H51,10[9CBot[9;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;21H[33mtry[0m:[2;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[3;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[50;155H[K[50;155H51,10[9CBot[12;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;21H[33mexcept[0m:[2;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[3;17H[33melif[0m result == [31m'short'[0m:[50;155H[K[50;155H51,10[9CBot[15;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[2;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[3;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[50;155H[K[50;155H51,10[9CBot[18;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;17Hresult = [31m"short"[0m[2;17H[33mif[0m result == [31m"long"[0m:[3;21H[33mtry[0m:[50;155H[K[50;155H51,10[9CBot[21;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;13H[34m# t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[2;13H[33mwhile[0m [36mTrue[0m:[3;17H[34m# result = t.live_trading()[0m[50;155H[K[50;155H51,10[9CBot[24;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33mif[0m val == [31m"1"[0m:[2;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[3;9H[33melif[0m val == [31m"2"[0m:[50;155H[K[50;155H51,10[9CBot[27;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5H[34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[3;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[50;155H[K[50;155H51,10[9CBot[30;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hdeviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()[50;155H[K[50;155H51,10[9CBot[33;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hcolumn_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m[50;155H[K[50;155H51,10[9CBot[36;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hdb_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m[50;155H[K[50;155H51,10[9CBot[39;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():[50;155H[K[50;155H51,10[9CBot[42;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short[50;155H[K[50;155H51,10[9CBot[45;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1Hsys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)[50;155H[K[50;155H51,10[9CBot[48;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process[50;155H[K[50;155H44,27[9CTop[44;27H[34h[?25h[?25l[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[48;1Htrade_ex()
+[1m[34m~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[41;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[38;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[35;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[32;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[29;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[26;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[23;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[20;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[17;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[14;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[11;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H44,27[9CBot[8;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H45,27[9CBot[6;27H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H48,22[9CBot[6;22H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[6;9H[46m()[0m[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[6;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[2;21H[33mexcept[0m:[3;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[50;155H[K[50;155H51,10[9CBot[9;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;21H[33mtry[0m:[2;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[3;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[50;155H[K[50;155H51,10[9CBot[12;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;21H[33mexcept[0m:[2;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[3;17H[33melif[0m result == [31m'short'[0m:[50;155H[K[50;155H51,10[9CBot[15;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[2;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[3;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[50;155H[K[50;155H51,10[9CBot[18;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;17Hresult = [31m"short"[0m[2;17H[33mif[0m result == [31m"long"[0m:[3;21H[33mtry[0m:[50;155H[K[50;155H51,10[9CBot[21;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;13H[34m# t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[2;13H[33mwhile[0m [36mTrue[0m:[3;17H[34m# result = t.live_trading()[0m[50;155H[K[50;155H51,10[9CBot[24;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33mif[0m val == [31m"1"[0m:[2;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[3;9H[33melif[0m val == [31m"2"[0m:[50;155H[K[50;155H51,10[9CBot[27;10H[34h[?25h[?25l[1;49r[1;1H[3M[1;50r[47;1H[1m[34m~                                                                                                                                                                           [48;1H~                                                                                                                                                                           [49;1H~                                                                                                                                                                           [0m[50;155H[K[50;155H51,10[9CBot[24;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;9H[33mif[0m val == [31m"1"[0m:[2;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[3;9H[33melif[0m val == [31m"2"[0m:[50;155H[K[50;155H51,10[9CBot[27;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5H[34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[3;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[50;155H[K[50;155H51,10[9CBot[30;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hdeviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()[50;155H[K[50;155H51,10[9CBot[33;10H[34h[?25h[?25l[1;49r[1;1H[3L[1;50r[1;5Hcolumn_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m[50;155H[K[50;155H51,10[9CBot[36;10H[34h[?25h[?25l[50;145H:[36;10H[50;145H[K[50;1H:[34h[?25hq[?25l[34h[?25h[?25l[?1000l[50;1H[K[50;1H[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim traind[K[K[Kde_long_short.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trade_long_short.py" 89L, 3119C[2;9Hlev_long = controls[[31m'lev_short'[0m][3;9Hdicount_rate=controls[[31m'short_p'[0m][4;9Hcurr_price = [36mround[0m(price.get_price(pair),[31m2[0m)[6;9Hconfigs[[31m'discount_rate'[0m]=dicount_rate[7;9Hconfigs[[31m'price'[0m]=curr_price[8;9Hconfigs[[31m"transaction"[0m]=transactions[[31m'transaction_short'[0m][9;9Hconfigs[[31m'leverage_rate'[0m] = controls[[31m'lev_short'[0m][10;9H[33mif[0m configs[[31m'discount_rate'[0m]:[11;13Hconfigs[[31m'price'[0m] = configs[[31m'price'[0m]*([31m1[0m+configs[[31m'discount_rate'[0m])
+    [33melse[0m:[13;9H[36mprint[0m([31m"type invalid"[0m)
+    [33mreturn[0m configs
+
+[33mdef[0m [36mcompute_quantity[0m(configs):
+    q = configs[[31m'leverage_rate'[0m]*configs[[31m'transaction'[0m]/configs[[31m'price'[0m]
+    [36mprint[0m(configs[[31m'transaction'[0m],configs[[31m'price'[0m] )
+    [33mreturn[0m [36mround[0m(q*[31m0.95[0m,[31m2[0m)
+
+[33mdef[0m [36mget_quantity[0m(pair,[36mtype[0m):
+    configs = get_configs(pair,[36mtype[0m)
+    price = configs[[31m'price'[0m]
+    quantity = compute_quantity(configs)
+    [33mreturn[0m {[31m'price'[0m:price,[31m'quantity'[0m:quantity}
+
+[33mdef[0m [36mtrade_long_ex[0m(pair=[31m"ETHUSDT"[0m):
+    configs = get_configs(pair,[31m"long"[0m)
+    quantity = compute_quantity(configs)
+    trade_ex = transaction.Buy_sell()
+    his = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs[[31m'price'[0m],q=quantity,side=[31m"BUY"[0m,leverage=configs[[31m'leverage_rate'[0m])
+    [34m#long with mkt price[0m
+    configs[[31m'price'[0m]=[36mNone[0m
+    message = pair +[31m" long at "[0m + [36mstr[0m(configs[[31m'price'[0m]) + [31m". Quantity: "[0m+[36mstr[0m(quantity)
+    mess = send_sms.Send_message()
+    mess.send_a_message(message)
+    [33mreturn[0m his
+[33mdef[0m [36mtrade_short_ex[0m(pair=[31m"ETHUSDT"[0m):
+    configs = get_configs(pair,[31m"short"[0m)
+    quantity = compute_quantity(configs)
+    trade_ex = transaction.Buy_sell()
+    [34m#short with mkt price[0m
+    configs[[31m'price'[0m]=[36mNone[0m
+    his = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs[[31m'price'[0m],q=quantity,side=[31m"SELL"[0m,positionSide=[31m"SHORT"[0m,leverage=configs[[31m'leverage_rate'[0m])[46;5Hmessage = pair +[31m" short at "[0m + [36mstr[0m(configs[[31m'price'[0m]) + [31m". Quantity: "[0m+[36mstr[0m(quantity)
+    mess = send_sms.Send_message()
+    mess.send_a_message(message)
+    [33mreturn[0m his[50;155H79,11[9C87%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;4H[1;49r[49;1H
+[1;50r[49;1H[34m# print(b)[0m[50;1H[K[50;155H80,4[10C90%[44;4H[34h[?25h[?25l[50;145H~@k[44;4H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;1H[34m# a = compute_quantity(b)[0m[50;155H[K[50;155H81,11[9C92%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[50;155H[K[50;155H82,11[9C95%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;1H[34m# print(a)[0m[50;155H[K[50;155H83,11[9C97%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;1H[34m# print(get_configs("BTCUSDT","short"))[0m[50;155H[K[50;155H84,11[9CBot[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [45;10H[34m[46m([1C)[0m[50;156H5,10[45;10H[34h[?25h[?25l[50;145H~@k[45;10H[50;145H   [46;11H[45;8H[34m(b)[0m[50;156H6,11[46;11H[34h[?25h[?25l[50;145H~@k[46;11H[50;145H   [47;1H[50;156H7,0-1[47;1H[34h[?25h[?25l[50;145H~@k[47;1H[50;145H   [48;10H[34m[46m([1C)[0m[50;156H8,10 [48;10H[34h[?25h[?25l[50;145H~@k[48;10H[50;145H   [49;11H[48;8H[34m(a)[0m[50;156H9,11[49;11H[34h[?25h[?25l[50;145H~@k[49;11H[50;145H   [49;11H[34h[?25h[?25l[50;145H~@k[49;11H[50;145H   [48;10H[34m[46m([1C)[0m[50;156H8,10[48;10H[34h[?25h[?25l[50;145H~@k[48;10H[50;145H   [47;1H[48;8H[34m(a)[0m[50;156H7,0-1[47;1H[34h[?25h[?25l[50;145H~@k[47;1H[50;145H   [46;11H[50;156H6,11 [46;11H[34h[?25h[?25l[50;145H~@k[46;11H[50;145H   [45;10H[34m[46m([1C)[0m[50;156H5,10[45;10H[34h[?25h[?25l[50;145H~@k[45;10H[50;145H   [44;11H[45;8H[34m(b)[0m[50;156H4,11[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [43;11H[50;156H3[43;11H[34h[?25h[?25l[50;145H~@k[43;11H[50;145H   [42;11H[50;156H2[42;11H[34h[?25h[?25l[50;145H~@k[42;11H[50;145H   [41;11H[50;156H1[41;11H[34h[?25h[?25l[50;145H~@k[41;11H[50;145H   [40;4H[50;156H0,4 [40;4H[34h[?25h[?25l[50;145H~@k[40;4H[50;145H   [39;11H[50;155H79,11[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [38;11H[50;156H8[38;11H[34h[?25h[?25l[50;145H~@k[38;11H[50;145H   [37;11H[50;156H7[37;11H[34h[?25h[?25l[50;145H~@k[37;11H[50;145H   [36;11H[50;156H6[36;11H[34h[?25h[?25l[50;145H~@k[36;11H[50;145H   [35;11H[50;156H5[35;11H[34h[?25h[?25l[50;145H~@k[35;11H[50;145H   [34;11H[50;156H4[34;11H[34h[?25h[?25l[50;145H~@k[34;11H[50;145H   [33;11H[50;156H3[33;11H[34h[?25h[?25l[50;145H~@k[33;11H[50;145H   [32;11H[50;156H2[32;11H[34h[?25h[?25l[50;145H~@k[32;11H[50;145H   [31;11H[50;156H1[31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [30;11H[50;156H0[30;11H[34h[?25h[?25l[50;145H~@k[30;11H[50;145H   [29;11H[50;155H69[29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [28;11H[50;156H8[28;11H[34h[?25h[?25l[50;145H~@k[28;11H[50;145H   [27;11H[50;156H7[27;11H[34h[?25h[?25l[50;145H~@k[27;11H[50;145H   [26;11H[50;156H6[26;11H[34h[?25h[?25l[50;145H~@k[26;11H[50;145H   [25;11H[50;156H5[25;11H[34h[?25h[?25l[50;145H~@k[25;11H[50;145H   [24;11H[50;156H4[24;11H[34h[?25h[?25l[50;145H~@k[24;11H[50;145H   [23;11H[50;156H3[23;11H[34h[?25h[?25l[50;145H~@k[23;11H[50;145H   [22;11H[50;156H2[22;11H[34h[?25h[?25l[50;145H~@k[22;11H[50;145H   [21;4H[50;156H1,4 [21;4H[34h[?25h[?25l[50;145H~@k[21;4H[50;145H   [20;11H[50;156H0,11[20;11H[34h[?25h[?25l[50;145H~@k[20;11H[50;145H   [19;11H[50;155H59[19;11H[34h[?25h[?25l[50;145H~@k[19;11H[50;145H   [18;11H[50;156H8[18;11H[34h[?25h[?25l[50;145H~@k[18;11H[50;145H   [17;11H[50;156H7[17;11H[34h[?25h[?25l[50;145H~@k[17;11H[50;145H   [16;11H[50;156H6[16;11H[34h[?25h[?25l[50;145H~@k[16;11H[50;145H   [15;1H[50;156H5,0-1[15;1H[34h[?25h[?25l[50;145H~@k[15;1H[50;145H   [14;11H[50;156H4,11 [14;11H[34h[?25h[?25l[50;145H~@k[14;11H[50;145H   [13;11H[50;156H3[13;11H[34h[?25h[?25l[50;145H~@k[13;11H[50;145H   [12;11H[50;156H2[12;11H[34h[?25h[?25l[50;145H~@k[12;11H[50;145H   [11;11H[50;156H1[11;11H[34h[?25h[?25l[50;145H~@k[11;11H[50;145H   [10;1H[50;156H0,0-1[10;1H[34h[?25h[?25l[50;145H~@k[10;1H[50;145H   [9;11H[50;155H49,11 [9;11H[34h[?25h[?25l[50;145H~@k[9;11H[50;145H   [8;11H[50;156H8[8;11H[34h[?25h[?25l[50;145H~@k[8;11H[50;145H   [7;9H[50;156H7,9 [7;9H[34h[?25h[?25l[50;145H~@k[7;9H[50;145H   [6;11H[50;156H6,11[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[50;155H[K[50;155H45,11[9C97%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hcurr_price = [36mround[0m(price.get_price(pair),[31m2[0m)[50;155H[K[50;155H44,11[9C95%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hdicount_rate=controls[[31m'short_p'[0m][50;155H[K[50;155H43,11[9C92%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hlev_long = controls[[31m'lev_short'[0m][50;155H[K[50;155H42,11[9C90%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[50;155H[K[50;155H41,11[9C87%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;1H[1;49r[1;1H[L[1;50r[1;9Htransactions = config_func.get_trading_num()[50;155H[K[50;155H40,0-1[8C85%[6;1H[34h[?25h[?25l[50;145H~@k[6;1H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;5H[33melif[0m [36mtype[0m==[31m"short"[0m:[50;155H[K[50;155H39,11[9C82%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;13Hconfigs[[31m'price'[0m] = configs[[31m'price'[0m]*([31m1[0m-configs[[31m'discount_rate'[0m])[50;155H[K[50;155H38,11[9C80%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9H[33mif[0m configs[[31m'discount_rate'[0m]:[50;155H[K[50;155H37,11[9C77%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;1H[1;49r[1;1H[L[1;50r[1;9Hconfigs[[31m'leverage_rate'[0m] = controls[[31m'lev_long'[0m][50;155H[K[50;155H36,0-1[8C75%[6;1H[34h[?25h[?25l[50;145H~@k[6;1H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hconfigs[[31m"transaction"[0m]=transactions[[31m'transaction_long'[0m][50;155H[K[50;155H35,11[9C72%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hconfigs[[31m'price'[0m]=curr_price[50;155H[K[50;155H34,11[9C70%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hconfigs[[31m'discount_rate'[0m]=dicount_rate[50;155H[K[50;155H33,11[9C67%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[50;155H[K[50;155H32,11[9C65%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hcurr_price = [36mround[0m(price.get_price(pair),[31m2[0m)[50;155H[K[50;155H31,11[9C62%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hdicount_rate=controls[[31m'long_p'[0m][50;155H[K[50;155H30,11[9C60%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;9Hlev_long = controls[[31m'lev_long'[0m][50;155H[K[50;155H29,11[9C57%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[50;155H[K[50;155H28,11[9C55%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;1H[1;49r[1;1H[L[1;50r[1;9Htransactions = config_func.get_trading_num()[50;155H[K[50;155H27,0-1[8C52%[6;1H[34h[?25h[?25l[50;145H~@k[6;1H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;5H[33mif[0m [36mtype[0m == [31m"long"[0m:[50;155H[K[50;155H26,11[9C50%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;5Hconfigs = {}[50;155H[K[50;155H25,11[9C47%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;5Hcontrols = config_func.get_pair_config(pair)[50;155H[K[50;155H24,11[9C45%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;8H[1;49r[1;1H[L[1;50r[1;5Hconfig_func = change_config.Change_config()[50;155H[K[50;155H23,8[10C42%[6;8H[34h[?25h[?25l[50;145H~@k[6;8H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;1H[33mdef[0m [36mget_configs[0m(pair,[36mtype[0m):[50;155H[K[50;155H22,11[9C40%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;1H[31m"""[0m[50;155H[K[50;155H21,11[9C37%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;1H[31m- get discount rate [0m[50;155H[K[50;155H20,11[9C35%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [6;11H[1;49r[1;1H[L[1;50r[1;1H[31m- get price [0m[50;155H[K[50;155H19,11[9C32%[6;11H[34h[?25h[?25l[50;145H~@k[6;11H[50;145H   [7;11H[50;155H20[7;11H[34h[?25h[?25l[50;145H~@k[7;11H[50;145H   [8;11H[50;156H1[8;11H[34h[?25h[?25l[50;145H~@k[8;11H[50;145H   [9;11H[50;156H2[9;11H[34h[?25h[?25l[50;145H~@k[9;11H[50;145H   [10;8H[50;156H3,8 [10;8H[34h[?25h[?25l[50;145H~@k[10;8H[50;145H   [11;11H[50;156H4,11[11;11H[34h[?25h[?25l[50;145H~@k[11;11H[50;145H   [12;11H[50;156H5[12;11H[34h[?25h[?25l[50;145H~@k[12;11H[50;145H   [13;11H[50;156H6[13;11H[34h[?25h[?25l[50;145H~@k[13;11H[50;145H   [14;1H[50;156H7,0-1[14;1H[34h[?25h[?25l[50;145H~@k[14;1H[50;145H   [15;11H[50;156H8,11 [15;11H[34h[?25h[?25l[50;145H~@k[15;11H[50;145H   [16;11H[50;156H9[16;11H[34h[?25h[?25l[50;145H~@k[16;11H[50;145H   [17;11H[50;155H30[17;11H[34h[?25h[?25l[50;145H~@k[17;11H[50;145H   [18;11H[50;156H1[18;11H[34h[?25h[?25l[50;145H~@k[18;11H[50;145H   [19;11H[50;156H2[19;11H[34h[?25h[?25l[50;145H~@k[19;11H[50;145H   [20;11H[50;156H3[20;11H[34h[?25h[?25l[50;145H~@k[20;11H[50;145H   [21;11H[50;156H4[21;11H[34h[?25h[?25l[50;145H~@k[21;11H[50;145H   [22;11H[50;156H5[22;11H[34h[?25h[?25l[50;145H~@k[22;11H[50;145H   [23;1H[50;156H6,0-1[23;1H[34h[?25h[?25l[50;145H~@k[23;1H[50;145H   [24;11H[50;156H7,11 [24;11H[34h[?25h[?25l[50;145H~@k[24;11H[50;145H   [25;11H[50;156H8[25;11H[34h[?25h[?25l[50;145H~@k[25;11H[50;145H   [26;11H[50;156H9[26;11H[34h[?25h[?25l[50;145H~@k[26;11H[50;145H   [27;1H[50;155H40,0-1[27;1H[34h[?25h[?25l[50;145H~@k[27;1H[50;145H   [28;11H[50;156H1,11 [28;11H[34h[?25h[?25l[50;145H~@k[28;11H[50;145H   [29;11H[50;156H2[29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [30;11H[50;156H3[30;11H[34h[?25h[?25l[50;145H~@k[30;11H[50;145H   [31;11H[50;156H4[31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [32;11H[50;156H5[32;11H[34h[?25h[?25l[50;145H~@k[32;11H[50;145H   [31;11H[50;156H4[31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [30;11H[50;156H3[30;11H[34h[?25h[?25l[50;145H~@k[30;11H[50;145H   [29;11H[50;156H2[29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [28;11H[50;156H1[28;11H[34h[?25h[?25l[50;145H~@k[28;11H[50;145H   [29;11H[50;156H2[29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [30;11H[50;156H3[30;11H[34h[?25h[?25l[50;145H~@k[30;11H[50;145H   [31;11H[50;156H4[31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [32;11H[50;156H5[32;11H[34h[?25h[?25l[50;145H~@k[32;11H[50;145H   [33;11H[50;156H6[33;11H[34h[?25h[?25l[50;145H~@k[33;11H[50;145H   [34;9H[50;156H7,9 [34;9H[34h[?25h[?25l[50;145H~@k[34;9H[50;145H   [35;11H[50;156H8,11[35;11H[34h[?25h[?25l[50;145H~@k[35;11H[50;145H   [36;11H[50;156H9[36;11H[34h[?25h[?25l[50;145H~@k[36;11H[50;145H   [37;1H[50;155H50,0-1[37;1H[34h[?25h[?25l[50;145H~@k[37;1H[50;145H   [38;11H[50;156H1,11 [38;11H[34h[?25h[?25l[50;145H~@k[38;11H[50;145H   [39;11H[50;156H2[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [40;11H[50;156H3[40;11H[34h[?25h[?25l[50;145H~@k[40;11H[50;145H   [39;11H[50;156H2[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [38;11H[50;156H1[38;11H[34h[?25h[?25l[50;145H~@k[38;11H[50;145H   [37;1H[50;156H0,0-1[37;1H[34h[?25h[?25l[50;145H~@k[37;1H[50;145H   [38;11H[50;156H1,11 [38;11H[34h[?25h[?25l[50;145H~@k[38;11H[50;145H   [39;11H[50;156H2[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [40;11H[50;156H3[40;11H[34h[?25h[?25l[50;145H~@k[40;11H[50;145H   [41;11H[50;156H4[41;11H[34h[?25h[?25l[50;145H~@k[41;11H[50;145H   [42;1H[50;156H5,0-1[42;1H[34h[?25h[?25l[50;145H~@k[42;1H[50;145H   [43;11H[50;156H6,11 [43;11H[34h[?25h[?25l[50;145H~@k[43;11H[50;145H   [44;11H[50;156H7[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hconfigs = get_configs(pair,[31m"long"[0m)[50;155H[K[50;155H58,11[9C35%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hquantity = compute_quantity(configs)[50;155H[K[50;155H59,11[9C37%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Htrade_ex = transaction.Buy_sell()[50;155H[K[50;155H60,11[9C40%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;4H[1;49r[49;1H
+[1;50r[49;5Hhis = trade_ex.trailing_stop_mkt_future(pair=pair,price=configs[[31m'price'[0m],q=quantity,side=[31m"BUY"[0m,leverage=configs[[31m'leverage_rate'[0m])[50;155H[K[50;155H61,4[10C42%[44;4H[34h[?25h[?25l[50;145H~@k[44;4H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5H[34m#long with mkt price[0m[50;155H[K[50;155H62,11[9C45%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hconfigs[[31m'price'[0m]=[36mNone[0m[50;155H[K[50;155H63,11[9C47%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmessage = pair +[31m" long at "[0m + [36mstr[0m(configs[[31m'price'[0m]) + [31m". Quantity: "[0m+[36mstr[0m(quantity)[50;155H[K[50;155H64,11[9C50%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmess = send_sms.Send_message()[50;155H[K[50;155H65,11[9C52%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hmess.send_a_message(message)[50;155H[K[50;155H66,11[9C55%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5H[33mreturn[0m his[50;155H[K[50;155H67,11[9C57%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;1H[33mdef[0m [36mtrade_short_ex[0m(pair=[31m"ETHUSDT"[0m):[50;155H[K[50;155H68,11[9C60%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;11H[1;49r[49;1H
+[1;50r[49;5Hconfigs = get_configs(pair,[31m"short"[0m)[50;155H[K[50;155H69,11[9C62%[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [43;11H[50;156H8[43;11H[34h[?25h[?25l[50;145H~@k[43;11H[50;145H   [42;11H[50;156H7[42;11H[34h[?25h[?25l[50;145H~@k[42;11H[50;145H   [41;11H[50;156H6[41;11H[34h[?25h[?25l[50;145H~@k[41;11H[50;145H   [40;11H[50;156H5[40;11H[34h[?25h[?25l[50;145H~@k[40;11H[50;145H   [39;11H[50;156H4[39;11H[34h[?25h[?25l[50;145H~@k[39;11H[50;145H   [38;11H[50;156H3[38;11H[34h[?25h[?25l[50;145H~@k[38;11H[50;145H   [37;11H[50;156H2[37;11H[34h[?25h[?25l[50;145H~@k[37;11H[50;145H   [36;4H[50;156H1,4 [36;4H[34h[?25h[?25l[50;145H~@k[36;4H[50;145H   [35;11H[50;156H0,11[35;11H[34h[?25h[?25l[50;145H~@k[35;11H[50;145H   [34;11H[50;155H59[34;11H[34h[?25h[?25l[50;145H~@k[34;11H[50;145H   [33;11H[50;156H8[33;11H[34h[?25h[?25l[50;145H~@k[33;11H[50;145H   [32;11H[50;156H7[32;11H[34h[?25h[?25l[50;145H~@k[32;11H[50;145H   [31;11H[50;156H6[31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [30;1H[50;156H5,0-1[30;1H[34h[?25h[?25l[50;145H~@k[30;1H[50;145H   [29;11H[50;156H4,11 [29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [28;11H[50;156H3[28;11H[34h[?25h[?25l[50;145H~@k[28;11H[50;145H   [29;11H[50;156H4[29;11H[34h[?25h[?25l[50;145H~@k[29;11H[50;145H   [30;1H[50;156H5,0-1[30;1H[34h[?25h[?25l[50;145H~@k[30;1H[50;145H   [31;11H[50;156H6,11 [31;11H[34h[?25h[?25l[50;145H~@k[31;11H[50;145H   [32;11H[50;156H7[32;11H[34h[?25h[?25l[50;145H~@k[32;11H[50;145H   [33;11H[50;156H8[33;11H[34h[?25h[?25l[50;145H~@k[33;11H[50;145H   [34;11H[50;156H9[34;11H[34h[?25h[?25l[50;145H~@k[34;11H[50;145H   [35;11H[50;155H60[35;11H[34h[?25h[?25l[50;145H~@k[35;11H[50;145H   [36;4H[50;156H1,4 [36;4H[34h[?25h[?25l[50;145H~@k[36;4H[50;145H   [37;11H[50;156H2,11[37;11H[34h[?25h[?25l[50;145H~@k[37;11H[50;145H   [36;4H[50;156H1,4 [36;4H[34h[?25h[?25l[50;145H~@k[36;4H[50;145H   [35;11H[50;156H0,11[35;11H[34h[?25h[?25l[50;145H^[[35;11H[50;145H  [35;11H[50;145H^[[35;11H[50;145H  [35;11H[34h[?25h[?25l[50;145Hq[35;11H[34h[?25h[?25l[50;146H~@k[35;11H[50;145H    [35;11H[34h[?25h[?25l[50;145H:[35;11H[50;145H[K[50;1H:[34h[?25hq[?25l[34h[?25h[?25l[?1000l[50;1H[K[50;1H[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 51L, 2162C[1;1H[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[22;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[23;9H[33mif[0m val == [31m"1"[0m:[24;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[25;9H[33melif[0m val == [31m"2"[0m:[26;13H[34m# t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[27;13H[33mwhile[0m [36mTrue[0m:[28;17H[34m# result = t.live_trading()[0m[29;17Hresult = [31m"short"[0m[30;17H[33mif[0m result == [31m"long"[0m:[31;21H[33mtry[0m:[32;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[33;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[34;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[35;21H[33mexcept[0m:[36;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[37;17H[33melif[0m result == [31m'short'[0m:[38;21H[33mtry[0m:[39;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[40;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[41;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[42;21H[33mexcept[0m:[43;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[44;17H[33mbreak[0m[45;17Htime.sleep([31m150[0m)[46;9H[33melif[0m val==[31m"3"[0m:[47;13H[33mbreak[0m
+
+trade_ex[46m()[0m[50;155H51,10[9CBot[49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [49;10H[34h[?25h[?25l[50;145H~@k[49;10H[50;145H   [48;1H[49;9H()[50;156H0,0-1[48;1H[34h[?25h[?25l[50;155H49,10 [47;10H[34h[?25h[?25l[50;145H~@k[47;10H[50;145H   [46;10H[50;156H8[46;10H[34h[?25h[?25l[50;156H7[45;10H[34h[?25h[?25l[50;145H~@k[45;10H[50;145H   [44;10H[50;156H6[44;10H[34h[?25h[?25l[50;156H5[43;10H[34h[?25h[?25l[50;145H~@k[43;10H[50;145H   [42;10H[50;156H4[42;10H[34h[?25h[?25l[50;156H3[41;10H[34h[?25h[?25l[50;145H~@k[41;10H[50;145H   [40;10H[50;156H2[40;10H[34h[?25h[?25l[50;156H1[39;10H[34h[?25h[?25l[50;145H~@k[39;10H[50;145H   [38;10H[50;156H0[38;10H[34h[?25h[?25l[50;145H~@k[38;10H[50;145H   [37;10H[50;155H39[37;10H[34h[?25h[?25l[50;145H~@k[37;10H[50;145H   [36;10H[50;156H8[36;10H[34h[?25h[?25l[50;145H~@k[36;10H[50;145H   [35;10H[50;156H7[35;10H[34h[?25h[?25l[50;145H~@k[35;10H[50;145H   [34;10H[50;156H6[34;10H[34h[?25h[?25l[50;145H~@k[34;10H[50;145H   [35;10H[50;156H7[35;10H[34h[?25h[?25l[50;145H~@k[35;10H[50;145H   [36;10H[50;156H8[36;10H[34h[?25h[?25l[50;145H~@k[36;10H[50;145H   [37;10H[50;156H9[37;10H[34h[?25h[?25l[50;145H~@k[37;10H[50;145H   [38;10H[50;155H40[38;10H[34h[?25h[?25l[50;145H~@k[38;10H[50;145H   [39;10H[50;156H1[39;10H[34h[?25h[?25l[50;156H2[40;10H[34h[?25h[?25l[50;145H~@k[40;10H[50;145H   [41;10H[50;156H3[41;10H[34h[?25h[?25l[50;156H4[42;10H[34h[?25h[?25l[50;145H~@k[42;10H[50;145H   [43;10H[50;156H5[43;10H[34h[?25h[?25l[50;145H~@k[43;10H[50;145H   [44;10H[50;156H6[44;10H[34h[?25h[?25l[50;145H~@k[44;10H[50;145H   [44;11H[50;159H1[44;11H[34h[?25h[?25l[50;145H~@k[44;11H[50;145H   [44;12H[50;159H2[44;12H[34h[?25h[?25l[50;145H~@k[44;12H[50;145H   [44;13H[50;159H3[44;13H[34h[?25h[?25l[50;145H~@k[44;13H[50;145H   [44;14H[50;159H4[44;14H[34h[?25h[?25l[50;145H~@k[44;14H[50;145H   [44;15H[50;159H5[44;15H[34h[?25h[?25l[50;145H~@k[44;15H[50;145H   [44;16H[50;159H6[44;16H[34h[?25h[?25l[50;145H~@k[44;16H[50;145H   [44;17H[50;159H7[44;17H[34h[?25h[?25l[50;145H~@k[44;17H[50;145H   [44;18H[50;159H8[44;18H[34h[?25h[?25l[50;145H~@k[44;18H[50;145H   [44;19H[50;159H9[44;19H[34h[?25h[?25l[50;145H~@k[44;19H[50;145H   [44;20H[50;158H20[44;20H[34h[?25h[?25l[50;145H~@k[44;20H[50;145H   [44;21H[50;159H1[44;21H[34h[?25h[?25l[50;145H~@k[44;21H[50;145H   [44;21H[34h[?25h[?25l[50;145H~@k[44;21H[50;145H   [44;21H[34h[?25h[?25l[50;145Ha[44;21H[50;145H [44;22H[50;1H[1m-- INSERT --[0m[50;13H[K[50;155H46,22[9CBot[44;22H[34h[?25h[?25l[35m\[0m[50;159H3[44;23H[34h[?25h[?25l[44;22H[K[50;159H2[44;22H[34h[?25h[?25lbrea[44;21H[K[50;159H1[44;21H[34h[?25h[?25l[44;20H[K[50;159H0[44;20H[34h[?25h[?25l[44;19H[K[50;158H19[44;19H[34h[?25h[?25l[44;18H[K[50;159H8[44;18H[34h[?25h[?25l[44;17H[K[50;159H7[44;17H[34h[?25h[?25l[50;159H3[44;13H[34h[?25h[?25l[50;158H9 [44;9H[34h[?25h[?25l[50;158H5[44;5H[34h[?25h[?25l[50;158H1[44;1H[34h[?25h[?25l[43;49r[49;1H
+[1;50r[43;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[49;1H[1m[34m~                                                                                                                                                                           [0m[50;155H[K[50;155H45,76[9CBot[43;52H[46m([22C)[34h[?25h[?25l[0m[43;52H([22C)[50;156H4,28[42;28H[34h[?25h[?25l[50;156H3,76[41;76H[34h[?25h[?25l[50;156H2[40;76H[34h[?25h[?25l[39;60H[46m([12C)[0m[50;156H1,74[39;74H[34h[?25h[?25l[39;60H([12C)[50;156H0,25[38;25H[34h[?25h[?25l[50;155H39,40[37;40H[34h[?25h[?25l[36;52H[46m([21C)[0m[50;156H8,75[36;75H[34h[?25h[?25l[36;52H([21C)[50;156H7,28[35;28H[34h[?25h[?25l[50;156H6,76[34;76H[34h[?25h[?25l[50;156H5[33;76H[34h[?25h[?25l[32;60H[46m([11C)[0m[50;156H4,73[32;73H[34h[?25h[?25l[32;60H([11C)[50;156H3,25[31;25H[34h[?25h[?25l[50;156H2,37[30;37H[34h[?25h[?25l[50;156H1,33[29;33H[34h[?25h[?25l[28;42H[34m[46m()[0m[50;156H0,44[28;44H[34h[?25h[?25l[50;159H3[28;43H[34h[?25h[?25l[50;159H2[28;42H[34h[?25h[?25l[34m()[0m[50;159H1[28;41H[34h[?25h[?25l[50;159H0[28;40H[34h[?25h[?25l[50;158H39[28;39H[34h[?25h[?25l[50;159H8[28;38H[34h[?25h[?25l[50;159H7[28;37H[34h[?25h[?25l[50;159H6[28;36H[34h[?25h[?25l[50;159H5[28;35H[34h[?25h[?25l[50;159H4[28;34H[34h[?25h[?25l[50;159H3[28;33H[34h[?25h[?25l[50;159H2[28;32H[34h[?25h[?25l[50;159H1[28;31H[34h[?25h[?25l[50;159H0[28;30H[34h[?25h[?25l[50;158H29[28;29H[34h[?25h[?25l[50;159H8[28;28H[34h[?25h[?25l[50;159H7[28;27H[34h[?25h[?25l[50;159H6[28;26H[34h[?25h[?25l[50;159H5[28;25H[34h[?25h[?25l[50;159H4[28;24H[34h[?25h[?25l[50;159H3[28;23H[34h[?25h[?25l[50;159H2[28;22H[34h[?25h[?25l[50;159H1[28;21H[34h[?25h[?25l[50;159H0[28;20H[34h[?25h[?25l[50;158H19[28;19H[34h[?25h[?25l[34mresult = t.live_trading()[0m[28;43H[K[50;159H8[28;18H[34h[?25h[?25lresult = t.live_trading()[28;42H[K[50;159H7[28;17H[34h[?25h[?25l[50;155H29[27;17H[34h[?25h[?25l[50;156H8[26;17H[34h[?25h[?25l[50;156H7[25;17H[34h[?25h[?25l[50;159H6[25;16H[34h[?25h[?25l[50;156H8[26;16H[34h[?25h[?25l[50;159H5[26;15H[34h[?25h[?25l[34mt = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)[0m[26;155H[K[50;159H4[26;14H[34h[?25h[?25lt = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[26;154H[K[50;159H3[26;13H[34h[?25h[?25l[50;156H7[25;13H[34h[?25h[?25l[50;156H8[26;13H[34h[?25h[?25l[50;156H9[27;13H[34h[?25h[?25l[50;155H30[28;13H[34h[?25h[?25l[50;156H1[29;13H[34h[?25h[?25l[50;159H4[29;14H[34h[?25h[?25l[50;159H5[29;15H[34h[?25h[?25l[50;159H6[29;16H[34h[?25h[?25l[50;159H7[29;17H[34h[?25h[50;1H[K[?25l[50;155H31,16[9CBot[29;16H[34h[?25h[?25l[50;145Hv[29;16H[50;145H1[29;16H[50;1H[1m-- VISUAL --[0m[50;145H[K[50;145H1[29;16H[50;155H31,16[9CBot[29;16H[34h[?25h[?25l[50;145H~@k[29;16H[50;145H2  [29;17H[7m [0m[50;159H7[29;17H[34h[?25h[?25l[50;145H~@k[29;17H[50;145H3  [29;18H[7mr[0m[50;159H8[29;18H[34h[?25h[?25l[50;145H~@k[29;18H[50;145H4  [29;19H[7me[0m[50;159H9[29;19H[34h[?25h[?25l[50;145H~@k[29;19H[50;145H5  [29;20H[7ms[0m[50;158H20[29;20H[34h[?25h[?25l[50;145H~@k[29;20H[50;145H6  [29;21H[7mu[0m[50;159H1[29;21H[34h[?25h[?25l[50;145H~@k[29;21H[50;145H7  [29;22H[7ml[0m[50;159H2[29;22H[34h[?25h[?25l[50;145H~@k[29;22H[50;145H8  [29;23H[7mt[0m[50;159H3[29;23H[34h[?25h[?25l[50;145H~@k[29;23H[50;145H9  [29;24H[7m [0m[50;159H4[29;24H[34h[?25h[?25l[50;145H~@k[29;24H[50;145H10 [29;25H[7m=[0m[50;159H5[29;25H[34h[?25h[?25l[50;145H~@k[29;25H[50;145H11 [29;26H[7m [0m[50;159H6[29;26H[34h[?25h[?25l[50;145H~@k[29;26H[50;145H12 [29;27H[7m[31m"[0m[50;159H7[29;27H[34h[?25h[?25l[50;145H~@k[29;27H[50;145H13 [29;28H[7m[31ms[0m[50;159H8[29;28H[34h[?25h[?25l[50;145H~@k[29;28H[50;145H14 [29;29H[7m[31mh[0m[50;159H9[29;29H[34h[?25h[?25l[50;145H~@k[29;29H[50;145H15 [29;30H[7m[31mo[0m[50;158H30[29;30H[34h[?25h[?25l[50;145H~@k[29;30H[50;145H16 [29;31H[7m[31mr[0m[50;159H1[29;31H[34h[?25h[?25l[50;145H~@k[29;31H[50;145H17 [29;32H[7m[31mt[0m[50;159H2[29;32H[34h[?25h[?25l[50;145H~@k[29;32H[50;145H18 [29;33H[7m[31m"[0m[50;159H3[29;33H[34h[?25h[?25l[50;145H~@k[29;33H[50;145H18 [29;33H[34h[?25h[?25l[50;145Hd [29;33H[50;145H [29;16H[29;49r[49;1H
+[1;50r[29;17H               [33mif[0m result == [31m"long"[0m:[49;1H[1m[34m~                                                                                                                                                                           [0m[50;1H[K[50;155H31,16[9CBot[29;16H[34h[?25h[?25l[50;145Hd[29;16H[34h[?25h[?25l[50;146H~@k[29;16H[50;145H    [29;16H[15C[33mif[0m result == [31m"long"[0m:[29;51H[K[29;16H[34h[?25h[?25l[50;145H~@k[29;16H[50;145H   [29;17H[50;159H7[29;17H[34h[?25h[?25l[50;145H~@k[29;17H[50;145H   [29;18H[50;159H8[29;18H[34h[?25h[?25l[50;145H~@k[29;18H[50;145H   [29;19H[50;159H9[29;19H[34h[?25h[?25l[50;145Hd[29;19H[34h[?25h[?25l[50;146Hd[29;19H[50;145H  [29;21H[29;49r[49;1H
+[1;50r[49;1H[1m[34m~                                                                                                                                                                           [0m[50;155H[K[50;155H31,21[9CBot[29;21H[34h[?25h[?25l[50;145Hu[29;21H[50;1H1 more line; before #6  1 second ago[50;145H[K[29;19H[29;49r[29;1H[L[1;50r[29;31H[33mif[0m result == [31m"long"[0m:[50;1H[K[50;155H31,19[9CBot1 more line; before #6  1 second ago[50;155H[K[50;155H31,19[9CBot[29;19H[34h[?25h[?25l[50;145H~@k[29;19H[50;145H   [29;20H[50;158H20[29;20H[34h[?25h[?25l[50;145Ha[29;20H[50;145H [29;21H[50;1H[1m-- INSERT --[0m[50;14H[K[50;155H31,21[9CBot[29;21H[34h[?25h[?25l[50;159H2[29;22H[34h[?25h[?25l[50;159H3[29;23H[34h[?25h[?25l[50;159H4[29;24H[34h[?25h[?25l[50;159H5[29;25H[34h[?25h[?25l[50;159H6[29;26H[34h[?25h[?25l[50;159H7[29;27H[34h[?25h[?25l[50;159H8[29;28H[34h[?25h[?25l[50;159H9[29;29H[34h[?25h[?25l[50;158H30[29;30H[34h[?25h[?25l[33mif[0m result == [31m"long"[0m:[29;50H[K[50;158H29[29;29H[34h[?25h[?25l[33mif[0m result == [31m"long"[0m:[29;46H[K[50;159H5[29;25H[34h[?25h[?25l[33mif[0m result == [31m"long"[0m:[29;42H[K[50;159H1[29;21H[34h[?25h[?25l[50;159H2[29;22H[34h[?25h[?25l[33mif[0m result == [31m"long"[0m:[29;41H[K[50;159H1[29;21H[34h[?25h[?25l[33mif[0m result == [31m"long"[0m:[29;37H[K[50;158H17[29;17H[34h[?25h:[?25l[50;145H^[[29;17H[50;147H:[29;17H[50;145H   [29;17H[33mi[0m[50;1H[K[50;155H31,16[9CBot[29;16H[34h[?25h[?25l[50;145H:[29;16H[50;145H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 49L, 2103C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ python3 ta[K[K[K[K[K[K[K[K[K[Kvim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 49L, 2103C[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[24;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[25;9H[33mif[0m val == [31m"1"[0m:[26;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[27;9H[33melif[0m val == [31m"2"[0m:[28;13Ht = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[29;13H[33mwhile[0m [36mTrue[0m:[30;17Hresult = t.live_trading()[31;17H[33mif[0m result == [31m"long"[0m:[32;21H[33mtry[0m:[33;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[34;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[35;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[36;21H[33mexcept[0m:[37;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[38;17H[33melif[0m result == [31m'short'[0m:[39;21H[33mtry[0m:[40;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[41;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[42;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[43;21H[33mexcept[0m:[44;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[45;17Htime.sleep([31m150[0m)[46;9H[33melif[0m val==[31m"3"[0m:[47;13H[33mbreak[0m
+
+trade_ex()[50;155H31,16[9CAll[31;16H[34h[?25h[?25l[50;145H~@k[31;16H[50;145H   [30;16H[50;156H0[30;16H[34h[?25h[?25l[50;145H~@k[30;16H[50;145H   [29;16H[50;155H29[29;16H[34h[?25h[?25l[50;145H~@k[29;16H[50;145H   [28;16H[50;156H8[28;16H[34h[?25h[?25l[50;145H~@k[28;16H[50;145H   [27;16H[50;156H7[27;16H[34h[?25h[?25l[50;145H~@k[27;16H[50;145H   [26;16H[50;156H6[26;16H[34h[?25h[?25l[50;145H~@k[26;16H[50;145H   [25;16H[50;156H5[25;16H[34h[?25h[?25l[50;145H~@k[25;16H[50;145H   [24;16H[50;156H4[24;16H[34h[?25h[?25l[50;145H~@k[24;16H[50;145H   [23;15H[50;156H3,15[23;15H[34h[?25h[?25l[50;145H~@k[23;15H[50;145H   [22;16H[50;156H2,16[22;16H[34h[?25h[?25l[50;145H~@k[22;16H[50;145H   [21;16H[50;156H1[21;16H[34h[?25h[?25l[50;145H~@k[21;16H[50;145H   [22;16H[50;156H2[22;16H[34h[?25h[?25l[50;145H~@k[22;16H[50;145H   [23;15H[50;156H3,15[23;15H[34h[?25h[?25l[50;145H~@k[23;15H[50;145H   [24;16H[50;156H4,16[24;16H[34h[?25h[?25l[50;145H~@k[24;16H[50;145H   [25;16H[50;156H5[25;16H[34h[?25h[?25l[50;145H~@k[25;16H[50;145H   [26;16H[50;156H6[26;16H[34h[?25h[?25l[50;145H~@k[26;16H[50;145H   [27;16H[50;156H7[27;16H[34h[?25h[?25l[50;145H~@k[27;16H[50;145H   [28;16H[50;156H8[28;16H[34h[?25h[?25l[50;145H~@k[28;16H[50;145H   [29;16H[50;156H9[29;16H[34h[?25h[?25l[50;145H~@k[29;16H[50;145H   [30;16H[50;155H30[30;16H[34h[?25h[?25l[50;145H~@k[30;16H[50;145H   [31;16H[50;156H1[31;16H[34h[?25h[?25l[50;145H~@k[31;16H[50;145H   [32;16H[50;156H2[32;16H[34h[?25h[?25l[50;145H~@k[32;16H[50;145H   [33;16H[50;156H3[33;16H[34h[?25h[?25l[50;145H~@k[33;16H[50;145H   [34;16H[50;156H4[34;16H[34h[?25h[?25l[50;145H~@k[34;16H[50;145H   [35;16H[50;156H5[35;16H[34h[?25h[?25l[50;145H~@k[35;16H[50;145H   [36;16H[50;156H6[36;16H[34h[?25h[?25l[50;145H~@k[36;16H[50;145H   [37;16H[50;156H7[37;16H[34h[?25h[?25l[50;145H~@k[37;16H[50;145H   [36;16H[50;156H6[36;16H[34h[?25h[?25l[50;145H~@k[36;16H[50;145H   [35;16H[50;156H5[35;16H[34h[?25h[?25l[50;145H~@k[35;16H[50;145H   [34;16H[50;156H4[34;16H[34h[?25h[?25l[50;145H~@k[34;16H[50;145H   [33;16H[50;156H3[33;16H[34h[?25h[?25l[50;145H~@k[33;16H[50;145H   [32;16H[50;156H2[32;16H[34h[?25h[?25l[50;145H~@k[32;16H[50;145H   [31;16H[50;156H1[31;16H[34h[?25h[?25l[50;145H~@k[31;16H[50;145H   [30;16H[50;156H0[30;16H[34h[?25h[?25l[50;145H~@k[30;16H[50;145H   [29;16H[50;155H29[29;16H[34h[?25h[?25l[50;145H~@k[29;16H[50;145H   [28;16H[50;156H8[28;16H[34h[?25h[?25l[50;145H~@k[28;16H[50;145H   [27;16H[50;156H7[27;16H[34h[?25h[?25l[50;145H~@k[27;16H[50;145H   [26;16H[50;156H6[26;16H[34h[?25h[?25l[50;145H~@k[26;16H[50;145H   [27;16H[50;156H7[27;16H[34h[?25h[?25l[50;145H~@k[27;16H[50;145H   [28;16H[50;156H8[28;16H[34h[?25h[?25l[50;145H~@k[28;16H[50;145H   [29;16H[50;156H9[29;16H[34h[?25h[?25l[50;145H~@k[29;16H[50;145H   [30;16H[50;155H30[30;16H[34h[?25h[?25l[50;145H~@k[30;16H[50;145H   [31;16H[50;156H1[31;16H[34h[?25h[?25l[50;145H~@k[31;16H[50;145H   [32;16H[50;156H2[32;16H[34h[?25h[?25l[50;145H~@k[32;16H[50;145H   [33;16H[50;156H3[33;16H[34h[?25h[?25l[50;145H~@k[33;16H[50;145H   [33;17H[50;159H7[33;17H[34h[?25h[?25l[50;145H~@k[33;17H[50;145H   [34;17H[50;156H4[34;17H[34h[?25h[?25l[50;145H~@k[34;17H[50;145H   [35;17H[50;156H5[35;17H[34h[?25h[?25l[50;145H~@k[35;17H[50;145H   [36;17H[50;156H6[36;17H[34h[?25h[?25l[50;145H~@k[36;17H[50;145H   [37;17H[50;156H7[37;17H[34h[?25h[?25l[50;145H~@k[37;17H[50;145H   [38;17H[50;156H8[38;17H[34h[?25h[?25l[50;156H9[39;17H[34h[?25h[?25l[50;155H40[40;17H[34h[?25h[?25l[50;156H1[41;17H[34h[?25h[?25l[50;145H~@k[41;17H[50;145H   [42;17H[50;156H2[42;17H[34h[?25h[?25l[50;156H3[43;17H[34h[?25h[?25l[50;145H~@k[43;17H[50;145H   [44;17H[50;156H4[44;17H[34h[?25h[?25l[50;145H~@k[44;17H[50;145H   [45;17H[50;156H5[45;17H[34h[?25h[?25l[50;145H~@k[45;17H[50;145H   [46;17H[50;156H6[46;17H[34h[?25h[?25l[50;145H~@k[46;17H[50;145H   [46;18H[50;159H8[46;18H[34h[?25h[?25l[50;145H~@k[46;18H[50;145H   [46;19H[50;159H9[46;19H[34h[?25h[?25l[50;145H~@k[46;19H[50;145H   [46;20H[50;158H20[46;20H[34h[?25h[?25l[50;145H~@k[46;20H[50;145H   [46;21H[50;159H1[46;21H[34h[?25h[?25l[50;145H~@k[46;21H[50;145H   [46;22H[50;159H2[46;22H[34h[?25h[?25l[50;145H~@k[46;22H[50;145H   [46;22H[34h[?25h[?25l[50;145H~@k[46;22H[50;145H   [45;22H[50;156H5[45;22H[34h[?25h[?25l[50;145H~@k[45;22H[50;145H   [45;23H[50;159H3[45;23H[34h[?25h[?25l[50;145H~@k[45;23H[50;145H   [44;23H[50;156H4[44;23H[34h[?25h[?25l[50;145H~@k[44;23H[50;145H   [44;24H[50;159H4[44;24H[34h[?25h[?25l[50;145H~@k[44;24H[50;145H   [44;25H[50;159H5[44;25H[34h[?25h[?25l[50;145H~@k[44;25H[50;145H   [44;26H[50;159H6[44;26H[34h[?25h[?25l[50;145H~@k[44;26H[50;145H   [44;27H[50;159H7[44;27H[34h[?25h[?25l[50;145H~@k[44;27H[50;145H   [44;28H[50;159H8[44;28H[34h[?25h[?25l[50;145H~@k[44;28H[50;145H   [44;29H[50;159H9[44;29H[34h[?25h[?25l[50;145H~@k[44;29H[50;145H   [44;30H[50;158H30[44;30H[34h[?25h[?25l[50;145H~@k[44;30H[50;145H   [44;31H[50;159H1[44;31H[34h[?25h[?25l[50;145H~@k[44;31H[50;145H   [44;32H[50;159H2[44;32H[34h[?25h[?25l[50;145H~@k[44;32H[50;145H   [44;33H[50;159H3[44;33H[34h[?25h[?25l[50;145H~@k[44;33H[50;145H   [44;34H[50;159H4[44;34H[34h[?25h[?25l[50;145H~@k[44;34H[50;145H   [44;35H[50;159H5[44;35H[34h[?25h[?25l[50;145H~@k[44;35H[50;145H   [44;36H[50;159H6[44;36H[34h[?25h[?25l[50;145H~@k[44;36H[50;145H   [44;37H[50;159H7[44;37H[34h[?25h[?25l[50;145H~@k[44;37H[50;145H   [44;38H[50;159H8[44;38H[34h[?25h[?25l[50;145H~@k[44;38H[50;145H   [44;39H[50;159H9[44;39H[34h[?25h[?25l[50;145H~@k[44;39H[50;145H   [44;40H[50;158H40[44;40H[34h[?25h[?25l[50;145H~@k[44;40H[50;145H   [44;41H[50;159H1[44;41H[34h[?25h[?25l[50;145H~@k[44;41H[50;145H   [44;42H[50;159H2[44;42H[34h[?25h[?25l[50;145H~@k[44;42H[50;145H   [44;43H[50;159H3[44;43H[34h[?25h[?25l[50;145H~@k[44;43H[50;145H   [44;44H[50;159H4[44;44H[34h[?25h[?25l[50;145H~@k[44;44H[50;145H   [44;45H[50;159H5[44;45H[34h[?25h[?25l[50;145H~@k[44;45H[50;145H   [44;46H[50;159H6[44;46H[34h[?25h[?25l[50;145H~@k[44;46H[50;145H   [44;47H[50;159H7[44;47H[34h[?25h[?25l[50;145H~@k[44;47H[50;145H   [44;48H[50;159H8[44;48H[34h[?25h[?25l[50;145H~@k[44;48H[50;145H   [44;49H[50;159H9[44;49H[34h[?25h[?25l[50;145H~@k[44;49H[50;145H   [44;50H[50;158H50[44;50H[34h[?25h[?25l[50;145H~@k[44;50H[50;145H   [44;51H[50;159H1[44;51H[34h[?25h[?25l[50;145H~@k[44;51H[50;145H   [44;52H[46m([22C)[0m[50;159H2[44;52H[34h[?25h[?25l[50;145H~@k[44;52H[50;145H   [44;53H([22C)[50;159H3[44;53H[34h[?25h[?25l[50;145H~@k[44;53H[50;145H   [44;54H[50;159H4[44;54H[34h[?25h[?25l[50;145H~@k[44;54H[50;145H   [44;55H[50;159H5[44;55H[34h[?25h[?25l[50;145H~@k[44;55H[50;145H   [44;56H[50;159H6[44;56H[34h[?25h[?25l[50;145H~@k[44;56H[50;145H   [44;57H[50;159H7[44;57H[34h[?25h[?25l[50;145H~@k[44;57H[50;145H   [44;58H[50;159H8[44;58H[34h[?25h[?25l[50;145H~@k[44;58H[50;145H   [44;59H[50;159H9[44;59H[34h[?25h[?25l[50;145H~@k[44;59H[50;145H   [44;60H[50;158H60[44;60H[34h[?25h[?25l[50;145H~@k[44;60H[50;145H   [44;61H[50;159H1[44;61H[34h[?25h[?25l[50;145H~@k[44;61H[50;145H   [44;62H[50;159H2[44;62H[34h[?25h[?25l[50;145H~@k[44;62H[50;145H   [44;63H[50;159H3[44;63H[34h[?25h[?25l[50;145H~@k[44;63H[50;145H   [44;64H[50;159H4[44;64H[34h[?25h[?25l[50;145H~@k[44;64H[50;145H   [44;65H[50;159H5[44;65H[34h[?25h[?25l[50;145H~@k[44;65H[50;145H   [44;66H[50;159H6[44;66H[34h[?25h[?25l[50;145H~@k[44;66H[50;145H   [44;67H[50;159H7[44;67H[34h[?25h[?25l[50;145H~@k[44;67H[50;145H   [44;68H[50;159H8[44;68H[34h[?25h[?25l[50;145H~@k[44;68H[50;145H   [44;69H[50;159H9[44;69H[34h[?25h[?25l[50;145H~@k[44;69H[50;145H   [43;27H[50;156H3,27[43;27H[34h[?25h[?25l[50;145H~@k[43;27H[50;145H   [42;69H[50;156H2,69[42;69H[34h[?25h[?25l[50;145H~@k[42;69H[50;145H   [41;69H[50;156H1[41;69H[34h[?25h[?25l[50;145H~@k[41;69H[50;145H   [40;69H[50;156H0[40;69H[34h[?25h[?25l[50;145H~@k[40;69H[50;145H   [39;24H[50;155H39,24[39;24H[34h[?25h[?25l[50;145H~@k[39;24H[50;145H   [38;39H[50;156H8,39[38;39H[34h[?25h[?25l[50;145H~@k[38;39H[50;145H   [39;24H[50;156H9,24[39;24H[34h[?25h[?25l[50;145H~@k[39;24H[50;145H   [40;69H[50;155H40,69[40;69H[34h[?25h[?25l[50;145H~@k[40;69H[50;145H   [41;69H[50;156H1[41;69H[34h[?25h[?25l[50;145H~@k[41;69H[50;145H   [42;69H[50;156H2[42;69H[34h[?25h[?25l[50;145H~@k[42;69H[50;145H   [43;27H[50;156H3,27[43;27H[34h[?25h[?25l[50;145H~@k[43;27H[50;145H   [44;69H[50;156H4,69[44;69H[34h[?25h[?25l[50;145H:[44;69H[50;1H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 49L, 2103C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ python3 trading_ex.py 2
+  File "trading_ex.py", line 34
+    pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                                       ^
+SyntaxError: can't assign to literal
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ python3 trading_ex.py 2[K[K
+  File "trading_ex.py", line 34
+    pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                                       ^
+SyntaxError: can't assign to literal
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 49L, 2103C[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[24;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[25;9H[33mif[0m val == [31m"1"[0m:[26;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[27;9H[33melif[0m val == [31m"2"[0m:[28;13Ht = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[29;13H[33mwhile[0m [36mTrue[0m:[30;17Hresult = t.live_trading()[31;17H[33mif[0m result == [31m"long"[0m:[32;21H[33mtry[0m:[33;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[34;25Hpair,long_price,quantity,trade_type=[31m'long'[0m,trigger_per=[31m1[0m, deviation=[31m0.5[0m, stop_loss_per=[31m2[0m[35;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[36;21H[33mexcept[0m:[37;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[38;17H[33melif[0m result == [31m'short'[0m:[39;21H[33mtry[0m:[40;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[41;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[42;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[43;21H[33mexcept[0m:[44;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[45;17Htime.sleep([31m150[0m)[46;9H[33melif[0m val==[31m"3"[0m:[47;13H[33mbreak[0m
+
+trade_ex()[50;155H44,69[9CAll[44;69H[34h[?25h[?25l[50;145H~@k[44;69H[50;145H   [43;27H[50;156H3,27[43;27H[34h[?25h[?25l[50;145H~@k[43;27H[50;145H   [42;69H[50;156H2,69[42;69H[34h[?25h[?25l[50;145H~@k[42;69H[50;145H   [41;69H[50;156H1[41;69H[34h[?25h[?25l[50;145H~@k[41;69H[50;145H   [40;69H[50;156H0[40;69H[34h[?25h[?25l[50;145H~@k[40;69H[50;145H   [39;24H[50;155H39,24[39;24H[34h[?25h[?25l[50;145H~@k[39;24H[50;145H   [38;39H[50;156H8,39[38;39H[34h[?25h[?25l[50;145H~@k[38;39H[50;145H   [37;69H[50;156H7,6[37;69H[34h[?25h[?25l[50;145H~@k[37;69H[50;145H   [36;27H[50;156H6,27[36;27H[34h[?25h[?25l[50;145H~@k[36;27H[50;145H   [35;69H[50;156H5,69[35;69H[34h[?25h[?25l[50;145H~@k[35;69H[50;145H   [34;69H[50;156H4[34;69H[34h[?25h[?25l[50;145H~@k[34;69H[50;145H   [33;69H[50;156H3[33;69H[34h[?25h[?25l[50;145H~@k[33;69H[50;145H   [34;69H[50;156H4[34;69H[34h[?25h[?25l[50;145H~@k[34;69H[50;145H   [34;68H[50;159H8[34;68H[34h[?25h[?25l[50;145H~@k[34;68H[50;145H   [34;67H[50;159H7[34;67H[34h[?25h[?25l[50;145H~@k[34;67H[50;145H   [34;66H[50;159H6[34;66H[34h[?25h[?25l[50;145H~@k[34;66H[50;145H   [34;65H[50;159H5[34;65H[34h[?25h[?25l[50;145H~@k[34;65H[50;145H   [34;64H[50;159H4[34;64H[34h[?25h[?25l[50;145H~@k[34;64H[50;145H   [34;63H[50;159H3[34;63H[34h[?25h[?25l[50;145H~@k[34;63H[50;145H   [34;62H[50;159H2[34;62H[34h[?25h[?25l[50;145H~@k[34;62H[50;145H   [34;61H[50;159H1[34;61H[34h[?25h[?25l[50;145H~@k[34;61H[50;145H   [34;60H[50;159H0[34;60H[34h[?25h[?25l[50;145H~@k[34;60H[50;145H   [34;59H[50;158H59[34;59H[34h[?25h[?25l[50;145H~@k[34;59H[50;145H   [34;58H[50;159H8[34;58H[34h[?25h[?25l[50;145H~@k[34;58H[50;145H   [34;57H[50;159H7[34;57H[34h[?25h[?25l[50;145H~@k[34;57H[50;145H   [34;56H[50;159H6[34;56H[34h[?25h[?25l[50;145H~@k[34;56H[50;145H   [34;55H[50;159H5[34;55H[34h[?25h[?25l[50;145H~@k[34;55H[50;145H   [34;54H[50;159H4[34;54H[34h[?25h[?25l[50;145H~@k[34;54H[50;145H   [34;53H[50;159H3[34;53H[34h[?25h[?25l[50;145H~@k[34;53H[50;145H   [34;52H[50;159H2[34;52H[34h[?25h[?25l[50;145H~@k[34;52H[50;145H   [34;51H[50;159H1[34;51H[34h[?25h[?25l[50;145H~@k[34;51H[50;145H   [34;50H[50;159H0[34;50H[34h[?25h[?25l[50;145H~@k[34;50H[50;145H   [34;49H[50;158H49[34;49H[34h[?25h[?25l[50;145H~@k[34;49H[50;145H   [34;48H[50;159H8[34;48H[34h[?25h[?25l[50;145H~@k[34;48H[50;145H   [34;47H[50;159H7[34;47H[34h[?25h[?25l[50;145H~@k[34;47H[50;145H   [34;46H[50;159H6[34;46H[34h[?25h[?25l[50;145H~@k[34;46H[50;145H   [34;45H[50;159H5[34;45H[34h[?25h[?25l[50;145H~@k[34;45H[50;145H   [34;44H[50;159H4[34;44H[34h[?25h[?25l[50;145H~@k[34;44H[50;145H   [34;43H[50;159H3[34;43H[34h[?25h[?25l[50;145H~@k[34;43H[50;145H   [34;42H[50;159H2[34;42H[34h[?25h[?25l[50;145H~@k[34;42H[50;145H   [34;41H[50;159H1[34;41H[34h[?25h[?25l[50;145H~@k[34;41H[50;145H   [34;40H[50;159H0[34;40H[34h[?25h[?25l[50;145H~@k[34;40H[50;145H   [34;39H[50;158H39[34;39H[34h[?25h[?25l[50;145H~@k[34;39H[50;145H   [34;38H[50;159H8[34;38H[34h[?25h[?25l[50;145H~@k[34;38H[50;145H   [34;37H[50;159H7[34;37H[34h[?25h[?25l[50;145H~@k[34;37H[50;145H   [34;36H[50;159H6[34;36H[34h[?25h[?25l[50;145H~@k[34;36H[50;145H   [34;35H[50;159H5[34;35H[34h[?25h[?25l[50;145H~@k[34;35H[50;145H   [34;34H[50;159H4[34;34H[34h[?25h[?25l[50;145H~@k[34;34H[50;145H   [34;33H[50;159H3[34;33H[34h[?25h[?25l[50;145H~@k[34;33H[50;145H   [34;32H[50;159H2[34;32H[34h[?25h[?25l[50;145H~@k[34;32H[50;145H   [34;31H[50;159H1[34;31H[34h[?25h[?25l[50;145H~@k[34;31H[50;145H   [34;30H[50;159H0[34;30H[34h[?25h[?25l[50;145H~@k[34;30H[50;145H   [34;29H[50;158H29[34;29H[34h[?25h[?25l[50;145H~@k[34;29H[50;145H   [34;28H[50;159H8[34;28H[34h[?25h[?25l[50;145Ha[34;28H[50;145H [34;29H[50;1H[1m-- INSERT --[0m[50;13H[K[50;155H34,29[9CAll[34;29H[34h[?25h[?25l[50;159H8[34;28H[34h[?25h[?25l[50;159H7[34;27H[34h[?25h[?25l[50;159H6[34;26H[34h[?25h[?25l[50;159H5[34;25H[34h[?25h[?25l[50;159H4[34;24H[34h[?25h[?25l[50;159H5[34;25H[34h[?25h[?25l[34m#pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[50;159H6[34;26H[34h[?25h[50;1H[K[34;25H[?25l[50;145H^[[34;25H[50;145H  [34;26H[50;155H34,25[9CAll[34;25H[34h[?25h[?25l[50;145H:[34;25H[50;145H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 49L, 2104C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py python3 trading_ex.py
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(trading_ex.py:6939): Gdk-[1;35mCRITICAL[0m **: [34m16:20:59.986[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+1 for sync; 2 for start trading; 3 for quite: 2
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:28:00
+tick_num                             17
+open                            11421.8
+high                              11440
+low                             11412.9
+close                           11426.2
+volume                          630.772
+cum_buy_volume                  264.538
+cum_ticks                            17
+cum_dollar_value            7.20676e+06
+avg                             11576.8
+upper                           11687.1
+lower                           11466.4
+side                                 -1
+mom1                         -0.0204439
+mom2                         -0.0202213
+mom3                         -0.0162718
+mom4                          -0.016077
+mom5                         -0.0147509
+log_ret                      -0.0206557
+volatility                   0.00363881
+autocorr_1                    0.0977487
+autocorr_2                    -0.193649
+autocorr_3                   -0.0664698
+autocorr_4                   -0.0878032
+autocorr_5                    -0.119136
+log_t1                      0.000227241
+log_t2                       0.00402286
+log_t3                       0.00019802
+log_t4                       0.00134682
+log_t5                       0.00174763
+fast_mavg                       11593.6
+slow_mavg                         11583
+rsi                                  25
+srsi                            71.3699
+sma                                   1
+Name: 0, dtype: object
+150 11426.1
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:42:00
+tick_num                             14
+open                            11429.3
+high                            11435.4
+low                             11397.6
+close                           11397.6
+volume                          635.993
+cum_buy_volume                  154.779
+cum_ticks                            14
+cum_dollar_value             7.2639e+06
+avg                             11567.3
+upper                           11681.8
+lower                           11452.8
+side                                 -1
+mom1                         -0.0226745
+mom2                         -0.0187349
+mom3                         -0.0185406
+mom4                         -0.0172178
+mom5                         -0.0154988
+log_ret                      -0.0229355
+volatility                   0.00390714
+autocorr_1                     -0.12715
+autocorr_2                     0.021887
+autocorr_3                    -0.125915
+autocorr_4                    -0.114157
+autocorr_5                    -0.012902
+log_t1                       0.00402286
+log_t2                       0.00019802
+log_t3                       0.00134682
+log_t4                       0.00174763
+log_t5                     -2.32813e-05
+fast_mavg                         11577
+slow_mavg                       11575.1
+rsi                                  22
+srsi                             70.464
+sma                                   1
+Name: 0, dtype: object
+150 11393.74
+^CTraceback (most recent call last):
+  File "trading_ex.py", line 49, in <module>
+    trade_ex()
+  File "trading_ex.py", line 45, in trade_ex
+    time.sleep(150)
+KeyboardInterrupt
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 49L, 2104C[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[24;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[25;9H[33mif[0m val == [31m"1"[0m:[26;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[27;9H[33melif[0m val == [31m"2"[0m:[28;13Ht = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[29;13H[33mwhile[0m [36mTrue[0m:[30;17Hresult = t.live_trading()[31;17H[33mif[0m result == [31m"long"[0m:[32;21H[33mtry[0m:[33;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[34;25H[34m#pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[35;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[36;21H[33mexcept[0m:[37;25Hmessage_func.send_a_message([31m"BTC long buy failed"[0m)[38;17H[33melif[0m result == [31m'short'[0m:[39;21H[33mtry[0m:[40;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[41;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[42;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[43;21H[33mexcept[0m:[44;25Hmessage_func.send_a_message([31m"BTC short buy failed"[0m)[45;17Htime.sleep([31m150[0m)[46;9H[33melif[0m val==[31m"3"[0m:[47;13H[33mbreak[0m
+
+trade_ex()[50;155H34,25[9CAll[34;25H[34h[?25h[?25l[50;145H~@k[34;25H[50;145H   [35;25H[50;156H5[35;25H[34h[?25h[?25l[50;145H~@k[35;25H[50;145H   [36;25H[50;156H6[36;25H[34h[?25h[?25l[50;145H~@k[36;25H[50;145H   [37;25H[50;156H7[37;25H[34h[?25h[?25l[50;145H~@k[37;25H[50;145H   [38;25H[50;156H8[38;25H[34h[?25h[?25l[50;145H~@k[38;25H[50;145H   [39;24H[50;156H9,24[39;24H[34h[?25h[?25l[50;145H~@k[39;24H[50;145H   [40;25H[50;155H40,25[40;25H[34h[?25h[?25l[50;145H~@k[40;25H[50;145H   [41;25H[50;156H1[41;25H[34h[?25h[?25l[50;145Ha[41;25H[50;145H [41;26H[50;1H[1m-- INSERT --[0m[50;13H[K[50;155H41,26[9CAll[41;26H[34h[?25h[?25l[50;156H2[42;26H[34h[?25h[?25l[50;159H5[42;25H[34h[?25h[?25l[50;156H3[43;25H[34h[?25h[?25l[50;156H2[42;25H[34h[?25h[?25l[50;156H1[41;25H[34h[?25h[?25l[50;156H0[40;25H[34h[?25h[?25l[50;155H39[39;25H[34h[?25h[?25l[50;155H40[40;25H[34h[?25h[?25l[50;156H1[41;25H[34h[?25h[?25l[50;156H0[40;25H[34h[?25h[?25l[50;155H39[39;25H[34h[?25h[?25l[50;159H4[39;24H[34h[?25h[?25l[50;159H3[39;23H[34h[?25h[?25l[50;159H2[39;22H[34h[?25h[?25l[50;159H1[39;21H[34h[?25h[?25l[40;49r[40;1H[L[1;50r[39;21H[K[40;21H[33mtry[0m:[50;155H[K[50;155H40,21[9CTop[40;21H[34h[?25h[?25l[50;155H39[39;21H[34h[?25h[?25lr[50;159H2[39;22H[34h[?25h[?25le[50;159H3[39;23H[34h[?25h[?25ls[50;159H4[39;24H[34h[?25h[?25lu[50;159H5[39;25H[34h[?25h[?25ll[50;159H6[39;26H[34h[?25h[?25lt[50;159H7[39;27H[34h[?25h[?25l_[50;159H8[39;28H[34h[?25h[?25le[50;159H9[39;29H[34h[?25h[?25lr[50;158H30[39;30H[34h[?25h[?25lr[50;159H1[39;31H[34h[?25h[?25lo[50;159H2[39;32H[34h[?25h[?25lr[50;159H3[39;33H[34h[?25h[?25l[50;159H4[39;34H[34h[?25h[?25l=[50;159H5[39;35H[34h[?25h[?25l[50;159H6[39;36H[34h[?25h[?25l[31m"
+                    try:
+                        p_q = trade_long_short.get_quantity(pair,[0m[1Cshort[1C[31m)
+                        #pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[7C],p_q[[10C],[7C,trigger_per,deviation,stop_loss_per,)).start()
+                    except:
+                        message_func.send_a_message([0m[1CBTC short buy failed[1C[31m)
+                time.sleep(150)
+        elif val=="3":
+            break[0m[50;159H7[39;37H[34h[?25h[?25l[31m"[0m
+                    [33mtry[0m:
+                        p_q = trade_long_short.get_quantity(pair,[1C[31mshort[0m[1C)
+                        [34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[7C],p_q[[10C],[7C,trigger_per,deviation,stop_loss_per,)).start()
+                    [33mexcept[0m:
+                        message_func.send_a_message([1C[31mBTC short buy failed[0m[1C)
+                time.sleep([3C)
+        [33melif[0m val==[3C:
+            [33mbreak[0m[50;159H8[39;38H[34h[?25h[?25l[50;155H40,25[40;25H[34h[?25h[?25l[50;156H1,38[41;38H[34h[?25h[?25l[50;156H2[42;38H[34h[?25h[?25l[50;159H7[42;37H[34h[?25h[?25l[50;159H6[42;36H[34h[?25h[?25l[50;159H5[42;35H[34h[?25h[?25l[50;159H4[42;34H[34h[?25h[?25l[50;159H3[42;33H[34h[?25h[?25l[50;159H2[42;32H[34h[?25h[?25l[50;159H0[42;30H[34h[?25h[?25l[50;158H28[42;28H[34h[?25h[?25l[50;159H7[42;27H[34h[?25h[?25l[50;156H3[43;27H[34h[?25h[?25l[50;159H6[43;26H[34h[?25h[?25l[50;159H5[43;25H[34h[?25h[?25l[44;49r[44;1H[L[1;50r[43;25H[K[44;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[50;155H[K[50;155H44,25[9CTop[44;25H[34h[?25h[?25l[50;156H3[43;25H[34h[?25h[?25lr[50;159H6[43;26H[34h[?25h[?25le[50;159H7[43;27H[34h[?25h[?25ls[50;159H8[43;28H[34h[?25h[?25lu[50;159H9[43;29H[34h[?25h[?25ll[50;158H30[43;30H[34h[?25h[?25lt[50;159H1[43;31H[34h[?25h[?25l_[50;159H2[43;32H[34h[?25h[?25le[50;159H3[43;33H[34h[?25h[?25lr[50;159H4[43;34H[34h[?25h[?25lr[50;159H5[43;35H[34h[?25h[?25lo[50;159H6[43;36H[34h[?25h[?25lr[50;159H7[43;37H[34h[?25h[?25l[50;159H8[43;38H[34h[?25h[?25l=[50;159H9[43;39H[34h[?25h[?25l[50;158H40[43;40H[34h[?25h[?25ls[50;159H1[43;41H[34h[?25h[?25lt[50;159H2[43;42H[34h[?25h[?25l[36mstr[0m[50;159H3[43;43H[34h[?25h[?25l([50;159H4[43;44H[34h[?25h[?25lp[50;159H5[43;45H[34h[?25h[?25l_[50;159H6[43;46H[34h[?25h[?25lq[50;159H7[43;47H[34h[?25h[?25l[[50;159H8[43;48H[34h[?25h[?25l[31m'
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[0m[1Cprice[1C[31m],p_q[[0m[1Cquantity[1C[31m],[0m[1Cshort[1C[31m,trigger_per,deviation,stop_loss_per,)).start()
+                    except:
+                        message_func.send_a_message([22C)
+                time.sleep(150)
+        elif val=="3":
+            break[0m[50;159H9[43;49H[34h[?25h[?25l[31mp[0m[50;158H50[43;50H[34h[?25h[?25l[31mr[0m[50;159H1[43;51H[34h[?25h[?25l[31mi[0m[50;159H2[43;52H[34h[?25h[?25l[31mc[0m[50;159H3[43;53H[34h[?25h[?25l[31me[0m[50;159H4[43;54H[34h[?25h[?25l[31m'[0m
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[1C[31mprice[0m[1C],p_q[[1C[31mquantity[0m[1C],[1C[31mshort[0m[1C,trigger_per,deviation,stop_loss_per,)).start()
+                    [33mexcept[0m:
+                        message_func.send_a_message([22C)
+                time.sleep([3C)
+        [33melif[0m val==[3C:
+            [33mbreak[0m[50;159H5[43;55H[34h[?25h[?25l][43;47H[46m[[7C][0m[50;159H6[43;56H[34h[?25h[?25l)[43;43H[46m([0mp_q[[7C][46m)[0m[50;159H7[43;57H[34h[?25h[?25l[43;43H([12C)[50;159H8[43;58H[34h[?25h[?25l+[50;159H9[43;59H[34h[?25h[?25l[50;158H60[43;60H[34h[?25h[?25l[31m"
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[7C],p_q[[10C],[7C,trigger_per,deviation,stop_loss_per,)).start()
+                    except:
+                        message_func.send_a_message([0m[1CBTC short buy failed[1C[31m)
+                time.sleep(150)
+        elif val=="3":
+            break[0m[50;159H1[43;61H[34h[?25h[?25l[31m [0m[50;159H2[43;62H[34h[?25h[?25l[31m"[0m
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[7C],p_q[[10C],[7C,trigger_per,deviation,stop_loss_per,)).start()
+                    [33mexcept[0m:
+                        message_func.send_a_message([1C[31mBTC short buy failed[0m[1C)
+                time.sleep([3C)
+        [33melif[0m val==[3C:
+            [33mbreak[0m[50;159H3[43;63H[34h[?25h[?25l[50;159H4[43;64H[34h[?25h[?25l+[50;159H5[43;65H[34h[?25h[?25l[50;159H6[43;66H[34h[?25h[?25l[50;159H5[43;65H[34h[?25h[?25ls[50;159H6[43;66H[34h[?25h[?25lt[50;159H7[43;67H[34h[?25h[?25l[36mstr[0m[50;159H8[43;68H[34h[?25h[?25l([50;159H9[43;69H[34h[?25h[?25lp[50;158H70[43;70H[34h[?25h[?25l_[50;159H1[43;71H[34h[?25h[?25lq[50;159H2[43;72H[34h[?25h[?25l[[50;159H3[43;73H[34h[?25h[?25l[31m'
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[0m[1Cprice[1C[31m],p_q[[0m[1Cquantity[1C[31m],[0m[1Cshort[1C[31m,trigger_per,deviation,stop_loss_per,)).start()
+                    except:
+                        message_func.send_a_message([22C)
+                time.sleep(150)
+        elif val=="3":
+            break[0m[50;159H4[43;74H[34h[?25h[?25l[31mq[0m[50;159H5[43;75H[34h[?25h[?25l[31mu[0m[50;159H6[43;76H[34h[?25h[?25l[31ma[0m[50;159H7[43;77H[34h[?25h[?25l[31mn[0m[50;159H8[43;78H[34h[?25h[?25l[31mi[0m[50;159H9[43;79H[34h[?25h[?25l[43;78H[K[50;159H8[43;78H[34h[?25h[?25l[31mt[0m[50;159H9[43;79H[34h[?25h[?25l[31mi[0m[50;158H80[43;80H[34h[?25h[?25l[31mt[0m[50;159H1[43;81H[34h[?25h[?25l[31my[0m[50;159H2[43;82H[34h[?25h[?25l[31m'[0m
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[1C[31mprice[0m[1C],p_q[[1C[31mquantity[0m[1C],[1C[31mshort[0m[1C,trigger_per,deviation,stop_loss_per,)).start()
+                    [33mexcept[0m:
+                        message_func.send_a_message([22C)
+                time.sleep([3C)
+        [33melif[0m val==[3C:
+            [33mbreak[0m[50;159H3[43;83H[34h[?25h[?25l][43;72H[46m[[10C][0m[50;159H4[43;84H[34h[?25h[?25l)[43;68H[46m([0mp_q[[10C][46m)[0m[50;159H5[43;85H[34h[?25h[?25l[43;68H([15C)[50;156H2[42;85H[34h[?25h[?25l[41;60H[46m([12C)[0m[50;156H1,74[41;74H[34h[?25h[?25l[41;60H([12C)[50;156H0,25[40;25H[34h[?25h[?25l[50;155H39,38[39;38H[34h[?25h[?25l[50;156H8,40[38;40H[34h[?25h[?25l[37;52H[46m([21C)[0m[50;156H7,75[37;75H[34h[?25h[?25l[37;52H([21C)[50;156H6,28[36;28H[34h[?25h[?25l[50;156H5,85[35;85H[34h[?25h[?25l[50;156H6,28[36;28H[34h[?25h[?25l[37;52H[46m([21C)[0m[50;156H7,75[37;75H[34h[?25h[?25l[37;52H([21C)[50;156H8,40[38;40H[34h[?25h[?25l[50;156H9,38[39;38H[34h[?25h[?25l[50;155H40,25[40;25H[34h[?25h[?25l[41;60H[46m([12C)[0m[50;156H1,74[41;74H[34h[?25h[?25l[41;60H([12C)[50;156H2,85[42;85H[34h[?25h[?25l[43;68H[46m([15C)[0m[50;156H3[43;85H[34h[?25h[?25l[43;68H([15C)[50;156H4[44;85H[34h[?25h[?25l[1;49r[49;1H
+[1;50r[50;155H[K[50;155H45,28[9C50%[44;28H[34h[?25h[?25l[1;49r[49;1H
+[1;50r[49;1Htrade_ex()[50;155H[K[50;155H46,76[9CBot[44;52H[46m([22C)[34h[?25h[?25l[0m[44;52H([22C)[50;156H5,28[43;28H[34h[?25h[?25l[44;52H[46m([22C)[0m[50;156H6,76[44;76H[34h[?25h[?25l[50;159H5[44;75H[34h[?25h[?25l[44;52H([22C)[50;156H5,28[43;28H[34h[?25h[?25l[50;159H7[43;27H[34h[?25h[?25l :[50;159H8[43;28H[34h[?25h[?25lE:[50;159H9[43;29H[34h[?25h[?25lx:[50;158H30[43;30H[34h[?25h[?25lc:[50;159H1[43;31H[34h[?25h[?25le:[50;159H2[43;32H[34h[?25h[?25lp:[50;159H3[43;33H[34h[?25h[?25lt:[50;159H4[43;34H[34h[?25h[?25li:[50;159H5[43;35H[34h[?25h[?25lo:[50;159H6[43;36H[34h[?25h[?25l[43;28H[32mException[0m:[50;159H7[43;37H[34h[?25h[?25l :[50;159H8[43;38H[34h[?25h[?25la:[50;159H9[43;39H[34h[?25h[?25l[33mas[0m:[50;158H40[43;40H[34h[?25h[?25l :[50;159H1[43;41H[34h[?25h[?25le:[50;159H2[43;42H[34h[?25h[?25l :[50;159H3[43;43H[34h[?25h[?25l:[43;43H[K[50;159H2[43;42H[34h[?25h[?25l[50;156H6[44;42H[34h[?25h[?25l[45;27H[46m([3C)[0m[50;156H7,3[45;32H[34h[?25h[?25l([3C)[50;156H6,4[44;42H[34h[?25h[?25l[50;159H3[44;43H[34h[?25h[?25l[50;159H4[44;44H[34h[?25h[?25l[50;159H5[44;45H[34h[?25h[?25l[50;159H6[44;46H[34h[?25h[?25l[50;159H7[44;47H[34h[?25h[?25l[50;159H8[44;48H[34h[?25h[?25l[50;159H9[44;49H[34h[?25h[?25l[50;158H50[44;50H[34h[?25h[?25l[50;159H1[44;51H[34h[?25h[?25le[46m([22C)[0m[50;159H2[44;52H[34h[?25h[?25l[50;159H3[44;53H[34h[?25h[?25l([22C)[50;159H4[44;54H[34h[?25h[?25l[50;159H5[44;55H[34h[?25h[?25l[50;159H6[44;56H[34h[?25h[?25l[50;159H7[44;57H[34h[?25h[?25l[50;159H8[44;58H[34h[?25h[?25l[50;159H9[44;59H[34h[?25h[?25l[50;158H60[44;60H[34h[?25h[?25l[50;159H1[44;61H[34h[?25h[?25l[50;159H2[44;62H[34h[?25h[?25l[50;159H3[44;63H[34h[?25h[?25l[50;159H4[44;64H[34h[?25h[?25l[50;159H5[44;65H[34h[?25h[?25l[50;159H6[44;66H[34h[?25h[?25l[50;159H7[44;67H[34h[?25h[?25l[50;159H8[44;68H[34h[?25h[?25l[50;159H9[44;69H[34h[?25h[?25l[50;158H70[44;70H[34h[?25h[?25l[50;159H1[44;71H[34h[?25h[?25l[50;159H2[44;72H[34h[?25h[?25l[50;159H3[44;73H[34h[?25h[?25l[50;159H4[44;74H[34h[?25h[?25l[44;52H[46m([22C)[0m[50;159H5[44;75H[34h[?25h[?25l[44;52H([22C)[50;159H4[44;74H[34h[?25h[?25l[31m "[0m)[50;159H5[44;75H[34h[?25h[?25l[44;52H[46m([23C)[0m[50;159H6[44;76H[34h[?25h[?25l[46m+[0m)+[46m)[0m[50;159H7[44;77H[34h[?25h[?25l[46mr[0m)r[46m)[0m[50;159H8[44;78H[34h[?25h[?25l[46me[0m)e[46m)[0m[50;159H9[44;79H[34h[?25h[?25l[46ms[0m)s[46m)[0m[50;158H80[44;80H[34h[?25h[?25l[46mu[0m)u[46m)[0m[50;159H1[44;81H[34h[?25h[?25l[46ml[0m)l[46m)[0m[50;159H2[44;82H[34h[?25h[?25l[46mt[0m)t[46m)[0m[50;159H3[44;83H[34h[?25h[?25l[46m_[0m)_[46m)[0m[50;159H4[44;84H[34h[?25h[?25l[46me[0m)e[46m)[0m[50;159H5[44;85H[34h[?25h[?25l[46mr[0m)r[46m)[0m[50;159H6[44;86H[34h[?25h[?25l[46mr[0m)r[46m)[0m[50;159H7[44;87H[34h[?25h[?25l[46mo[0m)o[46m)[0m[50;159H8[44;88H[34h[?25h[?25l[46mr[0m)r[46m)[0m[50;159H9[44;89H[34h[?25h[?25l[46m [0m) [46m)[0m[50;158H90[44;90H[34h[?25h[?25l)[44;90H[K[44;89H[46m)[0m[50;158H89[44;89H[34h[?25h[?25l[46m+[0m)+[46m)[0m[50;158H90[44;90H[34h[?25h[?25l[46ms[0m)s[46m)[0m[50;159H1[44;91H[34h[?25h[?25l[46mt[0m)t[46m)[0m[50;159H2[44;92H[34h[?25h[?25l)[44;92H[K[44;91H[46m)[0m[50;159H1[44;91H[34h[?25h[?25l)[44;91H[K[44;90H[46m)[0m[50;159H0[44;90H[34h[?25h[?25l[31m[46m"[0m[31m)
+                time.sleep(150)
+        elif val=="3":
+            break
+
+trade_ex()[44;90H"[0m[31m[46m)[0m[50;159H1[44;91H[34h[?25h[?25l[31m[46m [0m[31m) [0m[31m[46m)[0m[50;159H2[44;92H[34h[?25h[?25l[31m)[0m[44;92H[K[44;91H[31m[46m)[0m[50;159H1[44;91H[34h[?25h[?25l)[44;91H[K[45;1H                time.sleep([3C)
+        [33melif[0m val==[3C:
+            [33mbreak[0m
+
+trade_ex()[44;90H[46m)[0m[50;159H0[44;90H[34h[?25h[?25l[46ms[0m)s[46m)[0m[50;159H1[44;91H[34h[?25h[?25l[46mt[0m)t[46m)[0m[50;159H2[44;92H[34h[?25h[?25l[36mst[0m[36m[46mr[0m)[36mr[0m[46m)[0m[50;159H3[44;93H[34h[?25h[?25l[46m([0m)[44;52H([41C[46m)[0m[50;159H4[44;94H[34h[?25h[?25l[46me[0m)e[46m)[0m[50;159H5[44;95H[34h[?25h[?25l(e)[50;156H5,43[43;43H[34h[?25h[?25l[50;156H4,95[42;95H[34h[?25h[?25l[41;68H[46m([15C)[0m[50;156H3,8[41;85H[34h[?25h[?25l[41;68H([15C)[50;156H4,9[42;95H[34h[?25h[?25l[41;68H[46m([15C)[0m[50;156H3,8[41;85H[34h[?25h[?25l[50;159H4[41;84H[34h[?25h[?25l[46m=[0m)=[46m)[0m[50;159H5[41;85H[34h[?25h[?25l[31m[46m"[0m[31m)
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[7C],p_q[[10C],[7C,trigger_per,deviation,stop_loss_per,)).start()
+                    except Exception as e:
+                        message_func.send_a_message([0m[1CBTC short buy failed [1C[31m+result_error+str(e)
+                time.sleep(150)
+        elif val=="3":
+            break
+
+trade_ex()[41;85H"[0m[31m[46m)[0m[50;159H6[41;86H[34h[?25h[?25l[31m[46m [0m[31m) [0m[31m[46m)[0m[50;159H7[41;87H[34h[?25h[?25l[31m[46m"[0m)
+                        Process(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[7C],p_q[[10C],[7C,trigger_per,deviation,stop_loss_per,)).start()
+                    [33mexcept[0m [32mException[0m [33mas[0m e:
+                        message_func.send_a_message([1C[31mBTC short buy failed [0m[1C+result_error+[36mstr[0m(e)
+                time.sleep([3C)
+        [33melif[0m val==[3C:
+            [33mbreak[0m
+
+trade_ex()[41;87H[31m"[0m[46m)[0m[50;159H8[41;88H[34h[?25h[?25l[41;68H([19C)[50;159H7[41;87H[34h[?25h[?25l[50;159H6[41;86H[34h[?25h[?25l[50;159H5[41;85H[34h[?25h[?25l[31m" "[0m)[41;88H[K[41;72H[46m[[10C][0m[50;159H4[41;84H[34h[?25h[?25l+[31m" "[0m)[41;72H[[10C][50;159H5[41;85H[34h[?25h[?25l[50;156H4[42;85H[34h[?25h[?25l[50;156H5,43[43;43H[34h[?25h[?25l[50;156H6,85[44;85H[34h[?25h[?25l[50;156H5,43[43;43H[34h[?25h[?25l[50;156H4,85[42;85H[34h[?25h[?25l[50;156H3[41;85H[34h[?25h[?25l[50;156H2[40;85H[34h[?25h[?25l[39;60H[46m([12C)[0m[50;156H1,74[39;74H[34h[?25h[?25l[39;60H([12C)[50;156H0,25[38;25H[34h[?25h[?25l[50;155H39,38[37;38H[34h[?25h[?25l[50;156H8,40[36;40H[34h[?25h[?25l[35;52H[46m([21C)[0m[50;156H7,75[35;75H[34h[?25h[?25l[50;159H4[35;74H[34h[?25h[?25l[35;52H([21C)[50;156H6,28[34;28H[34h[?25h[?25l[50;159H7[34;27H[34h[?25h[?25l :[50;159H8[34;28H[34h[?25h[?25le:[50;159H9[34;29H[34h[?25h[?25l:[34;29H[K[50;159H8[34;28H[34h[?25h[?25lE:[50;159H9[34;29H[34h[?25h[?25lx:[50;158H30[34;30H[34h[?25h[?25lc:[50;159H1[34;31H[34h[?25h[?25le:[50;159H2[34;32H[34h[?25h[?25lp:[50;159H3[34;33H[34h[?25h[?25lt:[50;159H4[34;34H[34h[?25h[?25li:[50;159H5[34;35H[34h[?25h[?25lo:[50;159H6[34;36H[34h[?25h[?25l[34;28H[32mException[0m:[50;159H7[34;37H[34h[?25h[?25l :[50;159H8[34;38H[34h[?25h[?25la:[50;159H9[34;39H[34h[?25h[?25l[33mas[0m:[50;158H40[34;40H[34h[?25h[?25l :[50;159H1[34;41H[34h[?25h[?25le:[50;159H2[34;42H[34h[?25h[?25l[50;156H5[33;42H[34h[?25h[?25l[50;156H6[34;42H[34h[?25h[?25l[50;156H7[35;42H[34h[?25h[?25l[50;159H3[35;43H[34h[?25h[?25l[50;159H4[35;44H[34h[?25h[?25l[50;159H5[35;45H[34h[?25h[?25l[50;159H6[35;46H[34h[?25h[?25l[50;159H7[35;47H[34h[?25h[?25l[50;159H8[35;48H[34h[?25h[?25l[50;159H9[35;49H[34h[?25h[?25l[50;158H50[35;50H[34h[?25h[?25l[50;159H1[35;51H[34h[?25h[?25le[46m([21C)[0m[50;159H2[35;52H[34h[?25h[?25l[50;159H3[35;53H[34h[?25h[?25l([21C)[50;159H4[35;54H[34h[?25h[?25l[50;159H5[35;55H[34h[?25h[?25l[50;159H6[35;56H[34h[?25h[?25l[50;159H7[35;57H[34h[?25h[?25l[50;159H8[35;58H[34h[?25h[?25l[50;159H9[35;59H[34h[?25h[?25l[50;158H60[35;60H[34h[?25h[?25l[50;159H1[35;61H[34h[?25h[?25l[50;159H2[35;62H[34h[?25h[?25l[50;159H3[35;63H[34h[?25h[?25l[50;159H4[35;64H[34h[?25h[?25l[50;159H5[35;65H[34h[?25h[?25l[50;159H6[35;66H[34h[?25h[?25l[50;159H7[35;67H[34h[?25h[?25l[50;159H8[35;68H[34h[?25h[?25l[50;159H9[35;69H[34h[?25h[?25l[50;158H70[35;70H[34h[?25h[?25l[50;159H1[35;71H[34h[?25h[?25l[50;159H2[35;72H[34h[?25h[?25l[50;159H3[35;73H[34h[?25h[?25l[35;52H[46m([21C)[0m[50;159H4[35;74H[34h[?25h[?25l[35;52H([21C)[50;159H3[35;73H[34h[?25h[?25l[31m "[0m)[50;159H4[35;74H[34h[?25h[?25l[35;52H[46m([22C)[0m[50;159H5[35;75H[34h[?25h[?25l[46m+[0m)+[46m)[0m[50;159H6[35;76H[34h[?25h[?25l[46ms[0m)s[46m)[0m[50;159H7[35;77H[34h[?25h[?25l[46mt[0m)t[46m)[0m[50;159H8[35;78H[34h[?25h[?25l[36mst[0m[36m[46mr[0m)[36mr[0m[46m)[0m[50;159H9[35;79H[34h[?25h[?25l[46m([0m)[35;52H([27C[46m)[0m[50;158H80[35;80H[34h[?25h[?25l[46me[0m)e[46m)[0m[50;159H1[35;81H[34h[?25h[50;1H[K[?25l[35;79H(e)[50;155H37,80[9CBot[35;80H[34h[?25h[?25l[50;145Hs[35;80H[50;145H [35;80H[50;145Hcl[35;80H[50;145H  [35;80H[50;1H[1m-- INSERT --[0m[50;155H[K[50;155H37,80[9CBot[35;80H)[35;81H[K[35;79H[46m()[34h[?25h[?25l[0m[50;159H1[35;81H[34h[?25h[?25l[50;159H0[35;80H[34h[?25h[?25l[46ms[0m)s[46m)[0m[50;159H1[35;81H[34h[?25h[?25l[50;159H2[35;82H[34h[?25h[?25l[50;159H1[35;81H[34h[?25h[?25l[50;159H0[35;80H[34h[?25h[?25l[50;159H1[35;81H[34h[?25h[?25l[50;159H2[35;82H[34h[?25h[?25l)[35;52H[46m([0m[26C(s)[46m)[0m[50;159H3[35;83H[34h[?25h[50;1H[K[?25l[50;155H37,82[9CBot[35;82H[34h[?25h[?25l[50;145H:[35;82H[50;145H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 51L, 2289C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 51L, 2289C[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[24;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[25;9H[33mif[0m val == [31m"1"[0m:[26;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[27;9H[33melif[0m val == [31m"2"[0m:[28;13Ht = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[29;13H[33mwhile[0m [36mTrue[0m:[30;17Hresult = t.live_trading()[31;17H[33mif[0m result == [31m"long"[0m:[32;21H[33mtry[0m:[33;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[34;25H[34m#pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[35;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[36;21H[33mexcept[0m [32mException[0m [33mas[0m e:[37;25Hmessage_func.send_a_message[46m([0m[31m"BTC long buy failed "[0m+[36mstr[0m(s)[46m)[0m[38;17H[33melif[0m result == [31m'short'[0m:[39;21Hresult_error = [31m""[0m[40;21H[33mtry[0m:[41;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[42;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[43;25Hresult_error = [36mstr[0m(p_q[[31m'price'[0m]) + [31m" "[0m +[36mstr[0m(p_q[[31m'quantity'[0m]+[31m" "[0m)[44;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[45;21H[33mexcept[0m [32mException[0m [33mas[0m e:[46;25Hmessage_func.send_a_message([31m"BTC short buy failed "[0m+result_error+[36mstr[0m(e)[47;17Htime.sleep([31m150[0m)[48;9H[33melif[0m val==[31m"3"[0m:[49;13H[33mbreak[0m[50;155H37,82[9CTop[37;82H[34h[?25h[?25l[50;145H~@k[37;82H[50;145H   [38;39H[37;52H([29C)[50;156H8,39[38;39H[34h[?25h[?25l[50;145H~@k[38;39H[50;145H   [39;37H[50;156H9,37[39;37H[34h[?25h[?25l[50;145H~@k[39;37H[50;145H   [40;24H[50;155H40,24[40;24H[34h[?25h[?25l[50;145H~@k[40;24H[50;145H   [41;73H[41;60H[46m([12C)[0m[50;156H1,73[41;73H[34h[?25h[?25l[50;145H~@k[41;73H[50;145H   [42;82H[41;60H([12C)[50;156H2,82[42;82H[34h[?25h[?25l[50;145H~@k[42;82H[50;145H   [43;82H[50;156H3[43;82H[34h[?25h[?25l[50;145H~@k[43;82H[50;145H   [44;82H[50;156H4[44;82H[34h[?25h[?25l[50;145H~@k[44;82H[50;145H   [44;42H[1;49r[49;1H
+[1;50r[50;1H[K[50;155H45,42[9C50%[44;42H[34h[?25h[?25l[50;145H~@k[44;42H[50;145H   [44;82H[1;49r[49;1H
+[1;50r[49;1Htrade_ex()[50;155H[K[50;155H46,82[9CBot[44;82H[34h[?25h[?25l[50;145H~@k[44;82H[50;145H   [45;31H[46m([3C)[0m[50;156H7,31[45;31H[34h[?25h[?25l[50;145H~@k[45;31H[50;145H   [46;22H[45;27H([3C)[50;156H8,22[46;22H[34h[?25h[?25l[50;145H~@k[46;22H[50;145H   [45;31H[46m([3C)[0m[50;156H7,31[45;31H[34h[?25h[?25l[50;145H~@k[45;31H[50;145H   [44;82H[45;27H([3C)[50;156H6,82[44;82H[34h[?25h[?25l[50;145H~@k[44;82H[50;145H   [43;42H[50;156H5,4[43;42H[34h[?25h[?25l[50;145H~@k[43;42H[50;145H   [42;82H[50;156H4,8[42;82H[34h[?25h[?25l[50;145H~@k[42;82H[50;145H   [41;82H[50;156H3[41;82H[34h[?25h[?25l[50;145H~@k[41;82H[50;145H   [40;82H[50;156H2[40;82H[34h[?25h[?25l[50;145H~@k[40;82H[50;145H   [39;73H[39;60H[46m([12C)[0m[50;156H1,73[39;73H[34h[?25h[?25l[50;145H~@k[39;73H[50;145H   [38;24H[39;60H([12C)[50;156H0,24[38;24H[34h[?25h[?25l[50;145H~@k[38;24H[50;145H   [37;37H[50;155H39,37[37;37H[34h[?25h[?25l[28;40H[46m()[0m[50;156H0,41[28;41H[34h[?25h[?25l[50;145H:[28;41H[50;145H[K[50;1H:[34h[?25hwq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 51L, 2289C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py python3 trading_ex.py[3Pvim trading_ex.py python3 trading_ex.py
+  File "trading_ex.py", line 47
+    time.sleep(150)
+       ^
+SyntaxError: invalid syntax
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim py[K[K[K[K[K[Kpython3 trading_ex.py[3Pvim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 51L, 2289C[1;1H[35mimport[0m trading
+[35mimport[0m sys
+[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[24;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[25;9H[33mif[0m val == [31m"1"[0m:[26;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[27;9H[33melif[0m val == [31m"2"[0m:[28;13Ht = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[29;13H[33mwhile[0m [36mTrue[0m:[30;17Hresult = t.live_trading[46m()[0m[31;17H[33mif[0m result == [31m"long"[0m:[32;21H[33mtry[0m:[33;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[34;25H[34m#pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[35;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[36;21H[33mexcept[0m [32mException[0m [33mas[0m e:[37;25Hmessage_func.send_a_message([31m"BTC long buy failed "[0m+[36mstr[0m(s))[38;17H[33melif[0m result == [31m'short'[0m:[39;21Hresult_error = [31m""[0m[40;21H[33mtry[0m:[41;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[42;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[43;25Hresult_error = [36mstr[0m(p_q[[31m'price'[0m]) + [31m" "[0m +[36mstr[0m(p_q[[31m'quantity'[0m]+[31m" "[0m)[44;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[45;21H[33mexcept[0m [32mException[0m [33mas[0m e:[46;25Hmessage_func.send_a_message([31m"BTC short buy failed "[0m+result_error+[36mstr[0m(e)[47;17Htime.sleep([31m150[0m)[48;9H[33melif[0m val==[31m"3"[0m:[49;13H[33mbreak[0m[50;155H30,41[9CTop[30;41H[34h[?25h[?25l[50;145H~@k[30;41H[50;145H   [31;36H[30;40H()[50;156H1,36[31;36H[34h[?25h[?25l[50;145H~@k[31;36H[50;145H   [32;24H[50;156H2,24[32;24H[34h[?25h[?25l[50;145H~@k[32;24H[50;145H   [33;41H[50;156H3,41[33;41H[34h[?25h[?25l[50;145H~@k[33;41H[50;145H   [34;41H[50;156H4[34;41H[34h[?25h[?25l[50;145H~@k[34;41H[50;145H   [35;41H[50;156H5[35;41H[34h[?25h[?25l[50;145H~@k[35;41H[50;145H   [36;41H[50;156H6[36;41H[34h[?25h[?25l[50;145H~@k[36;41H[50;145H   [37;41H[50;156H7[37;41H[34h[?25h[?25l[50;145H~@k[37;41H[50;145H   [38;39H[50;156H8,39[38;39H[34h[?25h[?25l[50;145H~@k[38;39H[50;145H   [39;37H[50;156H9,37[39;37H[34h[?25h[?25l[50;145H~@k[39;37H[50;145H   [40;24H[50;155H40,24[40;24H[34h[?25h[?25l[50;145H~@k[40;24H[50;145H   [41;41H[50;156H1,41[41;41H[34h[?25h[?25l[50;145H~@k[41;41H[50;145H   [42;41H[50;156H2[42;41H[34h[?25h[?25l[50;145H~@k[42;41H[50;145H   [43;41H[50;156H3[43;41H[34h[?25h[?25l[50;145H~@k[43;41H[50;145H   [44;41H[50;156H4[44;41H[34h[?25h[?25l[50;145H~@k[44;41H[50;145H   [44;41H[1;49r[49;1H
+[1;50r[50;1H[K[50;155H45,41[9C50%[44;41H[34h[?25h[?25l[50;145H~@k[44;41H[50;145H   [44;41H[1;49r[49;1H
+[1;50r[49;1Htrade_ex()[50;155H[K[50;155H46,41[9CBot[44;41H[34h[?25h[?25l[50;145H~@k[44;41H[50;145H   [45;31H[46m([3C)[0m[50;156H7,3[45;31H[34h[?25h[?25l[50;145H~@k[45;31H[50;145H   [46;22H[45;27H([3C)[50;156H8,22[46;22H[34h[?25h[?25l[50;145H~@k[46;22H[50;145H   [45;31H[46m([3C)[0m[50;156H7,31[45;31H[34h[?25h[?25l[50;145H~@k[45;31H[50;145H   [44;41H[45;27H([3C)[50;156H6,4[44;41H[34h[?25h[?25l[50;145H~@k[44;41H[50;145H   [44;42H[50;159H2[44;42H[34h[?25h[?25l[50;145H~@k[44;42H[50;145H   [44;43H[50;159H3[44;43H[34h[?25h[?25l[50;145H~@k[44;43H[50;145H   [44;44H[50;159H4[44;44H[34h[?25h[?25l[50;145H~@k[44;44H[50;145H   [44;45H[50;159H5[44;45H[34h[?25h[?25l[50;145H~@k[44;45H[50;145H   [44;46H[50;159H6[44;46H[34h[?25h[?25l[50;145H~@k[44;46H[50;145H   [44;47H[50;159H7[44;47H[34h[?25h[?25l[50;145H~@k[44;47H[50;145H   [44;48H[50;159H8[44;48H[34h[?25h[?25l[50;145H~@k[44;48H[50;145H   [44;49H[50;159H9[44;49H[34h[?25h[?25l[50;145H~@k[44;49H[50;145H   [44;50H[50;158H50[44;50H[34h[?25h[?25l[50;145H~@k[44;50H[50;145H   [44;51H[50;159H1[44;51H[34h[?25h[?25l[50;145H~@k[44;51H[50;145H   [44;52H[50;159H2[44;52H[34h[?25h[?25l[50;145H~@k[44;52H[50;145H   [44;53H[50;159H3[44;53H[34h[?25h[?25l[50;145H~@k[44;53H[50;145H   [44;54H[50;159H4[44;54H[34h[?25h[?25l[50;145H~@k[44;54H[50;145H   [44;55H[50;159H5[44;55H[34h[?25h[?25l[50;145H~@k[44;55H[50;145H   [44;56H[50;159H6[44;56H[34h[?25h[?25l[50;145H~@k[44;56H[50;145H   [44;57H[50;159H7[44;57H[34h[?25h[?25l[50;145H~@k[44;57H[50;145H   [44;58H[50;159H8[44;58H[34h[?25h[?25l[50;145H~@k[44;58H[50;145H   [44;59H[50;159H9[44;59H[34h[?25h[?25l[50;145H~@k[44;59H[50;145H   [44;60H[50;158H60[44;60H[34h[?25h[?25l[50;145H~@k[44;60H[50;145H   [44;61H[50;159H1[44;61H[34h[?25h[?25l[50;145H~@k[44;61H[50;145H   [44;62H[50;159H2[44;62H[34h[?25h[?25l[50;145H~@k[44;62H[50;145H   [44;63H[50;159H3[44;63H[34h[?25h[?25l[50;145H~@k[44;63H[50;145H   [44;64H[50;159H4[44;64H[34h[?25h[?25l[50;145H~@k[44;64H[50;145H   [44;65H[50;159H5[44;65H[34h[?25h[?25l[50;145H~@k[44;65H[50;145H   [44;66H[50;159H6[44;66H[34h[?25h[?25l[50;145H~@k[44;66H[50;145H   [44;67H[50;159H7[44;67H[34h[?25h[?25l[50;145H~@k[44;67H[50;145H   [44;68H[50;159H8[44;68H[34h[?25h[?25l[50;145H~@k[44;68H[50;145H   [44;69H[50;159H9[44;69H[34h[?25h[?25l[50;145H~@k[44;69H[50;145H   [44;70H[50;158H70[44;70H[34h[?25h[?25l[50;145H~@k[44;70H[50;145H   [44;71H[50;159H1[44;71H[34h[?25h[?25l[50;145H~@k[44;71H[50;145H   [44;72H[50;159H2[44;72H[34h[?25h[?25l[50;145H~@k[44;72H[50;145H   [44;73H[50;159H3[44;73H[34h[?25h[?25l[50;145H~@k[44;73H[50;145H   [44;74H[50;159H4[44;74H[34h[?25h[?25l[50;145H~@k[44;74H[50;145H   [44;75H[50;159H5[44;75H[34h[?25h[?25l[50;145H~@k[44;75H[50;145H   [44;76H[50;159H6[44;76H[34h[?25h[?25l[50;145H~@k[44;76H[50;145H   [44;77H[50;159H7[44;77H[34h[?25h[?25l[50;145H~@k[44;77H[50;145H   [44;78H[50;159H8[44;78H[34h[?25h[?25l[50;145H~@k[44;78H[50;145H   [44;79H[50;159H9[44;79H[34h[?25h[?25l[50;145H~@k[44;79H[50;145H   [44;80H[50;158H80[44;80H[34h[?25h[?25l[50;145H~@k[44;80H[50;145H   [44;81H[50;159H1[44;81H[34h[?25h[?25l[50;145H~@k[44;81H[50;145H   [44;82H[50;159H2[44;82H[34h[?25h[?25l[50;145H~@k[44;82H[50;145H   [44;83H[50;159H3[44;83H[34h[?25h[?25l[50;145H~@k[44;83H[50;145H   [44;84H[50;159H4[44;84H[34h[?25h[?25l[50;145H~@k[44;84H[50;145H   [44;85H[50;159H5[44;85H[34h[?25h[?25l[50;145H~@k[44;85H[50;145H   [44;86H[50;159H6[44;86H[34h[?25h[?25l[50;145H~@k[44;86H[50;145H   [44;87H[50;159H7[44;87H[34h[?25h[?25l[50;145H~@k[44;87H[50;145H   [44;88H[50;159H8[44;88H[34h[?25h[?25l[50;145H~@k[44;88H[50;145H   [44;89H[50;159H9[44;89H[34h[?25h[?25l[50;145H~@k[44;89H[50;145H   [44;90H[50;158H90[44;90H[34h[?25h[?25l[50;145H~@k[44;90H[50;145H   [44;91H[50;159H1[44;91H[34h[?25h[?25l[50;145H~@k[44;91H[50;145H   [44;92H[50;159H2[44;92H[34h[?25h[?25l[50;145H~@k[44;92H[50;145H   [44;93H[46m([0me[46m)[0m[50;159H3[44;93H[34h[?25h[?25l[50;145H~@k[44;93H[50;145H   [44;94H(e)[50;159H4[44;94H[34h[?25h[?25l[50;145H~@k[44;94H[50;145H   [44;95H[46m([0me[46m)[0m[50;159H5[44;95H[34h[?25h[?25l[50;145H~@k[44;95H[50;145H   [44;95H[34h[?25h[?25l[50;145H~@k[44;95H[50;145H   [44;95H[34h[?25h[?25l[50;145H~@k[44;95H[50;145H   [44;95H[34h[?25h[?25l[50;145Ha[44;95H[50;145H [44;96H[50;1H[1m-- INSERT --[0m[50;155H[K[50;155H46,96[9CBot[44;96H[34h[?25h[?25l)[44;52H[46m([0m[40C(e)[46m)[0m[50;159H7[44;97H[34h[?25h[50;1H[K[?25l[50;155H46,96[9CBot[44;96H[34h[?25h[?25l[50;145H:[44;96H[50;145H[K[50;1H:[34h[?25hq[?25l[34h[?25h...[?25lall...[50;3H[K[50;3H[49;1H[1m[7mqall  quit  quitall                                                                                                                                                         [0m[50;3H...[49;1H[30m[43mqall[0m
+:qall[34h[?25h[?25l[49;1Htrade_ex()[49;11H[K[50;155H46,96[9CBot[50;155H[K[50;5H[K[50;5H[34h[?25h[?25l[50;4H[K[50;4H[34h[?25h[?25l[50;3H[K[50;3H[34h[?25h[?25l[50;2H[K[50;2H[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 51L, 2290C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py python3 trading_ex.py
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(trading_ex.py:7154): Gdk-[1;35mCRITICAL[0m **: [34m16:49:03.754[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+1 for sync; 2 for start trading; 3 for quite: 2
+start live trading
+../pair_db/features.sqlite
+get klines
+^CTraceback (most recent call last):
+  File "trading_ex.py", line 51, in <module>
+    trade_ex()
+  File "trading_ex.py", line 47, in trade_ex
+    time.sleep(150)
+KeyboardInterrupt
+zzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ python3 trading_ex.py[3Pvim trading_ex.py python3 trading_ex.py[3Pvim trading_ex.py 
+[?1000h[?1049h[?1h=[1;50r[23m[24m[0m[H[J[?25l[50;1H"trading_ex.py" 51L, 2290C[1;1H[35mfrom[0m multiprocessing [35mimport[0m Process
+sys.path.append([31m"../handle_sql"[0m)
+sys.path.append([31m'../trade'[0m)
+sys.path.append([31m'../message'[0m)
+[35mimport[0m sync_sql
+[35mimport[0m trailing_mkt
+[35mimport[0m trade_long_short
+[35mimport[0m send_sms
+[35mimport[0m time
+[33mdef[0m [36mtrade_ex[0m():
+    db_name= [31m"../pair_db/features.sqlite"[0m
+    record_name=[31m"BTCUSDT"[0m
+    threshold = [31m7127690.2[0m
+    column_path = [31m"column_order.json"[0m
+    pair =[31m"BTCUSDT"[0m
+    trigger_per=[31m1[0m
+    deviation=[31m1[0m
+    stop_loss_per= [31m2[0m
+    message_func = send_sms.Send_message()
+    [34m#configs = change_config.Change_config() [0m
+    [33mwhile[0m [36mTrue[0m:[22;9Hval = [36minput[0m([31m"1 for sync; 2 for start trading; 3 for quite: "[0m)[23;9H[33mif[0m val == [31m"1"[0m:[24;13Hss = sync_sql.sync_dol_bar(pair,db_name,record_name,threshold)[25;9H[33melif[0m val == [31m"2"[0m:[26;13Ht = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path=[31m"model.joblib"[0m,columns_path=column_path)[27;13H[33mwhile[0m [36mTrue[0m:[28;17Hresult = t.live_trading()[29;17H[33mif[0m result == [31m"long"[0m:[30;21H[33mtry[0m:[31;25Hp_q = trade_long_short.get_quantity(pair,[31m"long"[0m)[32;25H[34m#pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[33;25HProcess(target=trailing_mkt.limit_long_trailing, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'long'[0m,trigger_per,deviation,stop_loss_per,)).start()[34;21H[33mexcept[0m [32mException[0m [33mas[0m e:[35;25Hmessage_func.send_a_message([31m"BTC long buy failed "[0m+[36mstr[0m(s))[36;17H[33melif[0m result == [31m'short'[0m:[37;21Hresult_error = [31m""[0m[38;21H[33mtry[0m:[39;25Hp_q = trade_long_short.get_quantity(pair,[31m"short"[0m)[40;25H[34m#pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2[0m[41;25Hresult_error = [36mstr[0m(p_q[[31m'price'[0m]) + [31m" "[0m +[36mstr[0m(p_q[[31m'quantity'[0m]+[31m" "[0m)[42;25HProcess(target=trailing_mkt.trailing_stop_short, args=(pair,p_q[[31m'price'[0m],p_q[[31m'quantity'[0m],[31m'short'[0m,trigger_per,deviation,stop_loss_per,)).start()[43;21H[33mexcept[0m [32mException[0m [33mas[0m e:[44;25Hmessage_func.send_a_message[46m([0m[31m"BTC short buy failed "[0m+result_error+[36mstr[0m(e)[46m)[0m[45;17Htime.sleep([31m150[0m)[46;9H[33melif[0m val==[31m"3"[0m:[47;13H[33mbreak[0m
+
+trade_ex()[50;155H46,96[9CBot[44;96H[34h[?25h[?25l[50;145H~@k[44;96H[50;145H   [45;31H[44;52H([43C)[45;27H[46m([3C)[0m[50;156H7,31[45;31H[34h[?25h[?25l[50;145H:[45;31H[50;1H[K[50;1H:[34h[?25hw[?25l[34h[?25hq[?25l[34h[?25h[?25l[?1000l"trading_ex.py" 51L, 2290C written
+[?1l>[34h[?25h[?1049lzzhan785@trading-ex:~/trading-ml/live_trading/BTCUSDT$ vim trading_ex.py python3 trading_ex.py
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(trading_ex.py:7216): Gdk-[1;35mCRITICAL[0m **: [34m16:50:32.467[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+1 for sync; 2 for start trading; 3 for quite: 2
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:54:00
+tick_num                             12
+open                            11390.4
+high                            11401.9
+low                             11373.2
+close                           11373.2
+volume                           689.43
+cum_buy_volume                  251.706
+cum_ticks                            12
+cum_dollar_value            7.84981e+06
+avg                             11557.9
+upper                           11674.6
+lower                           11441.2
+side                                 -1
+mom1                          -0.020833
+mom2                         -0.0206391
+mom3                         -0.0193192
+mom4                         -0.0176039
+mom5                         -0.0176267
+log_ret                      -0.0210531
+volatility                   0.00365713
+autocorr_1                     0.101383
+autocorr_2                   -0.0571169
+autocorr_3                    -0.176905
+autocorr_4                   -0.0233028
+autocorr_5                    0.0845371
+log_t1                       0.00019802
+log_t2                       0.00134682
+log_t3                       0.00174763
+log_t4                     -2.32813e-05
+log_t5                      -0.00126296
+fast_mavg                       11563.5
+slow_mavg                       11569.2
+rsi                   

@@ -22390,4 +22390,3589 @@ mom4                         -0.0392679
 mom5                         -0.0417874
 log_ret                      -0.0360036
 volatility                    0.0058122
-autocorr_1 
+autocorr_1                     0.196807
+autocorr_2                     0.111037
+autocorr_3                     0.023204
+autocorr_4                     0.178155
+autocorr_5                     -0.13194
+log_t1                      -0.00319078
+log_t2                     -0.000553912
+log_t3                     -0.000311435
+log_t4                      -0.00262591
+log_t5                       0.00279894
+fast_mavg                      0.287304
+slow_mavg                      0.287401
+rsi                                   9
+srsi                            69.7247
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:35:00
+tick_num                             17
+open                            21.8492
+high                              21.92
+low                              21.791
+close                           21.8798
+volume                          34900.1
+cum_buy_volume                  12863.5
+cum_ticks                            17
+cum_dollar_value                 762396
+avg                             22.3878
+upper                           22.6932
+lower                           22.0824
+side                                NaN
+mom1                         -0.0271536
+mom2                         -0.0262314
+mom3                         -0.0312157
+mom4                         -0.0311556
+mom5                         -0.0253335
+log_ret                      -0.0275291
+volatility                   0.00562394
+autocorr_1                    0.0673887
+autocorr_2                   -0.0703416
+autocorr_3                     0.017439
+autocorr_4                    -0.180707
+autocorr_5                    -0.181119
+log_t1                      0.000947487
+log_t2                      -0.00513166
+log_t3                      6.19902e-05
+log_t4                       0.00599137
+log_t5                        0.0023191
+fast_mavg                       22.4075
+slow_mavg                       22.4416
+rsi                                  16
+srsi                            36.7848
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:44:00
+tick_num                             14
+open                            0.27745
+high                            0.27852
+low                             0.27745
+close                           0.27852
+volume                      2.56744e+06
+cum_buy_volume              1.88057e+06
+cum_ticks                            14
+cum_dollar_value                 714370
+avg                            0.286559
+upper                          0.291646
+lower                          0.281472
+side                                NaN
+mom1                         -0.0355622
+mom2                         -0.0360962
+mom3                         -0.0363964
+mom4                         -0.0389234
+mom5                         -0.0362296
+log_ret                      -0.0362099
+volatility                   0.00583695
+autocorr_1                    0.0714054
+autocorr_2                    0.0796099
+autocorr_3                     0.125556
+autocorr_4                     -0.11075
+autocorr_5                    0.0766962
+log_t1                     -0.000553912
+log_t2                     -0.000311435
+log_t3                      -0.00262591
+log_t4                       0.00279894
+log_t5                      -0.00193596
+fast_mavg                      0.287663
+slow_mavg                      0.287368
+rsi                                  11
+srsi                            73.3038
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+^CProcess Process-1:
+Process Process-2:
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/popen_fork.py", line 28, in poll
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../BNBUSDT/bnb_ex.py", line 48, in trade_ex
+    time.sleep(150)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "../XRPUSDT/xrp_ex.py", line 46, in trade_ex
+    time.sleep(150)
+KeyboardInterrupt
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
+zzhan785@trading-ex:~/trading-ml/live_trading/multiprocessing_trade$ python3 multi_ex.py 22
+^CTraceback (most recent call last):
+  File "multi_ex.py", line 5, in <module>
+    import bnb_ex 
+  File "../BNBUSDT/bnb_ex.py", line 1, in <module>
+    import trading 
+  File "../XRPUSDT/trading.py", line 14, in <module>
+    import get_data
+  File "../data_getter/get_data.py", line 4, in <module>
+    import mlfinlab as ml
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/mlfinlab/__init__.py", line 9, in <module>
+    import mlfinlab.data_structures as data_structures
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/mlfinlab/data_structures/__init__.py", line 16, in <module>
+    from mlfinlab.data_structures.imbalance_data_structures import get_ema_dollar_imbalance_bars, \
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/mlfinlab/data_structures/imbalance_data_structures.py", line 29, in <module>
+    from mlfinlab.data_structures.base_bars import BaseImbalanceBars
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/mlfinlab/data_structures/base_bars.py", line 12, in <module>
+    from mlfinlab.util.fast_ewma import ewma
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/mlfinlab/util/__init__.py", line 5, in <module>
+    from mlfinlab.util.fast_ewma import ewma
+  File "/home/zzhan785/.local/lib/python3.7/site-packages/mlfinlab/util/fast_ewma.py", line 14, in <module>
+    @jit((float64[:], int64), nopython=False, nogil=True)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/decorators.py", line 198, in wrapper
+    disp.compile(sig)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/compiler_lock.py", line 32, in _acquire_compile_lock
+    return func(*args, **kwargs)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/dispatcher.py", line 794, in compile
+    cres = self._compiler.compile(args, return_type)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/dispatcher.py", line 77, in compile
+    status, retval = self._compile_cached(args, return_type)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/dispatcher.py", line 91, in _compile_cached
+    retval = self._compile_core(args, return_type)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/dispatcher.py", line 109, in _compile_core
+    pipeline_class=self.pipeline_class)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/compiler.py", line 567, in compile_extra
+    args, return_type, flags, locals)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/compiler.py", line 288, in __init__
+    typingctx.refresh()
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/typing/context.py", line 158, in refresh
+    self._load_builtins()
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/typing/context.py", line 401, in _load_builtins
+    self.install_registry(templates.builtin_registry)
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/typing/context.py", line 419, in install_registry
+    self.insert_function(ftcls(self))
+  File "/usr/local/lib/python3.7/dist-packages/numba/core/typing/context.py", line 483, in insert_function
+    self._functions[key].append(ft)
+KeyboardInterrupt
+zzhan785@trading-ex:~/trading-ml/live_trading/multiprocessing_trade$ python3 multi_ex.py 22[K
+Unable to init server: Could not connect: Connection refused
+Unable to init server: Could not connect: Connection refused
+
+(multi_ex.py:6384): Gdk-[1;35mCRITICAL[0m **: [34m14:58:08.779[0m: gdk_cursor_new_for_display: assertion 'GDK_IS_DISPLAY (display)' failed
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 14:57:00
+tick_num                             13
+open                            0.27833
+high                            0.27833
+low                               0.277
+close                             0.277
+volume                      2.84236e+06
+cum_buy_volume                   728181
+cum_ticks                            13
+cum_dollar_value                 789401
+avg                            0.286283
+upper                          0.291915
+lower                          0.280651
+side                                NaN
+mom1                         -0.0413566
+mom2                         -0.0416551
+mom3                         -0.0441683
+mom4                         -0.0414893
+mom5                         -0.0433431
+log_ret                      -0.0422361
+volatility                   0.00662453
+autocorr_1                    0.0719917
+autocorr_2                     0.197524
+autocorr_3                    -0.149023
+autocorr_4                     0.132661
+autocorr_5                    -0.330491
+log_t1                     -0.000311435
+log_t2                      -0.00262591
+log_t3                       0.00279894
+log_t4                      -0.00193596
+log_t5                       0.00585374
+fast_mavg                      0.287313
+slow_mavg                      0.287094
+rsi                                  12
+srsi                            75.1706
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:06:00
+tick_num                             31
+open                            21.8841
+high                            21.9059
+low                             21.7537
+close                           21.7933
+volume                            33859
+cum_buy_volume                  13116.1
+cum_ticks                            31
+cum_dollar_value                 738768
+avg                             22.3747
+upper                           22.7145
+lower                           22.0349
+side                                NaN
+mom1                         -0.0300812
+mom2                         -0.0350457
+mom3                         -0.0349859
+mom4                         -0.0291868
+mom5                         -0.0269327
+log_ret                      -0.0305429
+volatility                   0.00594701
+autocorr_1                     0.220461
+autocorr_2                    -0.203005
+autocorr_3                    -0.154978
+autocorr_4                    -0.109521
+autocorr_5                    -0.116045
+log_t1                      -0.00513166
+log_t2                      6.19902e-05
+log_t3                       0.00599137
+log_t4                        0.0023191
+log_t5                      -0.00011607
+fast_mavg                       22.3821
+slow_mavg                       22.4371
+rsi                                  14
+srsi                            64.0708
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:16:00
+tick_num                             19
+open                             0.2775
+high                            0.27849
+low                             0.27721
+close                           0.27811
+volume                      2.66332e+06
+cum_buy_volume              1.34431e+06
+cum_ticks                            19
+cum_dollar_value                 739809
+avg                            0.286218
+upper                          0.291456
+lower                           0.28098
+side                                NaN
+mom1                         -0.0378148
+mom2                         -0.0403381
+mom3                         -0.0376483
+mom4                         -0.0395096
+mom5                         -0.0338707
+log_ret                      -0.0385484
+volatility                   0.00619834
+autocorr_1                      0.16129
+autocorr_2                   -0.0848296
+autocorr_3                    0.0708916
+autocorr_4                    -0.241114
+autocorr_5                   -0.0666306
+log_t1                      -0.00262591
+log_t2                       0.00279894
+log_t3                      -0.00193596
+log_t4                       0.00585374
+log_t5                       0.00055601
+fast_mavg                      0.287293
+slow_mavg                      0.286995
+rsi                                  14
+srsi                            52.3353
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:21:00
+tick_num                             15
+open                            21.7819
+high                            21.8056
+low                             21.5958
+close                           21.5958
+volume                          36839.9
+cum_buy_volume                  5688.77
+cum_ticks                            15
+cum_dollar_value                 798380
+avg                             22.3528
+upper                           22.7716
+lower                            21.934
+side                                NaN
+mom1                         -0.0437905
+mom2                         -0.0437312
+mom3                         -0.0379847
+mom4                         -0.0357511
+mom5                          -0.035863
+log_ret                      -0.0447783
+volatility                   0.00755013
+autocorr_1                    0.0648675
+autocorr_2                    -0.311955
+autocorr_3                   -0.0465872
+autocorr_4                   -0.0223198
+autocorr_5                    0.0166773
+log_t1                      6.19902e-05
+log_t2                       0.00599137
+log_t3                        0.0023191
+log_t4                      -0.00011607
+log_t5                      -0.00312032
+fast_mavg                       22.3539
+slow_mavg                       22.4216
+rsi                                  13
+srsi                            41.4235
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:28:00
+tick_num                             12
+open                            0.27777
+high                            0.27777
+low                              0.2764
+close                            0.2764
+volume                      2.62903e+06
+cum_buy_volume                   606704
+cum_ticks                            12
+cum_dollar_value                 728396
+avg                            0.285871
+upper                           0.29166
+lower                          0.280082
+side                                NaN
+mom1                         -0.0462387
+mom2                         -0.0435655
+mom3                         -0.0454153
+mom4                          -0.039811
+mom5                          -0.039277
+log_ret                      -0.0473419
+volatility                   0.00734915
+autocorr_1                    -0.117347
+autocorr_2                     0.149388
+autocorr_3                    -0.268905
+autocorr_4                    0.0279456
+autocorr_5                    0.0426688
+log_t1                       0.00279894
+log_t2                      -0.00193596
+log_t3                       0.00585374
+log_t4                       0.00055601
+log_t5                        -0.001667
+fast_mavg                      0.286926
+slow_mavg                      0.286751
+rsi                                  14
+srsi                            76.9419
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:32:00
+tick_num                             11
+open                            21.6193
+high                            21.6628
+low                             21.5645
+close                           21.5838
+volume                          33936.1
+cum_buy_volume                  19775.1
+cum_ticks                            11
+cum_dollar_value                 733041
+avg                             22.3368
+upper                           22.7531
+lower                           21.9205
+side                                NaN
+mom1                         -0.0442627
+mom2                         -0.0385193
+mom3                         -0.0362869
+mom4                         -0.0363988
+mom5                         -0.0394008
+log_ret                      -0.0452722
+volatility                   0.00772251
+autocorr_1                    -0.090489
+autocorr_2                    -0.208575
+autocorr_3                     0.040641
+autocorr_4                    0.0931641
+autocorr_5                    -0.133612
+log_t1                       0.00599137
+log_t2                        0.0023191
+log_t3                      -0.00011607
+log_t4                      -0.00312032
+log_t5                       0.00238836
+fast_mavg                        22.328
+slow_mavg                       22.4155
+rsi                                  14
+srsi                            40.9524
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+get klines
+-----XRP---------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:40:00
+tick_num                             12
+open                             0.2766
+high                            0.27815
+low                             0.27611
+close                           0.27815
+volume                       2.6304e+06
+cum_buy_volume              1.41687e+06
+cum_ticks                            12
+cum_dollar_value                 728638
+avg                            0.285751
+upper                          0.290769
+lower                          0.280732
+side                                NaN
+mom1                         -0.0375099
+mom2                         -0.0393715
+mom3                         -0.0337317
+mom4                         -0.0331943
+mom5                         -0.0348046
+log_ret                      -0.0382315
+volatility                   0.00622217
+autocorr_1                    0.0808046
+autocorr_2                    -0.191898
+autocorr_3                   -0.0328197
+autocorr_4                     0.122496
+autocorr_5                    -0.206877
+log_t1                      -0.00193596
+log_t2                       0.00585374
+log_t3                       0.00055601
+log_t4                        -0.001667
+log_t5                       0.00271026
+fast_mavg                      0.286833
+slow_mavg                      0.286635
+rsi                                  14
+srsi                            51.5579
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:55:00
+tick_num                             23
+open                            21.5803
+high                            21.7548
+low                             21.5803
+close                            21.738
+volume                          34214.6
+cum_buy_volume                  24700.1
+cum_ticks                            23
+cum_dollar_value                 742295
+avg                             22.3346
+upper                           22.6826
+lower                           21.9867
+side                                NaN
+mom1                         -0.0316502
+mom2                         -0.0294019
+mom3                         -0.0295145
+mom4                          -0.032538
+mom5                         -0.0302246
+log_ret                      -0.0321619
+volatility                   0.00617837
+autocorr_1                    0.0282891
+autocorr_2                    -0.176692
+autocorr_3                     0.142675
+autocorr_4                   -0.0835465
+autocorr_5                    -0.101754
+log_t1                        0.0023191
+log_t2                      -0.00011607
+log_t3                      -0.00312032
+log_t4                       0.00238836
+log_t5                      0.000575719
+fast_mavg                       22.3242
+slow_mavg                       22.4169
+rsi                                  15
+srsi                            40.9977
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 15:56:00
+tick_num                             16
+open                            0.27783
+high                            0.27864
+low                             0.27783
+close                           0.27864
+volume                      2.72445e+06
+cum_buy_volume              1.55917e+06
+cum_ticks                            16
+cum_dollar_value                 758061
+avg                            0.285563
+upper                          0.290321
+lower                          0.280804
+side                                NaN
+mom1                         -0.0376792
+mom2                         -0.0320295
+mom3                         -0.0314911
+mom4                         -0.0331043
+mom5                         -0.0304802
+log_ret                      -0.0384074
+volatility                   0.00630411
+autocorr_1                    -0.288037
+autocorr_2                    0.0787439
+autocorr_3                    0.0177031
+autocorr_4                   -0.0504337
+autocorr_5                    -0.170669
+log_t1                       0.00585374
+log_t2                       0.00055601
+log_t3                        -0.001667
+log_t4                       0.00271026
+log_t5                       0.00289212
+fast_mavg                      0.286557
+slow_mavg                      0.286407
+rsi                                  18
+srsi                            79.2897
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:09:00
+tick_num                             14
+open                            21.7514
+high                            21.7514
+low                             21.6054
+close                           21.6175
+volume                          35002.4
+cum_buy_volume                  15647.9
+cum_ticks                            14
+cum_dollar_value                 757808
+avg                             22.3182
+upper                           22.7144
+lower                            21.922
+side                                NaN
+mom1                         -0.0347822
+mom2                         -0.0348942
+mom3                          -0.037901
+mom4                         -0.0356004
+mom5                          -0.035045
+log_ret                      -0.0354015
+volatility                   0.00660089
+autocorr_1                    0.0849605
+autocorr_2                    -0.123105
+autocorr_3                   -0.0367939
+autocorr_4                   -0.0129059
+autocorr_5                   -0.0252456
+log_t1                      -0.00011607
+log_t2                      -0.00312032
+log_t3                       0.00238836
+log_t4                      0.000575719
+log_t5                      -0.00214033
+fast_mavg                       22.3073
+slow_mavg                       22.4045
+rsi                                  13
+srsi                            71.5799
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:15:00
+tick_num                             19
+open                            0.27875
+high                            0.27875
+low                               0.277
+close                           0.27854
+volume                      2.59132e+06
+cum_buy_volume                   964575
+cum_ticks                            19
+cum_dollar_value                 720269
+avg                            0.285246
+upper                          0.289782
+lower                           0.28071
+side                                 -1
+mom1                         -0.0323769
+mom2                         -0.0318388
+mom3                         -0.0334513
+mom4                         -0.0308282
+mom5                         -0.0280212
+log_ret                      -0.0329126
+volatility                   0.00557758
+autocorr_1                   -0.0544973
+autocorr_2                     0.178399
+autocorr_3                     -0.18556
+autocorr_4                   -0.0843974
+autocorr_5                   -0.0633082
+log_t1                       0.00055601
+log_t2                        -0.001667
+log_t3                       0.00271026
+log_t4                       0.00289212
+log_t5                      0.000523656
+fast_mavg                      0.286096
+slow_mavg                       0.28607
+rsi                                  20
+srsi                             78.766
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+-----XRP long------
+get klines
+---------BNB----------
+150 0.27648900000000004
+current price: 0.2785| long price:0.27648900000000004
+current price: 0.2785| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27834| long price:0.27648900000000004
+current price: 0.27834| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27839| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27839| long price:0.27648900000000004
+current price: 0.27839| long price:0.27648900000000004
+current price: 0.27839| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27831| long price:0.27648900000000004
+current price: 0.27831| long price:0.27648900000000004
+current price: 0.27831| long price:0.27648900000000004
+current price: 0.27831| long price:0.27648900000000004
+current price: 0.27831| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.27823| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.2783| long price:0.27648900000000004
+current price: 0.2783| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27824| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27815| long price:0.27648900000000004
+current price: 0.27815| long price:0.27648900000000004
+current price: 0.27815| long price:0.27648900000000004
+current price: 0.27815| long price:0.27648900000000004
+current price: 0.27814| long price:0.27648900000000004
+current price: 0.27815| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27828| long price:0.27648900000000004
+current price: 0.27828| long price:0.27648900000000004
+current price: 0.27828| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27834| long price:0.27648900000000004
+current price: 0.27831| long price:0.27648900000000004
+current price: 0.27827| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27824| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27827| long price:0.27648900000000004
+current price: 0.27827| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.2783| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27832| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27833| long price:0.27648900000000004
+current price: 0.27834| long price:0.27648900000000004
+current price: 0.27834| long price:0.27648900000000004
+current price: 0.27827| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27826| long price:0.27648900000000004
+current price: 0.27826| long price:0.27648900000000004
+current price: 0.27826| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.27829| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+current price: 0.2785| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27845| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27863| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27867| long price:0.27648900000000004
+current price: 0.27867| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27867| long price:0.27648900000000004
+current price: 0.27867| long price:0.27648900000000004
+current price: 0.27867| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.2785| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27868| long price:0.27648900000000004
+current price: 0.27868| long price:0.27648900000000004
+current price: 0.27868| long price:0.27648900000000004
+current price: 0.27868| long price:0.27648900000000004
+current price: 0.27867| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+get klines
+-----XRP---------
+current price: 0.27876| long price:0.27648900000000004
+current price: 0.27876| long price:0.27648900000000004
+current price: 0.27874| long price:0.27648900000000004
+current price: 0.27874| long price:0.27648900000000004
+current price: 0.27888| long price:0.27648900000000004
+current price: 0.27888| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27896| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27888| long price:0.27648900000000004
+current price: 0.27887| long price:0.27648900000000004
+current price: 0.27888| long price:0.27648900000000004
+current price: 0.27888| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27891| long price:0.27648900000000004
+current price: 0.27891| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.2788| long price:0.27648900000000004
+current price: 0.27878| long price:0.27648900000000004
+current price: 0.27879| long price:0.27648900000000004
+current price: 0.27879| long price:0.27648900000000004
+current price: 0.27879| long price:0.27648900000000004
+current price: 0.27879| long price:0.27648900000000004
+current price: 0.27879| long price:0.27648900000000004
+current price: 0.27878| long price:0.27648900000000004
+current price: 0.27878| long price:0.27648900000000004
+current price: 0.27887| long price:0.27648900000000004
+current price: 0.27883| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+current price: 0.27881| long price:0.27648900000000004
+get klines
+-----XRP---------
+current price: 0.27871| long price:0.27648900000000004
+current price: 0.27868| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.2788| long price:0.27648900000000004
+current price: 0.2788| long price:0.27648900000000004
+current price: 0.27891| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27882| long price:0.27648900000000004
+current price: 0.27882| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27881| long price:0.27648900000000004
+current price: 0.27884| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27891| long price:0.27648900000000004
+current price: 0.27891| long price:0.27648900000000004
+current price: 0.27895| long price:0.27648900000000004
+current price: 0.27895| long price:0.27648900000000004
+current price: 0.27896| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27898| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27894| long price:0.27648900000000004
+current price: 0.27895| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27887| long price:0.27648900000000004
+current price: 0.27887| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27888| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27889| long price:0.27648900000000004
+current price: 0.27877| long price:0.27648900000000004
+current price: 0.27877| long price:0.27648900000000004
+current price: 0.27884| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.27886| long price:0.27648900000000004
+current price: 0.27886| long price:0.27648900000000004
+current price: 0.27886| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27896| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+current price: 0.27906| long price:0.27648900000000004
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27893| long price:0.27648900000000004
+current price: 0.27892| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27906| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+current price: 0.27901| long price:0.27648900000000004
+get klines
+-----XRP---------
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27904| long price:0.27648900000000004
+current price: 0.27901| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27903| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.27905| long price:0.27648900000000004
+current price: 0.27902| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.279| long price:0.27648900000000004
+current price: 0.27899| long price:0.27648900000000004
+current price: 0.27897| long price:0.27648900000000004
+current price: 0.27895| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.2789| long price:0.27648900000000004
+current price: 0.27883| long price:0.27648900000000004
+current price: 0.27883| long price:0.27648900000000004
+current price: 0.27883| long price:0.27648900000000004
+current price: 0.27876| long price:0.27648900000000004
+current price: 0.27875| long price:0.27648900000000004
+current price: 0.27875| long price:0.27648900000000004
+current price: 0.27875| long price:0.27648900000000004
+current price: 0.27875| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27869| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27868| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.2785| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.2785| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27842| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27835| long price:0.27648900000000004
+current price: 0.27836| long price:0.27648900000000004
+current price: 0.27837| long price:0.27648900000000004
+current price: 0.27838| long price:0.27648900000000004
+current price: 0.27839| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27855| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27863| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27864| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.2786| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27855| long price:0.27648900000000004
+current price: 0.27855| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27857| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27859| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27862| long price:0.27648900000000004
+current price: 0.27863| long price:0.27648900000000004
+current price: 0.27863| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27858| long price:0.27648900000000004
+current price: 0.27872| long price:0.27648900000000004
+current price: 0.27872| long price:0.27648900000000004
+current price: 0.27873| long price:0.27648900000000004
+current price: 0.2788| long price:0.27648900000000004
+current price: 0.2788| long price:0.27648900000000004
+current price: 0.2787| long price:0.27648900000000004
+current price: 0.2787| long price:0.27648900000000004
+current price: 0.2787| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27872| long price:0.27648900000000004
+current price: 0.27871| long price:0.27648900000000004
+current price: 0.27869| long price:0.27648900000000004
+current price: 0.27869| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27866| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+current price: 0.27865| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.27865| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27861| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27853| long price:0.27648900000000004
+current price: 0.27856| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.2785| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27854| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27852| long price:0.27648900000000004
+current price: 0.27846| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.2784| long price:0.27648900000000004
+current price: 0.27839| long price:0.27648900000000004
+current price: 0.27841| long price:0.27648900000000004
+current price: 0.27851| long price:0.27648900000000004
+current price: 0.27849| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27848| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27847| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27844| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27843| long price:0.27648900000000004
+current price: 0.27825| long price:0.27648900000000004
+current price: 0.27825| long price:0.27648900000000004
+current price: 0.27823| long price:0.27648900000000004
+current price: 0.27823| long price:0.27648900000000004
+current price: 0.27823| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.27822| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.2782| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.27812| long price:0.27648900000000004
+current price: 0.27812| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.27819| long price:0.27648900000000004
+current price: 0.27819| long price:0.27648900000000004
+current price: 0.27818| long price:0.27648900000000004
+current price: 0.27818| long price:0.27648900000000004
+current price: 0.27818| long price:0.27648900000000004
+current price: 0.27819| long price:0.27648900000000004
+current price: 0.27819| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+current price: 0.27817| long price:0.27648900000000004
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:39:00
+tick_num                             30
+open                            21.6548
+high                            21.7509
+low                             21.6131
+close                           21.6131
+volume                          34501.7
+cum_buy_volume                  14232.1
+cum_ticks                            30
+cum_dollar_value                 747974
+avg                             22.3165
+upper                           22.7201
+lower                           21.9128
+side                                NaN
+mom1                         -0.0350907
+mom2                         -0.0380968
+mom3                         -0.0357967
+mom4                         -0.0352414
+mom5                         -0.0373041
+log_ret                      -0.0357211
+volatility                   0.00668421
+autocorr_1                     0.134835
+autocorr_2                    -0.264055
+autocorr_3                    0.0445972
+autocorr_4                    0.0755965
+autocorr_5                     0.029906
+log_t1                      -0.00312032
+log_t2                       0.00238836
+log_t3                      0.000575719
+log_t4                      -0.00214033
+log_t5                      -0.00450203
+fast_mavg                       22.3288
+slow_mavg                       22.3952
+rsi                                  12
+srsi                            43.5021
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+current price: 0.27817| long price:0.27648900000000004
+get klines
+-----XRP---------
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27817| long price:0.27648900000000004
+current price: 0.27815| long price:0.27648900000000004
+current price: 0.27812| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.27786| long price:0.27648900000000004
+current price: 0.27789| long price:0.27648900000000004
+current price: 0.27789| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.27806| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27806| long price:0.27648900000000004
+current price: 0.27806| long price:0.27648900000000004
+current price: 0.27806| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27797| long price:0.27648900000000004
+current price: 0.27797| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27801| long price:0.27648900000000004
+current price: 0.27801| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.2779| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:41:00
+tick_num                             26
+open                            0.27835
+high                            0.27906
+low                             0.27809
+close                           0.27809
+volume                      2.58539e+06
+cum_buy_volume              1.04581e+06
+cum_ticks                            26
+cum_dollar_value                 720363
+avg                            0.285022
+upper                          0.289658
+lower                          0.280385
+side                                NaN
+mom1                         -0.0334028
+mom2                         -0.0350128
+mom3                         -0.0323939
+mom4                         -0.0295914
+mom5                         -0.0290831
+log_ret                      -0.0339735
+volatility                    0.0057055
+autocorr_1                     0.041477
+autocorr_2                  -0.00596949
+autocorr_3                    -0.194149
+autocorr_4                    0.0190399
+autocorr_5                   -0.0736342
+log_t1                        -0.001667
+log_t2                       0.00271026
+log_t3                       0.00289212
+log_t4                      0.000523656
+log_t5                      0.000768401
+fast_mavg                      0.285794
+slow_mavg                       0.28577
+rsi                                  17
+srsi                            62.6186
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.27783| long price:0.27648900000000004
+current price: 0.2778| long price:0.27648900000000004
+current price: 0.27778| long price:0.27648900000000004
+current price: 0.27775| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27761| long price:0.27648900000000004
+current price: 0.27761| long price:0.27648900000000004
+current price: 0.27765| long price:0.27648900000000004
+current price: 0.27765| long price:0.27648900000000004
+current price: 0.27765| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27782| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27788| long price:0.27648900000000004
+current price: 0.27788| long price:0.27648900000000004
+current price: 0.27792| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27793| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.27818| long price:0.27648900000000004
+current price: 0.27818| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27814| long price:0.27648900000000004
+current price: 0.27814| long price:0.27648900000000004
+current price: 0.27814| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.27821| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.27816| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.27811| long price:0.27648900000000004
+current price: 0.27812| long price:0.27648900000000004
+current price: 0.2781| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.278| long price:0.27648900000000004
+current price: 0.27796| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27794| long price:0.27648900000000004
+current price: 0.27789| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27789| long price:0.27648900000000004
+current price: 0.27789| long price:0.27648900000000004
+current price: 0.27787| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27787| long price:0.27648900000000004
+current price: 0.27787| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.2779| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+current price: 0.27768| long price:0.27648900000000004
+current price: 0.27768| long price:0.27648900000000004
+current price: 0.27768| long price:0.27648900000000004
+current price: 0.27776| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27783| long price:0.27648900000000004
+current price: 0.27783| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27785| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27801| long price:0.27648900000000004
+current price: 0.27802| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27802| long price:0.27648900000000004
+current price: 0.27802| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27805| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27795| long price:0.27648900000000004
+current price: 0.27796| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27807| long price:0.27648900000000004
+current price: 0.27808| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27809| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27803| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27804| long price:0.27648900000000004
+current price: 0.27806| long price:0.27648900000000004
+current price: 0.27799| long price:0.27648900000000004
+current price: 0.27798| long price:0.27648900000000004
+current price: 0.27788| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27784| long price:0.27648900000000004
+current price: 0.2779| long price:0.27648900000000004
+current price: 0.27784| long price:0.27648900000000004
+current price: 0.27784| long price:0.27648900000000004
+current price: 0.27784| long price:0.27648900000000004
+current price: 0.27784| long price:0.27648900000000004
+current price: 0.27784| long price:0.27648900000000004
+current price: 0.27772| long price:0.27648900000000004
+current price: 0.27772| long price:0.27648900000000004
+current price: 0.27772| long price:0.27648900000000004
+current price: 0.27772| long price:0.27648900000000004
+current price: 0.27772| long price:0.27648900000000004
+current price: 0.27772| long price:0.27648900000000004
+current price: 0.27776| long price:0.27648900000000004
+current price: 0.27776| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27778| long price:0.27648900000000004
+current price: 0.27769| long price:0.27648900000000004
+current price: 0.27767| long price:0.27648900000000004
+current price: 0.27769| long price:0.27648900000000004
+current price: 0.27768| long price:0.27648900000000004
+current price: 0.27768| long price:0.27648900000000004
+current price: 0.27764| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.27767| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27768| long price:0.27648900000000004
+current price: 0.27777| long price:0.27648900000000004
+current price: 0.27774| long price:0.27648900000000004
+current price: 0.27774| long price:0.27648900000000004
+current price: 0.27774| long price:0.27648900000000004
+current price: 0.27774| long price:0.27648900000000004
+current price: 0.27762| long price:0.27648900000000004
+current price: 0.27759| long price:0.27648900000000004
+current price: 0.27757| long price:0.27648900000000004
+current price: 0.2774| long price:0.27648900000000004
+current price: 0.27739| long price:0.27648900000000004
+current price: 0.27743| long price:0.27648900000000004
+current price: 0.2774| long price:0.27648900000000004
+current price: 0.27739| long price:0.27648900000000004
+current price: 0.27739| long price:0.27648900000000004
+current price: 0.27742| long price:0.27648900000000004
+current price: 0.27734| long price:0.27648900000000004
+current price: 0.27719| long price:0.27648900000000004
+current price: 0.27723| long price:0.27648900000000004
+current price: 0.27718| long price:0.27648900000000004
+current price: 0.27713| long price:0.27648900000000004
+current price: 0.2771| long price:0.27648900000000004
+current price: 0.27711| long price:0.27648900000000004
+current price: 0.2771| long price:0.27648900000000004
+current price: 0.27714| long price:0.27648900000000004
+current price: 0.27717| long price:0.27648900000000004
+current price: 0.27717| long price:0.27648900000000004
+current price: 0.27717| long price:0.27648900000000004
+current price: 0.27723| long price:0.27648900000000004
+current price: 0.27728| long price:0.27648900000000004
+current price: 0.27724| long price:0.27648900000000004
+current price: 0.27729| long price:0.27648900000000004
+current price: 0.2775| long price:0.27648900000000004
+current price: 0.27741| long price:0.27648900000000004
+current price: 0.27741| long price:0.27648900000000004
+current price: 0.27741| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27735| long price:0.27648900000000004
+current price: 0.27735| long price:0.27648900000000004
+current price: 0.27731| long price:0.27648900000000004
+current price: 0.27738| long price:0.27648900000000004
+current price: 0.27738| long price:0.27648900000000004
+current price: 0.27738| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.2775| long price:0.27648900000000004
+current price: 0.27751| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27741| long price:0.27648900000000004
+current price: 0.27746| long price:0.27648900000000004
+current price: 0.27749| long price:0.27648900000000004
+current price: 0.27749| long price:0.27648900000000004
+current price: 0.27748| long price:0.27648900000000004
+current price: 0.27755| long price:0.27648900000000004
+current price: 0.2776| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27754| long price:0.27648900000000004
+current price: 0.2775| long price:0.27648900000000004
+current price: 0.2775| long price:0.27648900000000004
+current price: 0.27748| long price:0.27648900000000004
+current price: 0.27752| long price:0.27648900000000004
+current price: 0.27752| long price:0.27648900000000004
+current price: 0.27761| long price:0.27648900000000004
+current price: 0.27761| long price:0.27648900000000004
+current price: 0.27755| long price:0.27648900000000004
+current price: 0.2776| long price:0.27648900000000004
+current price: 0.27755| long price:0.27648900000000004
+current price: 0.27755| long price:0.27648900000000004
+current price: 0.27759| long price:0.27648900000000004
+current price: 0.27758| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27756| long price:0.27648900000000004
+current price: 0.27771| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+current price: 0.27782| long price:0.27648900000000004
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:50:00
+tick_num                             11
+open                            21.5699
+high                            21.5699
+low                             21.4189
+close                           21.4701
+volume                            34030
+cum_buy_volume                  7211.81
+cum_ticks                            11
+cum_dollar_value                 730985
+avg                             22.3017
+upper                           22.7658
+lower                           21.8375
+side                                NaN
+mom1                         -0.0444611
+mom2                         -0.0421762
+mom3                         -0.0416246
+mom4                         -0.0436736
+mom5                         -0.0479694
+log_ret                      -0.0454798
+volatility                   0.00778682
+autocorr_1                   -0.0146965
+autocorr_2                     -0.18017
+autocorr_3                     0.111226
+autocorr_4                     0.136125
+autocorr_5                   -0.0459337
+log_t1                       0.00238836
+log_t2                      0.000575719
+log_t3                      -0.00214033
+log_t4                      -0.00450203
+log_t5                      -0.00110345
+fast_mavg                       22.3338
+slow_mavg                       22.3722
+rsi                                  11
+srsi                            44.6113
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27786| long price:0.27648900000000004
+current price: 0.27779| long price:0.27648900000000004
+current price: 0.2778| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27781| long price:0.27648900000000004
+current price: 0.27788| long price:0.27648900000000004
+current price: 0.27783| long price:0.27648900000000004
+current price: 0.2778| long price:0.27648900000000004
+current price: 0.2778| long price:0.27648900000000004
+current price: 0.2778| long price:0.27648900000000004
+current price: 0.2778| long price:0.27648900000000004
+current price: 0.27775| long price:0.27648900000000004
+current price: 0.27766| long price:0.27648900000000004
+current price: 0.27766| long price:0.27648900000000004
+current price: 0.27758| long price:0.27648900000000004
+current price: 0.2776| long price:0.27648900000000004
+current price: 0.2776| long price:0.27648900000000004
+current price: 0.2776| long price:0.27648900000000004
+current price: 0.27763| long price:0.27648900000000004
+current price: 0.27758| long price:0.27648900000000004
+current price: 0.27758| long price:0.27648900000000004
+current price: 0.27747| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27746| long price:0.27648900000000004
+current price: 0.27746| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.27745| long price:0.27648900000000004
+current price: 0.27743| long price:0.27648900000000004
+current price: 0.27743| long price:0.27648900000000004
+current price: 0.27738| long price:0.27648900000000004
+current price: 0.27738| long price:0.27648900000000004
+current price: 0.27738| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27744| long price:0.27648900000000004
+current price: 0.27741| long price:0.27648900000000004
+current price: 0.27739| long price:0.27648900000000004
+current price: 0.27734| long price:0.27648900000000004
+current price: 0.27735| long price:0.27648900000000004
+current price: 0.27735| long price:0.27648900000000004
+current price: 0.27724| long price:0.27648900000000004
+current price: 0.27726| long price:0.27648900000000004
+current price: 0.27726| long price:0.27648900000000004
+current price: 0.27728| long price:0.27648900000000004
+current price: 0.27729| long price:0.27648900000000004
+current price: 0.27716| long price:0.27648900000000004
+current price: 0.27716| long price:0.27648900000000004
+current price: 0.27716| long price:0.27648900000000004
+current price: 0.27707| long price:0.27648900000000004
+current price: 0.2772| long price:0.27648900000000004
+current price: 0.27711| long price:0.27648900000000004
+current price: 0.27711| long price:0.27648900000000004
+current price: 0.27712| long price:0.27648900000000004
+current price: 0.27695| long price:0.27648900000000004
+current price: 0.27695| long price:0.27648900000000004
+current price: 0.2769| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27687| long price:0.27648900000000004
+current price: 0.27692| long price:0.27648900000000004
+current price: 0.27692| long price:0.27648900000000004
+current price: 0.27697| long price:0.27648900000000004
+current price: 0.27677| long price:0.27648900000000004
+current price: 0.27675| long price:0.27648900000000004
+current price: 0.27681| long price:0.27648900000000004
+current price: 0.27684| long price:0.27648900000000004
+current price: 0.27684| long price:0.27648900000000004
+current price: 0.27681| long price:0.27648900000000004
+current price: 0.2767| long price:0.27648900000000004
+current price: 0.27685| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27678| long price:0.27648900000000004
+current price: 0.27678| long price:0.27648900000000004
+current price: 0.2767| long price:0.27648900000000004
+current price: 0.27694| long price:0.27648900000000004
+current price: 0.27694| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27693| long price:0.27648900000000004
+current price: 0.27693| long price:0.27648900000000004
+current price: 0.27693| long price:0.27648900000000004
+current price: 0.27687| long price:0.27648900000000004
+current price: 0.2769| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27691| long price:0.27648900000000004
+current price: 0.27692| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.27691| long price:0.27648900000000004
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27687| long price:0.27648900000000004
+current price: 0.27687| long price:0.27648900000000004
+current price: 0.27682| long price:0.27648900000000004
+current price: 0.27682| long price:0.27648900000000004
+current price: 0.27683| long price:0.27648900000000004
+current price: 0.27666| long price:0.27648900000000004
+current price: 0.27662| long price:0.27648900000000004
+current price: 0.27661| long price:0.27648900000000004
+current price: 0.27661| long price:0.27648900000000004
+current price: 0.2766| long price:0.27648900000000004
+current price: 0.2766| long price:0.27648900000000004
+current price: 0.27664| long price:0.27648900000000004
+current price: 0.27664| long price:0.27648900000000004
+current price: 0.27664| long price:0.27648900000000004
+current price: 0.27664| long price:0.27648900000000004
+current price: 0.2767| long price:0.27648900000000004
+current price: 0.27665| long price:0.27648900000000004
+current price: 0.27662| long price:0.27648900000000004
+current price: 0.27659| long price:0.27648900000000004
+current price: 0.2766| long price:0.27648900000000004
+current price: 0.27658| long price:0.27648900000000004
+current price: 0.27652| long price:0.27648900000000004
+current price: 0.27651| long price:0.27648900000000004
+current price: 0.27649| long price:0.27648900000000004
+current price: 0.27651| long price:0.27648900000000004
+current price: 0.2765| long price:0.27648900000000004
+current price: 0.2765| long price:0.27648900000000004
+current price: 0.2765| long price:0.27648900000000004
+current price: 0.2765| long price:0.27648900000000004
+bought at 0.27643
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27643
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27647
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27648
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27648
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27645
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27639
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27634
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27627
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27625
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27617
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27577
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27587
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27581
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27575
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2758
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.276
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2767
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27685
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27684
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27671
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27653
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2765
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27655
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27657
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27674
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27682
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27682
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27674
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27674
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27674
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27662
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27656
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27669
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27667
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27669
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27669
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2767
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27664
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27664
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27666
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27669
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27669
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27669
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2766
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27662
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27664
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27664
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2766
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27654
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27662
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27658
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27658
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27657
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27643
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27641
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27639
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27639
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2764
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:54:00
+tick_num                             13
+open                            0.27799
+high                            0.27803
+low                             0.27664
+close                           0.27671
+volume                      3.25999e+06
+cum_buy_volume              1.36782e+06
+cum_ticks                            13
+cum_dollar_value                 903353
+avg                            0.284708
+upper                          0.289754
+lower                          0.279662
+side                                NaN
+mom1                         -0.0398015
+mom2                         -0.0371956
+mom3                          -0.034407
+mom4                         -0.0339012
+mom5                         -0.0331586
+log_ret                      -0.0406152
+volatility                   0.00653073
+autocorr_1                    -0.133477
+autocorr_2                   -0.0255352
+autocorr_3                   -0.0867622
+autocorr_4                    0.0131491
+autocorr_5                    0.0172443
+log_t1                       0.00271026
+log_t2                       0.00289212
+log_t3                      0.000523656
+log_t4                      0.000768401
+log_t5                      -0.00122217
+fast_mavg                      0.285433
+slow_mavg                      0.285443
+rsi                                  17
+srsi                            55.9666
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27641
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27642
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27639
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27624
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27612
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27605
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27587
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27593
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27573
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27543
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27526
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27509
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27547
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27535
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27531
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27556
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27572
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27598
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27603
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2761
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27614
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2761
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27601
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27583
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27547
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27528
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2754
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27579
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2757
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27572
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27537
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27536
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27513
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27503
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27536
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27539
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27533
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27513
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27499
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27497
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27522
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27497
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27496
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27518
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2751
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27513
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27488
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27463
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27456
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27481
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27484
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27474
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27455
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27442
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27445
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27419
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2735
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27369
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2741
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2744
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2742
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27451
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27481
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27429
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27416
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27378
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27376
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27354
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27342
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27344
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27332
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27332
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27356
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27364
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27375
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27373
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27394
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27382
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27389
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27374
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27371
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27327
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27333
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27314
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27309
+start live trading
+../pair_db/features.sqlite
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27289
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:57:00
+tick_num                              7
+open                            21.4434
+high                            21.4434
+low                              21.187
+close                            21.187
+volume                          51512.2
+cum_buy_volume                   6945.1
+cum_ticks                             7
+cum_dollar_value            1.09729e+06
+avg                             22.2674
+upper                           22.8451
+lower                           21.6896
+side                                NaN
+mom1                         -0.0548058
+mom2                         -0.0542615
+mom3                         -0.0562835
+mom4                         -0.0605226
+mom5                         -0.0615587
+log_ret                      -0.0563649
+volatility                   0.00916449
+autocorr_1                    0.0336756
+autocorr_2                   -0.0473786
+autocorr_3                     0.166768
+autocorr_4                    0.0504008
+autocorr_5                    -0.128329
+log_t1                      0.000575719
+log_t2                      -0.00214033
+log_t3                      -0.00450203
+log_t4                      -0.00110345
+log_t5                       0.00314533
+fast_mavg                       22.2986
+slow_mavg                       22.3357
+rsi                                  11
+srsi                             46.793
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:57:00
+tick_num                              3
+open                            0.27657
+high                            0.27657
+low                              0.2741
+close                            0.2741
+volume                      5.98002e+06
+cum_buy_volume                        0
+cum_ticks                             3
+cum_dollar_value            1.64336e+06
+avg                            0.284218
+upper                          0.290056
+lower                           0.27838
+side                                 -1
+mom1                          -0.046277
+mom2                         -0.0435147
+mom3                         -0.0430137
+mom4                         -0.0422781
+mom5                         -0.0434478
+log_ret                       -0.047382
+volatility                   0.00742504
+autocorr_1                    -0.134988
+autocorr_2                    0.0717088
+autocorr_3                   -0.0911739
+autocorr_4                    0.0794097
+autocorr_5                   -0.0583399
+log_t1                       0.00289212
+log_t2                      0.000523656
+log_t3                      0.000768401
+log_t4                      -0.00122217
+log_t5                       0.00122217
+fast_mavg                      0.284777
+slow_mavg                      0.284979
+rsi                                  16
+srsi                            50.3765
+sma                                  -1
+Name: 0, dtype: object
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27284
+-----XRP---------
+-----XRP long------
+150 0.27054300000000003
+current price: 0.27302| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27289
+current price: 0.27303| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27316
+current price: 0.27305| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27324
+current price: 0.27324| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2733
+current price: 0.27316| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27346
+current price: 0.27354| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27367
+current price: 0.27366| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2738
+current price: 0.27378| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27377
+current price: 0.27363| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27347
+current price: 0.27333| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27338
+current price: 0.27342| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27358
+current price: 0.27358| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27358
+current price: 0.27332| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27283
+current price: 0.27304| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27286
+current price: 0.2729| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27273
+current price: 0.27287| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27318
+current price: 0.27335| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27361
+current price: 0.27367| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27361
+current price: 0.27342| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2736
+current price: 0.2736| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27367
+current price: 0.27367| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27335
+current price: 0.2733| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27372
+current price: 0.27376| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27389
+current price: 0.27398| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27397
+current price: 0.27392| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27373
+current price: 0.27361| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27377
+current price: 0.27384| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27397
+current price: 0.2741| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27382
+current price: 0.27378| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27376
+current price: 0.27363| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27404
+current price: 0.27416| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27431
+current price: 0.27416| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27371
+current price: 0.27371| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27392
+current price: 0.27411| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27428
+current price: 0.27396| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27372
+current price: 0.27372| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27366
+current price: 0.27358| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27339
+current price: 0.2734| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27365
+current price: 0.27391| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27351
+current price: 0.27351| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27368
+current price: 0.27375| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27378
+current price: 0.27378| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27375
+current price: 0.27371| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27393
+current price: 0.27383| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27391
+current price: 0.27391| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27377
+current price: 0.27371| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27378
+current price: 0.27377| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27387
+current price: 0.27372| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27359
+current price: 0.27376| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2739
+current price: 0.27381| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27387
+current price: 0.27384| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27387
+current price: 0.27387| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27354
+current price: 0.27353| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27356
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2733
+current price: 0.27348| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27354
+current price: 0.27377| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27341
+current price: 0.27327| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27345
+current price: 0.27357| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27345
+current price: 0.27374| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27333
+current price: 0.27316| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27336
+current price: 0.27358| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2736
+current price: 0.27341| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27343
+current price: 0.27343| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27355
+current price: 0.27371| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2737
+current price: 0.27359| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27353
+current price: 0.27351| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2735
+current price: 0.27334| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27356
+current price: 0.27343| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27363
+current price: 0.27364| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27364
+current price: 0.27368| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27368
+current price: 0.27381| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2737
+current price: 0.27374| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27401
+current price: 0.27383| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27383
+current price: 0.27381| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27387
+current price: 0.27391| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27391
+current price: 0.27391| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2736
+current price: 0.27364| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27371
+current price: 0.27375| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27384
+current price: 0.27389| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27386
+current price: 0.27386| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27386
+current price: 0.27419| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27431
+current price: 0.27433| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27443
+current price: 0.27436| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27432
+current price: 0.27429| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27429
+current price: 0.27434| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27428
+current price: 0.27428| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27433
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+current price: 0.27435| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27435
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 16:59:00
+tick_num                              2
+open                            0.27358
+high                            0.27377
+low                             0.27358
+close                           0.27377
+volume                      3.94039e+06
+cum_buy_volume              1.73749e+06
+cum_ticks                             2
+cum_dollar_value            1.07834e+06
+avg                            0.283981
+upper                          0.289863
+lower                          0.278098
+side                                NaN
+mom1                         -0.0446663
+mom2                         -0.0441659
+mom3                         -0.0434311
+mom4                         -0.0445995
+mom5                         -0.0434311
+log_ret                      -0.0456945
+volatility                   0.00732285
+autocorr_1                    0.0112849
+autocorr_2                    0.0730701
+autocorr_3                   0.00534802
+autocorr_4                   -0.0388439
+autocorr_5                   -0.0245984
+log_t1                      0.000523656
+log_t2                      0.000768401
+log_t3                      -0.00122217
+log_t4                       0.00122217
+log_t5                     -0.000558924
+fast_mavg                      0.284581
+slow_mavg                      0.284671
+rsi                                  13
+srsi                            50.6672
+sma                                  -1
+Name: 0, dtype: object
+-----XRP---------
+current price: 0.27434| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2742
+current price: 0.2742| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2742
+current price: 0.27432| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27427
+current price: 0.27438| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27438
+current price: 0.27444| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27443
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27451
+current price: 0.27451| long price:0.27054300000000003
+current price: 0.27454| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27452
+current price: 0.27453| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27453
+current price: 0.27463| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27458
+current price: 0.2746| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2746
+current price: 0.27461| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27461
+current price: 0.27485| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27485
+current price: 0.27472| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27472
+current price: 0.27469| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27469
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27481
+current price: 0.27481| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27478
+current price: 0.27478| long price:0.27054300000000003
+current price: 0.27467| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27463
+current price: 0.27462| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27462
+current price: 0.27457| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2746
+current price: 0.27478| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27484
+current price: 0.27478| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27478
+current price: 0.27454| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27454
+current price: 0.27461| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27462
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27458
+current price: 0.27458| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27449
+current price: 0.27449| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27452
+current price: 0.27452| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27449
+current price: 0.27449| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27448
+current price: 0.27448| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27447
+current price: 0.27447| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27441
+current price: 0.27441| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2745
+current price: 0.2745| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2745
+current price: 0.2745| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27442
+current price: 0.27438| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27442
+current price: 0.27447| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27446
+current price: 0.27446| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27452
+current price: 0.27468| long price:0.27054300000000003
+current price: 0.27456| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27456
+current price: 0.27464| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27464
+current price: 0.2747| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2747
+current price: 0.27461| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27461
+current price: 0.27456| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27452
+current price: 0.27452| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27452
+current price: 0.27464| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27484
+current price: 0.27481| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27481
+current price: 0.27489| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27481
+current price: 0.27469| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27476
+current price: 0.27476| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27473
+current price: 0.27469| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27472
+current price: 0.27463| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27463
+current price: 0.27463| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27463
+current price: 0.27458| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27458
+current price: 0.27458| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27458
+current price: 0.27441| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27441
+current price: 0.27436| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27436
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27436
+current price: 0.27436| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27458
+current price: 0.27458| long price:0.27054300000000003
+current price: 0.27458| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27458
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27453
+current price: 0.27453| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27452
+current price: 0.27452| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27454
+current price: 0.27454| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27438
+current price: 0.27438| long price:0.27054300000000003
+current price: 0.27449| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27449
+current price: 0.27441| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27441
+current price: 0.27434| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27434
+current price: 0.27442| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27442
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27438
+current price: 0.27438| long price:0.27054300000000003
+current price: 0.27438| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27438
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27424
+current price: 0.27424| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27416
+current price: 0.27416| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27424
+current price: 0.27424| long price:0.27054300000000003
+current price: 0.27397| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27397
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27399
+current price: 0.27399| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27419
+current price: 0.27419| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27427
+current price: 0.27427| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27428
+current price: 0.27428| long price:0.27054300000000003
+current price: 0.2743| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2743
+current price: 0.27415| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27415
+current price: 0.27407| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27408
+current price: 0.27409| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27409
+current price: 0.27431| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27431
+current price: 0.27435| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2743
+current price: 0.27429| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27429
+current price: 0.27406| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27403
+current price: 0.27397| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2741
+current price: 0.27414| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27414
+current price: 0.27414| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.274
+current price: 0.27401| long price:0.27054300000000003
+start live trading
+../pair_db/features.sqlite
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27401
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+last one
+date_time           2020-08-25 17:01:00
+tick_num                              4
+open                             21.117
+high                            21.2126
+low                              21.117
+close                           21.1939
+volume                          35889.4
+cum_buy_volume                  13134.1
+cum_ticks                             4
+cum_dollar_value                 759082
+avg                             22.2635
+upper                           22.8432
+lower                           21.6838
+side                                NaN
+mom1                         -0.0539536
+mom2                         -0.0559763
+mom3                         -0.0602167
+mom4                         -0.0612532
+mom5                         -0.0582958
+log_ret                      -0.0554636
+volatility                   0.00925158
+autocorr_1                     0.146949
+autocorr_2                    0.0242564
+autocorr_3                     0.100138
+autocorr_4                    -0.112901
+autocorr_5                   -0.0214155
+log_t1                      -0.00214033
+log_t2                      -0.00450203
+log_t3                      -0.00110345
+log_t4                       0.00314533
+log_t5                     -0.000133301
+fast_mavg                       22.3129
+slow_mavg                       22.3289
+rsi                                  11
+srsi                            46.6773
+sma                                  -1
+Name: 0, dtype: object
+---------BNB----------
+current price: 0.27392| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27392
+start live trading
+../pair_db/features.sqlite
+get klines
+-----XRP---------
+current price: 0.27396| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27396
+current price: 0.274| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.274
+current price: 0.27398| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27398
+current price: 0.27393| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27393
+current price: 0.27389| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27392
+current price: 0.27391| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27391
+current price: 0.27389| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27389
+current price: 0.27361| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27364
+current price: 0.27357| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27357
+current price: 0.27355| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27355
+current price: 0.27337| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+current price: 0.27341| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27341
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27339
+current price: 0.27339| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27354
+current price: 0.27354| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27354
+current price: 0.27354| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27356
+current price: 0.27356| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27356
+current price: 0.27354| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27357
+current price: 0.27357| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27357
+current price: 0.27347| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27347
+current price: 0.27347| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27342
+current price: 0.27342| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27356| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2737
+current price: 0.2737| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27374
+current price: 0.27389| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27395
+current price: 0.27409| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27412
+current price: 0.27412| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27413
+current price: 0.27413| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27408
+current price: 0.27408| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27409
+current price: 0.27409| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27409
+current price: 0.27409| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27409
+current price: 0.27418| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27441
+current price: 0.27438| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27439
+current price: 0.27439| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27421
+current price: 0.27425| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27425
+current price: 0.27425| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27426
+current price: 0.27426| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27414
+current price: 0.27414| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2741
+current price: 0.2741| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27398
+current price: 0.27398| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27382
+current price: 0.27377| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27366
+current price: 0.27366| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27384
+current price: 0.27384| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27398
+current price: 0.27398| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27398
+current price: 0.27398| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2741
+current price: 0.2741| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27406
+current price: 0.27406| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27392
+current price: 0.27392| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27392
+current price: 0.27392| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27392
+current price: 0.27392| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27363
+current price: 0.27363| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27362
+current price: 0.27362| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27362
+current price: 0.27367| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2735
+current price: 0.2735| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2734
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27359
+current price: 0.27359| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27366
+current price: 0.27366| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2737
+current price: 0.27377| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27361
+current price: 0.27361| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27362
+current price: 0.27362| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27362
+current price: 0.27349| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27349
+current price: 0.27338| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27346
+current price: 0.27347| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2733
+current price: 0.2733| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+current price: 0.27337| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2733
+current price: 0.2733| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27328
+current price: 0.27328| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27308
+current price: 0.27308| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27325
+current price: 0.27335| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27348
+current price: 0.27348| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27341
+current price: 0.27341| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27327
+current price: 0.27327| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+current price: 0.27337| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2735
+current price: 0.2735| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27342
+current price: 0.27346| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27314
+current price: 0.27335| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27335
+current price: 0.27314| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2731
+current price: 0.2731| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27312
+current price: 0.27313| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27318
+current price: 0.27312| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27312
+current price: 0.273| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27303
+current price: 0.273| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2731
+current price: 0.27297| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27287
+current price: 0.27287| long price:0.27054300000000003
+start live trading
+../pair_db/features.sqlite
+get klines
+---------BNB----------
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27297
+start live trading
+../pair_db/features.sqlite
+get klines
+klines dollar value > threshold
+../pair_db/features.sqlite
+current price: 0.27296| long price:0.27054300000000003
+last one
+date_time           2020-08-25 17:03:00
+tick_num                              4
+open                            0.27419
+high                            0.27451
+low                             0.27337
+close                           0.27337
+volume                      2.66374e+06
+cum_buy_volume                   657914
+cum_ticks                             4
+cum_dollar_value                 730270
+avg                            0.283792
+upper                          0.289815
+lower                           0.27777
+side                                NaN
+mom1                         -0.0455624
+mom2                         -0.0448288
+mom3                         -0.0459954
+mom4                         -0.0448288
+mom5                         -0.0453625
+log_ret                       -0.046633
+volatility                   0.00744421
+autocorr_1                   0.00392296
+autocorr_2                     0.155079
+autocorr_3                   -0.0925638
+autocorr_4                    0.0357793
+autocorr_5                     0.059587
+log_t1                      0.000768401
+log_t2                      -0.00122217
+log_t3                       0.00122217
+log_t4                     -0.000558924
+log_t5                      -0.00251114
+fast_mavg                      0.284597
+slow_mavg                      0.284377
+rsi                                  12
+srsi                             49.792
+sma                                   1
+Name: 0, dtype: object
+-----XRP---------
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27296
+current price: 0.27296| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27296
+current price: 0.27285| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27274
+current price: 0.27281| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27284
+current price: 0.27289| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27279
+current price: 0.27266| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27264
+current price: 0.27264| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27264
+current price: 0.27271| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2726
+current price: 0.27266| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2726
+current price: 0.27275| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2727
+current price: 0.2727| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27275
+current price: 0.27255| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27252
+current price: 0.27272| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27267
+current price: 0.27283| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27267
+current price: 0.27276| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27293
+current price: 0.27306| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27304
+current price: 0.27306| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27289
+current price: 0.27296| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27285
+current price: 0.27285| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27313
+current price: 0.27337| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+current price: 0.27346| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27344
+current price: 0.27348| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27333
+current price: 0.27337| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+current price: 0.27337| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27337
+current price: 0.27325| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27325
+current price: 0.27343| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27343
+current price: 0.27338| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27336
+current price: 0.27329| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27329
+current price: 0.27349| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27349
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.27352| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27352
+current price: 0.2734| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2734
+current price: 0.2734| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2734
+current price: 0.27341| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27341
+current price: 0.27349| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27349
+current price: 0.2733| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.2733
+current price: 0.27332| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27332
+current price: 0.27294| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27294
+current price: 0.27267| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27267
+current price: 0.27281| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27281
+current price: 0.27287| long price:0.27054300000000003
+trigger: 0.2791943 stop loss: 0.2709014 current_price:  0.27287
+current price: 0.27304| long price:0.27054300000000003
+trigge
