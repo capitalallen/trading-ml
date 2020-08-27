@@ -1,13 +1,13 @@
 import pymongo
 import change_config
-cc=change_config.Change_config() 
-cc.update_trading_num("long",3)
-cc.update_trading_num("short",2)
-print(cc.get_trading_num())
-#myclient = pymongo.MongoClient("mongodb://localhost:27017/")
-#mydb = myclient["configs"]
-#mycol = mydb["total_trade_num"]
-#mycol.update({"_id":mycol.find_one()['_id']},{"$set":{"transaction_long":150,"transaction_short":150}})
+#cc=change_config.Change_config() 
+#cc.update_trading_num("long",3)
+#cc.update_trading_num("short",2)
+#print(cc.get_trading_num())
+myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+mydb = myclient["configs"]
+mycol = mydb["total_trade_num"]
+mycol.update({"_id":mycol.find_one()['_id']},{"$set":{"transaction_long":100,"transaction_short":150}})
 #print(mycol.find_one())
 # mydict = {"long":5,"short":5,"time":None}
 # mycol.insert_one(mydict)
