@@ -32,6 +32,7 @@ def trade_ex():
                     try:
                         p_q = trade_long_short.get_quantity(pair,"long")
                         #pair,long_price,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                        message_func.send_a_message("BTC long price: "+ str(p_q['price']) + " quantity: "+ str(p_q['quantity']))
                         Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],p_q['quantity'],'long',trigger_per,deviation,stop_loss_per,)).start()
                     except Exception as e:
                         message_func.send_a_message("BTC long buy failed "+str(e))
@@ -40,6 +41,7 @@ def trade_ex():
                     try:
                         p_q = trade_long_short.get_quantity(pair,"short")
                         #pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
+                        message_func.send_a_message("BTC long price: "+ str(p_q['price']) + " quantity: "+ str(p_q['quantity']))
                         result_error = str(p_q['price']) + " " +str(p_q['quantity'])+" "
                         Process(target=trailing_mkt.limit_short_trailing, args=(pair,p_q['price'],p_q['quantity'],'short',trigger_per,deviation,stop_loss_per,)).start()
                     except Exception as e:
