@@ -85,7 +85,7 @@ class Trading:
                 log['side']=df['side']
             except:
                 self.message_func.send_a_message("Eth trading error - trading.py")
-                self.log_func.insert_log(str(klines)+" "+ self.threshold)
+                self.log_func.insert_log(str(klines)+" "+ str(self.threshold))
                 return 'N'
             if df['side']:
                 features = df[self.columns].tolist()
