@@ -27,7 +27,7 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['transaction_long']
+        configs["transaction"]=controls['long_amount']
         configs['leverage_rate'] = controls['lev_long']
         if configs['discount_rate']:
             configs['price'] = round(configs['price']*(1-configs['discount_rate']),2)
@@ -40,7 +40,7 @@ def get_configs(pair,type):
 
         configs['discount_rate']=dicount_rate
         configs['price']=curr_price
-        configs["transaction"]=transactions['transaction_short']
+        configs["transaction"]=controls['short_amount']
         configs['leverage_rate'] = controls['lev_short']
         if configs['discount_rate']:
             configs['price'] = round(configs['price']*(1+configs['discount_rate']),2)

@@ -66,9 +66,11 @@ def limit_long_trailing(pair,long_price,quantity,trade_type='long',trigger_per=1
         print("bought at "+ str(curr_price))
     # trailing 
     configs.update_trading_num("long",-1)
+    configs.update_long_trade_avl(pair,-1)
     trailing_func = trailing.Trailing(q=quantity,trade_type=trade_type,trigger_per=trigger_per, deviation=deviation, stop_loss_per=stop_loss_per, pair=pair,)
     trailing_func.trailing_stop_long()
     configs.update_trading_num("long",1)
+    configs.update_long_trade_avl(pair,1)
     print("successful")
 def limit_short_trailing(pair,short_price,quantity,trade_type='short',trigger_per=1, deviation=0.5, stop_loss_per=2):
     configs = change_config.Change_config()
@@ -97,9 +99,14 @@ def limit_short_trailing(pair,short_price,quantity,trade_type='short',trigger_pe
         curr_price = price.get_price(pair)  
     else:     
         buy = transaction_func.mkt_buy_sell_future(pair=pair,quantity=quantity,positionSide="SHORT",side='SELL')
+    # update trade number allowed
     configs.update_trading_num("short",-1)
+    configs.update_short_trade_avl(pair,-1)
     # trailing 
-    configs.update_trading_num("long",-1)
     trailing_func = trailing.Trailing(q=quantity,trade_type=trade_type,trigger_per=trigger_per, deviation=deviation, stop_loss_per=stop_loss_per, pair=pair)
     trailing_func.trailing_stop_short()
+    
+    configs.update_trading_num("short",1)
+    configs.update_short_trade_avl(pair,1)
+    
     print("successful")

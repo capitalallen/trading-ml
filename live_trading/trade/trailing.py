@@ -6,7 +6,9 @@ import transaction
 import trailing_mkt 
 import sys 
 sys.path.append("../message")
+sys.path.append('../alter_config')
 import send_sms
+import change_config
 class Trailing:
     """
     constructor 
@@ -27,8 +29,11 @@ class Trailing:
         self.headers = {"Content-Type": "application/json"}
         self.url = "https://api.binance.com/api/v3/ticker/price?symbol="+pair
         self.pair = pair
+        self.buy_price = p
+        self.config_func = change_config.Change_config()
         if not p:
             p =  float(ast.literal_eval(requests.get(self.url, headers=self.headers).content.decode("UTF-8"))['price'])
+            self.buy_price = p 
         if trade_type == 'long':
             # trigger price 
             self.trigger_p = p*(1+self.trigger_per)
@@ -48,6 +53,11 @@ class Trailing:
         self.transaction_func = transaction.Buy_sell()
         self.messaging = send_sms.Send_message()
 
+        self.threhold = [0.01,0.02,0.03,0.04,0.05]
+        self.sell_per = [0.3,0.3,0.2,0.04,0.05,0.05]
+        self.quantity_remain = self.quantity
+        self.target = 0
+        self.decimals = {"BTCUSDT":3,"ETHUSDT":2,"BNBUSDT":1,"XRPUSDT":0}
     def get_price(self):
         self.curr_price = float(ast.literal_eval(requests.get(
             self.url, headers=self.headers).content.decode("UTF-8"))['price'])
@@ -78,6 +88,7 @@ class Trailing:
     def trailing_stop_long(self):
         error = ""
         try:
+            self.config_func.update_long_trade_avl(self.pair,-1)
             # send message start trailing
             self.messaging.send_a_message("trailing start!")
             self.get_price()
@@ -96,6 +107,17 @@ class Trailing:
                 error = "trailing"
                 max_p = self.curr_price
                 while self.curr_price >= self.trailing_p:
+                    """
+                    sell when threshold is reached 
+                    """
+                    if self.target<6 and self.curr_price>=self.buy_price*(1+self.threhold[self.target]):
+                        q = round(self.quantity*self.sell_per[self.target],self.decimals[self.pair])
+                        self.quantity_remain = self.quantity-q 
+                        self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="LONG",side='SELL')
+                        self.target+=1 
+                    if self.target>=2 and self.deviation!=0.02:
+                        self.deviation = 0.02 
+                    # update price 
                     self.get_price()
                     print("trigger:",self.trigger_p, "current_price: ",self.curr_price)
                     if max_p < self.curr_price:
@@ -103,8 +125,10 @@ class Trailing:
                         self.trailing_p = (1-self.deviation)*max_p
                     time.sleep(1)
                 self.transaction_func.mkt_buy_sell_future(
-                    self.pair, self.quantity,positionSide="LONG",side='SELL')
+                    self.pair, self.quantity_remain,positionSide="LONG",side='SELL')
                 self.messaging.send_a_message("sold!")
+            # update trade allowed number 
+            self.config_func.update_long_trade_avl(self.pair,1)
             return True
         except Exception as e:
             print(e)
@@ -112,6 +136,7 @@ class Trailing:
 
     def trailing_stop_short(self):
         try:
+            self.config_func.update_short_trade_avl(self.pair,-1)
             # send message start trailing
             self.messaging.send_a_message("trailing start!")
             self.get_price()
@@ -129,6 +154,17 @@ class Trailing:
             else:
                 min_p = self.curr_price
                 while self.curr_price <= self.trailing_p:
+                    """
+                    sell when threshold is reached 
+                    """
+                    if self.target<6 and self.curr_price<=self.buy_price*(1-self.threhold[self.target]):
+                        q = round(self.quantity*self.sell_per[self.target],self.decimals[self.pair])
+                        self.quantity_remain = self.quantity-q 
+                        self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="SHORT",side='BUY')
+                        self.target+=1 
+                    if self.target>=2 and self.deviation!=0.02:
+                        self.deviation = 0.02 
+
                     self.get_price()
                     print("trigger:",self.trigger_p, "current_price: ",self.curr_price)
                     if min_p > self.curr_price:
@@ -136,8 +172,10 @@ class Trailing:
                         self.trailing_p = (1+self.deviation)*min_p
                     time.sleep(1)
                 self.transaction_func.mkt_buy_sell_future(
-                    self.pair, self.quantity,positionSide="SHORT",side='BUY')
+                    self.pair, self.quantity_remain,positionSide="SHORT",side='BUY')
                 self.messaging.send_a_message("sold start!")
+            self.config_func.update_short_trade_avl(self.pair,1)
+            return True
         except Exception as e:
             print(e)
             self.messaging.send_a_message(str(e))
