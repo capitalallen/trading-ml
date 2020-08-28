@@ -18,7 +18,7 @@ def trade_ex():
     pair ="ETHUSDT"
     trigger_per=1 
     deviation=1
-    stop_loss_per= 2
+    stop_loss_per= 5
     message_func = send_sms.Send_message()
     #configs = change_config.Change_config() 
     last_long_time = 1545730073
@@ -30,8 +30,7 @@ def trade_ex():
         elif val == "2":
             t = trading.Trading(pair=pair,db_name=db_name,record_name=record_name,threshold=threshold,model_path="model.joblib",columns_path=column_path)
             while True:
-                result = t.live_trading()
-                return 
+                result = t.live_trading() 
                 """
                 check if trade number allowed > 0 for long or for short 
                 """

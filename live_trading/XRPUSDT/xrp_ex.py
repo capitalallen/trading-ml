@@ -17,7 +17,7 @@ def trade_ex(val):
     pair ="XRPUSDT"
     trigger_per=1 
     deviation=1
-    stop_loss_per= 2
+    stop_loss_per= 5
     message_func = send_sms.Send_message()
     #configs = change_config.Change_config() 
     if val == 1:
