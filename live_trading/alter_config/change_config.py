@@ -25,6 +25,10 @@ class Change_config:
             "short_trades_avl":4,
             "long_trades_limit":4,
             "short_trades_limit":4,
+            "amount":{
+                "long":100,
+                "short":100
+            },
             "long_strategy":{
                 "side":1,
                 "pred":1
@@ -53,7 +57,14 @@ class Change_config:
         myquery = {item:self.query_config(pair_name,item)}
         newvalues = {"$set":{item:value}}
         mycol.update_one(myquery,newvalues)
-    
+
+    """
+    add amount to each pair 
+    """
+    def add_amount_entry(self,pair):
+        mycol = self.mydb[pair]
+        index = {"_id":self.get_pair_config(pair)['_id']}
+        mycol.update_one(index,{"$set":{"long_amount":100,"short_amount":100}})    
     def get_trading_num(self):
         mycol = self.mydb["total_trade_num"]
         return mycol.find_one() 
@@ -65,6 +76,26 @@ class Change_config:
         newvalues = {"$set":{trade_type:val+n}}
         mycol.update_one(myquery,newvalues)
 
+    """
+    update number to long_trade_avl
+    """
+    def update_long_trade_avl(self,pair,n):
+        num = self.query_config(pair,"long_trades_avl")
+        self.update_config(pair,"long_trades_avl",num+n)
+    """
+    update number to short_trade_avl
+    """
+    def update_short_trade_avl(self,pair,n):
+        num = self.query_config(pair,"short_trades_avl")
+        self.update_config(pair,"short_trades_avl",num+n)
+    """
+    get number of long or short trade avl 
+    """
+    def get_trade_avl(self,pair,type):
+        if type == 'long':
+            return self.query_config(pair,"long_trades_avl")
+        elif type =='short':
+            return self.query_config(pair,"short_trades_avl")
 # m = Change_config() 
 # print(m.get_pair_config("BTCUSDT"))
 # m.update_config("BTCUSDT","long",False)

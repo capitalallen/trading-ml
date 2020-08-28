@@ -88,13 +88,21 @@ class Trading:
                 num_allowed = self.configs.get_trading_num()
                 long_allowed = self.configs.query_config(self.pair,"long")
                 short_allowed = self.configs.query_config(self.pair,"short")
+
+                """
+                long number available for the pair 
+                short number available for the pair 
+                """
+                long_num = self.configs.get_trade_avl(self.pair,"long")
+                short_num = self.configs.get_trade_avl(self.pair,"short")
+
                 log['pred']=pred
                 log['num_allowed']=num_allowed
-                if long_allowed and num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
+                if long_allowed and num_allowed['long']>0 and long_num > 0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
                     log['trade_long']="execuated"
                     self.log_func.insert_log(log)
                     return "long"
-                elif short_allowed and num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
+                elif short_allowed and num_allowed['short']>0 and short_num > 0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
 
                     log['trade_short']="execuated"
                     self.log_func.insert_log(log)

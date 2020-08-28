@@ -1,6 +1,7 @@
 import pandas as pd 
-import sys
 import json 
+from datetime import datetime
+import sys
 sys.path.append("../model_use")
 sys.path.append("../data_getter")
 sys.path.append("../handle_sql")
@@ -17,6 +18,7 @@ import logging_funcs
 import trade_long_short as tls 
 import send_sms
 import change_config
+
 """
 
 if side is not none 
@@ -55,8 +57,9 @@ class Trading:
 
     def live_trading(self):
         print("start live trading")
-        time = str(self.pre_sql.get_last_n(1).date_time[0])
+        time = self.pre_sql.get_last_n(1).date_time[0]
         # get klines from last time to current time 
+        time = str(time)
         klines = get_data.get_klines_df(time,symbol=self.pair,interval=self.interval)
         print("get klines")
         if get_data.is_limit(klines,self.threshold):
@@ -93,13 +96,21 @@ class Trading:
                 num_allowed = self.configs.get_trading_num()
                 long_allowed = self.configs.query_config(self.pair,"long")
                 short_allowed = self.configs.query_config(self.pair,"short")
+
+                """
+                long number available for the pair 
+                short number available for the pair 
+                """
+                long_num = self.configs.get_trade_avl(self.pair,"long")
+                short_num = self.configs.get_trade_avl(self.pair,"short")
+
                 log['pred']=pred
                 log['num_allowed']=num_allowed
-                if long_allowed and num_allowed['long']>0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
+                if long_allowed and num_allowed['long']>0 and long_num > 0 and pred == self.long_strategy["pred"] and df['side'] == self.long_strategy["side"]:
                     log['trade_long']="execuated"
                     self.log_func.insert_log(log)
                     return "long"
-                elif short_allowed and num_allowed['short']>0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
+                elif short_allowed and num_allowed['short']>0 and short_num > 0 and pred == self.short_strategy["pred"] and df['side'] == self.short_strategy["side"]:
 
                     log['trade_short']="execuated"
                     self.log_func.insert_log(log)
