@@ -110,7 +110,7 @@ class Trailing:
                     """
                     sell when threshold is reached 
                     """
-                    if self.target<6 and self.curr_price>=self.buy_price*(1+self.threhold[self.target]):
+                    if self.target<5 and self.curr_price>=self.buy_price*(1+self.threhold[self.target]):
                         q = round(self.quantity*self.sell_per[self.target],self.decimals[self.pair])
                         self.quantity_remain = self.quantity-q 
                         self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="LONG",side='SELL')
