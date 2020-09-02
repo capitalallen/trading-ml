@@ -1,7 +1,7 @@
 import pymongo
 import change_config
 cc=change_config.Change_config() 
-#cc.update_trading_num("long",-2)
+cc.update_trading_num("long",5)
 #cc.update_trading_num("short",2)
 print(cc.get_trading_num())
 #myclient = pymongo.MongoClient("mongodb://localhost:27017/")
