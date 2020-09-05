@@ -15,7 +15,7 @@ def trade_ex():
     threshold = 7127690.2
     column_path = "column_order.json"
     pair ="BTCUSDT"
-    trigger_per=1 
+    trigger_per=1.5 
     deviation=1
     stop_loss_per= 2
     message_func = send_sms.Send_message()

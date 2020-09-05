@@ -15,9 +15,9 @@ def trade_ex(val):
     threshold = 701268.8
     column_path = "../XRPUSDT/column_order.json"
     pair ="XRPUSDT"
-    trigger_per=1 
+    trigger_per=2
     deviation=1
-    stop_loss_per= 5
+    stop_loss_per= 3
     message_func = send_sms.Send_message()
     #configs = change_config.Change_config() 
     if val == 1:

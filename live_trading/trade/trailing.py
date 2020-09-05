@@ -52,9 +52,12 @@ class Trailing:
         self.quantity = q
         self.transaction_func = transaction.Buy_sell()
         self.messaging = send_sms.Send_message()
-
-        self.threhold = [0.01,0.02,0.03,0.04,0.05]
-        self.sell_per = [0.3,0.3,0.2,0.04,0.05,0.05]
+        if self.pair=="BTCUSDT":
+            self.threhold = [0.015]
+            self.sell_per = [0.5]
+        else:
+            self.threhold = [0.02]
+            self.sell_per = [0.5]
         self.quantity_remain = self.quantity
         self.target = 0
         self.decimals = {"BTCUSDT":3,"ETHUSDT":2,"BNBUSDT":1,"XRPUSDT":0}
@@ -110,13 +113,11 @@ class Trailing:
                     """
                     sell when threshold is reached 
                     """
-                    if self.target<5 and self.curr_price>=self.buy_price*(1+self.threhold[self.target]):
+                    if self.target<1 and self.curr_price>=self.buy_price*(1+self.threhold[self.target]):
                         q = round(self.quantity*self.sell_per[self.target],self.decimals[self.pair])
                         self.quantity_remain = self.quantity-q 
                         self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="LONG",side='SELL')
                         self.target+=1 
-                    if self.target>=2 and self.deviation!=0.02:
-                        self.deviation = 0.02 
                     # update price 
                     self.get_price()
                     print("trigger:",self.trigger_p, "current_price: ",self.curr_price)
