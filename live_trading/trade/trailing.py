@@ -164,7 +164,7 @@ class Trailing:
                         self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="SHORT",side='BUY')
                         self.target+=1 
                     if self.target>=2 and self.deviation!=0.02:
-                        self.deviation = 0.02 
+                        self.deviation = 0.01 
 
                     self.get_price()
                     print("trigger:",self.trigger_p, "current_price: ",self.curr_price)

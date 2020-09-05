@@ -41,7 +41,7 @@ def trade_ex():
                             message_func.send_a_message("ETH long signal " + "price" + str(p_q['price']) + " quantity:" + str(p_q['quantity']))
                             # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                             last_long_time=int(datetime.now().timestamp())
-                            Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],p_q['quantity'],'long',trigger_per,deviation,stop_loss_per,)).start()
+                            Process(target=trailing_mkt.limit_long_trailing, args=(pair,p_q['price'],round(p_q['quantity'],1),'long',trigger_per,deviation,stop_loss_per,)).start()
                     except Exception as e:
                         message_func.send_a_message("ETH long buy failed"+" error: "+str(e))
                 elif result == 'short':
@@ -54,7 +54,7 @@ def trade_ex():
                             result_error = str(p_q['price']) + " " + str(p_q['quantity'])
                             # pair,quantity,trade_type='long',trigger_per=1, deviation=0.5, stop_loss_per=2
                             last_short_time=int(datetime.now().timestamp())
-                            Process(target=trailing_mkt.limit_short_trailing, args=(pair,p_q['price'],p_q['quantity'],'short',trigger_per,deviation,stop_loss_per,)).start()
+                            Process(target=trailing_mkt.limit_short_trailing, args=(pair,p_q['price'],round(p_q['quantity'],1),'short',trigger_per,deviation,stop_loss_per,)).start()
                     except Exception as e:
                         message_func.send_a_message("ETH short buy failed "+result_error+" error: "+str(e))
                 time.sleep(150)
