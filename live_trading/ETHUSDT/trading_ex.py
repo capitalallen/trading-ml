@@ -16,9 +16,9 @@ def trade_ex():
     threshold = 1913865.49
     column_path = "column_order.json"
     pair ="ETHUSDT"
-    trigger_per=1 
+    trigger_per=2
     deviation=1
-    stop_loss_per= 5
+    stop_loss_per= 3
     message_func = send_sms.Send_message()
     #configs = change_config.Change_config() 
     last_long_time = 1545730073
