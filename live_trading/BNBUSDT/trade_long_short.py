@@ -51,7 +51,7 @@ def get_configs(pair,type):
 def compute_quantity(configs):
     q = configs['leverage_rate']*configs['transaction']/configs['price'] 
     print(configs['transaction'],configs['price'] )
-    return round(q*0.9,2)
+    return round(q*0.9,1)
 
 def get_quantity(pair,type):
     configs = get_configs(pair,type)

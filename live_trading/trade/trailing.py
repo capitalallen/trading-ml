@@ -60,7 +60,7 @@ class Trailing:
             self.sell_per = [0.5]
         self.quantity_remain = self.quantity
         self.target = 0
-        self.decimals = {"BTCUSDT":3,"ETHUSDT":1,"BNBUSDT":1,"XRPUSDT":0}
+        self.decimals = {"BTCUSDT":3,"ETHUSDT":1,"BNBUSDT":1,"XRPUSDT":1}
     def get_price(self):
         self.curr_price = float(ast.literal_eval(requests.get(
             self.url, headers=self.headers).content.decode("UTF-8"))['price'])
