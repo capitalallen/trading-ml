@@ -54,10 +54,10 @@ class Trailing:
         self.messaging = send_sms.Send_message()
         if self.pair=="BTCUSDT":
             self.threhold = [0.015]
-            self.sell_per = [0.5]
+            self.sell_per = [0.8]
         else:
             self.threhold = [0.02]
-            self.sell_per = [0.5]
+            self.sell_per = [0.8]
         self.quantity_remain = self.quantity
         self.target = 0
         self.decimals = {"BTCUSDT":3,"ETHUSDT":1,"BNBUSDT":1,"XRPUSDT":1}

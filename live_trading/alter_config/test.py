@@ -1,8 +1,11 @@
 import pymongo
 import change_config
 cc=change_config.Change_config() 
-#cc.update_trading_num("long",5)
+cc.update_trading_num("long",7)
 #cc.update_trading_num("short",3)
+#cc.update_config("ETHUSDT","short",False)
+#print(cc.get_pair_config("ETHUSDT"))
+
 print(cc.get_trading_num())
 #myclient = pymongo.MongoClient("mongodb://localhost:27017/")
 #mydb = myclient["configs"]
