@@ -57,10 +57,10 @@ class Trailing:
             self.sell_per = [0.8]
         else:
             self.threhold = [0.02]
-            self.sell_per = [0.8]
+            self.sell_per = [0.6]
         self.quantity_remain = self.quantity
         self.target = 0
-        self.decimals = {"BTCUSDT":3,"ETHUSDT":1,"BNBUSDT":1,"XRPUSDT":1}
+        self.decimals = {"BTCUSDT":3,"ETHUSDT":1,"BNBUSDT":1,"XRPUSDT":0}
     def get_price(self):
         self.curr_price = float(ast.literal_eval(requests.get(
             self.url, headers=self.headers).content.decode("UTF-8"))['price'])
@@ -115,7 +115,7 @@ class Trailing:
                     """
                     if self.target<1 and self.curr_price>=self.buy_price*(1+self.threhold[self.target]):
                         q = round(self.quantity*self.sell_per[self.target],self.decimals[self.pair])
-                        self.quantity_remain = self.quantity-q 
+                        self.quantity_remain = round(self.quantity-q,self.decimals[self.pair])
                         self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="LONG",side='SELL')
                         self.target+=1 
                     # update price 
@@ -133,7 +133,7 @@ class Trailing:
             return True
         except Exception as e:
             print(e)
-            self.messaging.send_a_message(str(e))
+            self.messaging.send_a_message(str(e),self.quantity_remain)
 
     def trailing_stop_short(self):
         try:
@@ -158,13 +158,13 @@ class Trailing:
                     """
                     sell when threshold is reached 
                     """
-                    if self.target<6 and self.curr_price<=self.buy_price*(1-self.threhold[self.target]):
+                    if self.target<1 and self.curr_price<=self.buy_price*(1-self.threhold[self.target]):
                         q = round(self.quantity*self.sell_per[self.target],self.decimals[self.pair])
-                        self.quantity_remain = self.quantity-q 
+                        self.quantity_remain = round(self.quantity-q,self.decimals[self.pair])
                         self.transaction_func.mkt_buy_sell_future(self.pair, q,positionSide="SHORT",side='BUY')
                         self.target+=1 
                     if self.target>=2 and self.deviation!=0.02:
-                        self.deviation = 0.01 
+                        self.deviation = 0.02 
 
                     self.get_price()
                     print("trigger:",self.trigger_p, "current_price: ",self.curr_price)
@@ -179,4 +179,4 @@ class Trailing:
             return True
         except Exception as e:
             print(e)
-            self.messaging.send_a_message(str(e))
+            self.messaging.send_a_message(str(e),self.quantity_remain)
