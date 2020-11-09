@@ -1,7 +1,7 @@
 import pymongo
 import change_config
 cc=change_config.Change_config() 
-cc.update_trading_num("long",7)
+#cc.update_trading_num("long",7)
 #cc.update_trading_num("short",3)
 #cc.update_config("BTCUSDT","short",False)
 print(cc.get_pair_config("BTCUSDT"))

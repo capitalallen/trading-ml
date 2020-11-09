@@ -16,7 +16,8 @@ class Send_message:
                                         to='+15196972638',
                                         body=message)
         except:
-            self.error_message()
+            print("error: send message")
+            #self.error_message()
 
     def error_message(self):
         self.client.messages.create(from_='+12058804170',
