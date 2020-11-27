@@ -7,9 +7,9 @@ import numpy as np
 
 
 def get_klines_df(start_time, curr=None, symbol="BTCUSDT", interval="1m"):
-    binance_api_key = '7kMDnOgQD8cTq6rHTLxPwcjT8iPnfnw0B4k52yycHUGZf8SzwJKqIjxavzVVdh9i'
+    binance_api_key = ''
     # Enter your own API-secret here
-    binance_api_secret = 'tDGmclXOVOD8KTOIqsaswwraU9WxBtZuF8H4KDsNaDrEdQHv0MuCxdQxsnxxfrhR'
+    binance_api_secret = ''
     binance_client = Client(api_key=binance_api_key,
                             api_secret=binance_api_secret)
     start = str(int(datetime.strptime(

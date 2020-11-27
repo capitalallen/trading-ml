@@ -10,9 +10,9 @@ import time
 class Buy_sell:
     def __init__(self):
         # Enter your own API-key here
-        binance_api_key = 'C48jZb7iNQwKZFEbCke3vClNqDEGpI68Le4G0og6hZauu3Kx7rFrCH31XbcaH7aC'
+        binance_api_key = ''
         # Enter your own API-secret here
-        binance_api_secret = '8FIEyg5s9uKpAvTHBr6mH2zMEmPZD4VWgfbLF7AW3e0xMBcadmhL2Faqr5n8koDD'
+        binance_api_secret = ''
         self.binance_client = Client(
             api_key=binance_api_key, api_secret=binance_api_secret)
 
