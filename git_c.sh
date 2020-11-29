@@ -1,3 +1,2 @@
 git add .
-git commit -m "finished"
-git push
+git commit -m "$1"
