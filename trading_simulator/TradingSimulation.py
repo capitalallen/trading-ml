@@ -1,8 +1,8 @@
-from chapter7.LiquidityProvider import LiquidityProvider
-from chapter7.TradingStrategy import TradingStrategy
-from chapter7.MarketSimulator import MarketSimulator
-from chapter7.OrderManager import OrderManager
-from chapter7.OrderBook import OrderBook
+from trading_simulator.LiquidityProvider import LiquidityProvider
+from trading_simulator.TradingStrategy import TradingStrategy
+from trading_simulator.MarketSimulator import MarketSimulator
+from trading_simulator.OrderManager import OrderManager
+from trading_simulator.OrderBook import OrderBook
 from collections import deque
 
 
