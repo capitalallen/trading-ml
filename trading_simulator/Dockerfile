@@ -8,4 +8,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 EXPOSE 5000:5000
-CMD [ "python3", "./multiprocessing_trade/multi_ex.py"]
+CMD [ "python3", "TradingSimulation.py"]
