@@ -1,4 +1,4 @@
-from chapter9.simulatedclock import SimulatedRealClock
+from simulatedclock import SimulatedRealClock
 import threading
 from time import sleep
 from datetime import datetime, timedelta
